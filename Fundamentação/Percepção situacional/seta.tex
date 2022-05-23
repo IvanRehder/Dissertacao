@@ -1,0 +1,21 @@
+\begin{tikzpicture}[node distance=5cm, line width = 2.5mm]
+    \centering
+
+    \node (seta1) [] {};
+    \node (seta2) [right of = seta1, xshift = 5.0cm] {};
+    \node (seta3) [above of = seta2, yshift = -2.5cm] {};
+    \node (seta5) [below of = seta1, yshift = -1.5cm,] {};
+    \node (seta6) [right of = seta5, xshift = 5.0cm] {};
+    \node (seta7) [below of = seta6, yshift = 2.5cm] {};
+    \node (seta4) [right of = seta1, below of = seta1, yshift = 1.75cm, xshift = 10.0cm] {};
+
+    \draw (seta1.center) -- (seta2.center);
+    \draw (seta2.center) -- (seta3.center);
+    \draw (seta3.center) -- (seta4.center);
+    \draw (seta4.center) -- (seta7.center);
+    \draw (seta7.center) -- (seta6.center);
+    \draw (seta6.center) -- (seta5.center);
+    \draw (seta5.center) -- (seta1.center);
+    
+
+\end{tikzpicture}

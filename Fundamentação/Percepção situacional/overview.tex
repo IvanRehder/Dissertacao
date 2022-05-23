@@ -1,0 +1,35 @@
+\tikzstyle{arrow} = [rounded corners, line width = 1mm, ->]
+
+\resizebox{0.85\textwidth}{!}{
+\begin{tikzpicture}[node distance=3.3cm]
+    \centering
+    
+    \node (info) [fill=white] {\includegraphics[width = 0.20\textwidth]{Fundamentação/Percepção situacional/information.png}}
+    node(t_info)[below of = info,yshift=1.3cm] {\Large Information};
+    
+    \node (arrow) [right of=info, xshift=7.0cm, yshift = -0.5cm] {\input{Fundamentação/Percepção situacional/seta}};
+    
+    \node (perception) [right of=info, xshift=2.5cm, draw, line width=2mm] {\input{Fundamentação/Percepção situacional/perception}}
+    node(t_perception)[below of = perception, yshift=0.9cm] {\Large 1st Level}
+    node(t_perception2)[below of = t_perception, yshift=2.5cm] {\Large Perception};
+
+    \node (comprehension) [right of=perception, xshift=0.25cm, draw, line width=2mm] {\input{Fundamentação/Percepção situacional/comprehension}}
+    node(t_comprehension)[below of = comprehension, yshift=0.9cm] {\Large 2nd Level}
+    node(t_comprehension2)[below of = t_comprehension, yshift=2.5cm] {\Large Comprehension};
+
+    \node (projection) [right of=perception, xshift=3.75cm, draw, line width=2mm] {\input{Fundamentação/Percepção situacional/projection}}
+    node(t_projection)[below of = projection, yshift=0.9cm] {\Large 3rd Level}
+    node(t_projection2)[below of = t_projection, yshift=2.5cm] {\Large Projection};
+
+    \node (decision) [right of=projection, xshift=5.0cm] {\includegraphics[width = 0.30\textwidth]{Fundamentação/Percepção situacional/decision.png}}
+    node(t_decision)[below of = decision, yshift=0.5cm] {\Large Decision}
+    node(t_decision2)[below of = t_decision, yshift=2.5cm] {\Large making};
+
+\end{tikzpicture}
+}
+
+\begin{figure}[!h]
+    \centering
+    \caption{A overview of situation awareness and the SAGAT.} %and the methods to infer it
+    \label{fig:sa_overview}
+\end{figure}

@@ -1,0 +1,237 @@
+\subsection{Electrocardiogram (ECG) data}
+\label{subsec:results_ecg}
+
+The ECG analysis is divided in two different types
+
+\begin{itemize}
+    \item Heart rate;
+    
+        This analysis checks the heart beat frequency;
+
+    \item Heart rate variancy.
+    
+        This analysis checks the heart beat frequency variance and it is done by analysing variation of the interval between beats.
+
+\end{itemize}
+
+\subsubsection{Analysis of the heart beat frequency}
+
+The Table \ref{tab:ecg_bpm_table} presents the average heart rate by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_ecg_bpm_scene_blind} and \ref{fig:barplot_ecg_bpm_scene_sight}. It is possible to see that there were no heart rate increase by any participant with exception only with the "sight" sample in the "First" round of the "Base" method
+
+\input{Resultados/ECG/Tabelas/ecg_bpm_table}
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.8\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/barplot_ecg_bpm_scene_blind.pgf}
+    }
+    \caption{Bar plot of the average heart rate of the blind participants on each method.}
+    \label{fig:barplot_ecg_bpm_scene_blind}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.6\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/barplot_ecg_bpm_scene_sight.pgf}    
+    }
+    \caption{Bar plot of the average heart rate of the sighted participants on each method.}
+    \label{fig:barplot_ecg_bpm_scene_sight}
+\end{figure}
+
+The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.6\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/boxplot_ecg_bpm_scene.pgf}    
+    }
+    \caption{Boxplot of the average heart rate of participants on each method.}
+    \label{fig:boxplot_ecg_bpm_scene}
+\end{figure}
+
+The Table \ref{tab:ecg_bpm_variation} show the the variation of the heart beat in each the rounds of each participant. It is possible to notice that almost all of the variations were negative, meaning that the user decreased its workload between the "Baseline" and each method.
+
+% and the Figure \ref{fig:boxplot_md_scene} these data is plotted. The figure shows a noticible difference between the two groups.  The Figure \ref{fig:boxplot_md_scene} indicates a visual difference between the mental demmand feeled by the sighted participants and the mental demand feeled by the blind participants. Inside the blind participants groups is also noticible a difference between the methods, but the ones that are different does not show a better performance, instead a higher mental demand than the one feeled during the "Base" method.
+
+\input{Resultados/ECG/Tabelas/ecg_bpm_variation.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/boxplot_md_scene.pgf}
+%    }
+%    \caption{Boxplot of the average mental demand of participant.}
+%    \label{fig:boxplot_md_scene}
+%\end{figure}
+%
+%The Table \ref{tab:md_average_group} show the the average mental demand grouped by visual condition and these data is plotted in Figure \ref{fig:barplot_md_global}. Both the table and the figure also show the difference between the mental demand of the "sight" sample and the "blind" sample.
+%
+%\input{Resultados/Nasa/Tabelas/md_average_group.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/barplot_md_global.pgf}
+%    }
+%    \caption{Barplot of the average mental demand of each group.}
+%    \label{fig:barplot_md_global}
+%\end{figure}
+%
+The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_ecg_bpm} shows that these data are normally distributed, with a p-value higher than 0.05, then it is possible to perform a T-Test to guarantee that the "blind" sample is different then the "sight" sample.
+
+\input{Resultados/ECG/Tabelas/shapiro_ecg_bpm}
+
+Acording to the T-Test presented on the Table \ref{tab:ttest_ecg_bpm} there are no difference on the heart rate frequency variation between the sample groups.
+
+\input{Resultados/ECG/Tabelas/ttest_ecg_bpm}
+
+The Table \ref{tab:anova_average_bpm} shows the Anova test p-value of the heart rate frequency of the "blind" sample between the guidance methods presented on the Table \ref{tab:ecg_bpm_variation}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
+
+\input{Resultados/ECG/Tabelas/anova_average_bpm.tex}
+
+The Table \ref{tab:lsd_average_bpm} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods. The results show that only "Audio" caused a different variation than the one notice on the "Base" Method.
+
+\input{Resultados/ECG/Tabelas/lsd_average_bpm.tex}
+
+%The Table \ref{tab:anova_mental_demand_var} shows the Anova test p-value of the mental demand variation of the "blind" sample between the guidance methods presented on the Table \ref{tab:md_variation}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods so its recommended to do a pairwise analyses between all the methods.
+%
+%\input{Resultados/Nasa/Tabelas/md_variation.tex}
+%
+%\input{Resultados/Nasa/Tabelas/anova_mental_demand_var.tex}
+%
+%The Table \ref{tab:lsd_mental_demand_var} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand variation between all the guidance methods. The results show that the "Virtual Cane" method has a similar mental demand variation with the "Base" method. All other methods have a different variation. This can be seen at the Table \ref{tab:md_var_average_group} and in the Figure \ref{fig:barplot_md_var_scene_blind} compiles the mental demand average of the methods observed on all of the participants.
+%
+%\input{Resultados/Nasa/Tabelas/lsd_mental_demand_var.tex}
+%
+%\input{Resultados/Nasa/Tabelas/md_var_average_group.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/barplot_md_var_scene_blind.pgf}
+%    }
+%    \caption{Barplot of the average mental demand variation from the blind participants of each method.}
+%    \label{fig:barplot_md_var_scene_blind}
+%\end{figure}
+%
+%According to T-Test on Table \ref{tab:ttest_mental_demand}, the mental demand of the "sight" sample is similar to the "blind" sample, excluding only on the "Audio" method.
+%
+%According to both Anova test at Table \ref{tab:anova_mental_demand_avg} and \ref{tab:anova_mental_demand_var}, Tables \ref{tab:md_average} and \ref{tab:md_variation} and Figure \ref{fig:barplot_md_var_scene_blind}, none of the methods did provoke a higher mental demand variation than the one notice on the "Base" method on the participants and the only different mental demand average was noticed on the "Haptic Belt" method, and is higher mental demand than the "Base" method.
+
+According to the Anova test at Table \ref{tab:anova_average_bpm} and the LSD test at \ref{tab:lsd_average_bpm} only the "Audio" method provoked a different reaction than the "Base" method. Besides that, all methods decreased their frequency, going against the original expectations.
+
+\FloatBarrier
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\subsubsection{Analysis of the heart beat frequency}
+%
+The Table \ref{tab:ecg_sdnn_table} presents the standar deviation of the interbeat interval by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_ecg_sdnn_scene_blind} and \ref{fig:barplot_ecg_sdnn_scene_sight}. It is possible to see that there were all of the users feelt an increase of the heart beat variancy.
+
+\input{Resultados/ECG/Tabelas/ecg_sdnn_table}
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.6\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/barplot_ecg_sdnn_scene_blind.pgf}
+    }
+    \caption{Bar plot of the standard deviation of the heart of the blind participants on each method.}
+    \label{fig:barplot_ecg_sdnn_scene_blind}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.6\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/barplot_ecg_sdnn_scene_sight.pgf}    
+    }
+    \caption{Bar plot of the standard deviation of the heart of the sighted participants on each method.}
+    \label{fig:barplot_ecg_sdnn_scene_sight}
+\end{figure}
+
+The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
+
+\begin{figure}[!htb]
+    \centering
+    \resizebox{0.6\linewidth}{!}{
+    \input{Resultados/ECG/Figuras/boxplot_ecg_sdnn_box_scene.pgf}    
+    }
+    \caption{Boxplot of the average heart rate of the participants on each method.}
+    \label{fig:boxplot_ecg_sdnn_box_scene}
+\end{figure}
+
+The Table \ref{tab:ecg_sdnn_variation} show the the variation of the heart beat in each the rounds of each participant. In general, all the standard deviation increased, meaning that the mental workload decreased between the "Baseline" and the method.
+
+% and the Figure \ref{fig:boxplot_md_scene} these data is plotted. The figure shows a noticible difference between the two groups.  The Figure \ref{fig:boxplot_md_scene} indicates a visual difference between the mental demmand feeled by the sighted participants and the mental demand feeled by the blind participants. Inside the blind participants groups is also noticible a difference between the methods, but the ones that are different does not show a better performance, instead a higher mental demand than the one feeled during the "Base" method.
+
+\input{Resultados/ECG/Tabelas/ecg_sdnn_variation.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/boxplot_md_scene.pgf}
+%    }
+%    \caption{Boxplot of the average mental demand of participant.}
+%    \label{fig:boxplot_md_scene}
+%\end{figure}
+%
+%The Table \ref{tab:md_average_group} show the the average mental demand grouped by visual condition and these data is plotted in Figure \ref{fig:barplot_md_global}. Both the table and the figure also show the difference between the mental demand of the "sight" sample and the "blind" sample.
+%
+%\input{Resultados/Nasa/Tabelas/md_average_group.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/barplot_md_global.pgf}
+%    }
+%    \caption{Barplot of the average mental demand of each group.}
+%    \label{fig:barplot_md_global}
+%\end{figure}
+%
+The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_ecg_sdnn} shows that all of the "blind" sample data are normally distributed, with the exceptio of the "Mixture" method. In the "sight" sample only the "Base" and the "Audio" method are normally distributed. That means that the following analyses cannot be made with those exceptions.
+
+\input{Resultados/ECG/Tabelas/shapiro_ecg_sdnn}
+
+Acording to the T-Test presented on the Table \ref{tab:ttest_ecg_bpm} there are no difference on the heart rate frequency variation between the sample groups.
+
+\input{Resultados/ECG/Tabelas/ttest_ecg_sdnn}
+
+The Table \ref{tab:anova_average_bpm} shows the Anova test p-value of the heart rate frequency of the "blind" sample between the guidance methods presented on the Table \ref{tab:ecg_bpm_variation}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
+
+\input{Resultados/ECG/Tabelas/anova_average_SDNN.tex}
+
+The Table \ref{tab:lsd_average_bpm} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods. The results show no difference between the methods.
+
+\input{Resultados/ECG/Tabelas/lsd_average_sdnn.tex}
+
+%The Table \ref{tab:anova_mental_demand_var} shows the Anova test p-value of the mental demand variation of the "blind" sample between the guidance methods presented on the Table \ref{tab:md_variation}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods so its recommended to do a pairwise analyses between all the methods.
+%
+%\input{Resultados/Nasa/Tabelas/md_variation.tex}
+%
+%\input{Resultados/Nasa/Tabelas/anova_mental_demand_var.tex}
+%
+%The Table \ref{tab:lsd_mental_demand_var} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand variation between all the guidance methods. The results show that the "Virtual Cane" method has a similar mental demand variation with the "Base" method. All other methods have a different variation. This can be seen at the Table \ref{tab:md_var_average_group} and in the Figure \ref{fig:barplot_md_var_scene_blind} compiles the mental demand average of the methods observed on all of the participants.
+%
+%\input{Resultados/Nasa/Tabelas/lsd_mental_demand_var.tex}
+%
+%\input{Resultados/Nasa/Tabelas/md_var_average_group.tex}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Nasa/Figuras/barplot_md_var_scene_blind.pgf}
+%    }
+%    \caption{Barplot of the average mental demand variation from the blind participants of each method.}
+%    \label{fig:barplot_md_var_scene_blind}
+%\end{figure}
+%
+%According to T-Test on Table \ref{tab:ttest_mental_demand}, the mental demand of the "sight" sample is similar to the "blind" sample, excluding only on the "Audio" method.
+%
+%According to both Anova test at Table \ref{tab:anova_mental_demand_avg} and \ref{tab:anova_mental_demand_var}, Tables \ref{tab:md_average} and \ref{tab:md_variation} and Figure \ref{fig:barplot_md_var_scene_blind}, none of the methods did provoke a higher mental demand variation than the one notice on the "Base" method on the participants and the only different mental demand average was noticed on the "Haptic Belt" method, and is higher mental demand than the "Base" method.
+
+According to the Anova test at Table \ref{tab:anova_average_SDNN} and the LSD test at \ref{tab:lsd_average_SDNN} there are no differences between the methods. Besides that, all of the provoked a decrease on the mental workload.
+
+\FloatBarrier

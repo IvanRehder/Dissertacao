@@ -1,0 +1,59 @@
+\begin{figure}[!h]
+    \tikzstyle{arrow} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+    \tikzstyle{--blue} = [ccmDBlue, rounded corners, line width = 2mm]
+    \tikzstyle{--black} = [rounded corners, line width = 1mm]
+    
+    %\tikzstyle{arrow_flow} = [ccmblue, rounded corners, line width = 2mm, ->]
+    %\tikzstyle{arrow_return} = [ccmred, rounded corners, line width = 2mm, ->]
+    
+    \resizebox{0.80\width}{!}{
+    \begin{tikzpicture}[node distance=1cm]
+        \centering
+    
+        \node (left) {};
+        
+        \node (reality) [right of = left, xshift = 2cm]{\includegraphics[width=.15\textwidth]{Fundamentação/Realidade Extendida/real.png}}
+        node(t_reality)[below of = reality,yshift=-0.75cm] {Real}
+        node(t_reality2)[below of = t_reality,yshift=0.5cm] {Environment};
+        
+        \node (midLeft) [right of = reality, xshift = 1cm] {};
+        
+        \node (ar) [right of=reality, xshift=3cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Realidade Extendida/ar.png}}
+        node(t_ar)[below of = ar,yshift=-0.75cm] {Augmented}
+        node(t_ar2)[below of = t_ar,yshift=0.5cm] {Reality};
+        
+        \node (av) [right of=ar, xshift=3cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Realidade Extendida/av.png}}
+        node(t_av)[below of = av,yshift=-0.75cm] {Augmented}
+        node(t_av2)[below of = t_av,yshift=0.5cm] {Virtuality};
+        
+        \node (vr) [right of=av, xshift=3cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Realidade Extendida/vr.png}}
+        node(t_vr)[below of = vr,yshift = -0.75cm] {Virtual} 
+        node(t_vr2)[below of = t_vr,yshift = 0.5cm] {Reality};
+        
+        \node (midRight) [left of = vr, xshift = -1cm] {};
+        
+        \node (right) [right of = vr, xshift = 2cm] {};
+        
+        \node (mr) [above of=ar, right of=ar, xshift=1cm, yshift=3cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Realidade Extendida/mr.png}} 
+        node(t_mr) [below of = mr, yshift = -0.50cm]{Mixed}
+        node(t_mr2) [below of = t_mr, yshift = 0.5cm]{Reality};
+        
+        \draw [arrow] (reality) to (left);
+        \draw [--blue] (reality) to (ar);
+        \draw [--blue] (ar) to (av);
+        \draw [--blue] (av) to (vr);
+        \draw [arrow] (vr) to (right);
+        \draw [--black] (mr.west) -- +(-2.6,0) to (midLeft);
+        \draw [--black] (mr.east) -- +(2.6,0) to (midRight);
+         
+        
+        \node (left) [left of = reality, xshift = -2cm] {};
+        \node (right) [right of = vr, xshift = 2cm] {};
+    
+        
+    \end{tikzpicture}
+    }
+    \centering
+    \caption{The Virtuality Continuum concept \cite{milgram1994taxonomy}}
+    \label{fig:virtuality_continuum}
+\end{figure}

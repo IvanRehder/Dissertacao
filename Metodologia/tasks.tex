@@ -1,0 +1,43 @@
+\begin{figure}[!htb]
+    \centering
+    \tikzstyle{every node}=[font=\large]
+    
+    \tikzstyle{task} = [rectangle, rounded corners, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=3.5cm, font=\large]
+    \tikzstyle{--gray} = [ccmGray, dashed, dash pattern=on 1cm off 1cm , rounded corners, line width = 2mm]
+    \tikzstyle{--red} = [ccmRed, rounded corners, line width = 2mm]
+    \tikzstyle{entryLine} = [ccmDBlue, rounded corners, line width = 2mm]
+    \tikzstyle{arrow} = [ccmRed, rounded corners, line width = 1mm, ->]
+    \tikzstyle{arrowX} = [line width = 2mm]
+    
+    \begin{tikzpicture}[node distance=1cm]
+        
+        \node (entryA) {};
+        \node (exit) [below of = entryA, xshift = 0.5cm] {Exit};
+        \node (entryB) [right of = entryA, xshift = 1.5cm] {};
+        \node (entry) [below of = entryB, xshift = -0.5cm] {Entry};
+        \draw[entryLine] (entryA) to (entryB);
+        
+        \node (totem) [right of = entryB, above of = entryB, draw, rectangle, minimum width=1cm, minimum height=1cm, draw=black, fill=white!30] {};
+        \node (totemTexto) [below of = totem, yshift = 0.3cm, font = \small] {Sanitizer totem};
+        
+        \node (desk) [above of = entryB, yshift = 5.0cm, draw, rectangle, minimum width=3cm, minimum height=1.5cm, draw=black, fill=white!30, font = \small] {Reception};
+        \node (nurse) [above of = desk, yshift = 0.6cm] {\includegraphics[scale = 0.09]{Metodologia/enfermeira.png}};
+        \node (visitor) [below of = desk, yshift = -0.6cm] {\includegraphics[angle=180, origin=c, scale = 0.09]{Metodologia/visita.png}};
+        
+        \node (waiting1) [left of = desk, xshift = -5.0cm] {\includegraphics[angle=90, origin=c, scale = 0.09]{Metodologia/visita.png}};
+        \node (waiting2) [below of = waiting1, yshift = -0.3cm] {\includegraphics[angle=90, origin=c, scale = 0.09]{Metodologia/visita(x).png}};
+        \node (waiting3) [below of = waiting2, yshift = -0.3cm] {\includegraphics[angle=90, origin=c, scale = 0.09]{Metodologia/visita.png}};
+        \node (waitingTexto) [left of = waiting2, rotate = 90, font = \small] {Waiting area};
+        
+        
+        \draw (-5,0) rectangle(5cm,8.5cm);
+        
+        \draw[arrow] (entry) to ++(0,2.0) to (totem.west);
+        \draw[arrow] (totem.north) to ++(0,0.5) to ++(-1.0,0) to (visitor.south);
+        \draw[arrow] (visitor.west) to ++ (-3.0,0) to ++(0,-1.0cm) to (waiting3.east);
+        \draw[arrow] (waiting3.south) to ++(0,-1.0) to ++(4.0,0) to (exit);  
+        
+    \end{tikzpicture}
+    \caption{Scheduled task of the experiment and their order.}
+    \label{fig:task_diagram}
+\end{figure}

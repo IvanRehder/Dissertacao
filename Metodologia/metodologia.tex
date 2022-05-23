@@ -1,0 +1,119 @@
+% CAPÍTULO 3: DESCRIÇÃO DA SUA PROPOSTA OU CONTRIBUIÇÃO
+%   ESSE É O CAPÍTULO MAIS IMPORTANTE DE SEU TRABALHO
+
+
+%1. Elabore um parágrafo que introduz o capítulo: Este capítulo apresenta(descreva o objetivo do  capítulo...). É constituído de N seções a saber...
+%2. Caso você tenha dúvida do nível de detalhamento da descrição, coloque-se no lugar do leitor!
+%3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
+
+
+This chapter is about the proposed methodology of this master thesis experiments. The Figure \ref{fig:diag_metodologia} shows the phases and the tasks inside each phase. This chapter will explain each phase and task presented in the Figure \ref{fig:diag_metodologia}.
+
+\input{Metodologia/diagram}
+
+\section{Interviews' phase}
+\label{sec:interviews_phase}
+    The first phase of this project was the Interviews' phase. In these phase, the researchers' main goal was to gather information, especially those related to the COVID-19 pandemic, about the main procedures that happen inside a hospital and about the daily life of BVI people.
+
+    \subsection{Interview with the hospital}
+    
+        To understand the procedures that hospital and medical clinics followed during their day to day activities and during the COVID-19 pandemic, two hospitals were interviewed. The interview was aimed to find out how a new patient does a check-in and the following steps until he/she get in the proper medic's office.
+        
+        At the project start, the scenario was supposed to be a reception inside a hospital, but, because of the physical space needed to simulate that virtual environment, the scenario changed along the project several times.
+
+    \subsection{Interview with the BVI consultants}
+    
+        One of the motivations of this master thesis is that the current BVI guidance products are not effective enough and one of the likely reasons is that the BVI users were not consulted during the products development process.
+    
+        With that though in mind, BVI users were consulted in order to design a virtual environment that would be familiar to their reality. Two users with different visual impairments were interviewed, one person that became blind with 13 years old, and other that with Usher's disease. These were critical to understand how they perceive a medical clinic as they walk in and how they interact with the environment and these notes were used in the next phase.
+
+\section{Experiment idealization's phase}
+\label{sec:idealization_phase}
+    At this phase, the proceedings and the interview notes are used to take key decisions about the virtual environment used in the experiment, about which human factors are going to be assessed and which guidance methods are going to be used
+    
+
+    \subsection{Experiment's virtual world definition}
+        As said before, the original idea was to use a hospital reception as model to the virtual environment for the experiment, however the physical space needed to fit the hospital was to big. So instead of a whole hospital reception, it was decided to use it a medical clinic reception but still with the same proceedings.
+
+    \subsection{Assessed human factors definition}
+        In order to reach the experiment's objective, a set of human factors had to be choose. The objectives \ref{itm:obj_second} and \ref{itm:obj_third} could be reach if the assessed human factor represented the user's workload and the developed mental map. Both these could be evaluated using:
+
+        \begin{itemize}
+            \item Mental workload
+            \item Situation awareness
+        \end{itemize}
+        
+        The details about each method are explained in the sections \ref{sec:mental_workload} and \ref{sec:situation_awareness}.
+
+    \subsection{Guidance methods definition}
+        The variety of BVI users is wide, as is the variety of assistive products. All of these products must communicate with the users and they use sound, vibration or both to transmit these information. With this though in mind, it was decided that that would be used at least two methods: one that rely only in audio and another that transmits only vibration. Of course, the interaction between those two methods would be also evaluated. This interaction became the third method.
+        
+        Another interesting property that could be evaluated in those products is the effect of a information being transmitted with and without the user's command. This evaluation split the vibration method in two: one that worked \textit{without} the user's command and another the worked \textit{with} the user's command.
+        
+        At the end, the following methods were chosen to be analysed:
+        
+        \begin{itemize}
+            \item A usual guidance method;
+            \item Audio guidance;
+            \item Vibration guidance without command;
+            \item Vibration guidance with command;
+            \item Mixture of audio and vibration.
+        \end{itemize}
+    
+\section{Development and creation's phase}
+\label{sec:creation_phase}
+    
+    With the decision of the previous phase it is possible to start the development of the virtual environment, the guidance methods and the tools for the assessment of the human factors.
+
+    \subsection{Virtual world creation}
+        The virtual reality application was made using the software Unity3D, which is a famous tool for virtual reality applications and game development. It has some built-in tools but is also possible to customize functions for more specific use \cite{wang2010new}. The virtual environments, or scenes (as it is called inside the Unity3D), were made with the dimensions to fit in the CCM entry hall, that has a flat area of 8x4m. Inside the environment there was some typical furniture or devices found in hospital reception, a reception desk and a waiting area, composed of 2-3 chairs. The participant had \ref{itm:n_tasks} tasks at the scene and they are displayed at Figure \ref{fig:task_diagram}. More details ahead at Chapter \ref{ch:cenario}.
+        
+        \begin{enumerate}
+            \item Clean the hands at the sanitizer totem (COVID-19 procedures);
+            \item Go to the reception desk to receive a queue number;
+            \item Go to the waiting area and wait for the number calling;
+            \item Leave the room when called \label{itm:n_tasks}
+        \end{enumerate}
+        
+        \input{Metodologia/tasks}
+        
+        The goal of these tasks is to engage the user to navigate through the room and see if it is able to draw a mental map of the scene as well as use the information of the obstacles in order to avoid them when needed. Beside theses mains components, there are also some minor distractions that is common to hear at a clinical, such as telephone ringing, keyboard typing, people taking and others. These were put to increase the immersion and to be a distraction as well, otherwise it wouldn't simulate the reality of these scenarios.
+    
+    \subsection{Tools and methods definition}
+        There were three types of human factors' assessment tools that were applied at the experiment:
+        \begin{itemize}
+            \item Task performance; \\  Measured using the time and the number contacts between the user and the furniture throughout the experiment.
+            \item Physiological measures; \\ Measured using and ECG sensor, a GSR sensor and a temperature sensor.
+            \item Subjective measures. \\ Measured using a NASA-TLX, a SAGAT Adapted questionnaire and a guidance method evaluation questionnaire.
+        \end{itemize}
+        The details about each method are explained in the sections \ref{subsec:task_performance}, \ref{subsec:physiological_measures} and \ref{subsec:subjective_measures}.
+        
+    \subsection{Guidance methods development}
+        As said in the last section, three different guidance methods were established to be used in the experiment besides the White Cane:, a haptic belt and a virtual cane.
+        \begin{itemize}
+            \item A audio guidance method; \\ The audio only guidance method will be straight simple. In the course of the experiment the participant could give two different voice commands:
+            \begin{itemize}
+                \item  "What is around me?"; \\ The answer of this command was a quickly description of the closest furniture around the user.
+                \item  "Where is (something)?". \\ The answer of this command was the direction and distance of something asked by the user.
+            \end{itemize}
+            Each command was answered by a member of the experiment team accordingly.
+            
+            \item The haptic belt; \\
+            That is a belt that had appended 8 vibration devices that vibrate accordingly to the direction and distance of the closest object around the user. More information on the Haptic Belt ahead at Chapter \ref{ch:cinto}.
+            
+            \item The virtual cane. \\ 
+            This was based on the white cane mechanics, that the user "points" the cane to check near obstacles in the direction of the cane. The virtual cane has a similar function, but instead of connecting the user to the object through the cane, it vibrates when it detects an obstacle in the direction pointed by the user. A VR hand-control was used as canes and the user point's it to where he/she wanted. The algorithm used on the Virtual Cane is in the Appendix \ref{ap:virtual_apend}
+        \end{itemize}
+    
+
+\section{Tryouts and tests' phase}
+\label{sec:tests_phase}
+        
+        At this phase a few tests were performed to evaluate if the experiment was going as planned and to avoid any unfortunate events or errors during the real experiment. It was expected that changes could be needed to be made before the real experiment and there were a few. It was at this phase that the final dimension of the virtual environment and the physical space were defined.
+
+\section{Experiment}
+\label{sec:experiment}
+        
+        As the proper section name says, this phase is were the proper experiment was made.
+
+After all these phases were completed, the next step was to analyze all the data and elaborate their conclusions. Instead of going to the results and discussions, the next Chapters \ref{ch:cenario} and \ref{ch:cinto} will deepen in the virtual environment development and in the haptic belt development in these order.

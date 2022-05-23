@@ -1,0 +1,59 @@
+\begin{figure}[!htb]
+    \centering
+    
+    \tikzstyle{barraVI} = [fill = cor1]
+    \tikzstyle{barraS} = [fill = cor2]
+    \tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+    \tikzstyle{--} = [line width = 0.25mm]
+    
+    \resizebox{0.8\linewidth}{!}{
+    \begin{tikzpicture}[node distance=0cm]
+        % Fundo do gráfico
+    
+        \renewcommand{\tamX}{11cm}
+        \renewcommand{\tamY}{4.5cm}
+        
+        \node (origin) {};
+        \node (endX) [xshift = \tamX] {};
+        \node (endY) [yshift = \tamY] {};
+        \node (endXY) [above of = endX, yshift = \tamY] {};
+        
+        %Título
+        \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 1.25cm] {\textbf{Average nº of contextual categories used per participant}}
+        node [below of = titulo, yshift = -0.5cm] {\textbf{within sighted and visually impaired groups}};
+        
+        
+        % Eixos
+        \draw[--] (origin.west) node[anchor = north, yshift = -0.25cm]{\footnotesize 0} to (endX.center)
+        node[anchor = north, xshift = -5.5cm, yshift = -1.0cm]{\textbf{Average nº of categories used for each route description}};
+        \draw[--] (origin.south) to (endY.center) 
+        node(eixoY)[anchor = east, xshift = -5.0cm, yshift = -0.5cm, rotate = 90]{\textbf{Groups used for}}
+        node[right of = eixoY, xshift = 0.5cm, rotate = 90] {\textbf{comparison}};
+        \draw[--] (endX.center) to (endXY.center);
+        
+        \foreach \r in {1,2,...,11}
+        {
+            \draw [--] (1cm*\r,0) node[anchor = north, yshift = -0.25cm]{\footnotesize \r} to (1cm*\r, \tamY);
+        }
+        
+        \renewcommand{\largY}{0.75}
+        \renewcommand{\altY}{0}
+        \renewcommand{\distY}{0.75}
+        
+        
+        %Sighted
+        \draw[barraS] (0,\distY) node[xshift = -1.0cm, yshift = 0.35cm]{Sighted} rectangle ++(6.3cm,\largY);
+        \draw[--] (0,(\distY+2.0*\largY) to ++(-0.2,0);
+        %\draw[barraS] (\distX+\largX,0) rectangle ++(\largX,1.6);
+        
+        \renewcommand{\distY}{3.0}
+        %Visually Impaired
+        \draw[barraVI] (0,\distY) node[xshift = -2.0cm, yshift = 0.35cm]{Visually Impaired} rectangle ++(9.7cm,\largY);
+        \draw[--] (0,(\distY+2.0*\largY) to ++(-0.2,0);
+        
+    \end{tikzpicture}
+    }
+    \centering
+    \caption{Number of categories used by each group \cite{bradley2002investigating}.}
+    \label{fig:bradley_2002_2}
+\end{figure}

@@ -1,0 +1,50 @@
+\begin{figure}[!htb]
+    \tikzstyle{arrow} = [ccmblue, rounded corners, line width = 2mm, ->]
+    \tikzstyle{--blue} = [ccmblue, rounded corners, line width = 2mm]
+    \tikzstyle{--black} = [rounded corners, line width = 1mm]
+    
+    \resizebox{0.85\width}{!}{
+    \begin{tikzpicture}[node distance=1cm]
+        \centering
+    
+        \node (ar) {\includegraphics[width=0.3\textwidth]{Fundamentação/Realidade Extendida/ar.png}}
+        node(t_ar)[below of = ar,yshift=-2.0cm] {Augmented}
+        node(t_ar2)[below of = t_ar,yshift=0.5cm] {Reality};
+        
+        \node (av) [right of=ar, xshift=5cm, yshift = 0.1cm] {\includegraphics[width=.34\textwidth]{Fundamentação/Realidade Extendida/av.png}}
+        node(t_av)[below of = av,xshift = 1.0cm, yshift=-2.0cm] {Augmented}
+        node(t_av2)[below of = t_av,yshift=0.5cm] {Virtuality};
+        
+        \node (mr) [below of=ar, yshift=-5.5cm] {\includegraphics[width=.31\textwidth]{Fundamentação/Realidade Extendida/mr.png}}
+        node(t_mr)[below of = mr,yshift=-2.0cm] {Mixed}
+        node(t_mr2)[below of = t_mr,yshift=0.5cm] {Reality};
+        
+        \node (vr) [right of=mr, xshift=5.0cm, yshift = -0.5cm] {\includegraphics[width=.25\textwidth]{Fundamentação/Realidade Extendida/vr.png}}
+        node(t_vr)[below of = vr,yshift = -1.5cm] {Virtual} 
+        node(t_vr2)[below of = t_vr,yshift = 0.5cm] {Reality};
+        
+        \node (n) [right of = ar, above of = ar , xshift = 2cm, yshift = 3.0cm] {};
+        \node (l) [right of = av, below of = av, xshift = 3cm, yshift = -3.1cm] {};
+        \node (s) [left of = vr, below of = vr, xshift = -2cm, yshift = -3.0cm] {};
+        \node (o) [left of = mr, above of = mr, xshift = -3cm, yshift = 1.6cm] {};
+        
+        
+        %\draw [arrow] (reality) to (left);
+        %\draw [--blue] (reality) to (ar);
+        %\draw [--blue] (ar) to (av);
+        %\draw [--blue] (av) to (vr);
+        %\draw [arrow] (vr) to (right);
+        \draw [--black] (n) to (s);
+        \draw [--black] (l) to (o);
+         
+        
+        %\node (left) [left of = reality, xshift = -2cm] {};
+        %\node (right) [right of = vr, xshift = 2cm] {};
+    
+        
+    \end{tikzpicture}
+    }
+    \centering
+    \caption{A represantion of the differences between AR, AV, MR and VR}
+    \label{fig:ar_av_mr}
+\end{figure}

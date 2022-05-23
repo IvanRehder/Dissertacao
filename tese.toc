@@ -1,0 +1,108 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{23}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{23}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objectives}{24}{section.1.2}
+\contentsline {section}{\numberline {1.3}Resources and methods}{24}{section.1.3}
+\contentsline {section}{\numberline {1.4}Research boundaries}{24}{section.1.4}
+\contentsline {section}{\numberline {1.5}Structure}{25}{section.1.5}
+\contentsline {chapter}{\numberline {2}Theoretical Foundation}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Human Factor or Ergonomics}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}Mental Workload (MWL)}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Task Performance}{30}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Physiological measures}{31}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Heart rate and heart variability with electrocardiogram (ECG)}{31}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Electrodermal response with galvanic skin reaction (GSR)}{32}{subsubsection.2.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Subjective measures}{32}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}NASA-TLX}{32}{subsubsection.2.2.3.1}
+\contentsline {section}{\numberline {2.3}Situation Awareness (SA)}{33}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}SAGAT}{34}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Extended Reality (XR)}{35}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Augmented Reality (AR)}{35}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Augmented Virtuality (AV)}{36}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Mixed Reality (MR)}{36}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Virtual Reality (VR)}{36}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Co-Design}{37}{section.2.5}
+\contentsline {chapter}{\numberline {3}Literature review}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}Virtual Reality Without Vision}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}Effects of Emotion and Agency on Presence in Virtual Reality}{41}{section.3.2}
+\contentsline {section}{\numberline {3.3}Bradley and Dunlop research about BVI navigation}{43}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The 2002 investigation}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}The 2005 experiment}{45}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Evaluation of spatial display for navigation without sight}{47}{section.3.4}
+\contentsline {section}{\numberline {3.5}Use of VR in the aircraft cabin design process}{48}{section.3.5}
+\contentsline {chapter}{\numberline {4}Proposal description}{52}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interviews' phase}{52}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Interview with the hospital}{52}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Interview with the BVI consultants}{53}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Experiment idealization's phase}{53}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Experiment's virtual world definition}{53}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Assessed human factors definition}{53}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Guidance methods definition}{54}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Development and creation's phase}{54}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Virtual world creation}{54}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Tools and methods definition}{56}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Guidance methods development}{56}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Tryouts and tests' phase}{57}{section.4.4}
+\contentsline {section}{\numberline {4.5}Experiment}{57}{section.4.5}
+\contentsline {chapter}{\numberline {5}Virtual environment development}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Procedures}{58}{section.5.1}
+\contentsline {section}{\numberline {5.2}City Hospital}{60}{section.5.2}
+\contentsline {section}{\numberline {5.3}Medical Clinic}{60}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Interior}{60}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Exterior}{61}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Adjustments}{62}{section.5.4}
+\contentsline {section}{\numberline {5.5}Final Clinic}{62}{section.5.5}
+\contentsline {chapter}{\numberline {6}Haptic belt development}{63}{chapter.6}
+\contentsline {chapter}{\numberline {7}Results' analysis and discussion}{66}{chapter.7}
+\contentsline {section}{\numberline {7.1}Data from the simulation}{66}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Time elapsed on each scene}{67}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Data from questionnaires}{72}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}NASA-TLX}{72}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}Analysis of the mental demand scale}{73}{subsubsection.7.2.1.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Analysis of the NASA-TLX score}{79}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {7.2.2}Adapted SAGAT}{86}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Guidance method's questionnaire.}{92}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Data from physiological sensors}{96}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Electrocardiogram (ECG) data}{96}{subsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Analysis of the heart beat frequency}{96}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Analysis of the heart beat frequency}{100}{subsubsection.7.3.1.2}
+\contentsline {subsection}{\numberline {7.3.2}Galvanic skin reaction and temperature data;}{105}{subsection.7.3.2}
+\contentsline {chapter}{\numberline {8}Conclusion}{110}{chapter.8}
+\contentsline {section}{\numberline {8.1}Do BVI users feel present in the VE as if they were in the real world?}{110}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Answers based on the simulation data}{110}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Answers based on the subjective data}{110}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Answers based on the physiological data}{110}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Final conclusions}{111}{subsection.8.1.4}
+\contentsline {section}{\numberline {8.2}Does BVI users rely more on a type of information than the other?}{111}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Answers based on the simulation data}{111}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Answers based on the subjective data}{111}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Answers based on the physiological data}{111}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Final conclusions and comentaries}{112}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Do non BVI users have the same demands and skill as BVI users when designing assistive products?}{112}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Answers based on the simulation data}{112}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Answers based on the subjective data}{113}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Answers based on the physiological data}{113}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Final conclusions and comentaries}{113}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Future works and suggestions}{113}{section.8.4}
+\contentsline {chapter}{Bibliography}{114}{chapter.9}
+\SetAppendixTocName {Appendix}
+\contentsline {chapter}{\numberline {A}Questionnaires}{119}{appendix.A}
+\contentsline {section}{\numberline {A.1}BVI condition}{119}{section.A.1}
+\contentsline {section}{\numberline {A.2}NASA-TLX}{120}{section.A.2}
+\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{122}{section.A.3}
+\contentsline {section}{\numberline {A.4}Guidance method evaluation}{127}{section.A.4}
+\contentsline {chapter}{\numberline {B}Virtual Cane}{133}{appendix.B}
+\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{133}{section.B.1}
+\contentsline {chapter}{\numberline {C}Haptic Belt}{134}{appendix.C}
+\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{134}{section.C.1}
+\contentsline {section}{\numberline {C.2}Vibration unit}{135}{section.C.2}
+\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{136}{section.C.3}
+\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{137}{section.C.4}
+\contentsline {chapter}{\numberline {D}ECG processing algorithm}{138}{appendix.D}
+\contentsline {chapter}{\numberline {E}GSR processing algorithm}{139}{appendix.E}
+\SetAppendixTocName {Annex}
+\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{140}{annex.a}
+\contentsline {section}{\numberline {A.1}Especifications}{140}{section.a.1}
+\contentsline {section}{\numberline {A.2}Pinnout}{141}{section.a.2}
+\contentsline {chapter}{\numberline {B}Kubius}{142}{annex.b}
+\contentsline {section}{\numberline {B.1}Kubius software}{142}{section.b.1}

@@ -1,0 +1,92 @@
+\begin{figure}[!htbp]
+    \centering    
+    \tikzstyle{hexag} = [regular polygon, regular polygon sides=6, minimum size = 3cm, inner sep = 0cm, xshift = 1.5cm]
+    \tikzstyle{hexagText} = [text = white, xshift = 1.5cm]
+    \tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+    \tikzstyle{--} = [line width = 0.25mm]
+    
+    \tikzstyle{arrow} = [rounded corners, line width = 1mm, -to]
+    \tikzstyle{arrow_blue} = [cor5, arrow]
+    
+    \resizebox{\linewidth}{!}{
+    \begin{tikzpicture}[node distance=1.75cm]
+        \centering    
+
+        \node [hexag, draw = cor1, fill = cor1] (emphatize) {};
+        \node [hexagText] (emphatizeText) {};
+        
+        \node [hexag, draw = cor2, fill = cor2, right of = emphatize] (define) {};
+        \node [hexagText, right of = emphatize] (defineText) {DEFINE};
+        
+        \node(inicioFlecha1) [xshift = 3.75cm, yshift = 2.25cm] {};
+        \node(fimFlecha1) [right of = emphatize, xshift = 1cm, yshift = 1.2cm] {};
+        \node(inicioFlecha2) [xshift = 2.75cm, yshift = 1.5cm] {};
+        \node(fimFlecha2) [right of = emphatize, xshift = 0.5cm, yshift = 0.8cm] {};
+        \node(inicioFlecha3) [xshift = 1.7cm, yshift = 0.8cm] {};
+        \node(fimFlecha3) [right of = emphatize, xshift = 0.25cm, yshift = 0.4cm] {};
+        \node(inicioFlecha4) [xshift = 2cm, yshift = -0.5cm] {};
+        \node(fimFlecha4) [right of = emphatize, xshift = 0.15cm, yshift = 0cm] {};
+        \node(inicioFlecha5) [xshift = 2.77cm, yshift = -1.6cm] {};
+        \node(fimFlecha5) [right of = emphatize, xshift = 0.25cm, yshift = -0.5cm] {};
+        \node(inicioFlecha6) [xshift = 3.4cm, yshift = -2.2cm] {};
+        \node(fimFlecha6) [right of = emphatize, xshift = 0.8cm, yshift = -1.2cm] {};
+        
+        \draw[arrow] (inicioFlecha1) .. controls ++(0.3,-0.5) .. (fimFlecha1);
+        \draw[arrow] (inicioFlecha2) .. controls ++(0.5,-0.15) .. (fimFlecha2);
+        \draw[arrow] (inicioFlecha3) .. controls ++(0.75,0) .. (fimFlecha3);
+        \draw[arrow] (inicioFlecha4) .. controls ++(0.5,0.25) .. (fimFlecha4);
+        \draw[arrow] (inicioFlecha5) .. controls ++(0.25,0.5) .. (fimFlecha5);
+        \draw[arrow] (inicioFlecha6) .. controls ++(0.25,0.5) .. (fimFlecha6);
+        
+        \node [hexag, draw = cor3, fill = cor3, right of = define] (ideate) {};
+        \node [hexagText, right of = define] (ideateText) {IDEATE};
+        
+        \node(inicioDFlecha1) [above of = define, xshift = 0.25cm, yshift = -0.1cm] {};
+        \node(fimDFlecha1) [above of = ideate, xshift = -0.25cm, yshift = -0.1cm] {};
+        \node(inicioIFlecha1) [below of = ideate, xshift = -0.25cm, yshift = 0.1cm] {};
+        \node(fimIFlecha1) [below of = define, xshift = 0.25cm, yshift = 0.1cm] {};
+        
+        \draw[arrow, draw = cor3] (inicioDFlecha1.south) .. controls ++(0.25,0.5) and ++(-0.75,0.5).. (fimDFlecha1.south);
+        \draw[arrow, draw = cor3] (inicioIFlecha1.north) .. controls ++(-0.25,-0.5) and ++(0.75,-0.5).. (fimIFlecha1.north);
+        
+        \node [hexag, draw = cor4, fill = cor4, right of = ideate] (prototype) {};
+        \node [hexagText, right of = ideate] (prototypeText) {PROTOTYPE};
+        
+        \node(inicioIFlecha2) [above of = ideate, xshift = 0.25cm, yshift = -0.2cm] {};
+        \node(fimIFlecha2) [above of = prototype, xshift = -0.25cm, yshift = -0.2cm] {};
+        \node(inicioPFlecha1) [below of = prototype, xshift = -0.25cm, yshift = 0.2cm] {};
+        \node(fimPFlecha1) [below of = ideate, xshift = 0.25cm, yshift = 0.2cm] {};
+        \node(inicioPFlecha2) [above of = prototype, xshift = 0.25cm, yshift = -0.2cm] {};
+        \node(fimPFlecha2) [above of = define, xshift = -0.25cm, yshift = -0.2cm] {};
+        
+        \draw[arrow, draw = cor4] (inicioIFlecha2.center) .. controls ++(0.25,0.5) and ++(-0.75,0.5).. (fimIFlecha2.east);
+        \draw[arrow, draw = cor4] (inicioPFlecha1.east) .. controls ++(-0.25,-0.5) and ++(0.75,-0.5).. (fimPFlecha1.center);
+        \draw[arrow, draw = cor1] (inicioPFlecha2.west) .. controls ++(-1,1.75) and ++(1.2,1.5).. (fimPFlecha2);
+        
+        
+        \node [hexag, draw = cor5, fill = cor5, right of = prototype] (assess) {};
+        
+        \node(inicioPFlecha3) [above of = prototype, xshift = 0.25cm, yshift = -0.2cm] {};
+        \node(fimPFlecha3) [above of = assess, xshift = -0.25cm, yshift = -0.2cm] {};
+        \node(inicioAFlecha1) [below of = assess, xshift = -0.25cm, yshift = 0.2cm] {};
+        \node(fimAFlecha1) [below of = prototype, xshift = 0.25cm, yshift = 0.2cm] {};
+        \node(inicioAFlecha2) [below of = assess, xshift = 0cm, yshift = 0.2cm] {};
+        \node(fimAFlecha2) [below of = ideate, xshift = -0.25cm, yshift = 0.1cm] {};
+        \node(inicioAFlecha3) [below of = assess, xshift = 0.25cm, yshift = 0.2cm] {};
+        \node(fimAFlecha3) [below of = define, xshift = -0.25cm, yshift = 0.1cm] {};
+        
+        \draw[arrow, draw = cor5] (inicioPFlecha3.center) .. controls ++(0.5,1) and ++(-0.75,1).. (fimPFlecha3.center);
+        \draw[arrow, draw = cor5] (inicioAFlecha1.center) .. controls ++(-0.25,-0.5) and ++(0.75,-1).. (fimAFlecha1.west);
+        \draw[arrow, draw = cor2] (inicioAFlecha2.center) .. controls ++(-0.25,-1.25) and ++(0.75,-1).. (fimAFlecha2.south east);
+        \draw[arrow, draw = cor1] (inicioAFlecha3.center) .. controls ++(-0.25,-1.75) and ++(1.2,-1.5).. (fimAFlecha3.north);
+        
+        \node [hexagText, right of = prototype] (assessText) {ASSESS};
+        
+
+        
+        
+    \end{tikzpicture}
+    }
+    \caption{Simplified cabin design process \cite{moerland2021application}.}
+    \label{fig:simplified_cabin_process}
+\end{figure}

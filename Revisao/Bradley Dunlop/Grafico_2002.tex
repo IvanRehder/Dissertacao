@@ -1,0 +1,111 @@
+\begin{figure}[!htb]
+    \centering
+    \tikzstyle{barraVI} = [fill = cor1]
+    \tikzstyle{barraS} = [fill = cor2]
+    \tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+    \tikzstyle{--} = [line width = 0.25mm]
+    
+    \resizebox{0.8\linewidth}{!}{
+    \begin{tikzpicture}[node distance=0cm]
+        % Fundo do gráfico
+    
+        \renewcommand{\tamX}{13.875cm}
+        \renewcommand{\tamY}{5.4cm}
+        
+        \node (origin) {};
+        \node (endX) [xshift = \tamX] {};
+        \node (endY) [yshift = \tamY] {};
+        \node (endXY) [above of = endX, yshift = \tamY] {};
+        
+        %Título
+        \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 1.25cm] {\textbf{Average nº of utterances used within each contextual category}}
+        node [below of = titulo, yshift = -0.5cm] {\textbf{between sighted and visually impaired participants}};
+        
+        \draw[--] (origin.west) node[anchor = east]{\footnotesize 0} to (endX.center) node[anchor = north, xshift = -7.5cm, yshift = -2.0cm]{\textbf{Type of contextual categories}};
+        \draw[--] (origin.south) to (endY.center) node[anchor = east, xshift = -1.0cm,rotate = 90]{\textbf{Average nº of utterance}};
+        \draw[--] (endX.center) to (endXY.center);
+        
+        \foreach \r/\n in        {1/5,2/10,3/15,4/20,5/25,6/30,7/35,8/40,9/45,10/50,11/55,12/60,13/65,14/70,15/75,16/80,17/85,18/90}
+        {
+            \draw [--] (-0.15,0.30cm*\r) node[anchor = east]{\footnotesize \n} to (\tamX,0.30cm*\r);
+        }
+        
+        \renewcommand{\largX}{0.25}
+        \renewcommand{\altY}{0}
+        \renewcommand{\distX}{0.5}
+        %Direct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Direct} rectangle ++(\largX,5.3);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,1.6);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{1.75}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Struct} rectangle ++(\largX,3.6);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.5);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{3.0}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Environ} rectangle ++(\largX,0.5);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.2);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{4.25}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Text-struct} rectangle ++(\largX,0.2);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.4);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{5.5}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Text-area/st} rectangle ++(\largX,0.5);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.7);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{6.75}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Numer} rectangle ++(\largX,1.3);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.2);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{8.0}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Desc} rectangle ++(\largX, 4.2);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.45);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{9.25}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Sensory} rectangle ++(\largX,0.8);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.0);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{10.5}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Tem/Dist} rectangle ++(\largX,0.95);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.35);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{11.75}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Motion} rectangle ++(\largX,0.1);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.0);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        \renewcommand{\distX}{13.0}
+        %Struct
+        \draw[barraVI] (\distX,0) node[yshift = -1.0cm, rotate = 45]{Social} rectangle ++(\largX,0.2);
+        \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.0);
+        \draw[--] (\distX+3.5*\largX,0) to ++(0,-0.2);
+        
+        %Legenda
+        \draw[legenda] (\tamX-3.0cm,\tamY-1.5cm) rectangle (\tamX+1.5cm, \tamY+0.25cm);
+        \draw[barraVI] (\tamX-2.5cm,\tamY-0.25cm) rectangle ++(0.25cm,0.25cm) node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{Visualy Impaired};
+        \draw[barraS] (\tamX-2.5cm,\tamY-1.0cm) rectangle ++(0.25cm,0.25cm) node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{Sighted};
+        
+    \end{tikzpicture}
+    }
+    \centering
+    \caption{Comparison between sighted participants with BVI participants \cite{bradley2002investigating}.}
+    \label{fig:bradley_2002}
+\end{figure}

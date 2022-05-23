@@ -1,0 +1,66 @@
+\tikzstyle{barraVI} = [fill = cor1]
+\tikzstyle{barraS} = [fill = cor2]
+\tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+\tikzstyle{--} = [line width = 0.25mm]
+
+%\resizebox{0.8\linewidth}{!}{
+\begin{tikzpicture}[node distance=0cm]
+    % Fundo do gráfico
+
+    \renewcommand{\tamX}{8.0cm}
+    \renewcommand{\tamY}{6.0cm}
+    
+    \node (origin) {};
+    \node (endX) [xshift = \tamX] {};
+    \node (endY) [yshift = \tamY] {};
+    \node (endXY) [above of = endX, yshift = \tamY] {};
+    
+    %Título
+    \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 1.25cm] {\textbf{\Large Comparing condition times for}}
+    node [below of = titulo, yshift = -0.5cm] {\textbf{\Large visually impaired participants}};
+    
+    \draw[--] (origin.west) node[anchor = east]{\Large 0} to (endX.center) node[anchor = north, xshift = -7.5cm, yshift = -2.0cm]{};
+    \draw[--] (origin.south) to (endY.center) node[anchor = east, xshift = -1.5cm,rotate = 90]{\textbf{\Large Average time (secs)}};
+    \draw[--] (endX.center) to (endXY.center);
+    
+   \foreach \r/\n in {1/50,2/100,3/150,4/200,5/250,6/300}
+    {
+        \draw [--] (-0.15,1cm*\r) node[anchor = east]{\n} to (\tamX,1cm*\r);
+    }
+    
+    \renewcommand{\largX}{0.5}
+    \renewcommand{\altY}{0}
+    \renewcommand{\distX}{0.5}
+    %Direct
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\Large Lan 1}} rectangle ++(\largX,4.6);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,4.5);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{2.5}
+    %Struct
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\Large Lan 2}} rectangle ++(\largX,5.2);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,5.1);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{4.5}
+    %Struct
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\Large Lan 3}} rectangle ++(\largX,4.2);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,4.1);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{6.5}
+    %Struct
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\Large Lan 4}} rectangle ++(\largX,5.2);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,5.1);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    
+    %Legenda
+    \draw[legenda] (\tamX,\tamY-1.5cm) rectangle ++(2.5cm,2cm);
+    \draw[barraVI] (\tamX+0.25cm,\tamY-0.25cm) rectangle ++(0.25cm,0.25cm) 
+    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\Large Con 1};
+    \draw[barraS] (\tamX+0.25cm,\tamY-1.0cm) rectangle ++(0.25cm,0.25cm) 
+    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\Large Con 2};
+    
+\end{tikzpicture}
+%}

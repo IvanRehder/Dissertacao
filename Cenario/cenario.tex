@@ -1,0 +1,74 @@
+
+The main background and the source of the sensorial input was the virtual environment. Its development can be divided in \ref{itm:final_clinic} steps. The hole procedure is represented in the Figure \ref{fig:ve_process}.
+
+\begin{enumerate}
+    \item Procedures
+    \item City Hospital
+    \item Medical Clinic
+    \item Adjustments
+    \item Final clinic \label{itm:final_clinic}
+\end{enumerate}
+
+\input{Cenario/diagram}
+
+\section{Procedures}
+
+    The first step of the research was to learn how hospitals operate, especially throughout the COVID-19 pandemic. Two hospitals from the city of São José dos Campos - São Paulo were interviewed on how does the reception procedure worked and both of them had a similar operation:
+    
+    \begin{enumerate}
+        \item Patient enters the hospital
+        \item Uses the sanitizer to clean their hands
+        \item Take a queue number and wait the calling of the receptionist
+        \item Go to the receptionist and does his/her check-in
+        \item Sits on the waiting area and wait until it's name is called \label{itm:name_call}
+    \end{enumerate}
+    
+    The tasks in the experiment were to be similar as these procedures. The only exception was the name calling, step \ref{itm:name_call}, because of the complexity of create a routine inside the virtual environment that could call the participant's name. One possible solution was to use an actor, but because of the COVID-19 procedures that limits the number of people inside a room, this solution was discarded.
+    
+    Since the procedures was from hospitals, the first idea of a virtual environment was to build a virtual hospital reception.
+
+\section{City Hospital}
+
+    If the virtual environment was a hospital reception, it would be possible to include a lot of artifacts that could increase the participant's sense of presence, such as people walking and the sound of elevators, and that was very appealing.
+    
+    One problem with that idea was the physical space needed to simulate that. It would be needed a closed quarters space with enough area to allow the participant to walk through the hole reception. The original space was approximately 15x20m and the laboratory, or the university, didn't had somewhere like that.
+    
+    So the solution for that was to shrink down the area to fit inside the laboratory, so it was decided not to simulate a hospital reception, but a medical clinic reception
+
+\section{Medical Clinic}
+
+    The laboratory didn't had a room that could fit a hospital reception, but it did had a plenty of space that could fit a medical clinic reception, especially at the laboratory's auditorium. The laboratory has 7x10m and that was the dimension of the first version of the virtual medical clinic. At the first moment, it was decided that this would be the setting for the experiment and its development went towards the definition of the interior details (blue path on the Figure \ref{fig:ve_process}), but other problems appeared along the development that the room dimensions needed to be redefined (red path on the Figure \ref{fig:ve_process}). Both of these modification are going to be detailed in the following \nameref{subsec:interior} and \nameref{subsec:exterior} subsections.
+    
+    \subsection{Interior}
+    \label{subsec:interior}
+    
+        The goal of the interior was to increase the presence feeling of the participant inside the virtual environment. The inspiration was on the typical objects and furniture that a patient notices when waiting in a reception. The first objects positioned inside the reception was the desk, chairs (both normal and some with "X" in the seats to represent a COVID-19 procedure), a telephone and a laptop. The last two also emitted sounds to increase the feeling of presence and to point to the BVI participant where the reception desk was located. The telephone and the laptop had a C\# script to play their sounds randomly.
+        
+        This virtual environment was presented to two BVI members of the research team and they pointed that it needed to have more noise, in order to increase even more the feeling of presence. They felt the lack of people chattering and the noise that came from a TV show, both were included in the virtual environment. To simulate the people chattering, dialogues from video or series between two people were used. The TV noise was made in a similar way, but with audio from famous Brazilian tv programs. Another missing artifact noticed by the team was the queue machine that was also included. All these added object also had a script that played a specific dialoque/program/queue order for each created scene, never repeating once, to increase the sensation of a different day \footnote{During one of the experiments, a BVI participant commented that he/she felt different day times for each time he/she did the scene}. After all of these objects were included, the interior was ready for a trial.
+        
+    \subsection{Exterior}
+    \label{subsec:exterior}
+        
+        The first version of the clinic had 7x10m, that was the exact dimension of the \textit{Auditório Romi}, the room that was selected to be the physical space for the experiment. Since it was the exact dimension, it became the first change, since an extra space is needed to place the two VR Stations, that in the experiment was assembled in tripod basis. That modification became the second version of the clinic, with 5x7m.
+        
+        The second modification came from the maximum distance between the VR Stations. Accordingly with "SteamVR" (the software that was the interface between the computer and the VR) the maximum distance was 5m, besides that it could not guarantee the correct operation of the device. Besides that, the auditorium was filled with chairs and without a computer. Every time an experiment was going to be realized, it would be needed to rearrange the entire room, costing almost half a hour to clear the space and another half a hour to return to their place. The solution was to reduce, once more, the virtual environment dimensions to 4x4 and that was the third version of the medical clinic.
+        
+        The forth version was reached because, even though smaller, the rearrangement of the auditorium was still a nuisance. The answer to that was to do the experiment in the entry hall. This was a empty space, just in front of the room where the computer with all the files was stationed. The only problem was that people passed by until 17h, but since the chosen of auditorium to be the physical space, it was scheduled that the experiment was going to be performed only at non-working hours.
+        
+    With these \nameref{subsec:exterior} and \nameref{subsec:interior} modification, the environment was ready to receive its first BVI participant.
+        
+\section{Adjustments}
+
+    The first BVI participant was the blind member of the research team and he enjoyed the final result, but still found a thing that could help to increase the feeling of presence. He pointed that BVI people normally find the exit of a room by searching the following sounds in sequence and repeatedly:
+    \begin{enumerate}
+        \item Sound of a door opening;
+        \item Noise from a exterior space (like people walking, cars passing by, horns, etc.);
+        \item Sound of a door closing.
+    \end{enumerate}
+    After that note, a sound emitting point was added in each environment. This point played this sequence of sounds, but in a random interval.
+
+\section{Final Clinic}
+
+    After that last addition, the clinic reached its final version.
+
+

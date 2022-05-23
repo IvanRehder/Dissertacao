@@ -1,0 +1,75 @@
+\begin{figure}[!htb]
+    \centering
+    %\tikzstyle{every node}=[font=\large]
+    
+    \tikzstyle{start} = [rectangle, rounded corners, minimum width=3cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
+    \tikzstyle{scene} = [rectangle, minimum width=3cm, minimum height=1.0cm, text centered, draw=black, fill=white!30, text width=3cm]
+    \tikzstyle{perks} = [diamond, minimum width=1cm, minimum height=1.0cm,  text centered, text width=1.75cm, draw=black, fill=white!30]
+    
+    \tikzstyle{arrow} = [rounded corners, line width = 1mm, ->]
+    \tikzstyle{arrow_blue} = [ccmDBlue, rounded corners, line width = 1mm, ->]
+    \tikzstyle{arrow_red} = [ccmRed, rounded corners, line width = 1mm, ->]
+    
+    \resizebox{\linewidth}{!}{
+    \begin{tikzpicture}[node distance=2.5cm]
+        \centering
+        \node (start) [start] {Hospital procedures};
+        \node (city) [scene, below of=start] {City hospital};
+        
+        \draw [arrow] (start) to node[midway,right]{1st idea} (city);
+        
+        \node (clinic1) [scene, below of=city] {Medical Clinic V1};
+        
+        \draw [arrow] (city) to node[midway,right]{Too big} (clinic1);
+        
+        \node (furniture) [perks, aspect=2.5, below of=clinic1, xshift = -0.5cm, yshift = -0.5cm] {Chairs and desk};
+        \node (telephone) [perks, aspect=2.5, right of=furniture, xshift = 2.5cm] {Telephone ringing};
+        \node (keyboard) [perks, aspect=2.5, left of=furniture, xshift = -2.5cm] {Keyboard typing};
+        
+        \draw [arrow_blue] (-0.5cm,-5.5cm) to (furniture);
+        \draw [arrow_blue] (-0.5cm,-5.5cm) to ++(0,-1.0cm) to +(-5cm,0) to (keyboard);
+        \draw [arrow_blue] (-0.5cm,-5.5cm) to ++(0,-1.0cm) to +(5cm,0) to (telephone);
+        
+        \node (conv1) [below of = furniture, yshift = 0.5cm] {};
+        \node (conv1Texto) [right of = conv1, xshift = -1.0cm] {1st presentation};
+        
+        \node (tv) [perks, aspect=2.5, below of=conv1, yshift = 0.5cm] {TV playing};
+        \node (people) [perks, aspect=2.5, left of=tv, xshift = -2.5cm] {People chatting};
+        \node (ticket) [perks, aspect=2.5, right of=tv, xshift = 2.5cm] {Queue machine};
+        
+        \draw [arrow_blue] (furniture) to (tv);
+        \draw [arrow_blue] (keyboard) to ++(0,-1.5cm) to ++(5cm,0) to (conv1) to ++(0,-0.5cm) to ++(-5cm,0) to (people);
+        \draw [arrow_blue] (telephone) to ++(0,-1.5cm) to ++(-5cm,0) to (conv1) to ++(0,-0.5cm) to ++(-5cm,0) to (people);
+        \draw [arrow_blue] (conv1) to ++(0,-0.5cm) to ++(5cm,0) to (ticket);
+        
+        \node (clinic2) [scene, right of=ticket, above of = ticket, xshift = 0.5cm, yshift = -0.5cm] {Medical Clinic V2};
+        
+        \draw [arrow_red] (0.5cm,-5.5cm) to ++(0,-0.5cm) to ++(7.0cm,0) to (clinic2);
+        
+        \node (clinic3) [scene, right of=ticket, below of = ticket, xshift = 0.5cm] {Medical Clinic V3};
+        
+        \draw [arrow_red] (clinic2) to (clinic3);
+        
+        \node (conv2) [below of = tv, yshift = 0.75cm] {};
+        
+        \node (clinic4) [scene, below of = conv2, xshift = 0.5cm] {Medical Clinic V4};
+        
+        \draw [arrow_blue] (tv) to ++(0,-3.7cm);
+        \draw [arrow_blue] (people) to ++(0,-1.25cm) to ++(5cm,0) to (conv2) to ++(0,-1.95cm);
+        \draw [arrow_blue] (ticket) to ++(0,-1.25cm) to ++(-5cm,0) to (conv2) to ++(0,-1.95cm);
+        \draw [arrow_red] (clinic3) to node[black,midway,above]{Auditorium complexity} ++(-7.0cm,0) to ++(0,-1.2cm);
+        
+        \node (exterior) [perks, aspect=2.5, below of=clinic4] {Exterior sounds};
+        
+        \draw [arrow] (clinic4) to node[midway, right]{1st test} (exterior);
+        
+        \node (clinic5) [start, below of = exterior] {Medical Clinic V5};
+        
+        \draw [arrow] (exterior) to (clinic5);
+        
+    \end{tikzpicture}
+    }
+        \centering
+        \caption{Virtual environment development process}
+        \label{fig:ve_process}
+\end{figure}

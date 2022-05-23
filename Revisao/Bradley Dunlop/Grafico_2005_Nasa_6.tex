@@ -1,0 +1,82 @@
+\tikzstyle{barraVI} = [fill = cor1]
+\tikzstyle{barraS} = [fill = cor2]
+\tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+\tikzstyle{--} = [line width = 0.25mm]
+
+%\resizebox{0.8\linewidth}{!}{
+\begin{tikzpicture}[node distance=0cm]
+    % Fundo do gráfico
+
+    \renewcommand{\tamX}{12.0cm}
+    \renewcommand{\tamY}{9.0cm}
+    
+    \node (origin) {};
+    \node (endX) [xshift = \tamX] {};
+    \node (endY) [yshift = \tamY] {};
+    \node (endXY) [above of = endX, yshift = \tamY] {};
+    
+    %Título
+    \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 2cm] {\textbf{\LARGE Comparing visually impaired}}
+    node(titulo2) [below of = titulo, yshift = -0.5cm] {\textbf{\LARGE participants' workload rating for both}}
+    node [below of = titulo2, yshift = -0.5cm] {\textbf{\LARGE conditions}};
+    
+    \draw[--] (origin.west) node[anchor = east]{\Large 0} to (endX.center) node[anchor = north, xshift = -\tamX*0.5, yshift = -1.0cm]{\textbf{\LARGE Type of contextual categories}};
+    \draw[--] (origin.south) to (endY.center) 
+    node(eixoY)[anchor = east, xshift = -2.5cm, yshift = -0.5cm, rotate = 90]{\textbf{\LARGE Average weighted}}
+    node[below of = eixoY, xshift = 0.75cm, rotate = 90] {\textbf{\LARGE score}};
+    \draw[--] (endX.center) to (endXY.center);
+    
+   \foreach \r/\n in {1/20,2/40,3/60,4/80,5/100,6/120, 7/140, 8/160, 9/180}
+    {
+        \draw [--] (-0.15,1cm*\r) node[anchor = east]{\Large \n} to (\tamX,1cm*\r);
+    }
+    
+    \renewcommand{\largX}{0.5}
+    \renewcommand{\altY}{0}
+    \renewcommand{\distX}{0.5}
+    
+    %Mental Demand
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE MD}} rectangle ++(\largX,6.9);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,7.9);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{2.5}
+    %Physical Demand
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE PD}} rectangle ++(\largX,1.3);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,1.2);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{4.5}
+    %Temporal demand
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE TD}} rectangle ++(\largX,1.7);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,1.9);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{6.5}
+    %Performance
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE OP}} rectangle ++(\largX,1.6);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,2.0);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{8.5}
+    %Effort
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE EF}} rectangle ++(\largX,5.9);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,6.2);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    \renewcommand{\distX}{10.5}
+    %Frustation
+    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE FR}} rectangle ++(\largX,0.3);
+    \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,2.8);
+    \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
+    
+    
+    %Legenda
+    \draw[legenda] (\tamX-2.0cm,\tamY-1.5cm) rectangle ++(4.5cm,2cm);
+    \draw[barraVI] (\tamX-1.75cm,\tamY-0.25cm) rectangle ++(0.25cm,0.25cm) 
+    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\LARGE Condition 1};
+    \draw[barraS] (\tamX-1.75cm,\tamY-1.0cm) rectangle ++(0.25cm,0.25cm) 
+    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\LARGE Condition 2};
+    
+\end{tikzpicture}
+%}

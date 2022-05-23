@@ -1,0 +1,45 @@
+\begin{figure}[!htb]
+    \centering
+
+    \tikzstyle{arrow} = [rounded corners, line width = 1mm, ->]
+    
+    \resizebox{0.85\width}{!}{
+    \begin{tikzpicture}[node distance=1cm]
+        
+        \node (mwl) {\includegraphics[width=.15\textwidth]{Fundamentação/Carga Mental/mwl.png}}
+        node(t_mwl)[below of = mwl,yshift=-0.75cm] {Mental}
+        node(t_mwl2)[below of = t_mwl,yshift=0.5cm] {workload};
+        
+        \node (demand) [above of=mwl, xshift=3cm, yshift=2.5cm] {\input{Fundamentação/Carga Mental/demand}}
+        node(t_demand)[below of = demand,yshift=-0.75cm] {Task}
+        node(t_demand2)[below of = t_demand,yshift=0.5cm] {Demand};
+        
+        \node (capacity) [above of=mwl, xshift=-3cm, yshift=2.5cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Carga Mental/full-battery.png}}
+        node(t_capacity)[below of = capacity,yshift=-0.75cm] {Mental}
+        node(t_capacity2)[below of = t_capacity,yshift=0.5cm] {Capacity};
+        
+        \node (tasks) [left of=mwl, xshift=-4cm, yshift=-6cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Carga Mental/multitasking.png}}
+        node(t_tasks)[below of = tasks,yshift = -0.75cm] {Primary and} 
+        node(t_tasks2)[below of = t_tasks,yshift = 0.5cm] {secondary tasks};
+        
+        \node (physiological) [below of=mwl, yshift=-5cm,] {\includegraphics[width=.15\textwidth]{Fundamentação/Carga Mental/physiological.png}} 
+        node(t_physiological) [below of = physiological, yshift = -0.75cm]{Physiological}
+        node(t_physiological2) [below of = t_physiological, yshift = 0.5cm]{measurements};
+        
+        \node (subjective) [right of=mwl, xshift=4cm, yshift=-6cm] {\includegraphics[width=.15\textwidth]{Fundamentação/Carga Mental/subjective.png}}
+        node(t_subjective) [below of = subjective, yshift = -0.75cm]{Subjective} 
+        node(t_subjective2) [below of = t_subjective, yshift = 0.5cm]{measurements};
+    
+    
+        \draw [arrow] (t_mwl2.south) to ++(0,-0.75) to +(-5,0) to (tasks.north);
+        \draw [arrow] (t_mwl2.south) to (physiological.north);
+        \draw [arrow] (t_mwl2.south) to ++(0,-0.75) to +(5,0) to (subjective.north);
+        \draw [arrow, sharp corners] (capacity.east) to +(1.6,0) to (mwl.north);
+        \draw [arrow, sharp corners] (demand.west) -- +(-1.35,0) to (mwl.north);
+    
+        
+    \end{tikzpicture}
+    }
+    \caption{A overview of mental workload and the methods to infer it.}
+    \label{fig:mwl_overview}
+\end{figure}

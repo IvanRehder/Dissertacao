@@ -1,0 +1,53 @@
+\begin{figure}[!htbp]
+    \centering    
+    \tikzstyle{hexag} = [regular polygon, regular polygon sides=6, minimum size = 3cm, inner sep = 0cm, xshift = 1.5cm]
+    \tikzstyle{hexagText} = [text = white, xshift = 1.5cm]
+    \tikzstyle{legenda} = [fill = white, line width = 0.25mm]
+    \tikzstyle{--} = [line width = 0.25mm]
+    
+    \resizebox{\linewidth}{!}{
+    \begin{tikzpicture}[node distance=1.75cm]
+        \centering    
+
+        \node [hexag, draw = cor1, fill = cor1] {};
+        \node [hexagText] (emphatize) {EMPHATIZE};
+        %\node [regular polygon, regular polygon sides=6, text = white, draw = cor1, minimum size = 5cm, fill = cor1] (emphatize) {EMPHATIZE};
+        \node [hexag, draw = cor2, fill = cor2, right of = emphatize] (define) {};
+        \node [hexagText, right of = emphatize] (defineText) {DEFINE};
+        %\node [regular polygon, regular polygon sides=6, text = white, draw = cor2, minimum size = 5cm, fill = cor2, right of = emphatize] (define) {DEFINE};
+        \node [hexag, draw = cor3, fill = cor3, right of = define] (ideate) {};
+        \node [hexagText, right of = define] (ideateText) {IDEATE};
+        %\node [regular polygon, regular polygon sides=6, text = white, draw = cor3, minimum size = 5cm, fill = cor3, right of = define] (ideate) {IDEATE};
+        \node [hexag, draw = cor4, fill = cor4, right of = ideate] (prototype) {};
+        \node [hexagText, right of = ideate] (prototypeText) {PROTOTYPE};
+        %\node [regular polygon, regular polygon sides=6, text = white, draw = cor4, minimum size = 5cm, fill = cor4, right of = ideate] (prototype) {PROTOTYPE};
+        \node [hexag, draw = cor5, fill = cor5, right of = prototype] (assess) {};
+        \node [hexagText, right of = prototype] (assessText) {ASSESS};
+        %\node [regular polygon, regular polygon sides=6, text = white, draw = cor5, minimum size = 5cm, fill = cor5, right of = prototype] (assess) {ASSESS};
+
+        \node(insertNorth1) [right of = emphatize, xshift = -0.125cm, yshift = 0.25cm] {};
+        \node(insertNorthWest1) [above of = insertNorth1, left of = insertNorth1, xshift = 0.75cm] {};
+        \node(insertNorthEast1) [above of = insertNorth1, right of = insertNorth1, xshift = -0.75cm] {};
+        \draw[--] (insertNorthWest1.center) to (insertNorth1.center) to (insertNorthEast1.center);
+        
+        \node(insertSouth1) [right of = emphatize, xshift = -0.125cm, yshift = -0.25cm] {};
+        \node(insertSouthWest1) [below of = insertSouth1, left of = insertSouth1, xshift = 0.75cm] {};
+        \node(insertSouthEast1) [below of = insertSouth1, right of = insertSouth1, xshift = -0.75cm] {};
+        \draw[--] (insertSouthWest1.center) to (insertSouth1.center) to (insertSouthEast1.center);
+        
+        \node(insertNorth2) [right of = define, xshift = -0.125cm, yshift = 0.25cm] {};
+        \node(insertNorthWest2) [above of = insertNorth2, left of = insertNorth2, xshift = 0.75cm] {};
+        \node(insertNorthEast2) [above of = insertNorth2, right of = insertNorth2, xshift = -0.75cm] {};
+        \draw[--] (insertNorthWest2.center) to (insertNorth2.center) to (insertNorthEast2.center);
+        
+        \node(insertSouth2) [right of = define, xshift = -0.125cm, yshift = -0.25cm] {};
+        \node(insertSouthWest2) [below of = insertSouth2, left of = insertSouth2, xshift = 0.75cm] {};
+        \node(insertSouthEast2) [below of = insertSouth2, right of = insertSouth2, xshift = -0.75cm] {};
+        \draw[--] (insertSouthWest2.center) to (insertSouth2.center) to (insertSouthEast2.center);
+
+
+    \end{tikzpicture}
+    }
+    \caption{Best moments for user involvement \cite{moerland2021application}.}
+    \label{fig:user_involvement}
+\end{figure}

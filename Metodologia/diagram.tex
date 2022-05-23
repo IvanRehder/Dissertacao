@@ -1,0 +1,74 @@
+\begin{figure}[!htb]
+    \centering
+    \tikzstyle{every node}=[font=\large]
+    
+    \tikzstyle{task} = [rectangle, rounded corners, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=3.5cm, font=\large]
+    \tikzstyle{phase} = [rectangle, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=3.5cm, font=\Large]
+    \tikzstyle{--gray} = [ccmLGray, dashed, dash pattern=on 1cm off 1cm , rounded corners, line width = 2mm]
+    \tikzstyle{--red} = [ccmRed, rounded corners, line width = 2mm]
+    \tikzstyle{arrow_blue} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+    \tikzstyle{arrow_red} = [ccmRed, rounded corners, line width = 2mm, ->]
+    
+    
+    \resizebox{\linewidth}{!}{
+    \begin{tikzpicture}[node distance=1cm]
+        
+        \node (interview) [phase] {Interview's phase};
+        \node (interview_hospital) [task, below of = interview, yshift = -2cm] {Interview with hospitals};
+        \node (interview_bvi) [task, below of = interview_hospital, yshift = -3.5cm] {Interview with BVI consultants};
+        
+        \node (a1) [right of = interview, above of = interview, xshift = 2.0cm] {};
+        \node (a2) [below of = a1, yshift = -11cm] {};
+        \draw [--gray] (a1) to (a2);
+        
+        \node (scope) [phase] [phase, right of = interview, xshift = 5cm] {Scope's phase};
+        \node (virtual_environment) [task, below of = scope, yshift = -2cm] {Virtual environment definition};
+        \node (human_factors) [task, below of = virtual_environment, yshift = -2cm] {Assessed human factors definition};
+        \node (guidance_methods) [task, below of = human_factors, yshift = -2cm] {Guidance methods definition};
+        
+        \node (b1) [right of = scope, above of = scope, xshift = 2.0cm] {};
+        \node (b2) [below of = b1, yshift = -11cm] {};
+        \draw [--gray] (b1) to (b2);
+        
+        \node (development) [phase] [phase, right of = scope, xshift = 5cm] {Development's phase};
+        \node (ve_creation) [task, below of = development, yshift = -2cm] {Virtual scenes creation};
+        \node (tools_definition) [task, below of = ve_creation, yshift = -2cm] {Tools and methods definition};
+        \node (guidance_development) [task, below of = tools_definition, yshift = -2cm] {Guidance methods development};
+        
+        \node (c1) [right of = development, above of = development, xshift = 2.0cm] {};
+        \node (c2) [below of = c1, yshift = -11cm] {};
+        \draw [--gray] (c1) to (c2);
+        
+        \node (tryouts) [phase] [phase, right of = development, xshift = 5cm] {Tryout's phase};
+        \node (tryouts_task) [task, below of = tryouts, yshift = -5.0cm] {Tryouts};
+        
+        \node (d1) [right of = tryouts, above of = tryouts, xshift = 2.0cm] {};
+        \node (d2) [below of = d1, yshift = -11cm] {};
+        \draw [--gray] (d1) to (d2);
+        
+        \node (experiment) [phase] [phase, right of = tryouts, xshift = 5cm] {Experiment's phase};
+        \node (experiment_task) [task, below of = experiment, yshift = -5.0cm] {Experiments};
+    
+        \draw[arrow_blue] (interview_hospital.east) to (virtual_environment.west);
+        \draw[arrow_blue] (interview_bvi.east) to ++(1.0,0) to ++(0,4.5) to (virtual_environment.west);
+        \draw[arrow_blue] (interview_bvi.east) to ++(1.0,0) to ++(0,1.5) to (human_factors.west);
+        \draw[arrow_blue] (interview_bvi.east) to ++(1.0,0) to ++(0,-1.5) to (guidance_methods.west);  
+        
+        \draw[arrow_blue] (virtual_environment.east) to (ve_creation.west);
+        \draw[arrow_blue] (human_factors.east) to (tools_definition.west);
+        \draw[arrow_blue] (guidance_methods.east) to (guidance_development.west);
+        
+        \draw[arrow_blue] (ve_creation.east) to ++(1.0,0) to ++(0,-3.0) to (tryouts_task.west);
+        \draw[arrow_blue] (tools_definition.east) to ++(1.0,0) to  (tryouts_task.west);
+        \draw[arrow_blue] (guidance_development.east) to ++(1.0,0) to ++(0,3.0) to (tryouts_task.west);
+        
+        \draw[arrow_blue] (tryouts_task.east) to (experiment_task.west);
+        \draw[--red] (tryouts_task.north) to (tryouts.south);
+        \draw[--red] [opacity=0.2] (tryouts.south) to (tryouts.center) to (tryouts.west);
+        \draw[arrow_red] (tryouts.west) to (development.east);
+        
+    \end{tikzpicture}
+    }
+    \caption{Methodology's diagram}
+    \label{fig:diag_metodologia}
+\end{figure}
