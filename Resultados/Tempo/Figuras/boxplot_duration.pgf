@@ -23,7 +23,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{9.420103in}{12.707223in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{9.420103in}{13.462223in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -35,8 +35,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{-0.000000in}{0.000000in}}%
 \pgfpathlineto{\pgfqpoint{9.420103in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{9.420103in}{12.707223in}}%
-\pgfpathlineto{\pgfqpoint{-0.000000in}{12.707223in}}%
+\pgfpathlineto{\pgfqpoint{9.420103in}{13.462223in}}%
+\pgfpathlineto{\pgfqpoint{-0.000000in}{13.462223in}}%
 \pgfpathclose%
 \pgfusepath{}%
 \end{pgfscope}%
@@ -479,15 +479,15 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{9.100103in}{12.313890in}}%
-\pgfpathlineto{\pgfqpoint{9.246770in}{12.313890in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{9.320103in}{12.313890in}}{\pgfqpoint{9.320103in}{12.387223in}}%
-\pgfpathlineto{\pgfqpoint{9.320103in}{12.533890in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{9.320103in}{12.607223in}}{\pgfqpoint{9.246770in}{12.607223in}}%
-\pgfpathlineto{\pgfqpoint{9.100103in}{12.607223in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{9.026770in}{12.607223in}}{\pgfqpoint{9.026770in}{12.533890in}}%
-\pgfpathlineto{\pgfqpoint{9.026770in}{12.387223in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{9.026770in}{12.313890in}}{\pgfqpoint{9.100103in}{12.313890in}}%
+\pgfpathmoveto{\pgfqpoint{9.100103in}{13.068890in}}%
+\pgfpathlineto{\pgfqpoint{9.246770in}{13.068890in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{9.320103in}{13.068890in}}{\pgfqpoint{9.320103in}{13.142223in}}%
+\pgfpathlineto{\pgfqpoint{9.320103in}{13.288890in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{9.320103in}{13.362223in}}{\pgfqpoint{9.246770in}{13.362223in}}%
+\pgfpathlineto{\pgfqpoint{9.100103in}{13.362223in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{9.026770in}{13.362223in}}{\pgfqpoint{9.026770in}{13.288890in}}%
+\pgfpathlineto{\pgfqpoint{9.026770in}{13.142223in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{9.026770in}{13.068890in}}{\pgfqpoint{9.100103in}{13.068890in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%

@@ -7,47 +7,80 @@ In this subsection the Sagat questionnaire is analyzed. Its result's may give an
 
 \begin{figure}[!htb]
     \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Sagat/Figuras/barplot_sagat_scene_blind.pgf}    
-    }
-    \caption{Bar plot of the average Sagat score of the blind participants on each method.}
-    \label{fig:barplot_sagat_scene_blind}
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_scene_blind.png}
+        %\resizebox{0.6\linewidth}{!}{
+        %\input{Resultados/Sagat/Figuras/barplot_sagat_avg_scene_blind.pgf}    
+        %}
+        \caption{Bar plot of the average Sagat score of the blind participants on each method.}
+        \label{fig:barplot_sagat_scene_blind}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_scene_sight.png}
+        %\resizebox{0.6\linewidth}{!}{
+        %\input{Resultados/Sagat/Figuras/barplot_sagat_avg_scene_sight.pgf}    
+        %}
+        \caption{Bar plot of the average Sagat score of the sighted participants on each method.}
+        \label{fig:barplot_sagat_scene_sight}
+    \end{minipage}
 \end{figure}
 
-\begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Sagat/Figuras/barplot_sagat_scene_sight.pgf}    
-    }
-    \caption{Bar plot of the average Sagat score of the sighted participants on each method.}
-    \label{fig:barplot_sagat_scene_sight}
-\end{figure}
 
 The Table \ref{tab:sagat_average} show the the average Sagat score between the rounds of each participant and the Figure \ref{fig:boxplot_sagat_scene} these data is plotted. It is possible only to assume that some methods causes differente Sagat scores than other, but both groups performed rather similarly.
 
 \input{Resultados/Sagat/Tabelas/sagat_average.tex}
 
-\begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Sagat/Figuras/boxplot_sagat_scene.pgf}
-    }
-    \caption{Boxplot of the average Sagat score of participant.}
-    \label{fig:boxplot_sagat_scene}
-\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Sagat/Figuras/boxplot_sagat_scene.pgf}
+%    }
+%    \caption{Boxplot of the average Sagat score of participant.}
+%    \label{fig:boxplot_sagat_scene}
+%\end{figure}
 
 The Table \ref{tab:sagat_average_group} show the the average Sagat score grouped by visual condition and these data, without considering the "Base" method, is plotted in Figure \ref{fig:barplot_sagat}. Both the table and the figure also show a slightly difference between the score in favor of the "blind" sample.
 
 \input{Resultados/Sagat/Tabelas/sagat_average_group.tex}
 
+%\begin{figure}[!htb]
+%    \centering
+%    \resizebox{0.6\linewidth}{!}{
+%    \input{Resultados/Sagat/Figuras/barplot_sagat_avg_global.pgf}
+%    }
+%    \caption{Barplot of the average Sagat score of each group.}
+%    \label{fig:barplot_sagat}
+%\end{figure}
+
 \begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Sagat/Figuras/barplot_sagat.pgf}
-    }
-    \caption{Barplot of the average Sagat score of each group.}
-    \label{fig:barplot_sagat}
+    %\centering
+    \begin{minipage}{.45\linewidth}
+        \centering
+        \includegraphics[width = \linewidth]{Resultados/Sagat/Figuras/png/boxplot_sagat_scene.png}
+        %\input{Resultados/Sagat/Figuras/boxplot_sagat_scene.pgf}
+        %}
+        \caption{Boxplot of the average Sagat score of participant.}
+        \label{fig:boxplot_sagat_scene}
+    \end{minipage}
+    \begin{minipage}{.1\linewidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{.45\linewidth}
+        
+        \vspace{1.8cm}
+        \centering
+        %\hspace{-4cm}
+        \includegraphics[width = \linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_global.png}
+        %\resizebox{0.6\linewidth}{!}{
+        %\input{Resultados/Sagat/Figuras/barplot_sagat_avg_global.pgf}
+        %}
+        \caption{Barplot of the average Sagat score of each group.}
+        \label{fig:barplot_sagat}
+    \end{minipage}
 \end{figure}
+
 
 The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_sagat_score} shows that these data are normally distributed, with a p-value higher than 0.05, then it is possible to perform a T-Test to guarantee that the "blind" sample is different then the "sight" sample.
 
@@ -79,17 +112,17 @@ The Table \ref{tab:lsd_sagat_var} presents the conclusion of a pairwise Fisher L
 
 \begin{figure}[!htb]
     \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Sagat/Figuras/barplot_sagat_var_scene_blind.pgf}
-    }
+    \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_var_scene_blind.png}
+    %\resizebox{0.6\linewidth}{!}{
+    %\input{Resultados/Sagat/Figuras/barplot_sagat_var_scene_blind.pgf}
+    %}
     \caption{Barplot of the average Sagat score variation from the blind participants of each method.}
     \label{fig:barplot_sagat_var_scene_blind}
 \end{figure}
 
 According to T-Test on Table \ref{tab:ttest_sagat_score}, there is no differecen in Sagat score between the "sight" and the "blind" sample.
 
-According to both Anova test at Table \ref{tab:anova_sagat_avg} and LSD test at Table \ref{tab:lsd_sagat_avg} only the "Virtual Cane" method has a different Sagat score average and according to the Anova test at Table \ref{tab:anova_sagat_var} and the LSD test at Table \ref{lsd_sagat_var} the "Virtual Cane" also has a different variation then the "Base" method, with the "Virtual Cane" having a higher, and positive, variation.
-
+According to both Anova test at Table \ref{tab:anova_sagat_avg} and LSD test at Table \ref{tab:lsd_sagat_avg} only the "Virtual Cane" method has a different Sagat score average and according to the Anova test at Table \ref{tab:anova_sagat_var} and the LSD test at Table \ref{tab:lsd_sagat_var} the "Virtual Cane" also has a different variation then the "Base" method, with the "Virtual Cane" having a higher, and positive, variation.
 
 Finally, also according with Anova tes at Anova test at Table \ref{tab:anova_sagat_avg} and LSD test at Table \ref{tab:lsd_sagat_avg} the "Mixture" method also has a significant increase, different the the "Base" method. This increase is also bigger and higher.
 

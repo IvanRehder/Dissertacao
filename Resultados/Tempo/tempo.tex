@@ -13,54 +13,60 @@ The Table \ref{tab:duracao_average_scene} show the the average time of each part
 
 \input{Resultados/Tempo/Tabelas/duracao_average_scene.tex}
 
+
+
 \begin{figure}[!htb]
     \centering
-        \begin{minipage}{\textwidth}
+    \begin{minipage}{\textwidth}
         \centering
-        \resizebox{0.8\linewidth}{!}{
-        \input{Resultados/Tempo/Figuras/barplot_duration_scene_blind.pgf}
-        }
+        \includegraphics[width = 0.8\linewidth]{Resultados/Tempo/Figuras/png/barplot_duration_scene_blind.png}
+        %\resizebox{0.8\linewidth}{!}{
+        %\input{Resultados/Tempo/Figuras/barplot_duration_scene_blind.pgf}
+        %}
         \caption{Bar plot of the average time of the blind participants on each method.}
         \label{fig:barplot_duration_scene_blind}
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
-        \resizebox{0.8\linewidth}{!}{
-        \input{Resultados/Tempo/Figuras/barplot_duration_scene_sight.pgf}
-        }
+        \includegraphics[width = 0.8\linewidth]{Resultados/Tempo/Figuras/png/barplot_duration_scene_sight.png}
+        %\resizebox{0.8\linewidth}{!}{
+        %\input{Resultados/Tempo/Figuras/barplot_duration_scene_sight.pgf}
+        %}
         \caption{Bar plot of the average time of sighted participants on each method.}
         \label{fig:barplot_duration_scene_sight}
     \end{minipage}
 \end{figure}
 
 
-The Table \ref{tab:duracao_var_group} show the the average time grouped by visual condition and Figure \ref{fig:boxplot_duration_scene} these data is plotted. The Figure show that there could be some difference in the time between the methods, but that would only be assured with a hypothesis test. 
+The Table \ref{tab:duracao_var} show the the average time of each participant and Figure \ref{fig:boxplot_duration_scene} these data is plotted. The Figure show that there could be some difference in the time between the methods, but that would only be assured with a hypothesis test. 
 
-\input{Resultados/Tempo/Tabelas/duracao_var_group.tex}
-
-
+\input{Resultados/Tempo/Tabelas/duracao_var.tex}
 
 The Table \ref{tab:duracao_var_group} show the the average time grouped by visual condition and Figure \ref{fig:barplot_duration_global} these data is plotted. The table shows a noticible difference between the two groups. The Figure \ref{fig:barplot_duration_global} show that the global average of the groups in all scenes were almost the same.
 
 \input{Resultados/Tempo/Tabelas/duracao_var_group.tex}
 
 \begin{figure}[!htb]
-\centering
-    \begin{minipage}{.45\textwidth}
+    %\centering
+    \begin{minipage}{.45\linewidth}
         \centering
-        \resizebox{0.95\linewidth}{!}{
-        \input{Resultados/Tempo/Figuras/boxplot_duration_scene.pgf}
-        }
+        \includegraphics[width = \linewidth]{Resultados/Tempo/Figuras/png/boxplot_duration_scene.png}
+        %\resizebox{\linewidth}{!}{
+        %\input{Resultados/Tempo/Figuras/boxplot_duration_scene.pgf}
+        %}
         \caption{Boxplot of the average time of each group on each method.}
         \label{fig:boxplot_duration_scene}
     \end{minipage}
-    \hfill
-    \begin{minipage}{.45\textwidth}
+    \begin{minipage}{.1\linewidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{.45\linewidth}
         \centering
-        \vspace{3cm}
-        \resizebox{1.1\linewidth}{!}{
-        \input{Resultados/Tempo/Figuras/barplot_duration_global.pgf}
-        }
+        \vspace{1.8cm}
+        \includegraphics[width = \linewidth]{Resultados/Tempo/Figuras/png/barplot_duration_global.png}
+        %\resizebox{\linewidth}{!}{
+        %\input{Resultados/Tempo/Figuras/barplot_duration_global.pgf}
+        %}
         \caption{Barplot of the average time of each group.}
         \label{fig:barplot_duration_global}
     \end{minipage}

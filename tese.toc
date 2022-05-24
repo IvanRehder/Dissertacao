@@ -59,50 +59,50 @@
 \contentsline {section}{\numberline {7.2}Data from questionnaires}{71}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}NASA-TLX}{72}{subsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.1.1}Analysis of the mental demand scale}{72}{subsubsection.7.2.1.1}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Analysis of the NASA-TLX score}{77}{subsubsection.7.2.1.2}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Analysis of the NASA-TLX score}{78}{subsubsection.7.2.1.2}
 \contentsline {subsection}{\numberline {7.2.2}Adapted SAGAT}{83}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Guidance method's questionnaire.}{89}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}Data from physiological sensors}{91}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Electrocardiogram (ECG) data}{92}{subsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.1.1}Analysis of the heart beat frequency}{92}{subsubsection.7.3.1.1}
-\contentsline {subsubsection}{\numberline {7.3.1.2}Analysis of the heart beat frequency}{95}{subsubsection.7.3.1.2}
-\contentsline {subsection}{\numberline {7.3.2}Galvanic skin reaction and temperature data;}{98}{subsection.7.3.2}
-\contentsline {chapter}{\numberline {8}Conclusion}{103}{chapter.8}
-\contentsline {section}{\numberline {8.1}Do BVI users feel present in the VE as if they were in the real world?}{103}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Answers based on the simulation data}{103}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Answers based on the subjective data}{103}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Answers based on the physiological data}{103}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}Final conclusions}{104}{subsection.8.1.4}
-\contentsline {section}{\numberline {8.2}Does BVI users rely more on a type of information than the other?}{104}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Answers based on the simulation data}{104}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Answers based on the subjective data}{104}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Answers based on the physiological data}{104}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Final conclusions and comentaries}{105}{subsection.8.2.4}
-\contentsline {section}{\numberline {8.3}Do non BVI users have the same demands and skill as BVI users when designing assistive products?}{105}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Answers based on the simulation data}{105}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Answers based on the subjective data}{106}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Answers based on the physiological data}{106}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}Final conclusions and comentaries}{106}{subsection.8.3.4}
-\contentsline {section}{\numberline {8.4}Future works and suggestions}{106}{section.8.4}
-\contentsline {chapter}{Bibliography}{107}{chapter.9}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Analysis of the heart beat frequency}{96}{subsubsection.7.3.1.2}
+\contentsline {subsection}{\numberline {7.3.2}Galvanic skin reaction and temperature data;}{100}{subsection.7.3.2}
+\contentsline {chapter}{\numberline {8}Conclusion}{105}{chapter.8}
+\contentsline {section}{\numberline {8.1}Do BVI users feel present in the VE as if they were in the real world?}{105}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Answers based on the simulation data}{105}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Answers based on the subjective data}{105}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Answers based on the physiological data}{105}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Final conclusions}{106}{subsection.8.1.4}
+\contentsline {section}{\numberline {8.2}Does BVI users rely more on a type of information than the other?}{106}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Answers based on the simulation data}{106}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Answers based on the subjective data}{106}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Answers based on the physiological data}{106}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Final conclusions and comentaries}{107}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Do non BVI users have the same demands and skill as BVI users when designing assistive products?}{107}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Answers based on the simulation data}{107}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Answers based on the subjective data}{108}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Answers based on the physiological data}{108}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Final conclusions and comentaries}{108}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Future works and suggestions}{108}{section.8.4}
+\contentsline {chapter}{Bibliography}{109}{chapter.9}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Questionnaires}{112}{appendix.A}
-\contentsline {section}{\numberline {A.1}BVI condition}{112}{section.A.1}
-\contentsline {section}{\numberline {A.2}NASA-TLX}{113}{section.A.2}
-\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{115}{section.A.3}
-\contentsline {section}{\numberline {A.4}Guidance method evaluation}{120}{section.A.4}
-\contentsline {chapter}{\numberline {B}Virtual Cane}{126}{appendix.B}
-\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{126}{section.B.1}
-\contentsline {chapter}{\numberline {C}Haptic Belt}{127}{appendix.C}
-\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{127}{section.C.1}
-\contentsline {section}{\numberline {C.2}Vibration unit}{128}{section.C.2}
-\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{129}{section.C.3}
-\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{130}{section.C.4}
-\contentsline {chapter}{\numberline {D}ECG processing algorithm}{131}{appendix.D}
-\contentsline {chapter}{\numberline {E}GSR processing algorithm}{132}{appendix.E}
+\contentsline {chapter}{\numberline {A}Questionnaires}{114}{appendix.A}
+\contentsline {section}{\numberline {A.1}BVI condition}{114}{section.A.1}
+\contentsline {section}{\numberline {A.2}NASA-TLX}{115}{section.A.2}
+\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{117}{section.A.3}
+\contentsline {section}{\numberline {A.4}Guidance method evaluation}{122}{section.A.4}
+\contentsline {chapter}{\numberline {B}Virtual Cane}{128}{appendix.B}
+\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{128}{section.B.1}
+\contentsline {chapter}{\numberline {C}Haptic Belt}{129}{appendix.C}
+\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{129}{section.C.1}
+\contentsline {section}{\numberline {C.2}Vibration unit}{130}{section.C.2}
+\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{131}{section.C.3}
+\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{132}{section.C.4}
+\contentsline {chapter}{\numberline {D}ECG processing algorithm}{133}{appendix.D}
+\contentsline {chapter}{\numberline {E}GSR processing algorithm}{134}{appendix.E}
 \SetAppendixTocName {Annex}
-\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{133}{annex.a}
-\contentsline {section}{\numberline {A.1}Especifications}{133}{section.a.1}
-\contentsline {section}{\numberline {A.2}Pinnout}{134}{section.a.2}
-\contentsline {chapter}{\numberline {B}Kubius}{135}{annex.b}
-\contentsline {section}{\numberline {B.1}Kubius software}{135}{section.b.1}
+\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{135}{annex.a}
+\contentsline {section}{\numberline {A.1}Especifications}{135}{section.a.1}
+\contentsline {section}{\numberline {A.2}Pinnout}{136}{section.a.2}
+\contentsline {chapter}{\numberline {B}Kubius}{137}{annex.b}
+\contentsline {section}{\numberline {B.1}Kubius software}{137}{section.b.1}
