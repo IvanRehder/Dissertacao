@@ -15,45 +15,55 @@ The Table \ref{tab:duracao_average_scene} show the the average time of each part
 
 \begin{figure}[!htb]
     \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Tempo/Figuras/barplot_duration_scene_blind.pgf}
-    }
-    \caption{Bar plot of the average time of the blind participants on each method.}
-    \label{fig:barplot_duration_scene_blind}
+        \begin{minipage}{\textwidth}
+        \centering
+        \resizebox{0.8\linewidth}{!}{
+        \input{Resultados/Tempo/Figuras/barplot_duration_scene_blind.pgf}
+        }
+        \caption{Bar plot of the average time of the blind participants on each method.}
+        \label{fig:barplot_duration_scene_blind}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+        \centering
+        \resizebox{0.8\linewidth}{!}{
+        \input{Resultados/Tempo/Figuras/barplot_duration_scene_sight.pgf}
+        }
+        \caption{Bar plot of the average time of sighted participants on each method.}
+        \label{fig:barplot_duration_scene_sight}
+    \end{minipage}
 \end{figure}
-\begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Tempo/Figuras/barplot_duration_scene_sight.pgf}
-    }
-    \caption{Bar plot of the average time of sighted participants on each method.}
-    \label{fig:barplot_duration_scene_sight}
-\end{figure}
+
 
 The Table \ref{tab:duracao_var_group} show the the average time grouped by visual condition and Figure \ref{fig:boxplot_duration_scene} these data is plotted. The Figure show that there could be some difference in the time between the methods, but that would only be assured with a hypothesis test. 
 
 \input{Resultados/Tempo/Tabelas/duracao_var_group.tex}
 
-\begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Tempo/Figuras/boxplot_duration_scene.pgf}
-    }
-    \caption{Boxplot of the average time of each group on each method.}
-    \label{fig:boxplot_duration_scene}
-\end{figure}
+
 
 The Table \ref{tab:duracao_var_group} show the the average time grouped by visual condition and Figure \ref{fig:barplot_duration_global} these data is plotted. The table shows a noticible difference between the two groups. The Figure \ref{fig:barplot_duration_global} show that the global average of the groups in all scenes were almost the same.
 
 \input{Resultados/Tempo/Tabelas/duracao_var_group.tex}
 
 \begin{figure}[!htb]
-    \centering
-    \resizebox{0.6\linewidth}{!}{
-    \input{Resultados/Tempo/Figuras/barplot_duration_global.pgf}
-    }
-    \caption{Barplot of the average time of each group.}
-    \label{fig:barplot_duration_global}
+\centering
+    \begin{minipage}{.45\textwidth}
+        \centering
+        \resizebox{0.95\linewidth}{!}{
+        \input{Resultados/Tempo/Figuras/boxplot_duration_scene.pgf}
+        }
+        \caption{Boxplot of the average time of each group on each method.}
+        \label{fig:boxplot_duration_scene}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.45\textwidth}
+        \centering
+        \vspace{3cm}
+        \resizebox{1.1\linewidth}{!}{
+        \input{Resultados/Tempo/Figuras/barplot_duration_global.pgf}
+        }
+        \caption{Barplot of the average time of each group.}
+        \label{fig:barplot_duration_global}
+    \end{minipage}
 \end{figure}
 
 For a more correct analysis, one should use statistical methods to analyse. So hypothesis tests were used, but the first step in this analysese is to check the if the sample has a normal distribuition. 
