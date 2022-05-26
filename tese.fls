@@ -3197,67 +3197,81 @@ INPUT ApendC_(Questionarios)\escalas_guidance\pouca_excessiva.tex
 INPUT .\ApendC_(Questionarios)\escalas_guidance\pouca_excessiva.tex
 INPUT .\ApendC_(Questionarios)\escalas_guidance\pouca_excessiva.tex
 INPUT ApendC_(Questionarios)\escalas_guidance\pouca_excessiva.tex
-INPUT .\ApendE (Bengala)\apendE.tex
-INPUT .\ApendE (Bengala)\apendE.tex
-INPUT .\ApendE (Bengala)\apendE.tex
-INPUT ApendE (Bengala)\apendE.tex
-INPUT .\ApendE (Bengala)\apendE.tex
-INPUT .\ApendE (Bengala)\apendE.tex
-INPUT ApendE (Bengala)\apendE.tex
-INPUT .\ApendE (Bengala)\virtual_cane.tex
-INPUT .\ApendE (Bengala)\virtual_cane.tex
-INPUT .\ApendE (Bengala)\virtual_cane.tex
-INPUT ApendE (Bengala)\virtual_cane.tex
-INPUT .\ApendE (Bengala)\virtual_cane.tex
-INPUT .\ApendE (Bengala)\virtual_cane.tex
-INPUT ApendE (Bengala)\virtual_cane.tex
-INPUT .\ApendD (Cinto)\apendD.tex
-INPUT .\ApendD (Cinto)\apendD.tex
-INPUT .\ApendD (Cinto)\apendD.tex
-INPUT ApendD (Cinto)\apendD.tex
-INPUT .\ApendD (Cinto)\apendD.tex
-INPUT .\ApendD (Cinto)\apendD.tex
-INPUT ApendD (Cinto)\apendD.tex
-INPUT .\ApendD (Cinto)\PCB Cinto.pdf
-INPUT .\ApendD (Cinto)\PCB Cinto.pdf
-INPUT ApendD (Cinto)\PCB Cinto.pdf
-INPUT .\ApendD (Cinto)\PCB Cinto.pdf
-INPUT .\ApendD (Cinto)\PCB Cinto.pdf
-INPUT .\ApendD (Cinto)\PCB Cinto.pdf
-INPUT .\ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT .\ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT .\ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT .\ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT .\ApendD (Cinto)\Unidade Vibracao.pdf
-INPUT .\ApendD (Cinto)\esp32.tex
-INPUT .\ApendD (Cinto)\esp32.tex
-INPUT .\ApendD (Cinto)\esp32.tex
-INPUT ApendD (Cinto)\esp32.tex
-INPUT .\ApendD (Cinto)\esp32.tex
-INPUT .\ApendD (Cinto)\esp32.tex
-INPUT ApendD (Cinto)\esp32.tex
-INPUT .\ApendD (Cinto)\unity.tex
-INPUT .\ApendD (Cinto)\unity.tex
-INPUT .\ApendD (Cinto)\unity.tex
-INPUT ApendD (Cinto)\unity.tex
-INPUT .\ApendD (Cinto)\unity.tex
-INPUT .\ApendD (Cinto)\unity.tex
-INPUT ApendD (Cinto)\unity.tex
-INPUT .\ApendA (ECG)\apendA.tex
-INPUT .\ApendA (ECG)\apendA.tex
-INPUT .\ApendA (ECG)\apendA.tex
-INPUT ApendA (ECG)\apendA.tex
-INPUT .\ApendA (ECG)\apendA.tex
-INPUT .\ApendA (ECG)\apendA.tex
-INPUT ApendA (ECG)\apendA.tex
-INPUT .\ApendB (GSR)\apendB.tex
-INPUT .\ApendB (GSR)\apendB.tex
-INPUT .\ApendB (GSR)\apendB.tex
-INPUT ApendB (GSR)\apendB.tex
-INPUT .\ApendB (GSR)\apendB.tex
-INPUT .\ApendB (GSR)\apendB.tex
-INPUT ApendB (GSR)\apendB.tex
+INPUT .\Apend Bengala\apendE.tex
+INPUT .\Apend Bengala\apendE.tex
+INPUT .\Apend Bengala\apendE.tex
+INPUT Apend Bengala\apendE.tex
+INPUT .\Apend Bengala\apendE.tex
+INPUT .\Apend Bengala\apendE.tex
+INPUT Apend Bengala\apendE.tex
+INPUT .\Apend Bengala\virtual_cane.tex
+INPUT .\Apend Bengala\virtual_cane.tex
+INPUT .\Apend Bengala\virtual_cane.tex
+INPUT Apend Bengala\virtual_cane.tex
+INPUT .\Apend Bengala\virtual_cane.tex
+INPUT .\Apend Bengala\virtual_cane.tex
+INPUT Apend Bengala\virtual_cane.tex
+INPUT .\Apend Cinto\apendD.tex
+INPUT .\Apend Cinto\apendD.tex
+INPUT .\Apend Cinto\apendD.tex
+INPUT Apend Cinto\apendD.tex
+INPUT .\Apend Cinto\apendD.tex
+INPUT .\Apend Cinto\apendD.tex
+INPUT Apend Cinto\apendD.tex
+INPUT .\Apend Cinto\PCB Cinto.pdf
+INPUT .\Apend Cinto\PCB Cinto.pdf
+INPUT Apend Cinto\PCB Cinto.pdf
+INPUT .\Apend Cinto\PCB Cinto.pdf
+INPUT .\Apend Cinto\PCB Cinto.pdf
+INPUT .\Apend Cinto\PCB Cinto.pdf
+INPUT .\Apend Cinto\Unidade Vibracao.pdf
+INPUT .\Apend Cinto\Unidade Vibracao.pdf
+INPUT Apend Cinto\Unidade Vibracao.pdf
+INPUT .\Apend Cinto\Unidade Vibracao.pdf
+INPUT .\Apend Cinto\Unidade Vibracao.pdf
+INPUT .\Apend Cinto\Unidade Vibracao.pdf
+INPUT .\Apend Cinto\esp32.tex
+INPUT .\Apend Cinto\esp32.tex
+INPUT .\Apend Cinto\esp32.tex
+INPUT Apend Cinto\esp32.tex
+INPUT .\Apend Cinto\esp32.tex
+INPUT .\Apend Cinto\esp32.tex
+INPUT Apend Cinto\esp32.tex
+INPUT .\Apend Cinto\unity.tex
+INPUT .\Apend Cinto\unity.tex
+INPUT .\Apend Cinto\unity.tex
+INPUT Apend Cinto\unity.tex
+INPUT .\Apend Cinto\unity.tex
+INPUT .\Apend Cinto\unity.tex
+INPUT Apend Cinto\unity.tex
+INPUT .\Apend ECG\apendA.tex
+INPUT .\Apend ECG\apendA.tex
+INPUT .\Apend ECG\apendA.tex
+INPUT Apend ECG\apendA.tex
+INPUT .\Apend ECG\apendA.tex
+INPUT .\Apend ECG\apendA.tex
+INPUT Apend ECG\apendA.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT Apend ECG\diagram.tex
+INPUT .\Apend GSR\apendB.tex
+INPUT .\Apend GSR\apendB.tex
+INPUT .\Apend GSR\apendB.tex
+INPUT Apend GSR\apendB.tex
+INPUT .\Apend GSR\apendB.tex
+INPUT .\Apend GSR\apendB.tex
+INPUT Apend GSR\apendB.tex
+INPUT .\Apend GSR\diagram.tex
+INPUT .\Apend GSR\diagram.tex
+INPUT .\Apend GSR\diagram.tex
+INPUT Apend GSR\diagram.tex
+INPUT .\Apend GSR\diagram.tex
+INPUT .\Apend GSR\diagram.tex
+INPUT Apend GSR\diagram.tex
 INPUT .\AnexC\anexC.tex
 INPUT .\AnexC\anexC.tex
 INPUT .\AnexC\anexC.tex

@@ -75,7 +75,9 @@
 \contentsline {figure}{\numberline {C.3}{\ignorespaces Unity's message flowchart inside ESP32\relax }}{131}{figure.caption.164}
 \contentsline {figure}{\numberline {C.4}{\ignorespaces Unity's process of identifying obstacle and setting the vibration intensity.\relax }}{132}{figure.caption.165}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces ECG's data treatment algorithim.\relax }}{133}{figure.caption.166}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {E.1}{\ignorespaces GSR's data treatment algorithim.\relax }}{134}{figure.caption.167}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{136}{figure.caption.167}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{136}{figure.caption.169}
 \addvspace {10\p@ }

@@ -1,0 +1,39 @@
+\tikzstyle{start} = [rectangle, rounded corners, minimum width=4cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{process} = [rectangle, minimum width=4cm, minimum height=1.0cm, text centered, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{decision} = [diamond, minimum width=4cm, minimum height=1.0cm,  text centered, text width=1.5cm, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{arrow_flow} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+\tikzstyle{arrow_return} = [ccmRed, rounded corners, line width = 2mm, ->]
+
+\begin{tikzpicture}[node distance=2cm]
+    \centering
+    \node (start) [start] {Connected to Unity};
+    \node (read) [process, below of=start,yshift=-1cm] {Read Unity's command};
+    \node (dec1) [decision, aspect=2.5, below of=read,yshift=-1cm] {Activate or deactivate?};
+    
+    \node (id_activate) [process, right of=dec1, xshift=2cm, yshift=-3cm] {Identify Vibrator(s)};
+    \node (intensity) [process, below of=id_activate, yshift=-1cm] {Set intensity};
+    
+    \node (id_deactivate) [process, left of=dec1, xshift=-2cm, yshift=-3cm] {Identify Vibrator(s)};
+    \node (activate) [process, below of=intensity, yshift=-1cm] {Activate Vibrator(s)};
+    \node (deactivate) [process, below of=id_deactivate, yshift=-1cm] {Deactivate Vibrator(s)};
+    
+    \draw [arrow_flow,line width=2mm] (start) -- (read);
+    \draw [arrow_flow] (read) -- (dec1);
+    
+    \draw [arrow_flow] (dec1) -- node[anchor=south] {activate} +(4,0) -- (id_activate);
+    \draw [arrow_flow] (id_activate) -- (intensity);
+    \draw [arrow_flow] (intensity) -- (activate);
+    \draw [arrow_return] (activate) -- ++(0,-2) -- ++(3,0) -- (7,-3) -- (read);
+    
+    \draw [arrow_flow] (dec1) -- node[anchor=south] {deactivate} +(-4,0) -- (id_deactivate);
+    \draw [arrow_flow] (id_deactivate) -- (deactivate);
+    \draw [arrow_return] (deactivate) -- ++(0,-2) -- ++(-3,0) -- (-7,-3) --(read);
+\end{tikzpicture}
+
+\begin{figure}[!h]
+    \centering
+    \caption{Unity's message flowchart inside ESP32}
+    \label{fig:esp32_algorithim}
+\end{figure}
+
+\pagebreak

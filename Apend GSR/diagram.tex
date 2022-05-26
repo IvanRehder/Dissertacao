@@ -1,0 +1,19 @@
+\tikzstyle{start} = [rectangle, rounded corners, minimum width=4cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
+\tikzstyle{process} = [rectangle, minimum width=4cm, minimum height=1.0cm, text centered, draw=black, fill=white!30, text width=3.5cm]
+\tikzstyle{decision} = [diamond, minimum width=3.5cm, minimum height=1.0cm,  text centered, text width=3.5cm, draw=black, fill=white!30]
+\tikzstyle{arrow_flow} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+\tikzstyle{arrow_return} = [ccmRed, rounded corners, line width = 2mm, ->]
+
+\begin{tikzpicture}[node distance=2cm]
+    \centering
+    \node (start) [start] {Collect the ECG Data};
+    \node (read) [process, below of=start,yshift=-0.5cm] {Read the GSR file};
+    \node (average) [process, aspect=2.5, below of=read, yshift=-0.5cm] {Calculate the average};
+    \node (std) [process, aspect=2.5, below of=average, yshift=-0.5cm] {Calculate the standard deviaton};
+    
+    \draw [arrow_flow] (start.south) -- (read.north);
+    \draw [arrow_flow] (read.south) -- (average.north);
+    \draw [arrow_flow] (average.south) -- (std.north);
+    %\draw [arrow_flow] (std.south) -- (findPeaks.north);
+    
+\end{tikzpicture}
