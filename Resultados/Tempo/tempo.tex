@@ -76,11 +76,22 @@ For a more correct analysis, one should use statistical methods to analyse. So h
 
 The Table \ref{tab:shapiro_duration} shows the Shapiro Wilk test p-value. If this value is higher than 0.05, then the sample is normally distributed. The table \ref{tab:shapiro_duration} indicates that the p-values of the time averages are normally distributed hence the steps that follow are allowed to be used.
 
-\input{Resultados/Tempo/Tabelas/shapiro_duration.tex}
+%\input{Resultados/Tempo/Tabelas/shapiro_duration.tex}
 
 The Table \ref{tab:ttest_duration} shows the T test p-value between the time average of the blind sample and time average of the sight sample. If this value is higher than 0.05, it means that there are no statistically difference between the samples and that both samples had the same time performance. The table \ref{tab:ttest_duration} indicates the time of both the blind and the sight user are statistically the same, with an exception of the "Audio" method.
 
-\input{Resultados/Tempo/Tabelas/ttest_duration.tex}
+%\input{Resultados/Tempo/Tabelas/ttest_duration.tex}
+
+\begin{table}[!htb]
+    \begin{minipage}{.45\linewidth}
+        \input{Resultados/Tempo/Tabelas/shapiro_durationSemBegin.tex}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.45\linewidth}
+        \vspace{-1.5cm}
+        \input{Resultados/Tempo/Tabelas/ttest_durationSemBegin.tex}
+    \end{minipage}
+\end{table}
 
 The Table \ref{tab:anova_duration_var} shows the Anova test p-value of the blind time averages between the guidance methods presented in tha Table \ref{tab:duracao_var}. If this value is higher than 0.05, there is at least one method that has no statistically difference between one of the other methods. The table \ref{tab:anova_duration_var} indicates that there are no similar variation between the methods, that means that all of the time differences noticed on the methods are relevant.
 

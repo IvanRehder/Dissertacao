@@ -84,11 +84,22 @@ The Table \ref{tab:sagat_average_group} show the the average Sagat score grouped
 
 The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_sagat_score} shows that these data are normally distributed, with a p-value higher than 0.05, then it is possible to perform a T-Test to guarantee that the "blind" sample is different then the "sight" sample.
 
-\input{Resultados/Sagat/Tabelas/shapiro_sagat_score}
+%\input{Resultados/Sagat/Tabelas/shapiro_sagat_score}
 
 Acording to the T-Test presented on the Table \ref{tab:ttest_sagat_score}, the only method that showed a difference on the Sagat score between the "sight" sample and the "blind" sample is the "Base" method. The other methods both samples had a similar Sagat score.
 
-\input{Resultados/Sagat/Tabelas/ttest_sagat_score}
+%\input{Resultados/Sagat/Tabelas/ttest_sagat_score}
+
+\begin{table}[!htb]
+    \begin{minipage}{.45\linewidth}
+        \input{Resultados/Sagat/Tabelas/shapiro_sagat_scoreSemBegin.tex}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.45\linewidth}
+        \vspace{-2.75cm}
+        \input{Resultados/Sagat/Tabelas/ttest_sagat_scoreSemBegin.tex}
+    \end{minipage}
+\end{table}
 
 The Table \ref{tab:anova_sagat_avg} shows the Anova test p-value of the Sagat score average of the "blind" sample between the guidance methods presented on the Table \ref{tab:sagat_average}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
 

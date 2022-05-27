@@ -90,11 +90,22 @@ The Table \ref{tab:gsr_variation} show the the variation of the heart beat in ea
 %
 The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_gsr} shows that only the "Audio" method is normally distributed for the "blind" sample while for the "sight" sample only the "Virtual Cane" is not normally distributed
 
-\input{Resultados/GSR/Tabelas/shapiro_gsr}
+%\input{Resultados/GSR/Tabelas/shapiro_gsr}
 
 Acording to the T-Test presented on the Table \ref{tab:ttest_gsr} there are no difference on the heart rate frequency variation between the sample groups.
 
-\input{Resultados/GSR/Tabelas/ttest_gsr}
+%\input{Resultados/GSR/Tabelas/ttest_gsr}
+
+\begin{table}[!htb]
+    \begin{minipage}{.45\linewidth}
+        \input{Resultados/GSR/Tabelas/shapiro_gsrSemBegin.tex}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.45\linewidth}
+        \vspace{-2.75cm}
+        \input{Resultados/GSR/Tabelas/ttest_gsrSemBegin.tex}
+    \end{minipage}
+\end{table}
 
 The Table \ref{tab:anova_gsr} shows the Anova test p-value of the heart rate frequency of the "blind" sample between the guidance methods presented on the Table \ref{tab:gsr_variation}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
 

@@ -59,14 +59,14 @@
 \contentsline {section}{\numberline {7.2}Data from questionnaires}{72}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}NASA-TLX}{73}{subsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.1.1}Analysis of the mental demand scale}{73}{subsubsection.7.2.1.1}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Analysis of the NASA-TLX score}{79}{subsubsection.7.2.1.2}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Analysis of the NASA-TLX score}{78}{subsubsection.7.2.1.2}
 \contentsline {subsection}{\numberline {7.2.2}Adapted SAGAT}{84}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Guidance method's questionnaire.}{90}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Guidance method's questionnaire.}{89}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}Data from physiological sensors}{92}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Electrocardiogram (ECG) data}{93}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Electrocardiogram (ECG) data}{92}{subsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.1.1}Analysis of the heart beat frequency}{93}{subsubsection.7.3.1.1}
-\contentsline {subsubsection}{\numberline {7.3.1.2}Analysis of the heart beat frequency}{97}{subsubsection.7.3.1.2}
-\contentsline {subsection}{\numberline {7.3.2}Galvanic skin reaction and temperature data;}{101}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Analysis of the heart beat frequency}{98}{subsubsection.7.3.1.2}
+\contentsline {subsection}{\numberline {7.3.2}Galvanic skin reaction and temperature data;}{102}{subsection.7.3.2}
 \contentsline {chapter}{\numberline {8}Conclusion}{106}{chapter.8}
 \contentsline {section}{\numberline {8.1}Do BVI users feel present in the VE as if they were in the real world?}{106}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Answers based on the simulation data}{106}{subsection.8.1.1}

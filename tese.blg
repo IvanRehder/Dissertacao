@@ -21,50 +21,51 @@ Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--campo year vazio ou faltando em easyeda
+Warning--campo year vazio ou faltando em kubios
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 57 entries,
+You've used 58 entries,
             6714 wiz_defined-function locations,
-            1510 strings with 20019 characters,
-and the built_in function-call counts, 55146 in all, are:
-= -- 4532
+            1513 strings with 20087 characters,
+and the built_in function-call counts, 56731 in all, are:
+= -- 4774
 > -- 1873
-< -- 416
-+ -- 1101
+< -- 460
++ -- 1159
 - -- 544
-* -- 4031
-:= -- 6847
-add.period$ -- 195
-call.type$ -- 59
-change.case$ -- 660
-chr.to.int$ -- 151
-cite$ -- 53
-duplicate$ -- 3259
-empty$ -- 3706
+* -- 4106
+:= -- 7023
+add.period$ -- 197
+call.type$ -- 60
+change.case$ -- 665
+chr.to.int$ -- 152
+cite$ -- 55
+duplicate$ -- 3409
+empty$ -- 3766
 format.name$ -- 2815
-if$ -- 12823
+if$ -- 13177
 int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 1042
-newline$ -- 251
+missing$ -- 1056
+newline$ -- 256
 num.names$ -- 240
-pop$ -- 1237
+pop$ -- 1256
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 233
 quote$ -- 0
-skip$ -- 3763
+skip$ -- 4000
 stack$ -- 1
-substring$ -- 2333
-swap$ -- 1594
-text.length$ -- 92
+substring$ -- 2398
+swap$ -- 1642
+text.length$ -- 93
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
-warning$ -- 1
-while$ -- 406
+type$ -- 21
+warning$ -- 2
+while$ -- 409
 width$ -- 0
-write$ -- 868
-(There was 1 warning)
+write$ -- 880
+(There were 2 warnings)
