@@ -2,7 +2,7 @@
 /Resultados/Participantes/*
 !/Resultados/ECG/Intervalos/*.csv
 !/Resultados/GSR/*.csv
-
+#!/Resultados/ECG/*.csv
 
 
 #PYTHON
