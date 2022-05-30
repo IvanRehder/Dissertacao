@@ -1,7 +1,7 @@
 *.csv
 /Resultados/Participantes/*
 !/Resultados/ECG/Intervalos/*.csv
-
+!/Resultados/GSR/*.csv
 
 
 
