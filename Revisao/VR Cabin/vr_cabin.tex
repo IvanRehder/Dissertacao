@@ -1,140 +1,85 @@
-% CAPÍTULO 3: DESCRIÇÃO DA SUA PROPOSTA OU CONTRIBUIÇÃO
-%   ESSE É O CAPÍTULO MAIS IMPORTANTE DE SEU TRABALHO
+% \lipsum[2-4]
+
+VR is also being studied by the aeronautics and aerospace industries. \citeauthor{moerland2021application} proposed the use of the VR during the aircraft cabin's design procedure. The idea is to create easy communication between the development actors and its clients.
+
+The cabin design procedure is often said to be a complex product because it involves a lot of users and stakeholder and each of them have their own set of preferences and requirements \citeauthor{moerland2021application}. The time needed to attend to all of these demands tends to be long and expensive. To understand better the design process of an aircraft cabin, \citeauthor{moerland2021application} interviewed a cabin designer and this interview concluded that the cabin design needed in general 2 years to be concluded. As an example, the interviewees cited a design, in which multiple mock-ups and more than ten meetings with the stakeholder were needed while designing the cabin. The Figure \ref{fig:simplified_cabin_process} illustrates a simplified cabin design process and shows that the traditional process has a high chance to return to initials phases even in the final phases.
+
+%\begin{figure}[h]
+%\centering
+%\begin{minipage}{\textwidth}
+%    \centering
+%    \includegraphics[width = 0.5\textwidth]{Revisao/VR Cabin/Process ilustration.png}
+%    \caption{Simplified cabin design process \cite{moerland2021application}.}
+%    \label{fig:simplified_cabin_process}
+%\end{minipage}
+%\hfil
+%\begin{minipage}{\textwidth}
+%    \centering
+%    \includegraphics[width = 0.5\textwidth]{Revisao/VR Cabin/Design User involment.png}
+%    \caption{Best moments for user involvement \cite{moerland2021application}.}
+%    \label{fig:user_involvement}
+%\end{minipage}
+%\end{figure}
+
+\input{Revisao/VR Cabin/Design_process}
+\input{Revisao/VR Cabin/Design_user_involvment}
 
 
-%1. Elabore um parágrafo que introduz o capítulo: Este capítulo apresenta(descreva o objetivo do  capítulo...). É constituído de N seções a saber...
-%2. Caso você tenha dúvida do nível de detalhamento da descrição, coloque-se no lugar do leitor!
-%3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
+\citeauthor{moerland2021application} are inside the German Aerospace Center (DLR, \textit{Deutsch Zentrum für Luft- Raumfahrt}) and decided to study a new procedure that could bring the involvement of the final users in the design process. This procedure is based on co-design, where the users can influence the product's development from the beginning until the end. The Figure \ref{fig:user_involvement} shows the best moments to bring the users to the process. But for the involvement to happen, a communication channel needed to be established. The authors choose to use \textit{Reality Works} and test on a DLR's inside project. This project's goal was to design a new cabin that would be incorporated into a large workflow, but the design process was to be completely made in a digital environment. This was the perfect test case for the VR use in the cabin's design procedure.
 
+A pilot use case was made with the members of this project. Three different designers (two with around 5 years of experience and another with more than 35 years of experience) initiated a cabin design. 
+The Figures \ref{fig:cabin_sketch} and \ref{fig:cabin_3d_model} show the results using the traditional method. The sketch can only present a glance of what the cabin will be. The 3D model has more details, but any change to this representation needs a new rendering session and this can take hours, or even days, to be made.
 
-This chapter is about the proposed methodology of this master thesis experiment. The Figure \ref{fig:diag_metodologia} shows the phases and the tasks inside each phase. This chapter will explain each phase and task presented in the Figure \ref{fig:diag_metodologia}.
-
-\input{Metodologia/diagram}
-
-\section{Interviews' phase}
-\label{sec:interviews_phase}
-    The first phase of this project was the Interviews' phase. In this phase, the researchers' main goal was to gather information, especially those related to the COVID-19 pandemic, about the main procedures that happen inside a hospital and about the daily life of BVI people.
-
-    \subsection{Interview with the hospital}
-    
-        To understand the procedures that hospitals and medical clinics followed during their day-to-day activities and the COVID-19 pandemic, two hospitals were interviewed. The interview was aimed to find out how a new patient does check-in and the following steps until he/she gets in the proper medic's office.
-        
-        At the project's start, the scenario was supposed to be a reception inside a hospital, but, because of the physical space needed to simulate that virtual environment, the scenario changed throughout the project several times.
-
-    \subsection{Interview with the BVI consultants}
-    
-        One of the motivations of this master thesis is that the current BVI guidance products are not effective enough and one of the likely reasons is that the BVI users were not consulted during the product development process.
-    
-        With that thought in mind, BVI users were consulted to design a virtual environment that would be familiar with their reality. Two users with different visual impairments were interviewed, one person that became blind at 13 years old, and another with Usher's disease. These were critical to understanding how they perceive a medical clinic as they walk in and how they interact with the environment and these notes were used in the next phase.
-
-\section{Experiment idealization's phase}
-\label{sec:idealization_phase}
-    At this phase, the proceedings and the interview notes are used to make key decisions about the virtual environment used in the experiment, which human factors are going to be assessed and which guidance methods are going to be used
-    
-
-    \subsection{Experiment's virtual world definition}
-        As said before, the original idea was to use a hospital reception as a model for the virtual environment for the experiment, however, the physical space needed to fit the hospital was too big. So instead of a whole hospital reception, it was decided to use it as a medical clinic reception but still with the same proceedings.
-
-    \subsection{Assessed human factors definition}
-	To reach the experiment's objective, a set of human factors had to be chosen. The objectives \ref{itm:obj_second} and \ref{itm:obj_third} could be reached if the assessed human factor represented the user's workload and the developed mental map. Both these could be evaluated using:
-
-        \begin{itemize}
-            \item Mental workload
-            \item Situation awareness
-        \end{itemize}
-        
-        The details about each method are explained in the sections \ref{sec:mental_workload} and \ref{sec:situation_awareness}.
-
-    \subsection{Guidance methods definition}
-        The variety of BVI users is wide, as is the variety of assistive products. All of these products must communicate with the users and they use sound, vibration or both to transmit information. With this thought in mind, it was decided that it would be used at least two methods: one that relies only on audio and another that transmits only vibration. Of course, the interaction between those two methods would be also evaluated. This interaction became the third method.
-        
-        Another interesting property that could be evaluated in those products is the effect of information being transmitted with and without the user's command. This evaluation split the vibration method into two: one that worked \textit{without} the user's command and another that worked \textit{with} the user's command.
-        
-        At the end, the following methods were chosen to be analysed:
-        
-        \begin{itemize}
-            \item A usual guidance method;
-            \item Audio guidance;
-            \item Vibration guidance without command;
-            \item Vibration guidance with command;
-            \item Mixture of audio and vibration.
-        \end{itemize}
-    
-\section{Development and creation's phase}
-\label{sec:creation_phase}
-    
-    With the decision of the previous phase it is possible to start the development of the virtual environment, the guidance methods and the tools for the assessment of the human factors.
-
-    \subsection{Virtual world creation}
-        The virtual reality application was made using the software Unity3D, which is a famous tool for virtual reality applications and game development. It has some built-in tools but is also possible to customize functions for more specific use \cite{wang2010new}. The virtual environments, or scenes (as it is called inside the Unity3D), were made with the dimensions to fit in the CCM entry hall, which has a flat area of 8x4m. Inside the environment, there was some typical furniture or devices found in hospital reception, a reception desk and a waiting area, composed of 2-3 chairs. The participant had \ref{itm:n_tasks} tasks at the scene and they are displayed at Figure \ref{fig:task_diagram}. More details ahead at Chapter \ref{ch:cenario}.
-        
-        \begin{enumerate}
-            \item Clean the hands at the sanitizer totem (COVID-19 procedures);
-            \item Go to the reception desk to receive a queue number;
-            \item Go to the waiting area and wait for the number calling;
-            \item Leave the room when called \label{itm:n_tasks}
-        \end{enumerate}
-        
-        \input{Metodologia/tasks}
-        
-        The goal of these tasks is to engage the user to navigate through the room and see if it can draw a mental map of the scene as well as use the information about the obstacles to avoid them when needed. Besides these main components, there were some minor distractions that are common to hear at a clinical, such as telephone ringing, keyboard typing, people taking and others. These were put to increase the immersion and to be a distraction as well, otherwise, it wouldn't simulate the reality of these scenarios.
-    
-    \subsection{Tools and methods definition}
-        There were three types of human factors assessment tools that were applied in the experiment:
-        \begin{itemize}
-            \item Task performance; \\  Measured using the time and the number of contacts between the user and the furniture throughout the experiment.
-            \item Physiological measures; \\ Measured using an ECG sensor, a GSR sensor and a temperature sensor.
-            \item Subjective measures. \\ Measured using a NASA-TLX, a SAGAT Adapted questionnaire and a guidance method evaluation questionnaire.
-        \end{itemize}
-        The details about each method are explained in the sections \ref{subsec:task_performance}, \ref{subsec:physiological_measures} and \ref{subsec:subjective_measures}.
-        
-    \subsection{Guidance methods development}
-        As said in the last section, three different guidance methods were established to be used in the experiment besides the White Cane, a haptic belt and a virtual cane.
-        \begin{itemize}
-            \item A audio guidance method; \\ The audio-only guidance method will be straight and simple. In the course of the experiment the participant could give two different voice commands:
-            \begin{itemize}
-                \item  "What is around me?"; \\ The answer to this command was a quick description of the closest furniture around the user.
-                \item  "Where is (something)?". \\ The answer of this command was the direction and distance of something asked by the user.
-            \end{itemize}
-            Each command was answered by a member of the experiment team accordingly.
-            
-            \item The haptic belt; \\
-            That is a belt that had appended 8 vibration devices that vibrate accordingly to the direction and distance of the closest object around the user. More information on the Haptic Belt ahead at Chapter \ref{ch:cinto}.
-            
-            \item The virtual cane. \\ 
-            This was based on the white cane mechanics, that the user "points" the cane to check near obstacles in the direction of the cane. The virtual cane has a similar function, but instead of connecting the user to the object through the cane, it vibrates when it detects an obstacle in the direction pointed by the user. A VR hand-control was used as canes and the user point it to where he/she wanted. The algorithm used on the Virtual Cane is in the Appendix \ref{ap:virtual_apend}
-        \end{itemize}
-    
-
-\section{Tryouts and tests' phase}
-\label{sec:tests_phase}
-        
-        At this phase, a few tests were performed to evaluate if the experiment was going as planned and to avoid any unfortunate events or errors during the real experiment. It was expected that changes could be needed to be made before the real experiment and there were a few. It was at this phase that the final dimension of the virtual environment and the physical space were defined.
-
-\section{Experiment}
-\label{sec:experiment}
-        
-        As the proper section name says, this phase is where the proper experiment was made.
-
-After all these phases were completed, the next step was to analyze all the data and elaborate their conclusions. Instead of going to the results and discussions, the next Chapters \ref{ch:cenario} and \ref{ch:cinto} will deepen in the virtual environment development and the haptic belt development in these order. The Figure \ref{fig:ve_re} shows a comparison between the virtual environment created in Unity3D and the real environment assembled in the CCM's entry hall.
-
-%\input{Metodologia/ve_re.tex}
-
-\begin{figure}[!htb]
+\begin{figure}[h]
+\centering
+\begin{minipage}{.45\textwidth}
     \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Metodologia/VE.png}
-        \caption{Virtual environment screenshot}
-        \label{fig:ve_photo}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Metodologia/RE.jpg}
-        \caption{Real environment photo}
-        \label{fig:re_photo}
-    \end{subfigure}
-       \caption{Environment comparisson}
-       \label{fig:ve_re}
+    \includegraphics[width = \linewidth]{Revisao/VR Cabin/Sketch.png}
+    \vspace{0.4cm}
+    \caption{Cabin sketch made with Adobe Photoshop \cite{moerland2021application}.}
+    \label{fig:cabin_sketch}
+\end{minipage}
+\hfil
+\begin{minipage}{.45\textwidth}
+    \centering
+    \includegraphics[width = \linewidth]{Revisao/VR Cabin/3D Model.png}
+    \caption{Cabin 3D model made with Rhyno \cite{moerland2021application}.}
+    \label{fig:cabin_3d_model}
+\end{minipage}
 \end{figure}
+
+The Figures \ref{fig:vr_sketch} and \ref{fig:vr_3d_model} show the same representation but made in a VR environment. The sketch was made inside the aircraft cabin and this could have been done with a client or a stakeholder and they could also draw and give their opinions from the beginning. The 3D models can be imported to increase the sketch's level of detail.
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.45\textwidth}
+    \centering
+    \includegraphics[width = \linewidth]{Revisao/VR Cabin/VR sketch.png}
+    \caption{VR navigation with sketching \cite{moerland2021application}.}
+    \label{fig:vr_sketch}
+\end{minipage}
+\hfil
+\begin{minipage}{.45\textwidth}
+    \centering
+    \includegraphics[width = \linewidth]{Revisao/VR Cabin/VR 3D Model.png}
+    \caption{VR navigation with imported 3D models \cite{moerland2021application}.}
+    \label{fig:vr_3d_model}
+\end{minipage}
+\end{figure}
+
+This case was well received by the design team and they have chosen to continue to use the VR tool. The benefits disadvantages pointed by \citeauthor{moerland2021application} are listed in the Table \ref{tab:benefits_disvantages_vr_cabin}. The VR helps to bring the clients closer to the design team, allows them to draw quick sketches in brainstorming gatherings and has a steep learning curve for the designers. On the other hand, is its a high-cost tool, the use for a long time can cause nausea and maybe other health implications, even though the learning curve is steep, there is still a learning curve and the user needs to get used to the exposure to others that can see the user from outside the virtual environment (some find this situation uncomfortable).
+
+\begin{table}[h]
+    \centering
+    \caption{The benefits and disadvantages noted by the authors \citeauthor{moerland2021application}.}
+    \label{tab:benefits_disvantages_vr_cabin}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Benefits}                         & \textbf{Disadvantages}                                  \\ \hline
+        Bottleneck at early concept design stages & High cost                                               \\ \hline
+        Quick sketchs during brainstorming        & Nausea and other health implacations                    \\ \hline
+        Steep learning curve                      & \begin{tabular}[c]{@{}l@{}}There is a learning and personal\\ adaptation to exposure\end{tabular} \\ \hline
+    \end{tabular}
+\end{table}
+
+The current master's thesis isn't about designing or aircraft cabins, but this research shows that VR is being studied to be implemented inside industries. The current research could be done by any product industry that wanted to create a test environment for their clients to increase the user's approval or to bring other teams close to reducing the full design time.
