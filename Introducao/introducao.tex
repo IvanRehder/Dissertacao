@@ -1,33 +1,39 @@
-\section{Motivation}
+%\section{Motivation}
 
 % Motivação: contextualização do problema ou da necessidade que motivou o trabalho. Essa seção deve preparar o leitor para a <Pergunta da Pesquisa>
 
-According to the World Health Organisation (WHO), there are at least 2.2 billion people with some visual impairment degree \cite{world2019world}. Hence there is a demand for assistive products in the world. This demand is driven by dissatisfaction with the current products since they are not practical, not portable, invasive or demandful to learn \cite{lozano2009electrotactile}.
+According to the World Health Organisation (WHO), there are at least 2.2 billion people with some visual impairment degree \cite{world2019world}. Among them, 43,3 million are classified as blind and 295 million have moderate or severe vision impairment. In order to be fully integrated in our society, they rely on assistive devices, such as canes, braille speakers, among others \cite{bourne2021trends}. 
 
-This difficulty to use or to learn could be avoided if concepts from human factors, or ergonomics, were analyzed during the product's development, and these could be done using the proper methods. The early application of these methods and tests could be a game-changer for the success of the product's user experience \cite{wolf2019towards}.
+Although a range of products have already been proposed, incorporating different features, they do not completely fulfil their aim. Among the problems of the solutions available in the market are the lack of practicality and portability, being invasive and requiring too much effort to learn \cite{lozano2009electrotactile}.
 
-Another tool that helps training and user efficiency is Virtual Reality (VR). VR can be used to create specific, immersive and interactive situations that could help the user to learn and train \cite{farrell2018learning} and the developers to create more efficient products.
+The difficulty to use, or learn how to use, a device could be avoided if concepts from human factors, or ergonomics, were analysed during the product’s development, using appropriate methods. The early application of these methods and tests could be a game-changer for the success of the product's user experience \cite{wolf2019towards}.
 
-Another strategy to improve the user experience is to bring the user closer to the development team {\textit{\large Adicionar mais coisa}}.
+Motivated by the dissatisfaction of blind people with the current available products, this dissertation starts from the hypothesis that a human-factors centred design of assistive devices for blind and visually impaired people (BVIs) requires the involvement of VIPs in the design process, in order to evaluate the product under design. The user has to experience the product under development in order to provide feedback to the design team on which to improve the product.
 
-At the beginning of February 2022, about 400 million people had been diagnosed with COVID-19 around the world \cite{ourworldindata_cases}. Purposing to try to slow the rate at which the virus spread, WHO recommended strategies like wearing face masks, washing hands regularly, social distancing, avoiding touching surfaces and staying at home \cite{who_2020}.
+In order to approach this problem, this work proposes the use of Virtual Reality (VR) as a tool for creating virtual environments where proof of concepts or prototypes of assistive devices could be easily tested by BVIs. VR can be used to create specific, immersive and interactive situations that could help the user to learn and train \cite{farrell2018learning}, as well as the developers to create more user-friendly products. 
 
-Besides not having a desirable or easily adaptable guidance method, now BVI users' must avoid touching surfaces, an action that they depend on to perceive the environment, and keep distance from other people, a task that, besides being difficult to maintain, a BVI user is not used to since he/she depends on others to do their daily activities, like to cross the street \cite{jondani2021strategies}.
+In a virtual environment, as long as the BVI is wearing a locating system, he/she can navigate through the environment. Any information about the scenario where the person is, such as the position of devices and their distances to the person, is known and could be extracted from the virtual platform. As a consequence, before actually implementing a prototype of the assistive device, the designer can test different ways of translating this information into inputs, providing a flexible, safe and easy way to having it evaluated by different users.
+
+At the beginning of February 2022, about 400 million people had been diagnosed with COVID-19 around the world \cite{ourworldindata_cases}. Purposing to try to slow the rate at which the virus spread, WHO recommended strategies like wearing face masks, washing hands regularly, social distancing, avoiding touching surfaces and staying at home .
+
+As a second motivation, this dissertation considers the COVID-19 pandemic scenario that dominated the world scene during the last two years. In order to try to slow the rate at which the virus spread, WHO recommended strategies such as wearing face masks, washing hands regularly, social distancing, and avoiding touching surfaces that have not been disinfected \cite{who_2020}. Particularly for BVI people, these recommendations bring additional difficulties as the touch is one of the senses they rely on to compensate for the visual impairment. %Social distance is also a challenge as they are not able to determine when another person is approaching the separation limits recommend by health agencies (ref??). 
+The BVI depends on others to do their daily activities \cite{jondani2021strategies}.
 
 \section{Objectives}
+\label{sec:objetivos}
 
  % Objetivo geral: é a proposta, contribuição ou a entrega que endereça a solução da pergunta da pesquisa
 
- The objectives of this master's thesis are to assess BVI users' using different guidance methods inside a Virtual Environment (VE) and to verify if non-BVI users have the same mental demand and situation awareness as BVI users when using assistive products to improve the development of new assistive solutions for BVI users.
+ This dissertation proposes the use of virtual reality as a tool for evaluating proofs of concept of assistive devices for blind and visual impaired people from a human-factors perspective. The purpose is to provide a flexible and easily configured way of testing different concepts of assistive devices in order to support an agile and user-centred development. 
 
  % Objetivos específicos: para a consecução do objetivo geral, foram identificados os seguintes objetivos específicos
  
- To reach this goal, the following questions must be answered:
- \begin{enumerate}
-     \item Do BVI users feel present in the VE as if they were in the real world? \label{itm:obj_first}
-     \item BVI users rely on audio cues and haptic feedback to guide. But does it rely more on one type of information than the other? \label{itm:obj_second}
-     \item Do non-BVI users have the same demands and skills as BVI users when designing assistive products? \label{itm:obj_third}
- \end{enumerate}
+ In order to achieve the aforementioned goal, the following research questions are investigated in this work:
+
+ \begin{itemize}
+     \item Is it possible to evaluate and compare concepts of assistive device from a human factors’ perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment? \label{itm:obj_first}
+     \item Do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users? \label{itm:obj_second}
+ \end{itemize}
  
  %\section{Reason}
  
@@ -39,142 +45,121 @@ Besides not having a desirable or easily adaptable guidance method, now BVI user
 
 %Recursos e métodos: para cada um dos objetivos específicos, foram definidos os seguintes recursos e métodos (...). Você tem que justificar que os objetivos específicos são factíveis
 
-To answer all the questions and reach the goal mentioned above, the following resources were allocated:
+This work adopts an experimental approach in order to evaluate the proposal of this dissertation and investigate the questions stated in Section \ref{sec:objetivos}. 
+The work is organized in the following steps, illustrated in Figure \ref{fig:steps_work}:
 
-\begin{itemize}
-    \item To answer about the feeling of presence from BVI users in VE:
-    \begin{itemize}
-        \item HTC VIVE VR Head Mounted Device (HMD), as show in Figure \ref{fig:htc_vive};
-        \item A guidance method evaluation questionnaires (See Appendix  \ref{sec:guidace_evaluation}) .
-    \end{itemize}
-    \item To answer if BVI users rely more on one type of information than the other and if non-BVI users can undergo the same situations as BVI users when using assistive products:
-    \begin{itemize}
-        \item Mental workload assessment, using:
-            \begin{itemize}
-                \item Physiological sensors (as show in Figure \ref{fig:sensores});
-                \item NASA-TLX questionnaire (See Appendix  \ref{sec:nasa_tlx}).
-            \end{itemize}
-            \item Situation awareness assessment, using:
-            \begin{itemize}
-                \item SAGAT questionnaire (Adapted for this experiment. See Appendix \ref{sec:sagat}).
-            \end{itemize}
-    \end{itemize}
-\end{itemize}
+\begin{enumerate}[label = Step \arabic* -- ]
+    \item Literature review 
+    
+    It is composed of two parts. The first one is to review the fundamental concepts related to the topics covered in this work: human factors and virtual reality. The second part aims at contextualizing the dissertation’s proposal. It reviews recent published works on development and evaluation of assistive devices for BVI people.
+    
+    \item Specification of examples of virtual environment and assistive devices
 
-\begin{figure}[!htb]
-    \begin{minipage}{.45\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]{Introducao/VIVE.png}
-        \vspace{1.2cm}
-        \caption{VIVE HTC TOBII Virtual Reality Headset.}
-        \label{fig:htc_vive}
-    \end{minipage}
-    \begin{minipage}{.1\linewidth}
-        \hfill
-    \end{minipage}
-    \begin{minipage}{.45\linewidth}
-        \centering
-        \includegraphics[width=\linewidth]{Introducao/sensores.png}
-        \caption{Captive T-Sens sensors.}
-        \label{fig:sensores}
-    \end{minipage}
-\end{figure}
+    This step consists of specifying one example of virtual environment and a few examples of assistive device in order to test the proposed approach of using virtual reality for evaluating purposes. Considering the aforementioned motivation related to the covid-19 pandemic, the chosen virtual environment is the reception of a health clinic. The assistive devices used as examples are: audio system, haptic belt and virtual cane, which could be used as stand-alone devices or combined among them.
+    
+    \item Development of the specified virtual environment
+    
+    The virtual environment of a health clinic reception is developed in the Unit3D environment. The HTC VIVE VR Head Mounted Device (HMD) is used as localizing system to define the position of the user in the virtual environment.
+    
+    \item Development of proofs of concept of the specified assistive devices
+    
+    The three examples of devices are developed using the following equipment:
+    \begin{enumerate}[label = \alph*)]
+        \item HTC VIVE VR controller;
+        \item ESP32 microcontroller;
+        \item 8 vibrating motors 1027;
+        \item 3D printer Sethi3D S3.
+    \end{enumerate}
+    
+    \item Design and execution of the experiment
+    
+    The proposed experiment is based on the best practices and principles of Design of Experiment (DoE) discipline.
+    The following techniques and tools are used for evaluating human factors:
+    \begin{enumerate}[label = \alph*)]
+        \item User's nedded time to complete each scene;
+        \item Questionnaires adapted from the literature, such as NASA-TLX and SAGAT, or proposed specifically for this work;
+        \item Physiological sensors, such as GSR and ECG, to capture the body response.
+    \end{enumerate}
+    
+    \item Analysis of results
+    
+    Eight different features were analysed:
+
+    \begin{enumerate}[label = \alph*)]
+        \item Time;
+        \item Mental Demand;
+        \item Mental Workload;
+        \item Sagat score;
+        \item Guidance method evaluation questionnaire score;
+        \item Heartbeat frequency;
+        \item Heart interbeat standard deviation;
+        \item Skin conductance.
+    \end{enumerate}
+    
+    All these features were graphically and statistically analyzed. In the statistical analysis, the features were verified for normality distribution, then pairwise compared using a Student's T-Test, then their variance inside the group was verified using an ANOVA and finally, when needed, a Fisher's Least Squared Difference Test was done to pairwisely verify similarities
+
+\end{enumerate}
+
+\input{Introducao/steps_work.tex}
+\FloatBarrier
+
+%\begin{itemize}
+%    \item To answer about the feeling of presence from BVI users in VE:
+%    \begin{itemize}
+%        \item HTC VIVE VR Head Mounted Device (HMD), as show in Figure \ref{fig:htc_vive};
+%        \item A guidance method evaluation questionnaires (See Appendix  \ref{sec:guidace_evaluation}) .
+%    \end{itemize}
+%    \item To answer if BVI users rely more on one type of information than the other and if non-BVI users can undergo the same situations as BVI users when using assistive products:
+%    \begin{itemize}
+%        \item Mental workload assessment, using:
+%            \begin{itemize}
+%                \item Physiological sensors (as show in Figure \ref{fig:sensores});
+%                \item NASA-TLX questionnaire (See Appendix  \ref{sec:nasa_tlx}).
+%            \end{itemize}
+%            \item Situation awareness assessment, using:
+%            \begin{itemize}
+%                \item SAGAT questionnaire (Adapted for this experiment. See Appendix \ref{sec:sagat}).
+%            \end{itemize}
+%    \end{itemize}
+%\end{itemize}
+%
+%\begin{figure}[!htb]
+%    \begin{minipage}{.45\linewidth}
+%        \centering
+%        \includegraphics[width=\linewidth]{Introducao/VIVE.png}
+%        \vspace{1.2cm}
+%        \caption{VIVE HTC TOBII Virtual Reality Headset.}
+%        \label{fig:htc_vive}
+%    \end{minipage}
+%    \begin{minipage}{.1\linewidth}
+%        \hfill
+%    \end{minipage}
+%    \begin{minipage}{.45\linewidth}
+%        \centering
+%        \includegraphics[width=\linewidth]{Introducao/sensores.png}
+%        \caption{Captive T-Sens sensors.}
+%        \label{fig:sensores}
+%    \end{minipage}
+%\end{figure}
 
 \section{Research boundaries}
 
 % Delimitação da pesquisa: é o recorte do seu trabalho
 
-This experiment is not testing the usability of the guidance tools developed for it. These tools are only used here to help users and researchers compare the different feelings provoked by the information transmitted by it.
+The concepts of assistive devices presented as part of this work are used only as examples for investigating the research questions presented in Section \ref{sec:objetivos}. The challenges related to their full development up to high Technology Readiness Levels (TRLs) are out of the scope of this work, as well as their feasibility as commercial products are out of the scope of this work.
 
 % Estrutura do texto
 
-\section{Structure}
+\section{Structure of the text}
 
-This master's thesis is organized in 8 different chapters and they the following:
+This dissertation is organized in seven additional chapters as follows.
 
-\begin{itemize}
-    \item {\large\textbf{{~\nameref{ch:introducao}}}}
-        
-        It's the current chapter of this master's thesis
-    
-    \item {\large\textbf{{~\nameref{ch:fundamentacao}}}}
-    
-        This chapter explores the mains concepts that are needed to fully understand this experiment. These concepts are:
-        
-        \begin{itemize}
-            \item {~\nameref{sec:human_factors}};
-            \item {~\nameref{sec:mental_workload}};
-            \item {~\nameref{subsec:task_performance}};
-            \item {~\nameref{subsec:physiological_measures}};
-            \item {~\nameref{subsec:subjective_measures}}.
-            \item {~\nameref{sec:situation_awareness}};
-            \item {~\nameref{sec:extended_reality}};
-            \item {~\nameref{subsec:virtual_reality}};
-            \item {~\nameref{sec:co_design}}.
-            
-        \end{itemize}
-    
-    \item {\large\textbf{{~\nameref{ch:revisao}}}}
-    
-        During this chapter, related articles, i.e articles that involve applications of:
-        \begin{itemize}
-            \item VR;
-            \item BVI users;
-            \item Human factors.
-        \end{itemize}
-        All these articles have some relevance to the current experiment.
-    
-    \item {\large\textbf{{~\nameref{ch:metodologia}}}}
-    
-        Within this chapter, the method used to reach the goals presented above will be explained.
-    
-    \item {\large\textbf{{~\nameref{ch:cenario}}}}
-        
-        This chapter is dedicated to explaining the steps that were taken to design the scene used during the experiment
-        
-    \item {\large\textbf{{~\nameref{ch:cinto}}}}
-        
-        In this chapter, the process of coding and assembly of the haptic belt is explained.
-        
-    \item {\large\textbf{{~\nameref{ch:resultados}}}}
-    
-        One of the main chapters of this work. Here are presented and discussed all the gathered results and data
-    
-    \item {\large\textbf{{~\nameref{ch:conclusao}}}}
-    
-        Finally, which goals were reached and which were not and why they were not.
-    
-\end{itemize}
+Chapter \ref{ch:fundamentacao} introduce the concepts and techniques that are used in this work. It starts with a review on human factors, with emphasis on mental workload and situational awareness, and introduces some human factors’ evaluation tools and techniques. Then, it presents the definitions of Virtual Reality (VR) and Extended Reality (XR) and, to conclude, discusses the concept of co-design.
 
+Chapter \ref{ch:revisao} is dedicated to the state of art. It brings a review of literature and discusses published research works that are related to this dissertation. It covers the proposal and evaluation of BVI devices with emphasis on the analysis of human factors or virtual reality.
 
-%\subsection{~\nameref{ch:introducao}}
-%
-%%\emph{O capítulo 1 contém a introdução do trabalho, onde são expostos o objetivo, a motivação do %mesmo, a descrição do sistema e a formulação do problema com a nomenclatura utilizada; além de uma %revisão bibliográfica da literatura relacionada ao tema do trabalho.}
-%
-%\subsection{~\nameref{ch:revisao}}
-%
-%%\emph{No capítulo 2 apresentamos a modelagem dinâmica de um manipulador subatuado e o conceito de %índice de acoplamento para medir o acoplamento dinâmico entre as juntas ativas e passivas. Este %índice é utilizado para a análise e projeto de uma metodologia de controle subótimo do %manipulador.}
-%
-%In this chapter 
-%
-%
-%\subsection{~\nameref{ch:fundamentacao}}
-%
-%\subsection{~\nameref{ch:metodologia}}
-%
-%\emph{O capítulo 3 apresenta o controle subótimo de manipuladores através de redundância de %atuação. Descreve-se a técnica de controle ponto a ponto de manipuladores subatuados. A seguir %mostramos  a linearização destes por realimentação, cujo efeito é linearizar e desacoplar o sistema %não linear. Finalmente é proposta uma sequência de controle subótimo local das juntas passivas %visando a minimização de certos critérios como torque, velocidade e em particular a energia %consumida pelo sistema. Este é de fato o tema principal deste mestrado.}
-%
-%
-%\subsection{~\nameref{ch:cenario}}
-%
-%\subsection{~\nameref{ch:cinto}}
-%
-%\subsection{~\nameref{ch:resultados}}
-%
-%\emph{É também apresentado no capítulo 4 um resumo do projeto de controladores  $H_{2}$ e %$H_{\infty}$, cuja principal vantagem é a robustez na presença de incertezas paramétricas e %distúrbios externos.}
-%
-%\subsection{~\nameref{ch:conclusao}}
-%
-%\emph{No capítulo 5 são apresentadas as conclusões do trabalho.}
-%
-%
+Chapter \ref{ch:metodologia} details the proposal of this dissertation describing how virtual reality could be used to integrate BVI users into the design process of assistive design. 
+
+In order to illustrate the application of the proposed approach, the development of a virtual environment is described in Chapter \ref{ch:cenario}. It uses as an example the case of the reception of a health clinic. Following, Chapter \ref{ch:cinto} presents the development of three different solutions as examples of assistive devices: audio guide, virtual cane and haptic belt.
+
+Chapter \ref{ch:doe} describes the experiment designed to evaluate the dissertation’s proposal and investigate the research questions of Section \ref{sec:objetivos}. Chapter \ref{ch:resultados} analysis the results of the experiment. Finally, Chapter \ref{ch:conclusao} summarizes the main conclusions of this work and discusses future work.

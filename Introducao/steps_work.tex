@@ -1,0 +1,36 @@
+\begin{figure}[!htb]
+    \centering
+    %\tikzstyle{every node}=[font=\large]
+
+    \tikzstyle{start} = [rectangle, rounded corners, minimum width=3cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
+    \tikzstyle{steps} = [rectangle, minimum width=3cm, minimum height=1.0cm, text centered, draw=black, fill=white!30, text width=3cm]
+    
+    \tikzstyle{arrow} = [ccmDBlue, rounded corners, line width = 1mm, ->]
+    
+    \begin{tikzpicture}[node distance=2.5cm]
+        \centering
+        \node (start) [start] {Dissertation};
+
+        \node (review) [steps, below of=start] {Literature Review};
+        \draw [arrow] (start) to node[midway,right]{} (review);
+
+        \node (examples) [steps, below of=review] {Examples specification};
+        \draw [arrow] (review) to node[midway,right]{} (examples);
+        
+        \node (ve) [steps, below of=examples, left of = examples] {VE Development};
+        \draw [arrow] (examples) to ++(0,-1.25cm) to ++(-2.5cm,0) to node[midway,right]{} (ve.north);
+        
+        \node (devices) [steps, below of=examples, right of = examples] {Devices development};
+        \draw [arrow] (examples) to ++(0,-1.25cm) to ++(2.5cm,0) to node[midway,right]{} (devices.north);
+
+        \node (experiment) [steps, below of=devices, left of = devices] {Experiment};
+        \draw [arrow] (ve) to ++(0,-1.25cm) to ++(2.5cm,0) to node[midway,right]{} (experiment.north);
+        \draw [arrow] (devices) to ++(0,-1.25cm) to ++(-2.5cm,0) to node[midway,right]{} (experiment.north);
+
+        \node (analysis) [steps, below of=experiment] {Analysis of results};
+        \draw [arrow] (experiment) to node[midway,right]{} (analysis);
+    \end{tikzpicture}
+        \centering
+        \caption{Steps of this work}
+        \label{fig:steps_work}
+\end{figure}
