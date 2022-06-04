@@ -1,0 +1,355 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Borghini \textit{et al.} 2014]{borghini2014measuring}
+\abntrefinfo{Borghini \textit{et al.}}{BORGHINI \textit{et al.}}{2014}
+{BORGHINI, G.; ASTOLFI, L.; VECCHIATO, G.; MATTIA, D.; BABILONI, F. Measuring
+  neurophysiological signals in aircraft pilots and car drivers for the
+  assessment of mental workload, fatigue and drowsiness.
+\textbf{Neuroscience \& Biobehavioral Reviews}, Elsevier, v.~44, p. 58--75,
+  2014.}
+
+\bibitem[Bourne \textit{et al.} 2021]{bourne2021trends}
+\abntrefinfo{Bourne \textit{et al.}}{BOURNE \textit{et al.}}{2021}
+{BOURNE, R.; STEINMETZ, J.~D.; FLAXMAN, S.; BRIANT, P.~S.; TAYLOR, H.~R.;
+  RESNIKOFF, S.; CASSON, R.~J.; ABDOLI, A.; ABU-GHARBIEH, E.; AFSHIN, A.
+  \textit{et al.} Trends in prevalence of blindness and distance and near
+  vision impairment over 30 years: an analysis for the global burden of disease
+  study.
+\textbf{The Lancet global health}, Elsevier, v.~9, n.~2, p. e130--e143, 2021.}
+
+\bibitem[Bradley e Dunlop 2002]{bradley2002investigating}
+\abntrefinfo{Bradley e Dunlop}{BRADLEY; DUNLOP}{2002}
+{BRADLEY, N.~A.; DUNLOP, M.~D. Investigating context-aware clues to assist
+  navigation for visually impaired people. In:  \textbf{Proceedings of Workshop
+  on Building Bridges: Interdisciplinary Context-Sensitive Computing,
+  University of Glasgow}. [S.l.: s.n.], 2002.}
+
+\bibitem[Bradley e Dunlop 2005]{bradley2005experimental}
+\abntrefinfo{Bradley e Dunlop}{BRADLEY; DUNLOP}{2005}
+{BRADLEY, N.~A.; DUNLOP, M.~D. An experimental investigation into wayfinding
+  directions for visually impaired people.
+\textbf{Personal and Ubiquitous Computing}, Springer, v.~9, n.~6, p. 395--403,
+  2005.}
+
+\bibitem[Cain 2007]{cain2007review}
+\abntrefinfo{Cain}{CAIN}{2007}
+{CAIN, B. A review of the mental workload literature.
+Defence research and development Toronto (Canada), 2007.}
+
+\bibitem[CARDOSO e GONTIJO 2012]{cardoso2012evaluation}
+\abntrefinfo{CARDOSO e GONTIJO}{CARDOSO; GONTIJO}{2012}
+{CARDOSO, M. d.~S.; GONTIJO, L.~A. Evaluation of mental workload and
+  performance measurement: Nasa tlx and swat.
+\textbf{Gest{\~a}o \&, Produ{\c{c}}{\~a}o}, v.~19, p. 873--884, 2012.}
+
+\bibitem[Chakladar \textit{et al.} 2020]{chakladar2020eeg}
+\abntrefinfo{Chakladar \textit{et al.}}{CHAKLADAR \textit{et al.}}{2020}
+{CHAKLADAR, D.~D.; DEY, S.; ROY, P.~P.; DOGRA, D.~P. Eeg-based mental workload
+  estimation using deep blstm-lstm network and evolutionary algorithm.
+\textbf{Biomedical Signal Processing and Control}, Elsevier, v.~60, p. 101989,
+  2020.}
+
+\bibitem[Chiu 2002]{chiu2002organizational}
+\abntrefinfo{Chiu}{CHIU}{2002}
+{CHIU, M.-L. An organizational view of design communication in design
+  collaboration.
+\textbf{Design studies}, Elsevier, v.~23, n.~2, p. 187--210, 2002.}
+
+\bibitem[Cummings e Bailenson 2016]{cummings2016immersive}
+\abntrefinfo{Cummings e Bailenson}{CUMMINGS; BAILENSON}{2016}
+{CUMMINGS, J.~J.; BAILENSON, J.~N. How immersive is enough? a meta-analysis of
+  the effect of immersive technology on user presence.
+\textbf{Media psychology}, Taylor \& Francis, v.~19, n.~2, p. 272--309, 2016.}
+
+\bibitem[Doolani \textit{et al.} 2020]{doolani2020review}
+\abntrefinfo{Doolani \textit{et al.}}{DOOLANI \textit{et al.}}{2020}
+{DOOLANI, S.; WESSELS, C.; KANAL, V.; SEVASTOPOULOS, C.; JAISWAL, A.;
+  NAMBIAPPAN, H.; MAKEDON, F. A review of extended reality (xr) technologies
+  for manufacturing training.
+\textbf{Technologies}, Multidisciplinary Digital Publishing Institute, v.~8,
+  n.~4, p.~77, 2020.}
+
+\bibitem[Dul e Weerdmeester 2003]{dul2003ergonomics}
+\abntrefinfo{Dul e Weerdmeester}{DUL; WEERDMEESTER}{2003}
+{DUL, J.; WEERDMEESTER, B. \textbf{Ergonomics for beginners: a quick reference
+  guide}. [S.l.]: CRC press, 2003.}
+
+\bibitem[Easy EDA]{easyeda}
+\abntrefinfo{Easy\ldots}{EASY\ldots}{}
+{EASY EDA.
+Dispon{\'\i}vel em: \url{https://easyeda.com/}.}
+
+\bibitem[Endsley 1988]{endsley1988design}
+\abntrefinfo{Endsley}{ENDSLEY}{1988a}
+{ENDSLEY, M.~R. Design and evaluation for situation awareness enhancement. In:
+  SAGE PUBLICATIONS SAGE CA: LOS ANGELES, CA. \textbf{Proceedings of the Human
+  Factors Society annual meeting}. [S.l.], 1988. v.~32, n.~2, p. 97--101.}
+
+\bibitem[Endsley 1988]{endsley1988situation}
+\abntrefinfo{Endsley}{ENDSLEY}{1988b}
+{ENDSLEY, M.~R. Situation awareness global assessment technique ({SAGAT}). In:
+  IEEE. \textbf{Proceedings of the IEEE 1988 national aerospace and electronics
+  conference}. [S.l.], 1988. p. 789--795.}
+
+\bibitem[Endsley 1995]{endsley1995measurement}
+\abntrefinfo{Endsley}{ENDSLEY}{1995}
+{ENDSLEY, M.~R. Measurement of situation awareness in dynamic systems.
+\textbf{Human factors}, SAGE Publications Sage CA: Los Angeles, CA, v.~37,
+  n.~1, p. 65--84, 1995.}
+
+\bibitem[Endsley 2018]{endsley2018automation}
+\abntrefinfo{Endsley}{ENDSLEY}{2018}
+{ENDSLEY, M.~R. Automation and situation awareness. In:  \textbf{Automation and
+  human performance: Theory and applications}. [S.l.]: CRC Press, 2018. p.
+  163--181.}
+
+\bibitem[Fallahi \textit{et al.} 2016]{fallahi2016effects}
+\abntrefinfo{Fallahi \textit{et al.}}{FALLAHI \textit{et al.}}{2016}
+{FALLAHI, M.; MOTAMEDZADE, M.; HEIDARIMOGHADAM, R.; SOLTANIAN, A.~R.; MIYAKE,
+  S. Effects of mental workload on physiological and subjective responses
+  during traffic density monitoring: A field study.
+\textbf{Applied ergonomics}, Elsevier, v.~52, p. 95--103, 2016.}
+
+\bibitem[Farrell 2018]{farrell2018learning}
+\abntrefinfo{Farrell}{FARRELL}{2018}
+{FARRELL, W.~A. Learning becomes doing: Applying augmented and virtual reality
+  to improve performance.
+\textbf{Performance Improvement}, Wiley Online Library, v.~57, n.~4, p. 19--28,
+  2018.}
+
+\bibitem[Farrer e Frith 2002]{farrer2002experiencing}
+\abntrefinfo{Farrer e Frith}{FARRER; FRITH}{2002}
+{FARRER, C.; FRITH, C.~D. Experiencing oneself vs another person as being the
+  cause of an action: the neural correlates of the experience of agency.
+\textbf{Neuroimage}, Elsevier, v.~15, n.~3, p. 596--603, 2002.}
+
+\bibitem[Farshid \textit{et al.} 2018]{farshid2018go}
+\abntrefinfo{Farshid \textit{et al.}}{FARSHID \textit{et al.}}{2018}
+{FARSHID, M.; PASCHEN, J.; ERIKSSON, T.; KIETZMANN, J. Go boldly!: Explore
+  augmented reality (ar), virtual reality (vr), and mixed reality (mr) for
+  business.
+\textbf{Business Horizons}, Elsevier, v.~61, n.~5, p. 657--663, 2018.}
+
+\bibitem[Hart e Staveland 1988]{hart1988development}
+\abntrefinfo{Hart e Staveland}{HART; STAVELAND}{1988}
+{HART, S.~G.; STAVELAND, L.~E. Development of nasa-tlx (task load index):
+  Results of empirical and theoretical research. In:  \textbf{Advances in
+  psychology}. [S.l.]: Elsevier, 1988. v.~52, p. 139--183.}
+
+\bibitem[Jicol \textit{et al.} 2021]{jicol2021effects}
+\abntrefinfo{Jicol \textit{et al.}}{JICOL \textit{et al.}}{2021}
+{JICOL, C.; WAN, C.~H.; DOLING, B.; ILLINGWORTH, C.~H.; YOON, J.; HEADEY, C.;
+  LUTTEROTH, C.; PROULX, M.~J.; PETRINI, K.; O'NEILL, E. Effects of emotion and
+  agency on presence in virtual reality. In:  \textbf{Proceedings of the 2021
+  CHI Conference on Human Factors in Computing Systems}. [S.l.: s.n.], 2021. p.
+  1--13.}
+
+\bibitem[Jondani 2021]{jondani2021strategies}
+\abntrefinfo{Jondani}{JONDANI}{2021}
+{JONDANI, J.~A. Strategies for addressing the special needs of people with
+  visual impairments during the covid-19 pandemic.
+\textbf{Journal of Visual Impairment \& Blindness}, SAGE Publications Sage CA:
+  Los Angeles, CA, v.~115, n.~3, p. 263--267, 2021.}
+
+\bibitem[Kahn 1996]{kahn1996interdepartmental}
+\abntrefinfo{Kahn}{KAHN}{1996}
+{KAHN, K.~B. Interdepartmental integration: a definition with implications for
+  product development performance.
+\textbf{Journal of product innovation management}, Elsevier, v.~13, n.~2, p.
+  137--151, 1996.}
+
+\bibitem[Karwowski 2012]{karwowski2012discipline}
+\abntrefinfo{Karwowski}{KARWOWSKI}{2012}
+{KARWOWSKI, W. The discipline of human factors and ergonomics.
+\textbf{Handbook of human factors and ergonomics}, Citeseer, v.~4, p. 3--37,
+  2012.}
+
+\bibitem[Kleinsmann 2006]{kleinsmann2006understanding}
+\abntrefinfo{Kleinsmann}{KLEINSMANN}{2006}
+{KLEINSMANN, M.~S. Understanding collaborative design.
+2006.}
+
+\bibitem[kylecorry31 2020]{kylecorry31_instructables_2020}
+\abntrefinfo{kylecorry31}{KYLECORRY31}{2020}
+{KYLECORRY31. \textbf{Haptic compass belt}. 2020.
+Dispon{\'\i}vel em: \url{https://www.instructables.com/Haptic-Compass-Belt/}.}
+
+\bibitem[Lozano \textit{et al.} 2009]{lozano2009electrotactile}
+\abntrefinfo{Lozano \textit{et al.}}{LOZANO \textit{et al.}}{2009}
+{LOZANO, C.~A.; KACZMAREK, K.~A.; SANTELLO, M. Electrotactile stimulation on
+  the tongue: Intensity perception, discrimination, and cross-modality
+  estimation.
+\textbf{Somatosensory \& motor research}, Taylor \& Francis, v.~26, n.~2-3, p.
+  50--63, 2009.}
+
+\bibitem[Ma e Choi 2007]{ma2007virtuality}
+\abntrefinfo{Ma e Choi}{MA; CHOI}{2007}
+{MA, J.~Y.; CHOI, J.~S. The virtuality and reality of augmented reality.
+\textbf{J. Multim.}, Citeseer, v.~2, n.~1, p. 32--37, 2007.}
+
+\bibitem[Mansikka \textit{et al.} 2016]{mansikka2016fighter}
+\abntrefinfo{Mansikka \textit{et al.}}{MANSIKKA \textit{et al.}}{2016}
+{MANSIKKA, H.; SIMOLA, P.; VIRTANEN, K.; HARRIS, D.; OKSAMA, L. Fighter
+  pilots’ heart rate, heart rate variation and performance during instrument
+  approaches.
+\textbf{Ergonomics}, Taylor \& Francis, v.~59, n.~10, p. 1344--1352, 2016.}
+
+\bibitem[Marston \textit{et al.} 2006]{marston2006evaluation}
+\abntrefinfo{Marston \textit{et al.}}{MARSTON \textit{et al.}}{2006}
+{MARSTON, J.~R.; LOOMIS, J.~M.; KLATZKY, R.~L.; GOLLEDGE, R.~G.; SMITH, E.~L.
+  Evaluation of spatial displays for navigation without sight.
+\textbf{ACM Transactions on Applied Perception (TAP)}, ACM New York, NY, USA,
+  v.~3, n.~2, p. 110--124, 2006.}
+
+\bibitem[Milgram e Kishino 1994]{milgram1994taxonomy}
+\abntrefinfo{Milgram e Kishino}{MILGRAM; KISHINO}{1994}
+{MILGRAM, P.; KISHINO, F. A taxonomy of mixed reality visual displays.
+\textbf{IEICE TRANSACTIONS on Information and Systems}, The Institute of
+  Electronics, Information and Communication Engineers, v.~77, n.~12, p.
+  1321--1329, 1994.}
+
+\bibitem[Moerland-Masic \textit{et al.} 2021]{moerland2021application}
+\abntrefinfo{Moerland-Masic \textit{et al.}}{MOERLAND-MASIC \textit{et
+  al.}}{2021}
+{MOERLAND-MASIC, I.; REIMER, F.; BOCK, T.~M.; MELLER, F.; NAGEL, B. Application
+  of vr technology in the aircraft cabin design process.
+\textbf{CEAS Aeronautical Journal}, Springer, p. 1--10, 2021.}
+
+\bibitem[Mohanavelu \textit{et al.} 2020]{mohanavelu2020cognitive}
+\abntrefinfo{Mohanavelu \textit{et al.}}{MOHANAVELU \textit{et al.}}{2020}
+{MOHANAVELU, K.; POONGUZHALI, S.; RAVI, D.; SINGH, P.~K.; MAHAJABIN, M.;
+  RAMACHANDRAN, K.; SINGH, U.~K.; JAYARAMAN, S. Cognitive workload analysis of
+  fighter aircraft pilots in flight simulator environment.
+\textbf{Defence Science Journal}, v.~70, n.~2, 2020.}
+
+\bibitem[Mujber \textit{et al.} 2004]{mujber2004virtual}
+\abntrefinfo{Mujber \textit{et al.}}{MUJBER \textit{et al.}}{2004}
+{MUJBER, T.~S.; SZECSI, T.; HASHMI, M.~S. Virtual reality applications in
+  manufacturing process simulation.
+\textbf{Journal of materials processing technology}, Elsevier, v.~155, p.
+  1834--1838, 2004.}
+
+\bibitem[Nijholt e Traum 2005]{nijholt2005virtuality}
+\abntrefinfo{Nijholt e Traum}{NIJHOLT; TRAUM}{2005}
+{NIJHOLT, A.; TRAUM, D. The virtuality continuum revisited. In:  \textbf{CHI'05
+  Extended Abstracts on Human Factors in Computing Systems}. [S.l.: s.n.],
+  2005. p. 2132--2133.}
+
+\bibitem[Nourbakhsh \textit{et al.} 2012]{nourbakhsh2012using}
+\abntrefinfo{Nourbakhsh \textit{et al.}}{NOURBAKHSH \textit{et al.}}{2012}
+{NOURBAKHSH, N.; WANG, Y.; CHEN, F.; CALVO, R.~A. Using galvanic skin response
+  for cognitive load measurement in arithmetic and reading tasks. In:
+  \textbf{Proceedings of the 24th Australian Computer-Human Interaction
+  Conference}. [S.l.: s.n.], 2012. p. 420--423.}
+
+\bibitem[Orlandi e Brooks 2018]{orlandi2018measuring}
+\abntrefinfo{Orlandi e Brooks}{ORLANDI; BROOKS}{2018}
+{ORLANDI, L.; BROOKS, B. Measuring mental workload and physiological reactions
+  in marine pilots: Building bridges towards redlines of performance.
+\textbf{Applied ergonomics}, Elsevier, v.~69, p. 74--92, 2018.}
+
+\bibitem[Ritchie \textit{et al.} 2020]{ourworldindata_cases}
+\abntrefinfo{Ritchie \textit{et al.}}{RITCHIE \textit{et al.}}{2020}
+{RITCHIE, H.; MATHIEU, E.; RODéS-GUIRAO, L.; APPEL, C.; GIATTINO, C.;
+  ORTIZ-OSPINA, E.; HASELL, J.; MACDONALD, B.; DATTANI, S.; ROSER, M.
+  \textbf{Coronavirus (COVID-19) cases}. 2020.
+Dispon{\'\i}vel em: \url{https://ourworldindata.org/covid-cases}. Acesso em: 8
+  fev. 2022.}
+
+\bibitem[Rodr{\'\i}guez \textit{et al.} 2015]{rodriguez2015pupillometry}
+\abntrefinfo{Rodr{\'\i}guez \textit{et al.}}{RODR{\'I}GUEZ \textit{et
+  al.}}{2015}
+{RODR{\'I}GUEZ, S.; S{\'A}NCHEZ, L.; L{\'O}PEZ, P.; CA{\~N}AS, J.~J.
+  Pupillometry to assess air traffic controller workload through the mental
+  workload model. In:  \textbf{Proceedings of the 5th international conference
+  on application and theory of automation in command and control systems}.
+  [S.l.: s.n.], 2015. p. 95--104.}
+
+\bibitem[Salah \textit{et al.} 2019]{salah2019virtual}
+\abntrefinfo{Salah \textit{et al.}}{SALAH \textit{et al.}}{2019}
+{SALAH, B.; ABIDI, M.~H.; MIAN, S.~H.; KRID, M.; ALKHALEFAH, H.; ABDO, A.
+  Virtual reality-based engineering education to enhance manufacturing
+  sustainability in industry 4.0.
+\textbf{Sustainability}, Multidisciplinary Digital Publishing Institute, v.~11,
+  n.~5, p.~1477, 2019.}
+
+\bibitem[Sanders e McCormick 1998]{sanders1998human}
+\abntrefinfo{Sanders e McCormick}{SANDERS; MCCORMICK}{1998}
+{SANDERS, M.~S.; MCCORMICK, E.~J. Human factors in engineering and design.
+\textbf{Industrial Robot: An International Journal}, Emerald Group Publishing
+  Limited, 1998.}
+
+\bibitem[Sandom e Harvey 2004]{sandom2004human}
+\abntrefinfo{Sandom e Harvey}{SANDOM; HARVEY}{2004}
+{SANDOM, C.; HARVEY, R.~S. \textbf{Human factors for engineers}. [S.l.]: Iet,
+  2004. v.~2.}
+
+\bibitem[Shi \textit{et al.} 2007]{shi2007galvanic}
+\abntrefinfo{Shi \textit{et al.}}{SHI \textit{et al.}}{2007}
+{SHI, Y.; RUIZ, N.; TAIB, R.; CHOI, E.; CHEN, F. Galvanic skin response (gsr)
+  as an index of cognitive load. In:  \textbf{CHI'07 extended abstracts on
+  Human factors in computing systems}. [S.l.: s.n.], 2007. p. 2651--2656.}
+
+\bibitem[Siu \textit{et al.} 2020]{siu2020virtual}
+\abntrefinfo{Siu \textit{et al.}}{SIU \textit{et al.}}{2020}
+{SIU, A.~F.; SINCLAIR, M.; KOVACS, R.; OFEK, E.; HOLZ, C.; CUTRELL, E. Virtual
+  reality without vision: A haptic and auditory white cane to navigate complex
+  virtual worlds. In:  \textbf{Proceedings of the 2020 CHI conference on human
+  factors in computing systems}. [S.l.: s.n.], 2020. p. 1--13.}
+
+\bibitem[Smith \textit{et al.} 1996]{smith1996top}
+\abntrefinfo{Smith \textit{et al.}}{SMITH \textit{et al.}}{1996}
+{SMITH, K.~G.; SMITH, K.~A.; OLIAN, J.~D.; JR, H.~P. S. \textit{et al.} Top
+  management team demography and process: The role of social integration and
+  communication.
+\textbf{Irish Journal of Management}, Irish Academy of Managment, v.~17, n.~1,
+  p.~36, 1996.}
+
+\bibitem[Stanton \textit{et al.} 2004]{stanton2004handbook}
+\abntrefinfo{Stanton \textit{et al.}}{STANTON \textit{et al.}}{2004}
+{STANTON, N.~A.; HEDGE, A.; BROOKHUIS, K.; SALAS, E.; HENDRICK, H.~W.
+  \textbf{Handbook of human factors and ergonomics methods}. [S.l.]: CRC press,
+  2004.}
+
+\bibitem[Wang \textit{et al.} 2010]{wang2010new}
+\abntrefinfo{Wang \textit{et al.}}{WANG \textit{et al.}}{2010}
+{WANG, S.; MAO, Z.; ZENG, C.; GONG, H.; LI, S.; CHEN, B. A new method of
+  virtual reality based on unity3d. In:  IEEE. \textbf{2010 18th international
+  conference on Geoinformatics}. [S.l.], 2010. p.~1--5.}
+
+\bibitem[Wolf \textit{et al.} 2019]{wolf2019towards}
+\abntrefinfo{Wolf \textit{et al.}}{WOLF \textit{et al.}}{2019}
+{WOLF, A.; BINDER, N.; MIEHLING, J.; WARTZACK, S. Towards virtual assessment of
+  human factors: A concept for data driven prediction and analysis of physical
+  user-product interactions. In:  CAMBRIDGE UNIVERSITY PRESS.
+  \textbf{Proceedings of the Design Society: International Conference on
+  Engineering Design}. [S.l.], 2019. v.~1, n.~1, p. 4029--4038.}
+
+\bibitem[World Health Organization 2020]{who_2020}
+\abntrefinfo{World Health Organization}{WORLD HEALTH ORGANIZATION}{2020}
+{WORLD HEALTH ORGANIZATION. \textbf{Advice for the public on covid-19}. World
+  Health Organization, 2020.
+Dispon{\'\i}vel em:
+  \url{https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public}.
+  Acesso em: 8 fev. 2022.}
+
+\bibitem[World Health Organization and others 2019]{world2019world}
+\abntrefinfo{World Health Organization and others}{WORLD HEALTH ORGANIZATION
+  AND OTHERS}{2019}
+{WORLD HEALTH ORGANIZATION AND OTHERS. \textbf{World report on vision}.
+[S.l.], 2019.}
+
+\bibitem[Zhang \textit{et al.} 2014]{zhang2014detection}
+\abntrefinfo{Zhang \textit{et al.}}{ZHANG \textit{et al.}}{2014}
+{ZHANG, H.; ZHU, Y.; MANIYERI, J.; GUAN, C. Detection of variations in
+  cognitive workload using multi-modality physiological sensors and a large
+  margin unbiased regression machine. In:  IEEE. \textbf{2014 36th Annual
+  International Conference of the IEEE Engineering in Medicine and Biology
+  Society}. [S.l.], 2014. p. 2985--2988.}
+
+\end{thebibliography}
