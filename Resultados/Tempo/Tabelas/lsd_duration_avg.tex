@@ -1,0 +1,23 @@
+
+\begin{table}[!htb]
+\centering
+\caption{Cross validation p-value for the duration of each method for blinded users.}
+\label{tab:lsd_duration_avg}
+\begin{tabular}{rclr}
+\toprule
+      \multicolumn{3}{c}{Method} &                                           Analysis \\
+\midrule
+              Base & $X$ & Audio &               $H_1 : \mu_{Base} \ne \mu_{Audio}**$ \\
+        Base & $X$ & Haptic Belt &         $H_1 : \mu_{Base} \ne \mu_{Haptic Belt}**$ \\
+       Base & $X$ & Virtual Cane &            $H_0 : \mu_{Base} = \mu_{Virtual Cane}$ \\
+            Base & $X$ & Mixture &             $H_1 : \mu_{Base} \ne \mu_{Mixture}**$ \\
+       Audio & $X$ & Haptic Belt &            $H_0 : \mu_{Audio} = \mu_{Haptic Belt}$ \\
+      Audio & $X$ & Virtual Cane &       $H_1 : \mu_{Audio} \ne \mu_{Virtual Cane}**$ \\
+           Audio & $X$ & Mixture &            $H_1 : \mu_{Audio} \ne \mu_{Mixture}**$ \\
+Haptic Belt & $X$ & Virtual Cane & $H_1 : \mu_{Haptic Belt} \ne \mu_{Virtual Cane}**$ \\
+     Haptic Belt & $X$ & Mixture &      $H_1 : \mu_{Haptic Belt} \ne \mu_{Mixture}**$ \\
+    Virtual Cane & $X$ & Mixture &     $H_1 : \mu_{Virtual Cane} \ne \mu_{Mixture}**$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+

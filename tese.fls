@@ -1552,13 +1552,13 @@ INPUT Chap0\abstract.tex
 INPUT .\Chap0\abstract.tex
 INPUT .\Chap0\abstract.tex
 INPUT Chap0\abstract.tex
+INPUT .\tese.lof
+INPUT tese.lof
+INPUT tese.lof
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeti12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti12.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
-INPUT .\tese.lof
-INPUT tese.lof
-INPUT tese.lof
 OUTPUT tese.lof
 INPUT .\tese.lot
 INPUT tese.lot
@@ -2335,10 +2335,10 @@ INPUT .\Resultados\Tempo\Tabelas\ttest_durationSemBegin.tex
 INPUT Resultados\Tempo\Tabelas\ttest_durationSemBegin.tex
 INPUT .\Resultados\Tempo\Tabelas\ttest_durationSemBegin.tex
 INPUT Resultados\Tempo\Tabelas\ttest_durationSemBegin.tex
-INPUT .\Resultados\Tempo\Tabelas\repblocanova_duration.tex
-INPUT Resultados\Tempo\Tabelas\repblocanova_duration.tex
-INPUT .\Resultados\Tempo\Tabelas\repblocanova_duration.tex
-INPUT Resultados\Tempo\Tabelas\repblocanova_duration.tex
+INPUT .\Resultados\Tempo\Tabelas\blockedanova_duration_var.tex
+INPUT Resultados\Tempo\Tabelas\blockedanova_duration_var.tex
+INPUT .\Resultados\Tempo\Tabelas\blockedanova_duration_var.tex
+INPUT Resultados\Tempo\Tabelas\blockedanova_duration_var.tex
 INPUT .\Resultados\Tempo\Tabelas\lsd_duration.tex
 INPUT Resultados\Tempo\Tabelas\lsd_duration.tex
 INPUT .\Resultados\Tempo\Tabelas\lsd_duration.tex
@@ -3216,6 +3216,175 @@ INPUT Apend GSR\diagram.tex
 INPUT .\Apend GSR\diagram.tex
 INPUT .\Apend GSR\diagram.tex
 INPUT Apend GSR\diagram.tex
+INPUT .\Apend Figuras\apendF.tex
+INPUT .\Apend Figuras\apendF.tex
+INPUT .\Apend Figuras\apendF.tex
+INPUT Apend Figuras\apendF.tex
+INPUT .\Apend Figuras\apendF.tex
+INPUT .\Apend Figuras\apendF.tex
+INPUT Apend Figuras\apendF.tex
+INPUT .\Apend Figuras\anova_time.tex
+INPUT Apend Figuras\anova_time.tex
+INPUT .\Apend Figuras\anova_time.tex
+INPUT Apend Figuras\anova_time.tex
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_avg.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\qqplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Resultados\Tempo\Figuras\png\residplot_duration_var.png
+INPUT .\Apend Figuras\anova_nasa.tex
+INPUT Apend Figuras\anova_nasa.tex
+INPUT .\Apend Figuras\anova_nasa.tex
+INPUT Apend Figuras\anova_nasa.tex
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_md_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_avg.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\qqplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Resultados\Nasa\Figuras\png\residplot_nasa_var.png
+INPUT .\Apend Figuras\anova_sagat.tex
+INPUT Apend Figuras\anova_sagat.tex
+INPUT .\Apend Figuras\anova_sagat.tex
+INPUT Apend Figuras\anova_sagat.tex
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Apend Figuras\anova_ecg.tex
+INPUT Apend Figuras\anova_ecg.tex
+INPUT .\Apend Figuras\anova_ecg.tex
+INPUT Apend Figuras\anova_ecg.tex
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_bpm.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\qqplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Resultados\ECG\Figuras\png\residplot_sdnn.png
+INPUT .\Apend Figuras\anova_gsr.tex
+INPUT Apend Figuras\anova_gsr.tex
+INPUT .\Apend Figuras\anova_gsr.tex
+INPUT Apend Figuras\anova_gsr.tex
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\qqplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
+INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_avg.png
 INPUT .\AnexC\anexC.tex
 INPUT .\AnexC\anexC.tex
 INPUT .\AnexC\anexC.tex

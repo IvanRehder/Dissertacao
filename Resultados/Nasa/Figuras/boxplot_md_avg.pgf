@@ -20,7 +20,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{8.900742in}{13.378954in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{9.807575in}{9.870000in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -31,9 +31,9 @@
 \pgfsetstrokeopacity{0.000000}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{8.900742in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{8.900742in}{13.378954in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{13.378954in}}%
+\pgfpathlineto{\pgfqpoint{9.807575in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{9.807575in}{9.870000in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{9.870000in}}%
 \pgfpathclose%
 \pgfusepath{}%
 \end{pgfscope}%
@@ -407,36 +407,13 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=2.383685in, y=9.394592in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont Box plot comparison of }%
+\pgftext[x=2.383685in, y=9.399344in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont Box plot comparison of }%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=1.269341in, y=8.851913in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont mental demand between the users.}%
-\end{pgfscope}%
-\begin{pgfscope}%
-\pgfsetbuttcap%
-\pgfsetmiterjoin%
-\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
-\pgfsetfillcolor{currentfill}%
-\pgfsetfillopacity{0.800000}%
-\pgfsetlinewidth{1.003750pt}%
-\definecolor{currentstroke}{rgb}{0.800000,0.800000,0.800000}%
-\pgfsetstrokecolor{currentstroke}%
-\pgfsetstrokeopacity{0.800000}%
-\pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{8.580742in}{12.985620in}}%
-\pgfpathlineto{\pgfqpoint{8.727408in}{12.985620in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{8.800742in}{12.985620in}}{\pgfqpoint{8.800742in}{13.058954in}}%
-\pgfpathlineto{\pgfqpoint{8.800742in}{13.205620in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{8.800742in}{13.278954in}}{\pgfqpoint{8.727408in}{13.278954in}}%
-\pgfpathlineto{\pgfqpoint{8.580742in}{13.278954in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{8.507408in}{13.278954in}}{\pgfqpoint{8.507408in}{13.205620in}}%
-\pgfpathlineto{\pgfqpoint{8.507408in}{13.058954in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{8.507408in}{12.985620in}}{\pgfqpoint{8.580742in}{12.985620in}}%
-\pgfpathclose%
-\pgfusepath{stroke,fill}%
+\pgftext[x=0.143909in, y=8.856666in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont  the global mental demand between the users.}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

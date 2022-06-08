@@ -4,7 +4,6 @@
 %2. Caso vc tenha aplicado a sua contribuição (modelo, produto, processo etc.) em um caso (empresa, laboratório, simulação etc.), apresente a descrição e análise dos resultados. Na seção de discussão cabem as análises de cenários What-If ou de sensibilidade. Exemplo: se o parâmetro X aumentar de N para N+1, o resultado poderia mudar de Y para Z?
 %3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
 
-
 Throughout the experiment, three data sources were gathered from the participants, and this chapter will show their values, will explain the process to analyze the data and will discuss their results. Each source will have its section, making up to three sessions, and they are:
 
 \begin{itemize}
@@ -21,9 +20,22 @@ The processing of each data collected is rather similar and follows these steps:
     \item Check if the samples are normally distributed; \label{itm:results_shapiro} \\
         If the data is normally distributed then it is possible to use other statistical analyses and verify the results statistically.
     \item Check if the "blind" sample is statistically different then the "sight" sample; \label{itm:results_t_test} \\ 
-        This is one of the goals. To verify that the workload and the situation awareness of the blind participants are different from the sighted participants
-    \item Calculate the average of of each participant in each method; \label{itm:results_average_method_particpant}
-    \item Calculate the average of the participant group in each method. \label{itm:results_average_method}
+        This is one of the goals. To verify that the workload and the situation awareness of the blind participants are different from the sighted participants.
+    \item For the physiological data:
+    \begin{enumerate}
+        \item Calculate the variation between the scene and the baseline  in each method;
+        \item Calculate the variation between the scenes in each method;
+        \item Calculate the average variation in the group in each method.
+    \end{enumerate}
+    \item For the other data:
+    \begin{enumerate}
+        \item Calculate the variation between the scenes in each method; \label{itm:results_average_method_particpant}
+        \item Calculate the average variation in the group in each method.
+        \label{itm:results_average_method}
+    \end{enumerate}
+    \item Check if there are methods that are statistically different from the rest. \\
+        This is done by doing an analyses of variance (ANOVA) in the data. For this analyses is required that the observerd residues are normally distributed and the variance is constant. The residues are all plotted in the figures of the Appendix \ref{ap:figures}. The variance constancy can be verified by the box plot presented in the next sections.
+
 \end{enumerate}
 
 \section{Data from the simulation}
@@ -36,4 +48,4 @@ The processing of each data collected is rather similar and follows these steps:
 
 \section{Data from physiological sensors}
 
-\input{Resultados/PhysiologicalData}
+\input{Resultados/PhysiologicalData} 

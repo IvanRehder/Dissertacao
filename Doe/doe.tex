@@ -110,21 +110,21 @@ During the experiment the following data were gathered:
 \subsection{ANOVA statiscal model}
 %7.3.2 Modelos estatísticos para verificação das hipóteses
 
-The statistical model used for the hypotheses tests is presented at Equation \ref{eq:statistical_model}
+The statistical model used for the hypotheses tests is presented at Equation \ref{eq:statistical_model}.
 
 \begin{equation}
     \label{eq:statistical_model}
-    V_{ij} = \mu + \tau_j + \beta_i +e_{ij}
+    V_{ij} = \mu + \tau_i + \beta_j + e_{ijk}
 \end{equation}
 
 where:
 
 \begin{itemize}
-    \item $y_{ij}$ - Is the one the observation from the participant $i$ of the method $j$;
-    \item $\mu$ - Is the average of all the observations, the global average;
-    \item $\tau_j$ - Is the difference between the global average and the method $j$ average. It represents the influece the method on the observation;
-    \item $\beta_i$ - It represents the influece the participant on the observation;
-    \item $e_{ij}$ - Is the difference between the global average and one observations. It represents the sistematic error of the observation.
+    \item $y_{ij}$ - Is the expected observation from the method $i$ of the method participant $j$;
+    \item $\mu$ - Is the average of all the observations;
+    \item $\tau_i$ - Is the influence the method $i$ in the observation;
+    \item $\beta_j$ - Is the influence of the participant in the observation, which is a blocked.
+    \item $e_{ij}$ - Is observation's residue.
 \end{itemize}
 
 Each participant has an uncontrolable influence over the observations. This influence can vary with the age, the education, the profession and other individualities.
@@ -150,5 +150,5 @@ Before each test, an average between the rounds is calculated to be used in the 
     
     To verify the $H_4$ hypothesis an ANOVA test using the statiscal model presented in the Equation \ref{eq:statistical_model} is analyzed and, if necessary, a Fisher LSD test is analyzed to check a pairwise relationship between the methods.
 
-    All the collected variables are analyzed for this matter.
+    All the collected variables are analyzed for this hypothesis.
 \end{enumerate}
