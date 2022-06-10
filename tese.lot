@@ -13,54 +13,53 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Duration grouped by participant and guidance method (in minutes).\relax }}{78}{table.caption.36}
 \contentsline {table}{\numberline {8.2}{\ignorespaces Duration difference grouped by participant and visual condition\relax }}{78}{table.caption.37}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Duration difference grouped by participant and visual Condition.\relax }}{78}{table.caption.39}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Duration difference grouped by participant and visual Condition.\relax }}{79}{table.caption.39}
 \contentsline {table}{\numberline {8.4}{\ignorespaces Shapiro test p-value for the duration of participant in each method.\relax }}{80}{table.caption.41}
 \contentsline {table}{\numberline {8.5}{\ignorespaces T test p-value for the duration for blinded users versus sighted users.\relax }}{80}{table.caption.41}
-\contentsline {table}{\numberline {8.6}{\ignorespaces Anova p-value for the duration difference of each method for blinded users.\relax }}{80}{table.caption.42}
-\contentsline {table}{\numberline {8.7}{\ignorespaces Cross validation p-value for the duration of each method for blinded users.\relax }}{81}{table.caption.43}
-\contentsline {table}{\numberline {8.8}{\ignorespaces Mental demand felled by the participants.\relax }}{82}{table.caption.44}
-\contentsline {table}{\numberline {8.9}{\ignorespaces Mental demand average grouped by participant and visual Condition\relax }}{84}{table.caption.47}
-\contentsline {table}{\numberline {8.10}{\ignorespaces Mental demand variation grouped by participant and visual Condition\relax }}{84}{table.caption.48}
-\contentsline {table}{\numberline {8.11}{\ignorespaces Shapiro test p-value for the mental demand for each method and visual condition.\relax }}{85}{table.caption.50}
-\contentsline {table}{\numberline {8.12}{\ignorespaces T test p-value for the mental demand on each method for blinded users versus sighted users.\relax }}{85}{table.caption.50}
-\contentsline {table}{\numberline {8.13}{\ignorespaces Anova p-value for the mental demand on each method for blinded users.\relax }}{85}{table.caption.51}
-\contentsline {table}{\numberline {8.14}{\ignorespaces Cross validation p-value for the mental demand on each method for blinded users.\relax }}{86}{table.caption.52}
-\contentsline {table}{\numberline {8.15}{\ignorespaces NASA score felled by the participants.\relax }}{87}{table.caption.53}
-\contentsline {table}{\numberline {8.16}{\ignorespaces NASA-TLX score grouped by participant and visual Condition\relax }}{87}{table.caption.56}
-\contentsline {table}{\numberline {8.17}{\ignorespaces NASA-TLX score grouped by participant and visual Condition.\relax }}{87}{table.caption.57}
-\contentsline {table}{\numberline {8.18}{\ignorespaces Shapiro test p-value for the NASA score for each method and visual condition.\relax }}{90}{table.caption.59}
-\contentsline {table}{\numberline {8.19}{\ignorespaces T test p-value for the NASA score on each method for blinded users versus sighted users.\relax }}{90}{table.caption.59}
-\contentsline {table}{\numberline {8.20}{\ignorespaces Anova p-value for the Nasa score on each method for blinded users.\relax }}{90}{table.caption.60}
-\contentsline {table}{\numberline {8.21}{\ignorespaces Cross validation p-value for the Nasa score on each method for blinded users.\relax }}{90}{table.caption.61}
-\contentsline {table}{\numberline {8.22}{\ignorespaces Adapted Sagat global score by participant and guidance method.\relax }}{91}{table.caption.62}
-\contentsline {table}{\numberline {8.23}{\ignorespaces Adapted Sagat average global score grouped by participant and visual Condition.\relax }}{91}{table.caption.64}
-\contentsline {table}{\numberline {8.24}{\ignorespaces Adapted Sagat global score variation grouped by participant and visual Condition\relax }}{92}{table.caption.65}
-\contentsline {table}{\numberline {8.25}{\ignorespaces Shapiro test p-value for the Sagat score for each method and visual condition\relax }}{93}{table.caption.67}
-\contentsline {table}{\numberline {8.26}{\ignorespaces T test p-value for the Sagat score on each method for blinded users versus sighted users.\relax }}{93}{table.caption.67}
-\contentsline {table}{\numberline {8.27}{\ignorespaces Anova p-value for the Sagat score on each method for blinded users.\relax }}{94}{table.caption.68}
-\contentsline {table}{\numberline {8.28}{\ignorespaces Cross validation p-value for the Sagat score on each method for blinded users.\relax }}{94}{table.caption.69}
-\contentsline {table}{\numberline {8.29}{\ignorespaces Guidance method questionnaire average score grouped by participant.\relax }}{95}{table.caption.70}
-\contentsline {table}{\numberline {8.30}{\ignorespaces Guidance method questionnaire average score grouped by visual condition.\relax }}{96}{table.caption.72}
-\contentsline {table}{\numberline {8.31}{\ignorespaces Shapiro test p-value for the questionnaires score for each method and visual condition.\relax }}{97}{table.caption.74}
-\contentsline {table}{\numberline {8.32}{\ignorespaces Anova p-value for the questionnaire score on each method for blinded users.\relax }}{97}{table.caption.75}
-\contentsline {table}{\numberline {8.33}{\ignorespaces ECG average BPM felled by the participants.\relax }}{99}{table.caption.76}
-\contentsline {table}{\numberline {8.34}{\ignorespaces ECG average BPM average in relation to the baseline grouped by participant and visual Condition.\relax }}{99}{table.caption.78}
-\contentsline {table}{\numberline {8.35}{\ignorespaces Shapiro test p-value for the ecg average BPM for each method and visual condition\relax }}{100}{table.caption.80}
-\contentsline {table}{\numberline {8.36}{\ignorespaces T test p-value for the ecg average BPM each method for blinded users versus sighted users.\relax }}{100}{table.caption.80}
-\contentsline {table}{\numberline {8.37}{\ignorespaces Anova p-value for the BPM on each method for blinded users.\relax }}{101}{table.caption.81}
-\contentsline {table}{\numberline {8.38}{\ignorespaces Cross validation p-value for the average BPM on each method for blinded users.\relax }}{101}{table.caption.82}
-\contentsline {table}{\numberline {8.39}{\ignorespaces ECG Average SDNN felled by the participants.\relax }}{102}{table.caption.83}
-\contentsline {table}{\numberline {8.40}{\ignorespaces ECG Average SDNN average in relation to the baseline grouped by participant and visual Condition.\relax }}{102}{table.caption.86}
-\contentsline {table}{\numberline {8.41}{\ignorespaces Shapiro test p-value for the ecg average SDNN for each method and visual condition\relax }}{104}{table.caption.87}
-\contentsline {table}{\numberline {8.42}{\ignorespaces T test p-value for the ecg average SDNN each method for blinded users versus sighted users.\relax }}{104}{table.caption.87}
-\contentsline {table}{\numberline {8.43}{\ignorespaces Anova p-value for the SDNN on each method for blinded users.\relax }}{105}{table.caption.88}
-\contentsline {table}{\numberline {8.44}{\ignorespaces Cross validation p-value for the average SDNN on each method for blinded users.\relax }}{105}{table.caption.89}
-\contentsline {table}{\numberline {8.45}{\ignorespaces GSR Average felled by the participants.\relax }}{106}{table.caption.90}
-\contentsline {table}{\numberline {8.46}{\ignorespaces GSR average variation in relation to the baseline grouped by participant and visual Condition.\relax }}{106}{table.caption.93}
-\contentsline {table}{\numberline {8.47}{\ignorespaces Shapiro test p-value for the gsr average for each method and visual condition\relax }}{106}{table.caption.94}
-\contentsline {table}{\numberline {8.48}{\ignorespaces T test p-value for the average GSR on each method for blinded users versus sighted users.\relax }}{106}{table.caption.94}
-\contentsline {table}{\numberline {8.49}{\ignorespaces Anova p-value for the GSR score on each method for blinded users.\relax }}{107}{table.caption.95}
-\contentsline {table}{\numberline {8.50}{\ignorespaces Cross validation p-value for the GSR on each method for blinded users.\relax }}{108}{table.caption.96}
+\contentsline {table}{\numberline {8.6}{\ignorespaces Anova p-value for the duration difference of each method for blinded users.\relax }}{81}{table.caption.42}
+\contentsline {table}{\numberline {8.7}{\ignorespaces Mental demand felled by the participants.\relax }}{82}{table.caption.43}
+\contentsline {table}{\numberline {8.8}{\ignorespaces Mental demand average grouped by participant and visual Condition\relax }}{83}{table.caption.46}
+\contentsline {table}{\numberline {8.9}{\ignorespaces Mental demand variation grouped by participant and visual Condition\relax }}{84}{table.caption.47}
+\contentsline {table}{\numberline {8.10}{\ignorespaces Shapiro test p-value for the mental demand for each method and visual condition.\relax }}{85}{table.caption.49}
+\contentsline {table}{\numberline {8.11}{\ignorespaces T test p-value for the mental demand on each method for blinded users versus sighted users.\relax }}{85}{table.caption.49}
+\contentsline {table}{\numberline {8.12}{\ignorespaces Anova p-value for the mental demand variation on each method for blinded users.\relax }}{85}{table.caption.50}
+\contentsline {table}{\numberline {8.13}{\ignorespaces Cross validation p-value for the mental demand variation on each method for blinded users.\relax }}{86}{table.caption.51}
+\contentsline {table}{\numberline {8.14}{\ignorespaces NASA score felled by the participants.\relax }}{87}{table.caption.52}
+\contentsline {table}{\numberline {8.15}{\ignorespaces NASA-TLX score grouped by participant and visual Condition\relax }}{87}{table.caption.55}
+\contentsline {table}{\numberline {8.16}{\ignorespaces NASA-TLX score grouped by participant and visual Condition.\relax }}{87}{table.caption.56}
+\contentsline {table}{\numberline {8.17}{\ignorespaces Shapiro test p-value for the NASA score for each method and visual condition.\relax }}{90}{table.caption.58}
+\contentsline {table}{\numberline {8.18}{\ignorespaces T test p-value for the NASA score on each method for blinded users versus sighted users.\relax }}{90}{table.caption.58}
+\contentsline {table}{\numberline {8.19}{\ignorespaces Anova p-value for the NASA score variation on each method for blinded users.\relax }}{90}{table.caption.59}
+\contentsline {table}{\numberline {8.20}{\ignorespaces Cross validation p-value for the NASA score variation on each method for blinded users.\relax }}{90}{table.caption.60}
+\contentsline {table}{\numberline {8.21}{\ignorespaces Adapted Sagat global score by participant and guidance method.\relax }}{91}{table.caption.61}
+\contentsline {table}{\numberline {8.22}{\ignorespaces Adapted Sagat average global score grouped by participant and visual Condition.\relax }}{91}{table.caption.63}
+\contentsline {table}{\numberline {8.23}{\ignorespaces Adapted Sagat global score variation grouped by participant and visual Condition\relax }}{92}{table.caption.64}
+\contentsline {table}{\numberline {8.24}{\ignorespaces Shapiro test p-value for the Sagat score for each method and visual condition\relax }}{93}{table.caption.66}
+\contentsline {table}{\numberline {8.25}{\ignorespaces T test p-value for the Sagat score on each method for blinded users versus sighted users.\relax }}{93}{table.caption.66}
+\contentsline {table}{\numberline {8.26}{\ignorespaces Anova p-value for the Sagat score on each method for blinded users.\relax }}{94}{table.caption.67}
+\contentsline {table}{\numberline {8.27}{\ignorespaces Cross validation p-value for the Sagat score on each method for blinded users.\relax }}{94}{table.caption.68}
+\contentsline {table}{\numberline {8.28}{\ignorespaces Guidance method questionnaire average score grouped by participant.\relax }}{95}{table.caption.69}
+\contentsline {table}{\numberline {8.29}{\ignorespaces Guidance method questionnaire average score grouped by visual condition.\relax }}{96}{table.caption.71}
+\contentsline {table}{\numberline {8.30}{\ignorespaces Shapiro test p-value for the questionnaires score for each method and visual condition.\relax }}{96}{table.caption.73}
+\contentsline {table}{\numberline {8.31}{\ignorespaces Anova p-value for the questionnaire score on each method for blinded users.\relax }}{97}{table.caption.74}
+\contentsline {table}{\numberline {8.32}{\ignorespaces ECG average BPM felled by the participants.\relax }}{99}{table.caption.75}
+\contentsline {table}{\numberline {8.33}{\ignorespaces ECG average BPM average in relation to the baseline grouped by participant and visual Condition.\relax }}{99}{table.caption.77}
+\contentsline {table}{\numberline {8.34}{\ignorespaces Shapiro test p-value for the ecg average BPM for each method and visual condition\relax }}{99}{table.caption.79}
+\contentsline {table}{\numberline {8.35}{\ignorespaces T test p-value for the ecg average BPM each method for blinded users versus sighted users.\relax }}{99}{table.caption.79}
+\contentsline {table}{\numberline {8.36}{\ignorespaces Anova p-value for the BPM on each method for blinded users.\relax }}{100}{table.caption.80}
+\contentsline {table}{\numberline {8.37}{\ignorespaces Cross validation p-value for the average BPM on each method for blinded users.\relax }}{101}{table.caption.81}
+\contentsline {table}{\numberline {8.38}{\ignorespaces ECG Average SDNN felled by the participants.\relax }}{102}{table.caption.82}
+\contentsline {table}{\numberline {8.39}{\ignorespaces ECG Average SDNN average in relation to the baseline grouped by participant and visual Condition.\relax }}{102}{table.caption.85}
+\contentsline {table}{\numberline {8.40}{\ignorespaces Shapiro test p-value for the ecg average SDNN for each method and visual condition\relax }}{104}{table.caption.86}
+\contentsline {table}{\numberline {8.41}{\ignorespaces T test p-value for the ecg average SDNN each method for blinded users versus sighted users.\relax }}{104}{table.caption.86}
+\contentsline {table}{\numberline {8.42}{\ignorespaces Anova p-value for the SDNN on each method for blinded users.\relax }}{104}{table.caption.87}
+\contentsline {table}{\numberline {8.43}{\ignorespaces Cross validation p-value for the average SDNN on each method for blinded users.\relax }}{105}{table.caption.88}
+\contentsline {table}{\numberline {8.44}{\ignorespaces GSR Average felled by the participants.\relax }}{106}{table.caption.89}
+\contentsline {table}{\numberline {8.45}{\ignorespaces GSR average variation in relation to the baseline grouped by participant and visual Condition.\relax }}{106}{table.caption.92}
+\contentsline {table}{\numberline {8.46}{\ignorespaces Shapiro test p-value for the gsr average for each method and visual condition\relax }}{108}{table.caption.93}
+\contentsline {table}{\numberline {8.47}{\ignorespaces T test p-value for the average GSR on each method for blinded users versus sighted users.\relax }}{108}{table.caption.93}
+\contentsline {table}{\numberline {8.48}{\ignorespaces Anova p-value for the GSR score on each method for blinded users.\relax }}{108}{table.caption.94}
+\contentsline {table}{\numberline {8.49}{\ignorespaces Cross validation p-value for the GSR on each method for blinded users.\relax }}{109}{table.caption.95}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -5,9 +5,11 @@ It is possible to analyze the mental workload using NASA-TLX in two different wa
 
 \subsubsection{Analysis of the mental demand scale}
 
-The Table \ref{tab:md_table} presents the mental demand averages by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_md_scene_blind} and \ref{fig:barplot_md_scene_sight}.
+The Table \ref{tab:md_table} presents the mental demand averages by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_md_scene_blind} and \ref{fig:barplot_md_scene_sight}. The Figure \ref{fig:barplot_md_scene_blind} and the Figure \ref{fig:barplot_md_scene_blind} shows a systematic reduction on the perceived mental demand in all methods by all the participants.
 
 \input{Resultados/Nasa/Tabelas/md_table}
+%\input{Resultados/Nasa/Tabelas/md_variation.tex}
+%\input{Resultados/Nasa/Tabelas/md_average}
 
 \begin{figure}[!htb]
     \centering
@@ -38,7 +40,7 @@ The Figure \ref{fig:boxplot_md_scene} has plotted the average mental demand betw
     %\centering
     \begin{minipage}{.45\linewidth}
         \centering
-        \includegraphics[width = \linewidth]{Resultados/Nasa/Figuras/png/boxplot_md_avg_scene.png}
+        \includegraphics[width = \linewidth]{Resultados/Nasa/Figuras/png/boxplot_md_scene.png}
         %\resizebox{\linewidth}{!}{
         %\input{Resultados/Nasa/Figuras/boxplot_md_avg_scene.pgf}
         %}
@@ -63,15 +65,15 @@ The Figure \ref{fig:boxplot_md_scene} has plotted the average mental demand betw
     \end{minipage}
 \end{figure}
 
-The Table \ref{tab:md_average_group} and \ref{tab:md_var_average_group} show the average mental demand and its variation between the rounds grouped by visual condition. The first table shows the difference between the provoked mental demand in both groupsm the second table shows how the mental demand reduced between the "First visit" and the "Return" round.
+The Table \ref{tab:md_average_group} shows the average mental demand grouped by visual condition and is possible to notice how the perceived mental demand by the "blind" sample was lower than the mental demand of the "sight" sample,this observation is also noticeable in the Figure \ref{fig:barplot_md_global}, which represents the average mental demand felt by the "sight" sample and the "blind" sample.
 
-In the Figure \ref{fig:barplot_md_global} is plotted the average mental demand each group.
+The Table \ref{tab:md_var_average_group} shows the mental demand variation between the rounds grouped by visual condition and, similarly to the previous, it shows that the variation in the "blind" sample was bigger than the variation in the "sight" sample. 
 
 \input{Resultados/Nasa/Tabelas/md_average_group.tex}
 
 \input{Resultados/Nasa/Tabelas/md_var_average_group.tex}
 
-The Figure \ref{fig:barplot_md_var_scene_blind} compiles the mental demand average of the methods observed on all of the participants.
+The Figure \ref{fig:barplot_md_var_scene_blind} compiles the average mental demand variation of the methods observed on the "blind" sample. It is noticeable that no variation was bigger than the "Base" method variation and that the second biggest variation, provoked by the "Virtual cane" method, was still almost half of the "Base" method.
 
 \begin{figure}[!htb]
     \centering
@@ -83,9 +85,9 @@ The Figure \ref{fig:barplot_md_var_scene_blind} compiles the mental demand avera
     \label{fig:barplot_md_var_scene_blind}
 \end{figure}
 
-The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_mental_demand} shows only the "Audio" method is not normally distributed. For this method, the following analysis does not apply.
+The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_mental_demand} shows all the methods with the "blind" sample, with exception of the "Mixture" method, is not normally distributed. For these methods, the following analysis does not apply.
 
-According to the T-Test presented in the Table \ref{tab:ttest_mental_demand}, the methods that showed a difference in the mental demand between the "sight" sample and the "blind" sample are the "Haptic Belt" and the "Mixture" method.
+According to the T-Test presented in the Table \ref{tab:ttest_mental_demand}, all the methods showed a difference in the mental demand between the "sight" sample, with the exception of the "Virtual cane".
 
 \begin{table}[!htb]
     \begin{minipage}{.45\linewidth}
@@ -98,17 +100,19 @@ According to the T-Test presented in the Table \ref{tab:ttest_mental_demand}, th
     \end{minipage}
 \end{table}
 
-The Table \ref{tab:repblocanova_mental_demand} shows the Anova test p-value of the mental demand of the "blind" sample between the guidance methods. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
+The Table \ref{tab:blocanova_mental_demand_var} shows the Anova test p-value of the mental demand of the "blind" sample between the guidance methods. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
 
-\input{Resultados/Nasa/Tabelas/repblocanova_mental_demand.tex}
+\input{Resultados/Nasa/Tabelas/blocanova_mental_demand_var.tex}
 
-The Table \ref{tab:lsd_mental_demand} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that only the "Virtual Cane" and the "Mixture" methods caused a different mental demand than the one noticed on the "Base" Method.
+The Table \ref{tab:lsd_mental_demand_var} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that only the "Virtual Cane" has a similar mental demand as the "Base" method.
 
-\input{Resultados/Nasa/Tabelas/lsd_mental_demand.tex}
+\input{Resultados/Nasa/Tabelas/lsd_mental_demand_var.tex}
 
 According to T-Test on Table \ref{tab:ttest_mental_demand}, the mental demand of the "sight" sample differs from the "blind" sample in the "Haptic Belt" and in the "Mixture" method.
 
-According to the LSD test at Table \ref{tab:lsd_mental_demand} and the Tables \ref{tab:md_average_group} and \ref{tab:md_var_average_group}, the "Virtual Cane" and "Mixture" are statistically different from the rest. They provoked a higher mental demand than the "Base" method. Also, the "Virtual Cane" provoked the biggest variance in the mental demand, except only the "Base" method.
+According to the LSD test at Table \ref{tab:lsd_mental_demand_var} and the Tables \ref{tab:md_average_group} and \ref{tab:md_var_average_group}, the "Audio", the "Haptic Belt" and "Mixture" methods are statistically different from the rest and only the average from the "Audio" method was lower than the "Base".
+
+They provoked a higher mental demand than the "Base" method. Also, the "Virtual Cane" provoked the biggest variance in the mental demand, except only the "Base" method.
 
 \FloatBarrier
 
@@ -147,15 +151,15 @@ The Table \ref{tab:nasa_table} presents the Nasa score averages by each particip
 \end{figure}
 
 
-The Figure \ref{fig:boxplot_nasa_scene} shows the average Nasa score between the rounds of each participant. This figure shows a noticeable difference between the two groups, meaning that probably the Nasa score from the "sight" sample is higher than the one of the "blind" sample.
+The Figure \ref{fig:boxplot_nasa_scene} shows the Nasa score between the rounds of each participant. This figure shows a noticeable difference between the two groups, meaning that probably the Nasa score from the "sight" sample is higher than the one of the "blind" sample. This comparison can be made also with the data in the Table \ref{tab:nasa_average_group}, that shows the average Nasa score grouped by visual condition.
 
-In the Figure \ref{fig:barplot_nasa_global} is plotted the average Nasa score of each group.
+In the Figure \ref{fig:barplot_nasa_global} is plotted the average Nasa score of each group and it also presents that the sighted participants felt a higher Nasa score than the blinded participants.
 
 \begin{figure}[!htb]
 %    \centering
     \begin{minipage}{.45\linewidth}
         \centering
-        \includegraphics[width = \linewidth]{Resultados/Nasa/Figuras/png/boxplot_nasa_avg_scene.png}
+        \includegraphics[width = \linewidth]{Resultados/Nasa/Figuras/png/boxplot_nasa_scene.png}
         %\resizebox{\linewidth}{!}{
         %\input{Resultados/Nasa/Figuras/boxplot_nasa_avg_scene.pgf}
         %}
@@ -177,13 +181,13 @@ In the Figure \ref{fig:barplot_nasa_global} is plotted the average Nasa score of
     \end{minipage}
 \end{figure}
 
-The Table \ref{tab:nasa_average_group} and the Table \ref{tab:nasa_var_group} show the the average and the variation of Nasa score grouped by visual condition. Both tables and show the difference between the mental demand of the "sight" sample and the "blind" sample and how this score varies between the rounds.
+The Table \ref{tab:nasa_var_group} shows the Nasa score variation grouped by visual condition and it also shows the difference between the mental demand of the "sight" sample and the "blind" sample and how this score varies between the rounds.
 
 \input{Resultados/Nasa/Tabelas/nasa_average_group.tex}
 
 \input{Resultados/Nasa/Tabelas/nasa_var_group.tex}
 
-The Figure \ref{fig:barplot_nasa_var_scene_blind} shows the variation of the Nasa score and one can notice that the variation provoked on the "Audio" method" is a lot lesser than the other ones.
+The Figure \ref{fig:barplot_nasa_var_scene_blind} shows the variation of the Nasa score of the "blind" sample and one can notice that the variation provoked on the "Audio" method" is a lot lesser than the other ones.
 
 \begin{figure}[!htb]
     \centering
@@ -195,9 +199,9 @@ The Figure \ref{fig:barplot_nasa_var_scene_blind} shows the variation of the Nas
     \label{fig:barplot_nasa_var_scene_blind}
 \end{figure}
 
-The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_nasa_score} shows that these data are normally distributed, with an exception of the "Audio" Nasa score. This means that further analysis cannot be applied to this method.
+The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_nasa_score} shows that these data are normally distributed, with an exception of the "Base" and "Audio" Nasa score. This means that further analysis cannot be applied to this method.
 
-According to the T-Test presented in the Table \ref{tab:ttest_nasa_score} only the "Haptic belt" caused a different Nasa score between the "sight" sample and the "blind" sample.
+According to the T-Test presented in the Table \ref{tab:ttest_nasa_score} the "Audio" and the "Haptic belt" caused a different Nasa score between the "sight" sample and the "blind" sample.
 
 \begin{table}[!htb]
     \begin{minipage}{.45\linewidth}
@@ -210,16 +214,16 @@ According to the T-Test presented in the Table \ref{tab:ttest_nasa_score} only t
     \end{minipage}
 \end{table}
 
-The Table \ref{tab:repblocanova_nasa} shows the Anova test p-value of the Nasa score, presented in the Table \ref{tab:nasa_table}, of the "blind" sample between the guidance methods. The p-value indicates that there is at least one method that is statistically equal to one of the other methods so it's recommended to do a pairwise analysis between all the methods.
+The Table \ref{tab:blocanova_nasa_var} shows the Anova test p-value of the Nasa score, presented in the Table \ref{tab:nasa_table}, of the "blind" sample between the guidance methods. The p-value indicates that there is at least one method that is statistically equal to one of the other methods so it's recommended to do a pairwise analysis between all the methods.
 
-\input{Resultados/Nasa/Tabelas/repblocanova_nasa.tex}
+\input{Resultados/Nasa/Tabelas/blocanova_nasa_var.tex}
 
-The Table \ref{tab:lsd_nasa} presents the results of a pairwise Fisher LSD test of the blind Nasa score average between all the guidance methods. The results show that all the haptic methods and the "Mixture" are statistically different from the "Base" and "Audio" methods, but both of these groups are not different themselves.
+The Table \ref{tab:lsd_nasa_var} presents the results of a pairwise Fisher LSD test of the blind Nasa score average between all the guidance methods. The results show that only "Audio" proved different from the "Base" method.
 
-\input{Resultados/Nasa/Tabelas/lsd_nasa}
+\input{Resultados/Nasa/Tabelas/lsd_nasa_var}
 
-According to T-Test on Table \ref{tab:ttest_nasa_score} only the "Haptic belt" caused a different Nasa score when comparing both groups.
+According to T-Test on Table \ref{tab:ttest_nasa_score} the "Audio" and "Haptic belt" caused a different Nasa score when comparing both groups and analyzing the Figure \ref{fig:boxplot_nasa_scene} is noticiceable that they are different. The rest also seems to be different, but since the sample size was to small, it could be possible that the test would result in a different result if the sample size was bigger.
 
-According to Anova test at Table \ref{tab:repblocanova_nasa} and the \ref{tab:lsd_nasa} and analyzing the data in the Table \ref{tab:nasa_average_group} and in the Figure \ref{fig:boxplot_nasa_scene} the haptic methods and the "Mixture" method are provoked a higher Nasa Score in the blind participant. The Table \ref{tab:nasa_var_group} shows that the biggest mental demand reduction was caused by the "Virtual Cane".
+According to Anova test at Table \ref{tab:blocanova_nasa_var} and the \ref{tab:lsd_nasa_var} and analyzing the data in the Table \ref{tab:nasa_average_group} and in the Figure \ref{fig:boxplot_nasa_scene} the "Audio" method provoked a lower Nasa Score in the blind participant.
 
 \FloatBarrier

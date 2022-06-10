@@ -33,6 +33,16 @@ The processing of each data collected is rather similar and follows these steps:
         \item Calculate the average variation in the group in each method.
         \label{itm:results_average_method}
     \end{enumerate}
+        The variation mentioned above is calculated as Equation \ref{eq:variation}:
+    \begin{equation}
+        \label{eq:variation}
+        Var_{ij} = \frac{Obs_j - Obs_i}{Obs_i}*100 [\%]
+    \end{equation}
+        Where:\\
+        $Var_{ij}$ = Variation between the two sequential observations \\
+        $Obs_i$ = First observation \\
+        $Obs_j$ = Second observation 
+    
     \item Check if there are methods that are statistically different from the rest. \\
         This is done by doing an analyses of variance (ANOVA) in the data. For this analyses is required that the observerd residues are normally distributed and the variance is constant. The residues are all plotted in the figures of the Appendix \ref{ap:figures}. The variance constancy can be verified by the box plot presented in the next sections.
 
