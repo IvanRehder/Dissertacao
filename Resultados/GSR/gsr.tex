@@ -11,7 +11,7 @@ The Table \ref{tab:gsr_avg_table} presents the average skin conductance by each 
     \centering
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_scene_blind.png}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_scene_blind.png}
         %\resizebox{0.8\linewidth}{!}{
         %\input{Resultados/GSR/Figuras/barplot_ecg_bpm_scene_blind.pgf}
         %}
@@ -20,7 +20,7 @@ The Table \ref{tab:gsr_avg_table} presents the average skin conductance by each 
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_scene_sight.png}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_scene_sight.png}
         %\resizebox{0.6\linewidth}{!}{
         %\input{Resultados/GSR/Figuras/barplot_gsr_scene_sight.pgf}    
         %}
@@ -32,22 +32,31 @@ The Table \ref{tab:gsr_avg_table} presents the average skin conductance by each 
 The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
 
 \begin{figure}[!htb]
-    \centering
-    \includegraphics[width = 0.5\linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_scene.png}
-    %\resizebox{0.6\linewidth}{!}{
-    %\input{Resultados/GSR/Figuras/boxplot_gsr_scene.pgf}    
-    %}
-    \caption{Boxplot of the average skin conductace of the participants on each method.}
-    \label{fig:boxplot_gsr_scene}
+    %\centering
+    \begin{minipage}{.45\linewidth}
+        \centering
+        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_scene.png}
+        \caption{Boxplot of the average skin conductace of the participants on each method.}
+        \label{fig:boxplot_gsr_scene}
+    \end{minipage}
+    \begin{minipage}{.1\linewidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{.45\linewidth}
+        \vspace{1.8cm}
+        \centering
+        %\hspace{-4cm}
+        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg.png}
+        \caption{Bar plot of the average GSR of of each group.}
+        \label{fig:barplot_gsr_avg}
+    \end{minipage}
 \end{figure}
 
-The Table \ref{tab:gsr_var_average_group} shows the variation of the heartbeat in each round of each grou´p. It is also possible to notice the same increase noticed before.
-
+The Table \ref{tab:gsr_avg_table_def} shows the variation of the heartbeat in each round of each group. It is also possible to notice the same increase noticed before.
 
 \input{Resultados/GSR/Tabelas/gsr_avg_table_def.tex}
 
-
-The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_gsr} shows that only the "Audio" method is normally distributed for the "blind" sample while for the "sight" sample only the "Virtual Cane" is not normally distributed
+The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_gsr_avg} shows that only the "Audio" method is normally distributed for the "blind" sample while for the "sight" sample only the "Virtual Cane" is not normally distributed
 
 According to the T-Test presented in the Table \ref{tab:ttest_gsr} there is no difference in the skin conductace  frequency variation between the sample groups.
 
@@ -63,7 +72,7 @@ According to the T-Test presented in the Table \ref{tab:ttest_gsr} there is no d
     \end{minipage}
 \end{table}
 
-The Table \ref{tab:repblocanova_gsr} shows the Anova test p-value of the skin conductance frequency of the "blind" sample between the guidance methods presented in the Table \ref{tab:gsr_table}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
+The Table \ref{tab:repblocanova_gsr} shows the Anova test p-value of the skin conductance frequency of the "blind" sample between the guidance methods presented in the Table \ref{tab:gsr_avg_table}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
 
 \input{Resultados/GSR/Tabelas/repblocanova_gsr.tex}
 
@@ -71,7 +80,8 @@ The Table \ref{tab:lsd_gsr} presents the conclusion of a pairwise Fisher LSD tes
 
 \input{Resultados/GSR/Tabelas/lsd_gsr.tex}
 
-According to the Anova test at Table \ref{tab:repblocanova_gsr} and the LSD test at \ref{tab:lsd_gsr} only the "Virtual Cane" and the "Mixture" method provoked a different reaction than the "Base" method, but since the Shapiro test at the Table \ref{tab:shapiro_gsr} showed that they are not normally distributed, than this conclusion has no foundation.
+According to the Anova test at Table \ref{tab:repblocanova_gsr} and the LSD test at \ref{tab:lsd_gsr} only the "Virtual Cane" and the "Mixture" method provoked a different reaction than the "Base" method, but since the Shapiro test at the Table \ref{tab:shapiro_gsr_avg} showed that they are not normally distributed, than this conclusion has no foundation.
+
 
 \FloatBarrier
 

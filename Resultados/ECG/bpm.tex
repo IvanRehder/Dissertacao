@@ -31,17 +31,32 @@ The Table \ref{tab:ecg_bpm_average_group} show the average heartbeat frequency v
 
 \input{Resultados/ECG/Tabelas/ecg_bpm_average_group}
 
-
-The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
+The Figures \ref{fig:boxplot_ecg_bpm_scene} and \ref{fig:barplot_ecg_bpm_global} show a comparison between both groups and both of them show that the blind group felt a bigger variation. That means that the "blind" sample felt a bigger mental workload variation.
 
 \begin{figure}[!htb]
-    \centering
-    \includegraphics[width = 0.5\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_scene.png}
-    %\resizebox{0.6\linewidth}{!}{
-    %\input{Resultados/ECG/Figuras/boxplot_ecg_bpm_scene.pgf}    
-    %}
-    \caption{Boxplot of the average heart rate of participants on each method.}
-    \label{fig:boxplot_ecg_bpm_scene}
+    %\centering
+    \begin{minipage}{.45\linewidth}
+        \centering
+        \includegraphics[width = \linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_scene.png}
+        %\input{Resultados/Sagat/Figuras/boxplot_sagat_scene.pgf}
+        %}
+        \caption{Boxplot of the average heart rate of participants on each method.}
+        \label{fig:boxplot_ecg_bpm_scene}
+    \end{minipage}
+    \begin{minipage}{.1\linewidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{.45\linewidth}
+        \vspace{1.8cm}
+        \centering
+        %\hspace{-4cm}
+        \includegraphics[width = \linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_bpm_global.png}
+        %\resizebox{0.6\linewidth}{!}{
+        %\input{Resultados/Sagat/Figuras/barplot_sagat_avg_global.pgf}
+        %}
+        \caption{Barplot of the average BPM score of each group.}
+        \label{fig:barplot_ecg_bpm_global}
+    \end{minipage}
 \end{figure}
 
 The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_ecg_bpm} shows that these data are normally distributed, with a p-value higher than 0.05, then it is possible to perform a T-Test to guarantee that the "blind" sample is different than the "sight" sample.

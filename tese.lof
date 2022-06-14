@@ -60,12 +60,15 @@
 \contentsline {figure}{\numberline {8.22}{\ignorespaces Bar plot of the average heart rate of the blind participants on each method.\relax }}{100}{figure.caption.76}
 \contentsline {figure}{\numberline {8.23}{\ignorespaces Bar plot of the average heart rate of the sighted participants on each method.\relax }}{100}{figure.caption.76}
 \contentsline {figure}{\numberline {8.24}{\ignorespaces Boxplot of the average heart rate of participants on each method.\relax }}{101}{figure.caption.78}
-\contentsline {figure}{\numberline {8.25}{\ignorespaces Bar plot of the standard deviation of the heart of the blind participants on each method.\relax }}{103}{figure.caption.83}
-\contentsline {figure}{\numberline {8.26}{\ignorespaces Bar plot of the standard deviation of the heart of the sighted participants on each method.\relax }}{103}{figure.caption.83}
-\contentsline {figure}{\numberline {8.27}{\ignorespaces Boxplot of the average heart rate of the participants on each method.\relax }}{104}{figure.caption.84}
-\contentsline {figure}{\numberline {8.28}{\ignorespaces Bar plot of the average skin conductance of the blind participants on each method.\relax }}{107}{figure.caption.90}
-\contentsline {figure}{\numberline {8.29}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{107}{figure.caption.90}
-\contentsline {figure}{\numberline {8.30}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{108}{figure.caption.91}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Barplot of the average BPM score of each group.\relax }}{101}{figure.caption.78}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Bar plot of the standard deviation of the heart of the blind participants on each method.\relax }}{103}{figure.caption.83}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Bar plot of the standard deviation of the heart of the sighted participants on each method.\relax }}{103}{figure.caption.83}
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Boxplot of the average heart rate of the participants on each method.\relax }}{104}{figure.caption.84}
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Barplot of the average SDNN score of each group.\relax }}{104}{figure.caption.84}
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Bar plot of the average skin conductance of the blind participants on each method.\relax }}{107}{figure.caption.90}
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{107}{figure.caption.90}
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{108}{figure.caption.91}
+\contentsline {figure}{\numberline {8.33}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{108}{figure.caption.91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -100,8 +103,8 @@
 \contentsline {figure}{\numberline {F.18}{\ignorespaces Residues plot of the average BPM.\relax }}{142}{figure.caption.155}
 \contentsline {figure}{\numberline {F.19}{\ignorespaces QQ plot of the average SDNN.\relax }}{143}{figure.caption.156}
 \contentsline {figure}{\numberline {F.20}{\ignorespaces Residues plot of the average SDNN.\relax }}{143}{figure.caption.156}
-\contentsline {figure}{\numberline {F.21}{\ignorespaces QQ plot of the average GSR.\relax }}{143}{figure.caption.157}
-\contentsline {figure}{\numberline {F.22}{\ignorespaces Residues plot of the average GSR.\relax }}{143}{figure.caption.157}
+\contentsline {figure}{\numberline {F.21}{\ignorespaces QQ plot of the average GSR.\relax }}{144}{figure.caption.157}
+\contentsline {figure}{\numberline {F.22}{\ignorespaces Residues plot of the average GSR.\relax }}{144}{figure.caption.157}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{145}{figure.caption.159}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{146}{figure.caption.159}
 \addvspace {10\p@ }
