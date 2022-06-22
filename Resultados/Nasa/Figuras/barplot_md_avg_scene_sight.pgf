@@ -608,7 +608,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{14.152126in}{3.575772in}}%
-\pgfpathlineto{\pgfqpoint{14.152126in}{4.900334in}}%
+\pgfpathlineto{\pgfqpoint{14.152126in}{4.635421in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
