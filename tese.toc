@@ -70,56 +70,56 @@
 \contentsline {section}{\numberline {8.2}Data from questionnaires}{82}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}NASA-TLX}{82}{subsection.8.2.1}
 \contentsline {subsubsection}{\numberline {8.2.1.1}Analysis of the mental demand scale}{83}{subsubsection.8.2.1.1}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Analysis of the NASA-TLX score}{88}{subsubsection.8.2.1.2}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Analysis of the NASA-TLX score}{87}{subsubsection.8.2.1.2}
 \contentsline {subsection}{\numberline {8.2.2}Adapted SAGAT}{94}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Guidance method's questionnaire.}{97}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.3}Guidance method's questionnaire.}{98}{subsection.8.2.3}
 \contentsline {section}{\numberline {8.3}Data from physiological sensors}{100}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Electrocardiogram (ECG) data}{100}{subsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.1.1}Analysis of the heartbeat frequency}{101}{subsubsection.8.3.1.1}
+\contentsline {subsection}{\numberline {8.3.1}Electrocardiogram (ECG) data}{101}{subsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.1.1}Analysis of the heartbeat frequency}{102}{subsubsection.8.3.1.1}
 \contentsline {subsubsection}{\numberline {8.3.1.2}Analysis of the heartbeat variancy}{105}{subsubsection.8.3.1.2}
 \contentsline {subsection}{\numberline {8.3.2}Galvanic skin reaction and temperature data;}{108}{subsection.8.3.2}
-\contentsline {chapter}{\numberline {9}Conclusion}{112}{chapter.9}
-\contentsline {section}{\numberline {9.1}Future works and suggestions}{113}{section.9.1}
-\contentsline {chapter}{Bibliography}{115}{chapter.10}
+\contentsline {chapter}{\numberline {9}Conclusion}{113}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future works and suggestions}{114}{section.9.1}
+\contentsline {chapter}{Bibliography}{116}{chapter.10}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Questionnaires}{120}{appendix.A}
-\contentsline {section}{\numberline {A.1}BVI condition}{120}{section.A.1}
-\contentsline {section}{\numberline {A.2}NASA-TLX}{121}{section.A.2}
-\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{123}{section.A.3}
-\contentsline {section}{\numberline {A.4}Guidance method evaluation}{128}{section.A.4}
-\contentsline {chapter}{\numberline {B}Virtual Cane}{134}{appendix.B}
-\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{134}{section.B.1}
-\contentsline {chapter}{\numberline {C}Haptic Belt}{135}{appendix.C}
-\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{135}{section.C.1}
-\contentsline {section}{\numberline {C.2}Vibration unit}{136}{section.C.2}
-\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{137}{section.C.3}
-\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{138}{section.C.4}
-\contentsline {chapter}{\numberline {D}ECG processing algorithm}{139}{appendix.D}
-\contentsline {chapter}{\numberline {E}GSR processing algorithm}{140}{appendix.E}
-\contentsline {chapter}{\numberline {F}Figures and graphics}{141}{appendix.F}
-\contentsline {section}{\numberline {F.1}Anova Time figures}{141}{section.F.1}
-\contentsline {subsection}{\numberline {F.1.1}Time average}{141}{subsection.F.1.1}
-\contentsline {subsection}{\numberline {F.1.2}Time Variation}{141}{subsection.F.1.2}
-\contentsline {section}{\numberline {F.2}Anova NASA-TLX figures}{142}{section.F.2}
-\contentsline {subsection}{\numberline {F.2.1}Mental demand}{142}{subsection.F.2.1}
-\contentsline {subsubsection}{\numberline {F.2.1.1}Average}{142}{subsubsection.F.2.1.1}
-\contentsline {subsubsection}{\numberline {F.2.1.2}Variation}{142}{subsubsection.F.2.1.2}
-\contentsline {subsection}{\numberline {F.2.2}NASA-TLX Score}{143}{subsection.F.2.2}
-\contentsline {subsubsection}{\numberline {F.2.2.1}Average}{143}{subsubsection.F.2.2.1}
-\contentsline {subsubsection}{\numberline {F.2.2.2}Variation}{143}{subsubsection.F.2.2.2}
-\contentsline {section}{\numberline {F.3}Anova Sagat figures}{144}{section.F.3}
-\contentsline {subsection}{\numberline {F.3.1}Sagat average}{144}{subsection.F.3.1}
-\contentsline {subsection}{\numberline {F.3.2}Sagat variation}{144}{subsection.F.3.2}
-\contentsline {section}{\numberline {F.4}Anova ECG figures}{145}{section.F.4}
-\contentsline {subsection}{\numberline {F.4.1}BPM}{145}{subsection.F.4.1}
-\contentsline {subsubsection}{\numberline {F.4.1.1}Average}{145}{subsubsection.F.4.1.1}
-\contentsline {subsection}{\numberline {F.4.2}SDNN}{146}{subsection.F.4.2}
-\contentsline {subsubsection}{\numberline {F.4.2.1}Variation}{146}{subsubsection.F.4.2.1}
-\contentsline {section}{\numberline {F.5}Anova GSR figures}{146}{section.F.5}
-\contentsline {subsection}{\numberline {F.5.1}GSR average}{146}{subsection.F.5.1}
+\contentsline {chapter}{\numberline {A}Questionnaires}{121}{appendix.A}
+\contentsline {section}{\numberline {A.1}BVI condition}{121}{section.A.1}
+\contentsline {section}{\numberline {A.2}NASA-TLX}{122}{section.A.2}
+\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{124}{section.A.3}
+\contentsline {section}{\numberline {A.4}Guidance method evaluation}{129}{section.A.4}
+\contentsline {chapter}{\numberline {B}Virtual Cane}{135}{appendix.B}
+\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{135}{section.B.1}
+\contentsline {chapter}{\numberline {C}Haptic Belt}{136}{appendix.C}
+\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{136}{section.C.1}
+\contentsline {section}{\numberline {C.2}Vibration unit}{137}{section.C.2}
+\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{138}{section.C.3}
+\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{139}{section.C.4}
+\contentsline {chapter}{\numberline {D}ECG processing algorithm}{140}{appendix.D}
+\contentsline {chapter}{\numberline {E}GSR processing algorithm}{141}{appendix.E}
+\contentsline {chapter}{\numberline {F}Figures and graphics}{142}{appendix.F}
+\contentsline {section}{\numberline {F.1}Anova Time figures}{142}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Time average}{142}{subsection.F.1.1}
+\contentsline {subsection}{\numberline {F.1.2}Time Variation}{142}{subsection.F.1.2}
+\contentsline {section}{\numberline {F.2}Anova NASA-TLX figures}{143}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}Mental demand}{143}{subsection.F.2.1}
+\contentsline {subsubsection}{\numberline {F.2.1.1}Average}{143}{subsubsection.F.2.1.1}
+\contentsline {subsubsection}{\numberline {F.2.1.2}Variation}{143}{subsubsection.F.2.1.2}
+\contentsline {subsection}{\numberline {F.2.2}NASA-TLX Score}{144}{subsection.F.2.2}
+\contentsline {subsubsection}{\numberline {F.2.2.1}Average}{144}{subsubsection.F.2.2.1}
+\contentsline {subsubsection}{\numberline {F.2.2.2}Variation}{144}{subsubsection.F.2.2.2}
+\contentsline {section}{\numberline {F.3}Anova Sagat figures}{145}{section.F.3}
+\contentsline {subsection}{\numberline {F.3.1}Sagat average}{145}{subsection.F.3.1}
+\contentsline {subsection}{\numberline {F.3.2}Sagat variation}{145}{subsection.F.3.2}
+\contentsline {section}{\numberline {F.4}Anova ECG figures}{146}{section.F.4}
+\contentsline {subsection}{\numberline {F.4.1}BPM}{146}{subsection.F.4.1}
+\contentsline {subsubsection}{\numberline {F.4.1.1}Average}{146}{subsubsection.F.4.1.1}
+\contentsline {subsection}{\numberline {F.4.2}SDNN}{147}{subsection.F.4.2}
+\contentsline {subsubsection}{\numberline {F.4.2.1}Variation}{147}{subsubsection.F.4.2.1}
+\contentsline {section}{\numberline {F.5}Anova GSR figures}{147}{section.F.5}
+\contentsline {subsection}{\numberline {F.5.1}GSR average}{147}{subsection.F.5.1}
 \SetAppendixTocName {Annex}
-\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{148}{annex.a}
-\contentsline {section}{\numberline {A.1}Especifications}{148}{section.a.1}
-\contentsline {section}{\numberline {A.2}Pinnout}{149}{section.a.2}
-\contentsline {chapter}{\numberline {B}Kubius}{150}{annex.b}
-\contentsline {section}{\numberline {B.1}Kubius software}{150}{section.b.1}
+\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{149}{annex.a}
+\contentsline {section}{\numberline {A.1}Especifications}{149}{section.a.1}
+\contentsline {section}{\numberline {A.2}Pinnout}{150}{section.a.2}
+\contentsline {chapter}{\numberline {B}Kubius}{151}{annex.b}
+\contentsline {section}{\numberline {B.1}Kubius software}{151}{section.b.1}

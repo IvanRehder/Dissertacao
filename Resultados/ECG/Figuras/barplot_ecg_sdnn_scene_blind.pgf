@@ -490,8 +490,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{2.046220in}{1.550765in}}%
-\pgfpathlineto{\pgfqpoint{2.046220in}{4.333664in}}%
+\pgfpathmoveto{\pgfqpoint{2.046220in}{1.639768in}}%
+\pgfpathlineto{\pgfqpoint{2.046220in}{4.330299in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -542,7 +542,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{13.206220in}{1.842330in}}%
+\pgfpathmoveto{\pgfqpoint{13.206220in}{2.117929in}}%
 \pgfpathlineto{\pgfqpoint{13.206220in}{4.535110in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
@@ -555,7 +555,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{3.162220in}{2.268552in}}%
+\pgfpathmoveto{\pgfqpoint{3.162220in}{2.134110in}}%
 \pgfpathlineto{\pgfqpoint{3.162220in}{4.572862in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
@@ -569,7 +569,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.952220in}{1.500313in}}%
-\pgfpathlineto{\pgfqpoint{5.952220in}{4.362633in}}%
+\pgfpathlineto{\pgfqpoint{5.952220in}{4.737823in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -582,7 +582,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{8.742220in}{1.431789in}}%
-\pgfpathlineto{\pgfqpoint{8.742220in}{4.529752in}}%
+\pgfpathlineto{\pgfqpoint{8.742220in}{4.523366in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -594,8 +594,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{11.532220in}{2.361034in}}%
-\pgfpathlineto{\pgfqpoint{11.532220in}{4.309108in}}%
+\pgfpathmoveto{\pgfqpoint{11.532220in}{2.226089in}}%
+\pgfpathlineto{\pgfqpoint{11.532220in}{4.305735in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
