@@ -48,24 +48,33 @@
 \contentsline {table}{\numberline {8.35}{\ignorespaces Guidance method questionnaire average score grouped by visual condition.\relax }}{99}{table.caption.77}
 \contentsline {table}{\numberline {8.36}{\ignorespaces Shapiro test p-value for the questionnaires score for each method and visual condition.\relax }}{100}{table.caption.79}
 \contentsline {table}{\numberline {8.37}{\ignorespaces Anova p-value for the questionnaire score on each method for blinded users.\relax }}{100}{table.caption.80}
-\contentsline {table}{\numberline {8.38}{\ignorespaces ECG average BPM felled by the participants.\relax }}{102}{table.caption.81}
+\contentsline {table}{\numberline {8.38}{\ignorespaces ECG average BPM felled by the participants [mV].\relax }}{102}{table.caption.81}
 \contentsline {table}{\numberline {8.39}{\ignorespaces ECG average BPM average in relation to the baseline grouped by participant and visual Condition.\relax }}{103}{table.caption.83}
 \contentsline {table}{\numberline {8.40}{\ignorespaces Shapiro test p-value for the ecg average BPM for each method and visual condition\relax }}{104}{table.caption.85}
 \contentsline {table}{\numberline {8.41}{\ignorespaces T test p-value for the ecg average BPM each method for blinded users versus sighted users.\relax }}{104}{table.caption.85}
 \contentsline {table}{\numberline {8.42}{\ignorespaces Anova p-value for the BPM on each method for blinded users.\relax }}{105}{table.caption.86}
 \contentsline {table}{\numberline {8.43}{\ignorespaces Cross validation p-value for the average BPM on each method for blinded users.\relax }}{105}{table.caption.87}
-\contentsline {table}{\numberline {8.44}{\ignorespaces ECG Average SDNN felled by the participants.\relax }}{106}{table.caption.88}
+\contentsline {table}{\numberline {8.44}{\ignorespaces ECG Average SDNN felled by the participants [mV].\relax }}{106}{table.caption.88}
 \contentsline {table}{\numberline {8.45}{\ignorespaces ECG Average SDNN average in relation to the baseline grouped by participant and visual Condition.\relax }}{106}{table.caption.91}
 \contentsline {table}{\numberline {8.46}{\ignorespaces Shapiro test p-value for the ecg average SDNN for each method and visual condition\relax }}{106}{table.caption.92}
 \contentsline {table}{\numberline {8.47}{\ignorespaces T test p-value for the ecg average SDNN each method for blinded users versus sighted users.\relax }}{106}{table.caption.92}
 \contentsline {table}{\numberline {8.48}{\ignorespaces Anova p-value for the SDNN on each method for blinded users.\relax }}{107}{table.caption.93}
 \contentsline {table}{\numberline {8.49}{\ignorespaces Cross validation p-value for the average SDNN on each method for blinded users.\relax }}{108}{table.caption.94}
-\contentsline {table}{\numberline {8.50}{\ignorespaces Average GSR felled by the participants.\relax }}{109}{table.caption.95}
+\contentsline {table}{\numberline {8.50}{\ignorespaces Average GSR felled by the participants [$\mu $S].\relax }}{109}{table.caption.95}
 \contentsline {table}{\numberline {8.51}{\ignorespaces Average GSR variation in relation to the baseline grouped by participant and visual Condition.\relax }}{109}{table.caption.98}
-\contentsline {table}{\numberline {8.52}{\ignorespaces Shapiro test p-value for the gsr average for each method and visual condition\relax }}{110}{table.caption.99}
-\contentsline {table}{\numberline {8.53}{\ignorespaces T test p-value for the average GSR on each method for blinded users versus sighted users.\relax }}{110}{table.caption.99}
+\contentsline {table}{\numberline {8.52}{\ignorespaces Shapiro test p-value for the gsr average for each method and visual condition\relax }}{111}{table.caption.99}
+\contentsline {table}{\numberline {8.53}{\ignorespaces T test p-value for the average GSR on each method for blinded users versus sighted users.\relax }}{111}{table.caption.99}
 \contentsline {table}{\numberline {8.54}{\ignorespaces Anova p-value for the GSR score on each method for blinded users.\relax }}{111}{table.caption.100}
 \contentsline {table}{\numberline {8.55}{\ignorespaces Cross validation p-value for the GSR on each method for blinded users.\relax }}{112}{table.caption.101}
+\contentsline {table}{\numberline {8.56}{\ignorespaces Accumulated GSR felled by the participants [$x10^4 \mu $S].\relax }}{112}{table.caption.102}
+\contentsline {table}{\numberline {8.57}{\ignorespaces Accumulated GSR felled by the blind participants [$x10^4 \mu $S].\relax }}{113}{table.caption.103}
+\contentsline {table}{\numberline {8.58}{\ignorespaces Accumulated GSR variation in relation to the baseline in each round.\relax }}{115}{table.caption.107}
+\contentsline {table}{\numberline {8.59}{\ignorespaces Accumulate GSR variation in relation to the baseline grouped by participant and visual Condition.\relax }}{115}{table.caption.108}
+\contentsline {table}{\numberline {8.60}{\ignorespaces Accumulate GSR variation in relation to the baseline grouped by participant and visual Condition.\relax }}{115}{table.caption.109}
+\contentsline {table}{\numberline {8.61}{\ignorespaces Shapiro test p-value for the gsr accumulated for each method and visual condition\relax }}{116}{table.caption.110}
+\contentsline {table}{\numberline {8.62}{\ignorespaces T test p-value for the accumulated GSR on each method for blinded users versus sighted users.\relax }}{116}{table.caption.110}
+\contentsline {table}{\numberline {8.63}{\ignorespaces Anova p-value for the accumulated GSR score on each method for blinded users.\relax }}{116}{table.caption.111}
+\contentsline {table}{\numberline {8.64}{\ignorespaces Cross validation p-value for the accumulated GSR on each method for blinded users.\relax }}{116}{table.caption.112}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

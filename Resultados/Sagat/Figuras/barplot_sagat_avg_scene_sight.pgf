@@ -530,7 +530,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{10.296898in}{2.844298in}}%
+\pgfpathmoveto{\pgfqpoint{10.296898in}{3.027414in}}%
 \pgfpathlineto{\pgfqpoint{10.296898in}{5.661462in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%

@@ -69,42 +69,48 @@
 \contentsline {figure}{\numberline {8.31}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{110}{figure.caption.96}
 \contentsline {figure}{\numberline {8.32}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{111}{figure.caption.97}
 \contentsline {figure}{\numberline {8.33}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{111}{figure.caption.97}
+\contentsline {figure}{\numberline {8.34}{\ignorespaces Bar plot of the average skin conductance of the blind participants on each method.\relax }}{113}{figure.caption.104}
+\contentsline {figure}{\numberline {8.35}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{113}{figure.caption.104}
+\contentsline {figure}{\numberline {8.36}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{114}{figure.caption.105}
+\contentsline {figure}{\numberline {8.37}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{114}{figure.caption.105}
+\contentsline {figure}{\numberline {8.38}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{114}{figure.caption.106}
+\contentsline {figure}{\numberline {8.39}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{114}{figure.caption.106}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Virtual cane's algorithm diagram\relax }}{135}{figure.caption.146}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Virtual cane's algorithm diagram\relax }}{139}{figure.caption.157}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Printed circuit board wiring\relax }}{136}{figure.caption.147}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Vibration Unit\relax }}{137}{figure.caption.148}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Unity's message flowchart inside ESP32\relax }}{138}{figure.caption.149}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Unity's process of identifying obstacle and setting the vibration intensity.\relax }}{139}{figure.caption.150}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Printed circuit board wiring\relax }}{140}{figure.caption.158}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Vibration Unit\relax }}{141}{figure.caption.159}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Unity's message flowchart inside ESP32\relax }}{142}{figure.caption.160}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Unity's process of identifying obstacle and setting the vibration intensity.\relax }}{143}{figure.caption.161}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces ECG's data treatment algorithim.\relax }}{140}{figure.caption.151}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces ECG's data treatment algorithim.\relax }}{144}{figure.caption.162}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces GSR's data treatment algorithim.\relax }}{141}{figure.caption.152}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces GSR's data treatment algorithim.\relax }}{145}{figure.caption.163}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces QQ plot of the average duration on each scene.\relax }}{142}{figure.caption.153}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Residues plot of the average duration on each scene.\relax }}{142}{figure.caption.153}
-\contentsline {figure}{\numberline {F.3}{\ignorespaces QQ plot of the duration variation on each scene.\relax }}{143}{figure.caption.154}
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Residues plot of the duration variation on each scene.\relax }}{143}{figure.caption.154}
-\contentsline {figure}{\numberline {F.5}{\ignorespaces QQ plot of the average Mental Demand.\relax }}{143}{figure.caption.155}
-\contentsline {figure}{\numberline {F.6}{\ignorespaces Residues plot of the average Mental Demand.\relax }}{143}{figure.caption.155}
-\contentsline {figure}{\numberline {F.7}{\ignorespaces QQ plot of the Mental Demand variation.\relax }}{144}{figure.caption.156}
-\contentsline {figure}{\numberline {F.8}{\ignorespaces Residues plot of the Mental Demand variation.\relax }}{144}{figure.caption.156}
-\contentsline {figure}{\numberline {F.9}{\ignorespaces QQ plot of the average NASA-TLX score.\relax }}{144}{figure.caption.157}
-\contentsline {figure}{\numberline {F.10}{\ignorespaces Residues plot of the average NASA-TLX score.\relax }}{144}{figure.caption.157}
-\contentsline {figure}{\numberline {F.11}{\ignorespaces QQ plot of the NASA-TLX score variation.\relax }}{145}{figure.caption.158}
-\contentsline {figure}{\numberline {F.12}{\ignorespaces Residues plot of the NASA-TLX score variation.\relax }}{145}{figure.caption.158}
-\contentsline {figure}{\numberline {F.13}{\ignorespaces QQ plot of the average Sagat score.\relax }}{145}{figure.caption.159}
-\contentsline {figure}{\numberline {F.14}{\ignorespaces Residues plot of the average Sagat score\relax }}{145}{figure.caption.159}
-\contentsline {figure}{\numberline {F.15}{\ignorespaces QQ plot of the Sagat score variation.\relax }}{146}{figure.caption.160}
-\contentsline {figure}{\numberline {F.16}{\ignorespaces Residues plot of the Sagat score variation\relax }}{146}{figure.caption.160}
-\contentsline {figure}{\numberline {F.17}{\ignorespaces QQ plot of the average BPM.\relax }}{146}{figure.caption.161}
-\contentsline {figure}{\numberline {F.18}{\ignorespaces Residues plot of the average BPM.\relax }}{146}{figure.caption.161}
-\contentsline {figure}{\numberline {F.19}{\ignorespaces QQ plot of the average SDNN.\relax }}{147}{figure.caption.162}
-\contentsline {figure}{\numberline {F.20}{\ignorespaces Residues plot of the average SDNN.\relax }}{147}{figure.caption.162}
-\contentsline {figure}{\numberline {F.21}{\ignorespaces QQ plot of the average GSR.\relax }}{148}{figure.caption.163}
-\contentsline {figure}{\numberline {F.22}{\ignorespaces Residues plot of the average GSR.\relax }}{148}{figure.caption.163}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces QQ plot of the average duration on each scene.\relax }}{146}{figure.caption.164}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Residues plot of the average duration on each scene.\relax }}{146}{figure.caption.164}
+\contentsline {figure}{\numberline {F.3}{\ignorespaces QQ plot of the duration variation on each scene.\relax }}{147}{figure.caption.165}
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Residues plot of the duration variation on each scene.\relax }}{147}{figure.caption.165}
+\contentsline {figure}{\numberline {F.5}{\ignorespaces QQ plot of the average Mental Demand.\relax }}{147}{figure.caption.166}
+\contentsline {figure}{\numberline {F.6}{\ignorespaces Residues plot of the average Mental Demand.\relax }}{147}{figure.caption.166}
+\contentsline {figure}{\numberline {F.7}{\ignorespaces QQ plot of the Mental Demand variation.\relax }}{148}{figure.caption.167}
+\contentsline {figure}{\numberline {F.8}{\ignorespaces Residues plot of the Mental Demand variation.\relax }}{148}{figure.caption.167}
+\contentsline {figure}{\numberline {F.9}{\ignorespaces QQ plot of the average NASA-TLX score.\relax }}{148}{figure.caption.168}
+\contentsline {figure}{\numberline {F.10}{\ignorespaces Residues plot of the average NASA-TLX score.\relax }}{148}{figure.caption.168}
+\contentsline {figure}{\numberline {F.11}{\ignorespaces QQ plot of the NASA-TLX score variation.\relax }}{149}{figure.caption.169}
+\contentsline {figure}{\numberline {F.12}{\ignorespaces Residues plot of the NASA-TLX score variation.\relax }}{149}{figure.caption.169}
+\contentsline {figure}{\numberline {F.13}{\ignorespaces QQ plot of the average Sagat score.\relax }}{149}{figure.caption.170}
+\contentsline {figure}{\numberline {F.14}{\ignorespaces Residues plot of the average Sagat score\relax }}{149}{figure.caption.170}
+\contentsline {figure}{\numberline {F.15}{\ignorespaces QQ plot of the Sagat score variation.\relax }}{150}{figure.caption.171}
+\contentsline {figure}{\numberline {F.16}{\ignorespaces Residues plot of the Sagat score variation\relax }}{150}{figure.caption.171}
+\contentsline {figure}{\numberline {F.17}{\ignorespaces QQ plot of the average BPM.\relax }}{150}{figure.caption.172}
+\contentsline {figure}{\numberline {F.18}{\ignorespaces Residues plot of the average BPM.\relax }}{150}{figure.caption.172}
+\contentsline {figure}{\numberline {F.19}{\ignorespaces QQ plot of the average SDNN.\relax }}{151}{figure.caption.173}
+\contentsline {figure}{\numberline {F.20}{\ignorespaces Residues plot of the average SDNN.\relax }}{151}{figure.caption.173}
+\contentsline {figure}{\numberline {F.21}{\ignorespaces QQ plot of the average GSR.\relax }}{152}{figure.caption.174}
+\contentsline {figure}{\numberline {F.22}{\ignorespaces Residues plot of the average GSR.\relax }}{152}{figure.caption.174}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{150}{figure.caption.165}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{154}{figure.caption.176}
 \addvspace {10\p@ }
