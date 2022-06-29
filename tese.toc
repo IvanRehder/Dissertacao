@@ -70,8 +70,8 @@
 \contentsline {section}{\numberline {8.2}Data from questionnaires}{82}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}NASA-TLX}{82}{subsection.8.2.1}
 \contentsline {subsubsection}{\numberline {8.2.1.1}Analysis of the mental demand scale}{83}{subsubsection.8.2.1.1}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Analysis of the NASA-TLX score}{87}{subsubsection.8.2.1.2}
-\contentsline {subsection}{\numberline {8.2.2}Adapted SAGAT}{94}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Analysis of the NASA-TLX score}{88}{subsubsection.8.2.1.2}
+\contentsline {subsection}{\numberline {8.2.2}Adapted SAGAT}{93}{subsection.8.2.2}
 \contentsline {subsection}{\numberline {8.2.3}Guidance method's questionnaire.}{98}{subsection.8.2.3}
 \contentsline {section}{\numberline {8.3}Data from physiological sensors}{100}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Electrocardiogram (ECG) data}{101}{subsection.8.3.1}
