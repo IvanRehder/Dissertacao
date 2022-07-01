@@ -1,198 +1,68 @@
-\subsection{Galvanic skin reaction and temperature data;}
+\subsubsection{Galvanic skin reaction and temperature data;}
 \label{subsec:results_gsr_temp}
 
-The GSR analysis is made by analyzing the average in each round and comparing it with the "Baseline" average. The temperature was analyzed with the GSR to see if there is some influence and by a graphical analysis there was none.
+The GSR analysis is made by analyzing its average variation between the rounds. The bigger the variation, the bigger the stress, arousal or mental workload felt by the participant. The temperature was analyzed with the GSR to see if there is some influence and by a graphical analysis there was none. For the experiment, the GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants.
 
-\subsubsection{Analysis of the GSR average}
+%The Table \ref{tab:sdnn_table_blind} presents the standard deviation of the interbeat interval by each participant on each scenes. As it was with the Table \ref{tab:bpm_table_blind}, it is not posible to draw a pattern inside this Table. Different participant had increase, or decrease, with different methods.
 
-The Table \ref{tab:gsr_avg_table} presents the average skin conductance by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_gsr_scene_blind} and \ref{fig:barplot_gsr_scene_sight}. It is possible to see that in all of the methods there was an increase in the average skin conductance, meaning that the user was aroused and maybe an increase in the mental workload.
+\input{Resultados/GSR/Tabelas/gsr_avg_table.tex.tex}
 
-%\input{Resultados/GSR/Tabelas/gsr_avg_table}
+%Inside the barplot Figure \ref{fig:barplot_ecg_sdnn_5_scene_blind} shows the average SDNN in each method. It is posible to notice that some method had an increase and some a decrease in the SDNN. The ones that indicate an increase would mean that the participant felt a lesser mental workload in the "Return" round, whilst the deacrese means the opposite.
 
-%\begin{figure}[!htb]
-%    \centering
-%    \begin{minipage}{\textwidth}
-%        \centering
-%        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_scene_blind.png}
-%        %\resizebox{0.8\linewidth}{!}{
-%        %\input{Resultados/GSR/Figuras/barplot_ecg_bpm_scene_blind.pgf}
-%        %}
-%        \caption{Bar plot of the average skin conductance of the blind participants on each method.}
-%        \label{fig:barplot_gsr_scene_blind}
-%    \end{minipage}
-%    \begin{minipage}{\textwidth}
-%        \centering
-%        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_scene_sight.png}
-%        %\resizebox{0.6\linewidth}{!}{
-%        %\input{Resultados/GSR/Figuras/barplot_gsr_scene_sight.pgf}    
-%        %}
-%        \caption{Bar plot of the average skin conductance of the sighted participants on each method.}
-%        \label{fig:barplot_gsr_scene_sight}
-%    \end{minipage}
-%\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_ecg_sdnn_5_scene_blind.png}
+    \caption{Barplot of the average SDNN of the blind participants on each method.}
+    \label{fig:barplot_ecg_sdnn_5_scene_blind}
+\end{figure}
 
-The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
+%The Table \ref{tab:sdnn_average_group_blind} presents the average SDNN variation between the rounds. It shows that only the "Audio" and the "Haptic Belt" methods shown a increase in the mental workload.
 
-%\begin{figure}[!htb]
-%    %\centering
-%    \begin{minipage}{.45\linewidth}
-%        \centering
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_scene.png}
-%        \caption{Boxplot of the average skin conductace of the participants on each method.}
-%        \label{fig:boxplot_gsr_scene}
-%    \end{minipage}
-%    \begin{minipage}{.1\linewidth}
-%        \hfill
-%    \end{minipage}
-%    \begin{minipage}{.45\linewidth}
-%        \vspace{1.8cm}
-%        \centering
-%        %\hspace{-4cm}
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg.png}
-%        \caption{Bar plot of the average GSR of of each group.}
-%        \label{fig:barplot_gsr_avg}
-%    \end{minipage}
-%\end{figure}
+\input{Resultados/GSR/Tabelas/sdnn_average_group_blind.tex}
 
-The Table \ref{tab:gsr_avg_table_def2} shows the variation of the heartbeat in each round of each group. It is also possible to notice the same increase noticed before.
-
-%\input{Resultados/GSR/Tabelas/gsr_avg_table_def2.tex}
-
-The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_gsr_avg} shows that only the "Audio" method is normally distributed for the "blind" sample while for the "sight" sample only the "Virtual Cane" is not normally distributed
-
-According to the T-Test presented in the Table \ref{tab:ttest_gsr} there is no difference in the skin conductace  frequency variation between the sample groups.
+%The Figures \ref{fig:boxplot_ecg_sdnn_blind_scene} presents the distribution of each method SDNN. It noticeable that the "Base" method has a different SDNN than the rest. The "Virtual Cane" also has a different distribution from the rest. The Figure \ref{fig:boxplot_ecg_sdnn_blind_rounds} presents the SDNN grouped by the rounds. It shows a slight difference between the rounds.
 
 
-%\begin{table}[!htb]
-%    \begin{minipage}{.45\linewidth}
-%        \input{Resultados/GSR/Tabelas/shapiro_gsr_avgSemBegin.tex}
-%    \end{minipage}
-%    \hfill
-%    \begin{minipage}{.45\linewidth}
-%        \vspace{-2.75cm}
-%        \input{Resultados/GSR/Tabelas/ttest_gsr_avgSemBegin.tex}
-%    \end{minipage}
-%\end{table}
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_ecg_sdnn_blind_scene.png}
+        \caption{Boxplot of the SDNN of the blind participants grouped by method.}
+        \label{fig:boxplot_ecg_sdnn_blind_scene}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_ecg_sdnn_blind_rounds.png}
+        \caption{Boxplot of the SDNN of the blind participants grouped by round.}
+        \label{fig:boxplot_ecg_sdnn_blind_rounds}
+    \end{minipage}
+\end{figure}
 
-The Table \ref{tab:repblocanova_gsr} shows the Anova test p-value of the skin conductance frequency of the "blind" sample between the guidance methods presented in the Table \ref{tab:gsr_avg_table}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
+%The Figures \ref{fig:qqplot_sdnn_two_way} and \ref{fig:residplot_sdnn_two_way} shows the distribution and variance of the Table \ref{tab:sdnn_table_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
+%The Table \ref{tab:blocdanova_sdnn_two_way} shows the ANOVA test p-value of the heartbeat interval variance of the “blind” sample. The p-value indicates that there is no effect of any factor.
 
-%\input{Resultados/GSR/Tabelas/blocanova_gsr_avg.tex}
+\input{Resultados/GSR/Tabelas/blocdanova_sdnn_two_way.tex}
 
-The Table \ref{tab:lsd_gsr} presents the conclusion of a pairwise Fisher LSD test of the blind skin conductance frequency variation between all the guidance methods. The results show that the "Virtual Cane" and the "Mixture" have different variations, but since they are not normally distributed this conclusion can not statistically be made.
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/qqplot_sdnn_two_way.png}
+        \caption{QQ plot of the SDNN of the blind participants on each method.}
+        \label{fig:qqplot_sdnn_two_way}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/residplot_sdnn_two_way.png}
+        \caption{Residual plot of the SDNN of the blind participants on each method.}
+        \label{fig:residplot_sdnn_two_way}
+    \end{minipage}
+\end{figure}
 
-%\input{Resultados/GSR/Tabelas/lsd_gsr_avg.tex}
+\input{Resultados/GSR/Tabelas/lsd_sdnn_two_way.tex}
 
-According to the Anova test at Table \ref{tab:repblocanova_gsr} and the LSD test at \ref{tab:lsd_gsr} only the "Virtual Cane" and the "Mixture" method provoked a different reaction than the "Base" method, but since the Shapiro test at the Table \ref{tab:shapiro_gsr_avg} showed that they are not normally distributed, than this conclusion has no foundation.
-
-\subsubsection{Analysis of the accumulated GSR}
-
-
-%The Table \ref{tab:gsr_avg_table} presents the average skin conductance by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_gsr_scene_blind} and \ref{fig:barplot_gsr_scene_sight}. It is possible to see that in all of the methods there was an increase in the average skin conductance, meaning that the user was aroused and maybe an increase in the mental workload.
-
-%\input{Resultados/GSR/Tabelas/gsr_sum_table}
-%\input{Resultados/GSR/Tabelas/gsr_sum_table_blind}
-
-%\begin{figure}[!htb]
-%    \centering
-%    \begin{minipage}{\textwidth}
-%        \centering
-%        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_sum_scene_blind.png}
-%        %\resizebox{0.8\linewidth}{!}{
-%        %\input{Resultados/GSR/Figuras/barplot_ecg_bpm_scene_blind.pgf}
-%        %}
-%        \caption{Bar plot of the average skin conductance of the blind participants on each method.}
-%        \label{fig:barplot_gsr_scene_blind}
-%    \end{minipage}
-%    \begin{minipage}{\textwidth}
-%        \centering
-%        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_sum_scene_sight.png}
-%        %\resizebox{0.6\linewidth}{!}{
-%        %\input{Resultados/GSR/Figuras/barplot_gsr_scene_sight.pgf}    
-%        %}
-%        \caption{Bar plot of the average skin conductance of the sighted participants on each method.}
-%        \label{fig:barplot_gsr_scene_sight}
-%    \end{minipage}
-%\end{figure}
-
-%The Figure \ref{fig:boxplot_ecg_bpm_scene} shows a comparison between both groups
-
-%\begin{figure}[!htb]
-%    %\centering
-%    \begin{minipage}{.45\linewidth}
-%        \centering
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_sum_blind_scene.png}
-%        \caption{Boxplot of the average skin conductace of the participants on each method.}
-%        \label{fig:boxplot_gsr_scene}
-%    \end{minipage}
-%    \begin{minipage}{.1\linewidth}
-%        \hfill
-%    \end{minipage}
-%    \begin{minipage}{.45\linewidth}
-%        \vspace{1.8cm}
-%        \centering
-%        %\hspace{-4cm}
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_sum.png}
-%        \caption{Bar plot of the average GSR of of each group.}
-%        \label{fig:barplot_gsr_avg}
-%    \end{minipage}
-%\end{figure}
-%
-%\begin{figure}[!htb]
-%    %\centering
-%    \begin{minipage}{.45\linewidth}
-%        \centering
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_sum_scene.png}
-%        \caption{Boxplot of the average skin conductace of the participants on each method.}
-%        \label{fig:boxplot_gsr_scene}
-%    \end{minipage}
-%    \begin{minipage}{.1\linewidth}
-%        \hfill
-%    \end{minipage}
-%    \begin{minipage}{.45\linewidth}
-%        \vspace{1.8cm}
-%        \centering
-%        %\hspace{-4cm}
-%        \includegraphics[width = \linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_sum.png}
-%        \caption{Bar plot of the average GSR of of each group.}
-%        \label{fig:barplot_gsr_avg}
-%    \end{minipage}
-%\end{figure}
-
-%The Table \ref{tab:gsr_avg_table_def2} shows the variation of the heartbeat in each round of each group. It is also possible to notice the same increase noticed before.
-
-%\input{Resultados/GSR/Tabelas/gsr_sum_table_etp.tex}
-%
-%\input{Resultados/GSR/Tabelas/gsr_var_sum_def_blind.tex}
-%
-%\input{Resultados/GSR/Tabelas/gsr_var_sum_def.tex}
-
-%The Shapiro–Wilk normality test on the Table \ref{tab:shapiro_gsr_avg} shows that only the "Audio" method is normally distributed for the "blind" sample while for the "sight" sample only the "Virtual Cane" is not normally distributed
-
-%According to the T-Test presented in the Table \ref{tab:ttest_gsr} there is no difference in the skin conductace  frequency variation between the sample groups.
-
-
-%\begin{table}[!htb]
-%    \begin{minipage}{.45\linewidth}
-%        \input{Resultados/GSR/Tabelas/shapiro_gsr_sumSemBegin.tex}
-%    \end{minipage}
-%    \hfill
-%    \begin{minipage}{.45\linewidth}
-%        \vspace{-2.75cm}
-%        \input{Resultados/GSR/Tabelas/ttest_gsr_sumSemBegin.tex}
-%    \end{minipage}
-%\end{table}
-
-%The Table \ref{tab:repblocanova_gsr} shows the Anova test p-value of the skin conductance frequency of the "blind" sample between the guidance methods presented in the Table \ref{tab:gsr_avg_table}. The p-value indicates that there is at least one method that is statistically equal to one of the other methods.
-
-%\input{Resultados/GSR/Tabelas/blocanova_gsr_sum.tex}
-
-%The Table \ref{tab:lsd_gsr} presents the conclusion of a pairwise Fisher LSD test of the blind skin conductance frequency variation between all the guidance methods. The results show that the "Virtual Cane" and the "Mixture" have different variations, but since they are not normally distributed this conclusion can not statistically be made.
-
-%\input{Resultados/GSR/Tabelas/lsd_gsr_sum.tex}
-
-%According to the Anova test at Table \ref{tab:repblocanova_gsr} and the LSD test at \ref{tab:lsd_gsr} only the "Virtual Cane" and the "Mixture" method provoked a different reaction than the "Base" method, but since the Shapiro test at the Table \ref{tab:shapiro_gsr_avg} showed that they are not normally distributed, than this conclusion has no foundation.
-
-
+%The Table \ref{tab:blocdanova_sdnn_two_way} does not prove that any method or round has some influence in the heartbeat interval variance, thus in the Mental Workload. Although, in the Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} it is posible to notice that the "Base" method has a different distribution. As it has already commented before, maybe the result of the anova test is a conseguence of a small sample size.
 
 \FloatBarrier
 
