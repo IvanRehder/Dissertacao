@@ -1,116 +1,138 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Steps of this work\relax }}{29}{figure.caption.7}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Steps of this work\relax }}{30}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Human-Machine system representation \cite {sanders1998human}.\relax }}{33}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A overview of mental workload and the methods to infer it.\relax }}{35}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A overview of situation awareness and the SAGAT.\relax }}{38}{figure.caption.11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The Virtuality Continuum concept \cite {milgram1994taxonomy}\relax }}{39}{figure.caption.12}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A represantion of the differences between AR, AV, MR and VR\relax }}{41}{figure.caption.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Human-Machine system representation \cite {sanders1998human}.\relax }}{34}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A overview of mental workload and the methods to infer it.\relax }}{36}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A overview of situation awareness and the SAGAT.\relax }}{39}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The Virtuality Continuum concept \cite {milgram1994taxonomy}\relax }}{40}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A represantion of the differences between AR, AV, MR and VR\relax }}{42}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Siu et al. key locations. Distances are in meters \cite {siu2020virtual}.\relax }}{44}{figure.caption.14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Siu et al. training and game rooms layout \cite {siu2020virtual}.\relax }}{44}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Happy environment \cite {jicol2021effects}.\relax }}{46}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Fear environment \cite {jicol2021effects}.\relax }}{46}{figure.caption.16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison between sighted participants with BVI participants (Adapted from \citeonline {bradley2002investigating}).\relax }}{48}{figure.caption.17}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Number of categories used by each group (Adapted from \citeonline {bradley2002investigating}).\relax }}{49}{figure.caption.18}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Mean times for each landmark performed by the sighted participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{50}{figure.caption.20}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mean times for each landmark performed by the BVI participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{50}{figure.caption.20}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of the NASA-TLX between the conditions (Adapted from \citeonline {bradley2005experimental}).\relax }}{50}{figure.caption.21}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Comparison of the NASA-TLX between the participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{51}{figure.caption.22}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Standardize mean completion time for each subject with each device in each route (Adapted from \citeonline {marston2006evaluation}).\relax }}{53}{figure.caption.23}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Simplified cabin design process (Adapted from \citeonline {moerland2021application}).\relax }}{54}{figure.caption.25}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Best moments for user involvement (Adapted from \citeonline {moerland2021application}).\relax }}{55}{figure.caption.26}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Cabin sketch made with Adobe Photoshop \cite {moerland2021application}.\relax }}{55}{figure.caption.27}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Cabin 3D model made with Rhyno \cite {moerland2021application}.\relax }}{55}{figure.caption.27}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces VR navigation with sketching \cite {moerland2021application}.\relax }}{56}{figure.caption.28}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces VR navigation with imported 3D models \cite {moerland2021application}.\relax }}{56}{figure.caption.28}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Siu et al. key locations. Distances are in meters \cite {siu2020virtual}.\relax }}{45}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Siu et al. training and game rooms layout \cite {siu2020virtual}.\relax }}{45}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Happy environment \cite {jicol2021effects}.\relax }}{47}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Fear environment \cite {jicol2021effects}.\relax }}{47}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison between sighted participants with BVI participants (Adapted from \citeonline {bradley2002investigating}).\relax }}{49}{figure.caption.17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Number of categories used by each group (Adapted from \citeonline {bradley2002investigating}).\relax }}{50}{figure.caption.18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mean times for each landmark performed by the sighted participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{51}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mean times for each landmark performed by the BVI participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{51}{figure.caption.20}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of the NASA-TLX between the conditions (Adapted from \citeonline {bradley2005experimental}).\relax }}{51}{figure.caption.21}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Comparison of the NASA-TLX between the participants (Adapted from \citeonline {bradley2005experimental}).\relax }}{52}{figure.caption.22}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Standardize mean completion time for each subject with each device in each route (Adapted from \citeonline {marston2006evaluation}).\relax }}{54}{figure.caption.23}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Simplified cabin design process (Adapted from \citeonline {moerland2021application}).\relax }}{55}{figure.caption.25}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Best moments for user involvement (Adapted from \citeonline {moerland2021application}).\relax }}{56}{figure.caption.26}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Cabin sketch made with Adobe Photoshop \cite {moerland2021application}.\relax }}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Cabin 3D model made with Rhyno \cite {moerland2021application}.\relax }}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces VR navigation with sketching \cite {moerland2021application}.\relax }}{57}{figure.caption.28}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces VR navigation with imported 3D models \cite {moerland2021application}.\relax }}{57}{figure.caption.28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Methodology's diagram\relax }}{57}{figure.caption.30}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Scheduled task of the experiment and their order.\relax }}{60}{figure.caption.31}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Environment comparisson\relax }}{63}{figure.caption.32}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Methodology's diagram\relax }}{58}{figure.caption.30}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Scheduled task of the experiment and their order.\relax }}{61}{figure.caption.31}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Environment comparisson\relax }}{64}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Virtual environment development process\relax }}{65}{figure.caption.33}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Virtual environment development process\relax }}{66}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces CAD model of the designed case\relax }}{70}{figure.caption.34}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Haptic belt\relax }}{71}{figure.caption.35}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Bar plot of the average time of the blind participants on each method.\relax }}{80}{figure.caption.38}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Bar plot of the average time of sighted participants on each method.\relax }}{80}{figure.caption.38}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Boxplot of the average time of each group on each method.\relax }}{81}{figure.caption.40}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Barplot of the average time of each group.\relax }}{81}{figure.caption.40}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Bar plot of the average mental demand of the blind participants on each method.\relax }}{84}{figure.caption.44}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Bar plot of the average mental demand of the sighted participants on each method.\relax }}{84}{figure.caption.44}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Boxplot of the average mental demand of participant.\relax }}{85}{figure.caption.45}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Barplot of the average mental demand of each group.\relax }}{85}{figure.caption.45}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Barplot of the average mental demand variation from the blind participants of each method.\relax }}{86}{figure.caption.48}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Bar plot of the average Nasa-TLX score of the blind participants on each method.\relax }}{89}{figure.caption.55}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Bar plot of the average Nasa-TLX score of the sighted participants on each method.\relax }}{89}{figure.caption.55}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Boxplot of the average Nasa-TLX score of the participants.\relax }}{90}{figure.caption.56}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Barplot of the average nasa score of each group.\relax }}{90}{figure.caption.56}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Barplot of the Nasa score variation from the blind participants of each method.\relax }}{91}{figure.caption.59}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Bar plot of the average Sagat score of the blind participants on each method.\relax }}{95}{figure.caption.68}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Bar plot of the average Sagat score of the sighted participants on each method.\relax }}{95}{figure.caption.68}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Boxplot of the average Sagat score of participant.\relax }}{96}{figure.caption.71}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Barplot of the average Sagat score of each group.\relax }}{96}{figure.caption.71}
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Bar plot of the average mental demand of the blind participants on each method.\relax }}{99}{figure.caption.78}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Bar plot of the average mental demand of the sighted participants on each method.\relax }}{99}{figure.caption.78}
-\contentsline {figure}{\numberline {8.21}{\ignorespaces Boxplot of the average questionnaire score of each group.\relax }}{100}{figure.caption.80}
-\contentsline {figure}{\numberline {8.22}{\ignorespaces Bar plot of the average heart rate of the blind participants on each method.\relax }}{103}{figure.caption.84}
-\contentsline {figure}{\numberline {8.23}{\ignorespaces Bar plot of the average heart rate of the sighted participants on each method.\relax }}{103}{figure.caption.84}
-\contentsline {figure}{\numberline {8.24}{\ignorespaces Boxplot of the average heart rate of participants on each method.\relax }}{104}{figure.caption.86}
-\contentsline {figure}{\numberline {8.25}{\ignorespaces Barplot of the average BPM score of each group.\relax }}{104}{figure.caption.86}
-\contentsline {figure}{\numberline {8.26}{\ignorespaces Bar plot of the standard deviation of the heart of the blind participants on each method.\relax }}{107}{figure.caption.91}
-\contentsline {figure}{\numberline {8.27}{\ignorespaces Bar plot of the standard deviation of the heart of the sighted participants on each method.\relax }}{107}{figure.caption.91}
-\contentsline {figure}{\numberline {8.28}{\ignorespaces Boxplot of the average heart rate of the participants on each method.\relax }}{108}{figure.caption.92}
-\contentsline {figure}{\numberline {8.29}{\ignorespaces Barplot of the average SDNN score of each group.\relax }}{108}{figure.caption.92}
-\contentsline {figure}{\numberline {8.30}{\ignorespaces Bar plot of the average skin conductance of the blind participants on each method.\relax }}{110}{figure.caption.98}
-\contentsline {figure}{\numberline {8.31}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{110}{figure.caption.98}
-\contentsline {figure}{\numberline {8.32}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{111}{figure.caption.99}
-\contentsline {figure}{\numberline {8.33}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{111}{figure.caption.99}
-\contentsline {figure}{\numberline {8.34}{\ignorespaces Bar plot of the average skin conductance of the blind participants on each method.\relax }}{113}{figure.caption.106}
-\contentsline {figure}{\numberline {8.35}{\ignorespaces Bar plot of the average skin conductance of the sighted participants on each method.\relax }}{113}{figure.caption.106}
-\contentsline {figure}{\numberline {8.36}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{114}{figure.caption.107}
-\contentsline {figure}{\numberline {8.37}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{114}{figure.caption.107}
-\contentsline {figure}{\numberline {8.38}{\ignorespaces Boxplot of the average skin conductace of the participants on each method.\relax }}{114}{figure.caption.108}
-\contentsline {figure}{\numberline {8.39}{\ignorespaces Bar plot of the average GSR of of each group.\relax }}{114}{figure.caption.108}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces CAD model of the designed case\relax }}{71}{figure.caption.34}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Haptic belt\relax }}{72}{figure.caption.35}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Barplot of the average mental demand of the blind participants on each method.\relax }}{80}{figure.caption.37}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Boxplot of the mental demand of the blind participants grouped by method.\relax }}{80}{figure.caption.38}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Boxplot of the mental demand of the blind participants grouped by round.\relax }}{80}{figure.caption.38}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces QQ plot of the mental demand of the blind participants on each method.\relax }}{81}{figure.caption.41}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Residual plot of the mental demand score the blind participants on each method.\relax }}{81}{figure.caption.41}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Residual plot of the mental demand variation of the blind participants on each method.\relax }}{82}{figure.caption.44}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Residual plot of the mental demand variation of the sighted participants on each method.\relax }}{82}{figure.caption.44}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Barplot of the average NASA-TLX score of the blind participants on each method.\relax }}{83}{figure.caption.46}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces QQ plot of the NASA-TLX score of the blind participants on each method.\relax }}{84}{figure.caption.47}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Residual plot of the NASA-TLX score the blind participants on each method.\relax }}{84}{figure.caption.47}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces QQ plot of the NASA-TLX score variation of the blind participants on each method.\relax }}{84}{figure.caption.50}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Residual plot of the NASA-TLX score variation the blind participants on each method.\relax }}{84}{figure.caption.50}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Bar plot of the average NASA-TLX score of the blind participants on each method.\relax }}{86}{figure.caption.54}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Bar plot of the average NASA-TLX score of the sighted participants on each method.\relax }}{86}{figure.caption.54}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Barplot of the average SAGAT score of the blind participants on each method.\relax }}{87}{figure.caption.56}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Boxplot of the SAGAT score of the blind participants grouped by method.\relax }}{88}{figure.caption.57}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Boxplot of the SAGAT score of the blind participants grouped by round.\relax }}{88}{figure.caption.57}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces QQ plot of the SAGAT score of the blind participants on each method.\relax }}{88}{figure.caption.60}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Residual plot of the SAGAT score the blind participants on each method.\relax }}{88}{figure.caption.60}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces QQ plot of the SAGAT score variation of the blind participants on each method.\relax }}{89}{figure.caption.63}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Residual plot of the SAGAT score variation of the blind participants on each method.\relax }}{89}{figure.caption.63}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Barplot of the average questionaire score of the blind participants on each method.\relax }}{90}{figure.caption.65}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Boxplot of the questionaire score of the blind participants grouped by method.\relax }}{91}{figure.caption.66}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces QQ plot of the questionnaire score of the blind participants on each method.\relax }}{92}{figure.caption.69}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Residual plot of the questionnaire score the blind participants on each method.\relax }}{92}{figure.caption.69}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Barplot of the average BPM of the blind participants on each method.\relax }}{95}{figure.caption.72}
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Boxplot of the BPM of the blind participants grouped by method.\relax }}{95}{figure.caption.74}
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Boxplot of the BPM of the blind participants grouped by round.\relax }}{95}{figure.caption.74}
+\contentsline {figure}{\numberline {8.29}{\ignorespaces QQ plot of the BPM of the blind participants on each method.\relax }}{96}{figure.caption.76}
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Residual plot of the BPM score the blind participants on each method.\relax }}{96}{figure.caption.76}
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Barplot of the average SDNN of the blind participants on each method.\relax }}{97}{figure.caption.78}
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Boxplot of the SDNN of the blind participants grouped by method.\relax }}{98}{figure.caption.80}
+\contentsline {figure}{\numberline {8.33}{\ignorespaces Boxplot of the SDNN of the blind participants grouped by round.\relax }}{98}{figure.caption.80}
+\contentsline {figure}{\numberline {8.34}{\ignorespaces QQ plot of the SDNN of the blind participants on each method.\relax }}{98}{figure.caption.82}
+\contentsline {figure}{\numberline {8.35}{\ignorespaces Residual plot of the SDNN of the blind participants on each method.\relax }}{98}{figure.caption.82}
+\contentsline {figure}{\numberline {8.36}{\ignorespaces Barplot of the average SDNN of the blind participants on each method.\relax }}{100}{figure.caption.85}
+\contentsline {figure}{\numberline {8.37}{\ignorespaces Boxplot of the GSR of the blind participants grouped by method.\relax }}{101}{figure.caption.87}
+\contentsline {figure}{\numberline {8.38}{\ignorespaces Boxplot of the GSR of the blind participants grouped by round.\relax }}{101}{figure.caption.87}
+\contentsline {figure}{\numberline {8.39}{\ignorespaces QQ plot of the SDNN of the blind participants on each method.\relax }}{101}{figure.caption.89}
+\contentsline {figure}{\numberline {8.40}{\ignorespaces Residual plot of the SDNN of the blind participants on each method.\relax }}{101}{figure.caption.89}
+\contentsline {figure}{\numberline {8.41}{\ignorespaces Two different capsule positions based on the user's head position.\relax }}{103}{figure.caption.90}
+\contentsline {figure}{\numberline {8.42}{\ignorespaces Barplot of the average mental demand of the blind participants on each method and round.\relax }}{105}{figure.caption.92}
+\contentsline {figure}{\numberline {8.43}{\ignorespaces Barplot of the average mental demand of the sight participants on each method and round.\relax }}{105}{figure.caption.92}
+\contentsline {figure}{\numberline {8.44}{\ignorespaces Barplot of the average mental demand of both participants on each method.\relax }}{106}{figure.caption.93}
+\contentsline {figure}{\numberline {8.45}{\ignorespaces Boxplot of the mental demand of the participants grouped by method.\relax }}{106}{figure.caption.94}
+\contentsline {figure}{\numberline {8.46}{\ignorespaces Boxplot of the mental demand of the participants grouped by round.\relax }}{106}{figure.caption.94}
+\contentsline {figure}{\numberline {8.47}{\ignorespaces QQ plot of the mental demand of the sight participants on each method.\relax }}{107}{figure.caption.97}
+\contentsline {figure}{\numberline {8.48}{\ignorespaces Residual plot of the mental demand score the sighted participants on each method.\relax }}{107}{figure.caption.97}
+\contentsline {figure}{\numberline {8.49}{\ignorespaces Residual plot of the mental demand variation of the blind participants on each method.\relax }}{108}{figure.caption.101}
+\contentsline {figure}{\numberline {8.50}{\ignorespaces Residual plot of the mental demand variation of the sighted participants on each method.\relax }}{108}{figure.caption.101}
+\contentsline {figure}{\numberline {8.51}{\ignorespaces Barplot of the NASA-TLX score of the blind participants on each method and round.\relax }}{110}{figure.caption.103}
+\contentsline {figure}{\numberline {8.52}{\ignorespaces Barplot of the NASA-TLX score of the sight participants on each method and round.\relax }}{110}{figure.caption.103}
+\contentsline {figure}{\numberline {8.53}{\ignorespaces Barplot of the NASA-TLX score of both participants on each method.\relax }}{111}{figure.caption.104}
+\contentsline {figure}{\numberline {8.54}{\ignorespaces Boxplot of the NASA-TLX score of the participants grouped by method.\relax }}{111}{figure.caption.105}
+\contentsline {figure}{\numberline {8.55}{\ignorespaces Boxplot of the NASA-TLX score of the participants grouped by round.\relax }}{111}{figure.caption.105}
+\contentsline {figure}{\numberline {8.56}{\ignorespaces QQ plot of the NASA-TLX score of the sight participants on each method.\relax }}{112}{figure.caption.108}
+\contentsline {figure}{\numberline {8.57}{\ignorespaces Residual plot of the NASA-TLX score the sight participants on each method.\relax }}{112}{figure.caption.108}
+\contentsline {figure}{\numberline {8.58}{\ignorespaces Residual plot of the variation NASA-TLX score of the blind participants on each method.\relax }}{113}{figure.caption.112}
+\contentsline {figure}{\numberline {8.59}{\ignorespaces Residual plot of the variation NASA-TLX score of the sighted participants on each method.\relax }}{113}{figure.caption.112}
+\contentsline {figure}{\numberline {8.60}{\ignorespaces Barplot of the SAGAT score of the blind participants on each method and round.\relax }}{115}{figure.caption.114}
+\contentsline {figure}{\numberline {8.61}{\ignorespaces Barplot of the SAGAT score of the sight participants on each method and round.\relax }}{115}{figure.caption.114}
+\contentsline {figure}{\numberline {8.62}{\ignorespaces Barplot of the SAGAT score of both participants on each method.\relax }}{116}{figure.caption.115}
+\contentsline {figure}{\numberline {8.63}{\ignorespaces Boxplot of the NASA-TLX score of the participants grouped by method.\relax }}{116}{figure.caption.116}
+\contentsline {figure}{\numberline {8.64}{\ignorespaces Boxplot of the NASA-TLX score of the participants grouped by round.\relax }}{116}{figure.caption.116}
+\contentsline {figure}{\numberline {8.65}{\ignorespaces QQ plot of the mental demand of the sight participants on each method.\relax }}{117}{figure.caption.119}
+\contentsline {figure}{\numberline {8.66}{\ignorespaces Residual plot of the mental demand score the sight participants on each method.\relax }}{117}{figure.caption.119}
+\contentsline {figure}{\numberline {8.67}{\ignorespaces Residual plot of the variation SAGAT score of the blind participants on each method.\relax }}{118}{figure.caption.123}
+\contentsline {figure}{\numberline {8.68}{\ignorespaces Residual plot of the variation SAGAT score of the sighted participants on each method.\relax }}{118}{figure.caption.123}
+\contentsline {figure}{\numberline {8.69}{\ignorespaces Barplot of the average BPM of the blind participants on each method.\relax }}{119}{figure.caption.125}
+\contentsline {figure}{\numberline {8.70}{\ignorespaces Boxplot of the BPM of the blind participants grouped by method.\relax }}{120}{figure.caption.127}
+\contentsline {figure}{\numberline {8.71}{\ignorespaces Boxplot of the BPM of the blind participants grouped by round.\relax }}{120}{figure.caption.127}
+\contentsline {figure}{\numberline {8.72}{\ignorespaces QQ plot of the BPM of the blind participants on each method.\relax }}{121}{figure.caption.129}
+\contentsline {figure}{\numberline {8.73}{\ignorespaces Residual plot of the BPM score the blind participants on each method.\relax }}{121}{figure.caption.129}
+\contentsline {figure}{\numberline {8.74}{\ignorespaces Barplot of the average SDNN of the blind participants on each method.\relax }}{122}{figure.caption.131}
+\contentsline {figure}{\numberline {8.75}{\ignorespaces Boxplot of the SDNN of the blind participants grouped by method.\relax }}{122}{figure.caption.133}
+\contentsline {figure}{\numberline {8.76}{\ignorespaces Boxplot of the SDNN of the blind participants grouped by round.\relax }}{122}{figure.caption.133}
+\contentsline {figure}{\numberline {8.77}{\ignorespaces QQ plot of the SDNN of the blind participants on each method.\relax }}{123}{figure.caption.135}
+\contentsline {figure}{\numberline {8.78}{\ignorespaces Residual plot of the SDNN of the blind participants on each method.\relax }}{123}{figure.caption.135}
+\contentsline {figure}{\numberline {8.79}{\ignorespaces Barplot of the average SDNN of the blind participants on each method.\relax }}{125}{figure.caption.138}
+\contentsline {figure}{\numberline {8.80}{\ignorespaces Boxplot of the GSR of the blind participants grouped by method.\relax }}{125}{figure.caption.140}
+\contentsline {figure}{\numberline {8.81}{\ignorespaces Boxplot of the GSR of the blind participants grouped by round.\relax }}{125}{figure.caption.140}
+\contentsline {figure}{\numberline {8.82}{\ignorespaces QQ plot of the SDNN of the blind participants on each method.\relax }}{126}{figure.caption.142}
+\contentsline {figure}{\numberline {8.83}{\ignorespaces Residual plot of the SDNN of the blind participants on each method.\relax }}{126}{figure.caption.142}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Virtual cane's algorithm diagram\relax }}{139}{figure.caption.159}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Printed circuit board wiring\relax }}{140}{figure.caption.160}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Vibration Unit\relax }}{141}{figure.caption.161}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Unity's message flowchart inside ESP32\relax }}{142}{figure.caption.162}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Unity's process of identifying obstacle and setting the vibration intensity.\relax }}{143}{figure.caption.163}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces ECG's data treatment algorithim.\relax }}{144}{figure.caption.164}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Virtual cane's algorithm diagram\relax }}{149}{figure.caption.187}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {E.1}{\ignorespaces GSR's data treatment algorithim.\relax }}{145}{figure.caption.165}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Printed circuit board wiring\relax }}{150}{figure.caption.188}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Vibration Unit\relax }}{151}{figure.caption.189}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Unity's message flowchart inside ESP32\relax }}{152}{figure.caption.190}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Unity's process of identifying obstacle and setting the vibration intensity.\relax }}{153}{figure.caption.191}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces QQ plot of the average duration on each scene.\relax }}{146}{figure.caption.166}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Residues plot of the average duration on each scene.\relax }}{146}{figure.caption.166}
-\contentsline {figure}{\numberline {F.3}{\ignorespaces QQ plot of the duration variation on each scene.\relax }}{147}{figure.caption.167}
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Residues plot of the duration variation on each scene.\relax }}{147}{figure.caption.167}
-\contentsline {figure}{\numberline {F.5}{\ignorespaces QQ plot of the average Mental Demand.\relax }}{147}{figure.caption.168}
-\contentsline {figure}{\numberline {F.6}{\ignorespaces Residues plot of the average Mental Demand.\relax }}{147}{figure.caption.168}
-\contentsline {figure}{\numberline {F.7}{\ignorespaces QQ plot of the Mental Demand variation.\relax }}{148}{figure.caption.169}
-\contentsline {figure}{\numberline {F.8}{\ignorespaces Residues plot of the Mental Demand variation.\relax }}{148}{figure.caption.169}
-\contentsline {figure}{\numberline {F.9}{\ignorespaces QQ plot of the average NASA-TLX score.\relax }}{148}{figure.caption.170}
-\contentsline {figure}{\numberline {F.10}{\ignorespaces Residues plot of the average NASA-TLX score.\relax }}{148}{figure.caption.170}
-\contentsline {figure}{\numberline {F.11}{\ignorespaces QQ plot of the NASA-TLX score variation.\relax }}{149}{figure.caption.171}
-\contentsline {figure}{\numberline {F.12}{\ignorespaces Residues plot of the NASA-TLX score variation.\relax }}{149}{figure.caption.171}
-\contentsline {figure}{\numberline {F.13}{\ignorespaces QQ plot of the average Sagat score.\relax }}{149}{figure.caption.172}
-\contentsline {figure}{\numberline {F.14}{\ignorespaces Residues plot of the average Sagat score\relax }}{149}{figure.caption.172}
-\contentsline {figure}{\numberline {F.15}{\ignorespaces QQ plot of the Sagat score variation.\relax }}{150}{figure.caption.173}
-\contentsline {figure}{\numberline {F.16}{\ignorespaces Residues plot of the Sagat score variation\relax }}{150}{figure.caption.173}
-\contentsline {figure}{\numberline {F.17}{\ignorespaces QQ plot of the average BPM.\relax }}{150}{figure.caption.174}
-\contentsline {figure}{\numberline {F.18}{\ignorespaces Residues plot of the average BPM.\relax }}{150}{figure.caption.174}
-\contentsline {figure}{\numberline {F.19}{\ignorespaces QQ plot of the average SDNN.\relax }}{151}{figure.caption.175}
-\contentsline {figure}{\numberline {F.20}{\ignorespaces Residues plot of the average SDNN.\relax }}{151}{figure.caption.175}
-\contentsline {figure}{\numberline {F.21}{\ignorespaces QQ plot of the average GSR.\relax }}{152}{figure.caption.176}
-\contentsline {figure}{\numberline {F.22}{\ignorespaces Residues plot of the average GSR.\relax }}{152}{figure.caption.176}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces ECG's data treatment algorithim.\relax }}{154}{figure.caption.192}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{154}{figure.caption.178}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces GSR's data treatment algorithim.\relax }}{155}{figure.caption.193}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ESP32 pinnout diagramm \cite {espressif}.\relax }}{158}{figure.caption.195}
 \addvspace {10\p@ }

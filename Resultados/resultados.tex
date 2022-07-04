@@ -4,58 +4,129 @@
 %2. Caso vc tenha aplicado a sua contribuição (modelo, produto, processo etc.) em um caso (empresa, laboratório, simulação etc.), apresente a descrição e análise dos resultados. Na seção de discussão cabem as análises de cenários What-If ou de sensibilidade. Exemplo: se o parâmetro X aumentar de N para N+1, o resultado poderia mudar de Y para Z?
 %3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
 
-Throughout the experiment, three data sources were gathered from the participants, and this chapter will show their values, will explain the process to analyze the data and will discuss their results. Each source will have its section, making up to three sessions, and they are:
+Throughout the experiment, three data sources were gathered from the participants, and this chapter will show their values, explain the process to analyze the data and discuss their results. This chapter is divided into two sections, each one related to one of the objectives:
 
 \begin{itemize}
-    \item Data collected from the simulation;
-    \item Data collected from questionnaires;
-    \item Data collected from physiological sensors.
+    \item Evaluation of assistive device from a human factors’ perspective in a virtual environment;
+    \item Comparison between BVI users and sighted users.
 \end{itemize}
 
-From this point, the data from the blind participants will be called "Blind" sample and the data from the sighted participants will be called "Sight" sample.
+From this point, the data from the blind participants will be called the “Blind” sample and the data from the sighted participants will be called the “Sight” sample.
 
-The processing of each data collected is rather similar and follows these steps:
-\begin{enumerate}
-    \item Separate the Blind sample and the Sight sample;
-    \item Check if the samples are normally distributed; \label{itm:results_shapiro} \\
-        If the data is normally distributed then it is possible to use other statistical analyses and verify the results statistically.
-    \item Check if the "blind" sample is statistically different then the "sight" sample; \label{itm:results_t_test} \\ 
-        This is one of the goals. To verify that the workload and the situation awareness of the blind participants are different from the sighted participants.
-    \item For the physiological data:
-    \begin{enumerate}
-        \item Calculate the variation between the scene and the baseline  in each method;
-        \item Calculate the variation between the scenes in each method;
-        \item Calculate the average variation in the group in each method.
-    \end{enumerate}
-    \item For the other data:
-    \begin{enumerate}
-        \item Calculate the variation between the scenes in each method; \label{itm:results_average_method_particpant}
-        \item Calculate the average variation in the group in each method.
-        \label{itm:results_average_method}
-    \end{enumerate}
-        The variation mentioned above is calculated as Equation \ref{eq:variation}:
-    \begin{equation}
-        \label{eq:variation}
-        Var_{ij} = \frac{Obs_j - Obs_i}{Obs_i}*100 [\%]
-    \end{equation}
-        Where:\\
-        $Var_{ij}$ = Variation between the two sequential observations \\
-        $Obs_i$ = First observation \\
-        $Obs_j$ = Second observation 
+\section{Evaluation of assistive device from a human factors’ perspective in a virtual environment}
+
+%\input{Resultados/SimulationData}
+\input{Resultados/SubjectiveData1}
+\input{Resultados/PhysiologicalData1} 
+
+\subsection{Final Remarks}
+
+% Mental demand
+% • ANOVA não deu resultado
+% • Grafico - Presença de haptico aumenta a demanda mental
+
+% NASA TLX
+% • ANOVA - Efeito do método e to round.
+% •• Metodo - 3 grupos
+% ••• Base e Audio menores Carga mental
+% ••• Haptic alta Carga mental
+% 
+% SAGAT
+% ANOVA - Round tem efeito no SAGAT
+%
+% Satisfação
+% ANOVA mostrou que o método fez diferença na satisfação do usuario
+% Audio e Mix os preferidos
+% Participantes comentando que o haptic e o virtual eram imprecisos e confusos
+
+% BPM
+% ANOVA - não deu resultado
+% Gráfico mostra uma pequena diferença entre os métodos
+
+% SDNN
+% ANOVA - não deu resultado
+% Gráfico - "Base" tem uma variância menor
+
+% GSR
+% ANOVA - não deu resultado
+% Grafico - Base e Audio
+
+The “Audio” method shown a higher performance among the other methods and the use of a haptic device decreased the performance of all methods. This probably happened because the participants are already used to use sound to guide themselves, especially environmental sounds. The environment sounds used inside the scenes that gave hints about locations where always the same (telephone ringing, laptop keyboard sounds, exterior noise, door opening and closing). It is likely that the participants felt more secure when it only had to focus on the sounds around him/her. This is reinforced by the fact that, during the “Audio” only guidance, half of the participants did not called for any command, or used only a few times the audio command option.
+
+The fact that the haptic devices caused a higher average and a higher variation is probably due to the fact that the users had to learn and get used with them. Besides, for being just conceptual, their precision was not as big as they were expecting. That explains why their results were not as good as the “Base” or “Audio” methods and these results are correctly related to the satisfaction questionnaires, which scored them as the unsatisfied devices.
+
+The ANOVA test from the mental demand did not prove any influence of the method nor the rounds, but the same test for the NASA-TLX score proved a influence of these both factors. That means that the methods influenced the score in other NASA-TLX dimension.
+
+The SAGAT's ANOVA proved that the round did influenced the participants average score, meaning that they did learn from one round to another and that effect was a natural thing, not an effect caused by the devices.
+
+The other ANOVA tests were inconclusive, but their some of their boxplots most showed a difference between the methods. In these cases the reason is the small sample size and the sample’s variety. The blind participants age range was from 26 to 56, with an average of 43.5 years, and the education range was from High School to 2 graduations. That may impact the user experience as well in the questionnaires' answer.
+
+But all the participants showed a great enthusiasm before, during and after the research. They also recommend some modifications that would bring more realism for they. And of course, they made some complaints, such as:
+
+\begin{itemize}
+    \item The speakers inside the HMD were not could enough for some to give them the precise location of its origin;
+    \item The HMD was big enough to cover have of the participant’s face and that gave them a strange sensation, since some of them use the air or the wind feeling on the face to give them hints about the location of walls or other high obstacles;
+    \item As said before, the precision of the vibration was not good for them to use the devices. That is mainly because of how the HMD position the user inside the virtual environment. \\
+    The user is represented as a vertical capsule, and the HMD is positioned on the top end of that capsule. If the user tilts his/her head down, as if they were facing the ground, the capsule rotates in relation to the HMD point making the virtual body of the user occupy a total different space from the reality. The Figure \ref{fig:user_envelope} represents that situation. 
+
+    \begin{figure}[!htb]
+        \centering
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width = 0.8\linewidth]{Resultados/envelope1.png}
+            \subcaption{The user's capsule while the participant is straight and looking forward.}
+            \label{fig:user_straight}
+        \end{minipage}
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width = 0.8\linewidth]{Resultados/envelope2.png}
+            \subcaption{The user's capsule while the participant is straight but looking down.}
+            \label{fig:user_looking_down}
+        \end{minipage}
+        \caption{Two different capsule positions based on the user's head position.}
+        \label{fig:user_envelope}
+    \end{figure}
     
-    \item Check if there are methods that are statistically different from the rest. \\
-        This is done by doing an analyses of variance (ANOVA) in the data. For this analyses is required that the observerd residues are normally distributed and the variance is constant. The residues are all plotted in the figures of the Appendix \ref{ap:figures}. The variance constancy can be verified by the box plot presented in the next sections.
+    \item The vibration from the haptic belt was not intense enough sometimes.
+\end{itemize}
 
-\end{enumerate}
+\section{Comparison between BVI users and sighted users}
 
-\section{Data from the simulation}
+In this section, the second goal of this experiment, “do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users?”, will be linked with the gathered data and then compared with the results of the first goal's section. It is expected that both results would be different. As was the last section, this section will also be divided in the same subsections.
 
-\input{Resultados/SimulationData}
+\input{Resultados/SubjectiveData2}
+\input{Resultados/PhysiologicalData2} 
 
-\section{Data from questionnaires}
-
-\input{Resultados/SubjectiveData}
-
-\section{Data from physiological sensors}
-
-\input{Resultados/PhysiologicalData} 
+%The processing of each data collected is rather similar and follows these steps:
+%\begin{enumerate}
+%    \item Separate the Blind sample and the Sight sample;
+%    \item Check if the samples are normally distributed; \label{itm:results_shapiro} \\
+%        If the data is normally distributed then it is possible to use other statistical analyses and verify the results statistically.
+%    \item Check if the "blind" sample is statistically different then the "sight" sample; \label{itm:results_t_test} \\ 
+%        This is one of the goals. To verify that the workload and the situation awareness of the blind participants are different from the sighted participants.
+%    \item For the physiological data:
+%    \begin{enumerate}
+%        \item Calculate the variation between the scene and the baseline  in each method;
+%        \item Calculate the variation between the scenes in each method;
+%        \item Calculate the average variation in the group in each method.
+%    \end{enumerate}
+%    \item For the other data:
+%    \begin{enumerate}
+%        \item Calculate the variation between the scenes in each method; \label{itm:results_average_method_particpant}
+%        \item Calculate the average variation in the group in each method.
+%        \label{itm:results_average_method}
+%    \end{enumerate}
+%        The variation mentioned above is calculated as Equation \ref{eq:variation}:
+%    \begin{equation}
+%        \label{eq:variation}
+%        Var_{ij} = \frac{Obs_j - Obs_i}{Obs_i}*100 [\%]
+%    \end{equation}
+%        Where:\\
+%        $Var_{ij}$ = Variation between the two sequential observations \\
+%        $Obs_i$ = First observation \\
+%        $Obs_j$ = Second observation 
+%    
+%    \item Check if there are methods that are statistically different from the rest. \\
+%        This is done by doing an analyses of variance (ANOVA) in the data. For this analyses is required that the observerd residues are normally distributed and the variance is constant. The residues are all plotted in the figures of the Appendix \ref{ap:figures}. The variance constancy can be verified by the box plot presented in the next sections.
+%
+%\end{enumerate}

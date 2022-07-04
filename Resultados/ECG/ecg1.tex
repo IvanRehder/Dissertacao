@@ -1,0 +1,53 @@
+\subsubsection{Electrocardiogram (ECG) data}
+\label{subsec:results_ecg}
+
+The ECG analysis is divided into two different types
+
+\begin{itemize}
+    \item Heart rate;
+    
+        This analysis checks the heartbeat frequency;
+
+    \item Heart rate variance.
+    
+        This analysis checks the heartbeat frequency variance and it is done by analyzing the variation of the interval between beats.
+
+\end{itemize}
+
+At the beginning of each experience, a baseline data was gathered to establish a comparison between the normal state of the user and the scenes’ induced state. After the data gathering, an algorithm in Python was used to read the data and separate it accordingly to each participant, method and round. The algorithm followed the steps above:
+
+\begin{itemize}
+    \item Outliers remotion;
+        Since the participants moved during the whole experience a lot of noise was collected by the sensors
+    \item Normalization between -1 and 1;
+    \item Peak detection;
+        If the results were appropriate:
+        \begin{itemize}
+            \item Heartbeat interval calculation;
+            \item File save to be used in Kubius HRV Standard.
+        \end{itemize} 
+        If the results were not appropriate:
+        \begin{itemize}
+            \item Tune peak detection method’s parameters;
+            \item Heartbeat interval calculation;
+            \item File save to be used in the next software.
+        \end{itemize}    
+\end{itemize}
+
+This judgment was made by analyzing the plotted ECG signal and the detected peaks. Kubios HRV Standard is a heart rate variability (HRV) analysis software for personal non-commercial use. The Kubios HRV Standard makes it possible to use your HR monitor to examine the health of the cardiovascular system or to evaluate stress and recovery \cite{kubios}. At Kubius, the file with the intervals was analyzed and the results were saved in a report file to be read in python again. Back in python the results were plotted, tabled and statistically tested as the other data. In Appendix D there is a diagram with a pseudo-algorithm of this process.
+
+This analysis was made by comparing the baseline values with the values of each round individually and between the round values themselves.
+
+\paragraph{Analysis of the heartbeat frequency (BPM)}\mbox{}\\
+
+\input{Resultados/ECG/bpm1.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\paragraph{Analysis of the heartbeat variance (SDNN)}\mbox{}\\
+%
+\input{Resultados/ECG/sdnn1}

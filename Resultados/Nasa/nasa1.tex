@@ -1,0 +1,200 @@
+\subsubsection{NASA-TLX}
+\label{subsec:results_nasa_tlx}
+
+It is possible to analyze the mental workload using NASA-TLX in two different ways. The first is by analyzing only the mental demand scale and the second is by analyzing the NASA-TLX score, which is an average of the scales’ rating.
+
+\paragraph{Analysis of the mental demand scale}\mbox{}\\
+
+The Table \ref{tab:md_table_blind} presents the mental demand averages by each blinded participant on each scene and they are plotted in the Figures \ref{fig:barplot_md_avg_5_scene_blind}. The Figure \ref{fig:barplot_md_avg_5_scene_blind} shows a systematic reduction on the perceived mental demand in all methods between the rounds. This shows that the participants started to get used with the device after the first use.
+
+\input{Resultados/Nasa/Tabelas/md_table_blind}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/barplot_md_avg_5_scene_blind.png}
+    \caption{Barplot of the average mental demand of the blind participants on each method.}
+    \label{fig:barplot_md_avg_5_scene_blind}
+\end{figure}
+
+The Figure \ref{fig:boxplot_md_blind_scene} presents a box plot with the mental demand grouped by method. This Figure shows that there may be two different groups, one with lower demand formed by the "Base" and the "Audio" method, and another with the higher demand. The Figure \ref{fig:boxplot_md_blind_rounds} presents a box plot with the mental demand grouped by the rounds. This figure shows that both rounds have similar variations.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/boxplot_md_blind_scene.png}
+        \caption{Boxplot of the mental demand of the blind participants grouped by method.}
+        \label{fig:boxplot_md_blind_scene}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/boxplot_md_blind_rounds.png}
+        \caption{Boxplot of the mental demand of the blind participants grouped by round.}
+        \label{fig:boxplot_md_blind_rounds}
+    \end{minipage}
+\end{figure}
+
+The Table \ref{tab:md_average_group_blind} shows the average mental demand in the “blind” sample and is possible to notice how the average perceived mental demand by the “blind” sample was lower during the “Audio” and the “Base” methods.
+
+\input{Resultados/Nasa/Tabelas/md_average_group_blind}
+
+The Figures \ref{fig:qqplot_md_avg_two_way_blind} and \ref{fig:residplot_md_avg_two_way_blind} shows the distribution and variance of the Table \ref{tab:md_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_md_avg_two_way_blind} shows the Anova test p-values of the mental demand of the "blind" sample between the guidance methods. The method's and the round's p-values indicates that there is no influence from them in the mental demand. The interaction between the methods and the round also does not influences the mental demand.
+
+\input{Resultados/Nasa/Tabelas/blocanova_md_avg_two_way_blind.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/qqplot_md_avg_two_way_blind.png}
+        \caption{QQ plot of the mental demand of the blind participants on each method.}
+        \label{fig:qqplot_md_avg_two_way_blind}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/residplot_md_avg_two_way_blind.png}
+        \caption{Residual plot of the mental demand score the blind participants on each method.}
+        \label{fig:residplot_md_avg_two_way_blind}
+    \end{minipage}
+\end{figure}
+
+%The Table \ref{tab:lsdtwoway_md_avg_two_way} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that only the "Audio" has a similar mental demand as the "Base" method.
+
+%\input{Resultados/Nasa/Tabelas/lsdtwoway_md_avg_two_way.tex}
+
+The Table \ref{tab:md_var_average_group_blind} shows the average of the mental demand variation between the rounds. This table shows that the mental demand variation from the “Audio” has the lower variation, and the rest are similar variations.
+
+\input{Resultados/Nasa/Tabelas/md_var_average_group_blind}
+
+The Figures \ref{fig:qqplot_md_var_blind} and \ref{fig:residplot_md_var_blind} shows the distribution and variance of the mental demand variation of the Table \ref{tab:md_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_md_var_blind} shows the Anova test p-value of the mental demand of the "blind" sample between the guidance methods. The p-value indicates that there is no influence of the methods in the variation of mental demand between the rounds. 
+
+\input{Resultados/Nasa/Tabelas/blocanova_md_var_blind.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/qqplot_md_var_blind.png}
+        \caption{Residual plot of the mental demand variation of the blind participants on each method.}
+        \label{fig:qqplot_md_var_blind}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/residplot_md_var_blind.png}
+        \caption{Residual plot of the mental demand variation of the sighted participants on each method.}
+        \label{fig:residplot_md_var_blind}
+    \end{minipage}
+\end{figure}
+
+%The Table \ref{tab:lsdbloc_mental_demand_var} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that all methods have similar variations.
+
+%\input{Resultados/Nasa/Tabelas/lsdbloc_mental_demand_var.tex}
+
+To close up, according to the ANOVA test at Table \ref{tab:blocanova_md_avg_two_way_blind} there is no influence in the tested methods in the participants mental demand, but at the Figure \ref{fig:boxplot_md_blind_scene} it is posible to notice that there is at least two different groups of mental demand reactions, one formed by the "Base" and the "Audio" methods and another formed by the rest of the methods. The first group has lower mental demand than the last. That could mean that the presence of a haptic device increases the mental demand of the navigation activity for the BVI users. This was not reflected in the ANOVA results because of the small sample size.
+
+\FloatBarrier
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\paragraph{Analysis of the NASA-TLX score}\mbox{}\\
+
+The Table \ref{tab:nasa_table_blind} presents the NASA-TLX score averages by each blinded participant on each scene and they are plotted in the Figures \ref{fig:barplot_nasa_avg_5_scene_blind}. The Figure \ref{fig:barplot_nasa_avg_5_scene_blind} shows a similar behaviour of the mental demand barplot at Figure \ref{fig:barplot_md_avg_5_scene_blind}, all NASA-TLX score decreased from the "First" to the "Return" round. This a kind of learning between the rounds.
+
+\input{Resultados/Nasa/Tabelas/nasa_table_blind}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/barplot_nasa_avg_5_scene_blind.png}
+    \caption{Barplot of the average NASA-TLX score of the blind participants on each method.}
+    \label{fig:barplot_nasa_avg_5_scene_blind}
+\end{figure}
+
+The Figure \ref{fig:boxplot_nasa_blind_scene} presents a box plot with the NASA-TLX score grouped by method. This Figure shows it is possible to split the methods in two different groups, one with lower demand formed by the "Base" and the "Audio" method, and another with the higher demand, similar as it was with the mental demand in the \ref{fig:boxplot_md_blind_scene}. It appears that the presence of the an haptic device elevated the NASA-TLX score. The Figure \ref{fig:boxplot_nasa_blind_rounds} presents a box plot with the NASA-TLX score grouped by the rounds. This figure shows that both rounds have similar variations.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/boxplot_nasa_blind_scene.png}
+        \caption{QQ plot of the NASA-TLX score of the blind participants on each method.}
+        \label{fig:boxplot_nasa_blind_scene}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/boxplot_nasa_blind_rounds.png}
+        \caption{Residual plot of the NASA-TLX score the blind participants on each method.}
+        \label{fig:boxplot_nasa_blind_rounds}
+    \end{minipage}
+\end{figure}
+
+The Table \ref{tab:nasa_average_group_blind} shows the average NASA-TLX score in the “blind” sample and is possible to notice how the average score by the “blind” sample was lower during the “Audio” and the “Base” methods.
+
+\input{Resultados/Nasa/Tabelas/nasa_average_group_blind}
+
+The Figures \ref{fig:qqplot_nasa_avg_two_way} and \ref{fig:residplot_nasa_avg_two_way} shows the distribution and variance of the Table \ref{tab:nasa_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_nasa_avg_two_way} shows the Anova test p-value of the NASA-TLX score of the "blind" sample between the guidance methods. The p-values indicates that some methods have influence on the NASA-TLX score and that the rounds also influences the score. On the other way, their interaction, has no influence on the score.
+
+\input{Resultados/Nasa/Tabelas/blocanova_nasa_avg_two_way}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/qqplot_nasa_avg_two_way.png}
+        \caption{QQ plot of the NASA-TLX score variation of the blind participants on each method.}
+        \label{fig:qqplot_nasa_avg_two_way}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/residplot_nasa_avg_two_way.png}
+        \caption{Residual plot of the NASA-TLX score variation the blind participants on each method.}
+        \label{fig:residplot_nasa_avg_two_way}
+    \end{minipage}
+\end{figure}
+
+
+
+The Table \ref{tab:lsd_nasa_avg_two_way} presents the conclusion of a pairwise Fisher LSD test of the blind NASA-TLX score between all the guidance methods. The results show that only the "Audio" has a similar NASA-TLX score as the "Base" method, as it was also posible to notice at Figure \ref{fig:boxplot_nasa_blind_scene}.
+
+\input{Resultados/Nasa/Tabelas/lsd_nasa_avg_two_way}
+
+The Table \ref{tab:nasa_var_group_blind} shows the average of the NASA-TLX score variation between the rounds. This table shows that the variation from the “Audio” was the lowest variation and the highest variation was the "Virtual Cane".
+
+\input{Resultados/Nasa/Tabelas/nasa_var_group_blind}
+
+The Figures \ref{fig:qqplot_nasa_var} and \ref{fig:residplot_nasa_var} shows the distribution and variance of the NASA-TLX score variation of the Table \ref{tab:nasa_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_nasa_var} shows the Anova test p-value of the NASA-TLX score of the "blind" sample between the guidance methods. The p-value indicates that there are no difference between the variation of any method. 
+
+\input{Resultados/Nasa/Tabelas/blocanova_nasa_var.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/qqplot_nasa_var.png}
+        \caption{Bar plot of the average NASA-TLX score of the blind participants on each method.}
+        \label{fig:qqplot_nasa_var}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/Nasa/Figuras/png/residplot_nasa_var.png}
+        \caption{Bar plot of the average NASA-TLX score of the sighted participants on each method.}
+        \label{fig:residplot_nasa_var}
+    \end{minipage}
+\end{figure}
+
+%The Table \ref{tab:lsdbloc_nasa_var} presents the conclusion of a pairwise Fisher LSD test of the blind NASA-TLX score between all the guidance methods. The results show that all methods have similar variations.
+
+%\input{Resultados/Nasa/Tabelas/lsdbloc_nasa_var}
+
+To close up, according to the LSD test at Table \ref{tab:lsd_nasa_avg_two_way} only the "Audio" method has a NASA-TLX score that could be said to be similar to the "Base" method, which indicates that the existance of an haptic device increased the NASA-TLX score and that the round has some impact on the score, which means that there was a learning effect from the "First" to the "Return" round. Probably this effect was reflected in the other dimensions of the NASA-TLX.
+
+The \ref{tab:blocanova_nasa_avg_two_way} concludes that the rounds and the interaction between the rounds and the methods have no influence on the variation of the NASA-TLX score.
+
+\FloatBarrier

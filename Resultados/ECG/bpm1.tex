@@ -1,0 +1,65 @@
+The Table \ref{tab:bpm_table_blind} presents the average heart rate by each blind participant on each scenes. It is possible to see that the previous expectation cannot be proven, since there is no sistematic pattern in the heartrate variation between the rounds.
+
+\input{Resultados/ECG/Tabelas/bpm_table_blind.tex}
+
+In the Figure \ref{fig:barplot_ecg_bpm_5_scene_blind} is plotted the average data presentend in the previoes table. There is a slight increase in the heartrate between the rounds, with the exception of the "Base" method. That means that, in the average, the participants felt more demandful in the "Return" round.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_bpm_5_scene_blind.png}
+    \caption{Barplot of the average BPM of the blind participants on each method.}
+    \label{fig:barplot_ecg_bpm_5_scene_blind}
+\end{figure}
+
+The Table \ref{tab:bpm_average_group_blind} show the average heartbeat frequency variation between the rounds of each group. As it was shown in the Figure \ref{fig:barplot_ecg_bpm_5_scene_blind}, only the "Base" method has a negative average variaton between the rounds. It is also posible to see that the Virtual Cane variation was the highest, hence it was also the highest mental workload.
+ 
+\input{Resultados/ECG/Tabelas/bpm_average_group_blind.tex}
+
+The Figure \ref{fig:boxplot_ecg_bpm_blind_scene} show a comparison between the methods. There is no big difference between them, but it is posible to 
+separate them in two groups based on their similarity. One with “Base”, “Haptic Belt” and “Mixture” methods and the other with “Audio” and “Virtual Cane”. The Figure \ref{fig:boxplot_ecg_bpm_blind_rounds} presents the average heartreate frequency grouped by round.
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_blind_scene.png}
+        \caption{Boxplot of the BPM of the blind participants grouped by method.}
+        \label{fig:boxplot_ecg_bpm_blind_scene}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_blind_rounds.png}
+        \caption{Boxplot of the BPM of the blind participants grouped by round.}
+        \label{fig:boxplot_ecg_bpm_blind_rounds}
+    \end{minipage}
+\end{figure}
+
+The Figures \ref{fig:qqplot_bpm_two_way} and \ref{fig:residplot_bpm_two_way} shows the distribution and variance of the Table \ref{tab:bpm_table_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
+The Table \ref{tab:blocanova_bpm_two_way} shows the ANOVA test p-value of the heart rate frequency of the “blind” sample. The p-value indicates that there is no effect of the methods, rounds and neither their interaction in the heartrate frequency.
+
+\input{Resultados/ECG/Tabelas/blocanova_bpm_two_way.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/qqplot_bpm_two_way.png}
+        \caption{QQ plot of the BPM of the blind participants on each method.}
+        \label{fig:qqplot_bpm_two_way}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/residplot_bpm_two_way.png}
+        \caption{Residual plot of the BPM score the blind participants on each method.}
+        \label{fig:residplot_bpm_two_way}
+    \end{minipage}
+\end{figure}
+
+
+%\input{Resultados/ECG/Tabelas/lsd_bpm_two_way.tex}
+
+%The Table \ref{tab:lsd_bpm_two_way} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods. The results show that the only the "Base" and "Haptic belt" have simila reaction.
+
+According to the ANOVA test at Table \ref{tab:blocanova_bpm_two_way}, there is no effect from the method, the round or the interaction between them in the heartrate frequency. It is posible to notice some small difference in the Figure \ref{fig:boxplot_ecg_bpm_blind_scene} but maybe because of the small sample size, it was no sensitive enough to be proved by the ANOVA test.
+
+\FloatBarrier
