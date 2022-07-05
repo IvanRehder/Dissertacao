@@ -1,62 +1,81 @@
-The Table \ref{tab:sdnn_table_blind} presents the standard deviation of the interbeat interval by each participant on each scenes. As it was with the Table \ref{tab:bpm_table_blind}, it is not posible to draw a pattern inside this Table. Different participant had increase, or decrease, with different methods.
+The Table \ref{tab:sdnn_table_noBase} presents the average heartbeat variance by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_ecg_sdnn_4_scene_blind} to \ref{fig:barplot_ecg_sdnn_4_scene}.
 
-\input{Resultados/ECG/Tabelas/sdnn_table_blind.tex}
+\input{Resultados/ECG/Tabelas/sdnn_table_noBase.tex}
 
-Inside the barplot Figure \ref{fig:barplot_ecg_sdnn_5_scene_blind} shows the average SDNN in each method. It is posible to notice that some method had an increase and some a decrease in the SDNN. The ones that indicate an increase would mean that the participant felt a lesser mental workload in the "Return" round, whilst the deacrese means the opposite.
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_sdnn_5_scene_blind.png}
-    \caption{Barplot of the average SDNN of the blind participants on each method.}
-    \label{fig:barplot_ecg_sdnn_5_scene_blind}
-\end{figure}
-
-The Table \ref{tab:sdnn_average_group_blind} presents the average SDNN variation between the rounds. It shows that only the "Audio" and the "Haptic Belt" methods shown a increase in the mental workload.
-
-\input{Resultados/ECG/Tabelas/sdnn_average_group_blind.tex}
-
-The Figures \ref{fig:boxplot_ecg_sdnn_blind_scene} presents the distribution of each method SDNN. It noticeable that the "Base" method has a different SDNN than the rest. The "Virtual Cane" also has a different distribution from the rest. The Figure \ref{fig:boxplot_ecg_sdnn_blind_rounds} presents the SDNN grouped by the rounds. It shows a slight difference between the rounds.
-
+The Figures \ref{fig:barplot_ecg_sdnn_4_scene_blind} and \ref{fig:barplot_ecg_sdnn_4_scene_sight} do not show a pattern. Some methods caused a decrease while other caused an increase on the SDNN. The Figure \ref{fig:barplot_ecg_sdnn_4_scene} that in all methods the SDNN of the sight users were higher than the blind users. That means that the sight users had a lower mental workload than the blind users.
 
 \begin{figure}[!htb]
     \centering
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_sdnn_blind_scene.png}
-        \caption{Boxplot of the SDNN of the blind participants grouped by method.}
-        \label{fig:boxplot_ecg_sdnn_blind_scene}
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_sdnn_4_scene_blind.png}
+        \caption{Barplot of the average SDNN of the blind participants on each method and round.}
+        \label{fig:barplot_ecg_sdnn_4_scene_blind}
     \end{minipage}
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_sdnn_blind_rounds.png}
-        \caption{Boxplot of the SDNN of the blind participants grouped by round.}
-        \label{fig:boxplot_ecg_sdnn_blind_rounds}
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_sdnn_4_scene_sight.png}
+        \caption{Barplot of the average SDNN of the sight participants on each method and round.}
+        \label{fig:barplot_ecg_sdnn_4_scene_sight}
     \end{minipage}
 \end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_sdnn_4_scene.png}
+    \caption{Barplot of the average SDNN of both participants on each method.}
+    \label{fig:barplot_ecg_sdnn_4_scene}
+\end{figure}
 
-The Figures \ref{fig:qqplot_sdnn_two_way} and \ref{fig:residplot_sdnn_two_way} shows the distribution and variance of the Table \ref{tab:sdnn_table_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
-The Table \ref{tab:blocdanova_sdnn_two_way} shows the ANOVA test p-value of the heartbeat interval variance of the “blind” sample. The p-value indicates that there is no effect of any factor.
-
-\input{Resultados/ECG/Tabelas/blocdanova_sdnn_two_way.tex}
+The Figure \ref{fig:boxplot_ecg_sdnn_4_scene} and \ref{fig:boxplot_ecg_sdnn_4_rounds} presents a box plot with the average SDNN of both groups by method and rounds in that order. These figures show the reaction of the sight user was a little different from the blind users. In all methods and rounds the SDNN from the sight users appear to be higher, hence with lower mental workload.
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/qqplot_sdnn_two_way.png}
-        \caption{QQ plot of the SDNN of the blind participants on each method.}
-        \label{fig:qqplot_sdnn_two_way}
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_sdnn_4_scene.png}
+        \caption{Boxplot of the average SDNN of the participants grouped by method.}
+        \label{fig:boxplot_ecg_sdnn_4_scene}
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/residplot_sdnn_two_way.png}
-        \caption{Residual plot of the SDNN of the blind participants on each method.}
-        \label{fig:residplot_sdnn_two_way}
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_sdnn_4_rounds.png}
+        \caption{Boxplot of the average SDNN of the participants grouped by round.}
+        \label{fig:boxplot_ecg_sdnn_4_rounds}
+    \end{minipage}
+\end{figure}
+ 
+The Table \ref{tab:sdnn_average_group_noBase} shows the average heartbeat variance of both samples and is possible to notice how the average score by the sight users was higher in every method, reinforcing the Figures \ref{fig:barplot_ecg_sdnn_4_scene} to \ref{fig:boxplot_ecg_sdnn_4_rounds} conclusions.
+
+\input{Resultados/ECG/Tabelas/sdnn_average_group_noBase.tex}
+
+The Figures \ref{fig:qqplot_sdnn_two_way_sight} and \ref{fig:residplot_sdnn_two_way_sight} shows the distribution and variance of sighted participants of the Table \ref{tab:sdnn_table_noBase}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_sdnn_two_way_sight} shows the ANOVA test p-values of the average heartbeat variance of the "sight" sample between the guidance methods and they show that the methods had an effect on the score.
+
+\input{Resultados/ECG/Tabelas/blocanova_sdnn_two_way_sight.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/qqplot_sdnn_two_way_sight.png}
+        \caption{QQ plot of the average SDNN of the sight participants on each method.}
+        \label{fig:qqplot_sdnn_two_way_sight}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/residplot_sdnn_two_way_sight.png}
+        \caption{Residual plot of the average SDNN score the sight participants on each method.}
+        \label{fig:residplot_sdnn_two_way_sight}
     \end{minipage}
 \end{figure}
 
-%\input{Resultados/ECG/Tabelas/lsd_sdnn_two_way.tex}
 
-The Table \ref{tab:blocdanova_sdnn_two_way} does not prove that any method or round has some influence in the heartbeat interval variance, thus in the Mental Workload. Although, in the Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} it is posible to notice that the "Base" method has a different distribution. As it has already commented before, maybe the result of the anova test is a conseguence of a small sample size.
+%\input{Resultados/ECG/Tabelas/lsd_sdnn_two_way_sight.tex}
+%
+%The Table \ref{tab:lsd_sdnn_two_way_sight} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods and it shows that all methods had different effect on the heartrate, appart of the "Virtual Cane" and "Mixture", which presented similar SDNN.
+
+According to the ANOVA test at Table \ref{tab:blocanova_sdnn_two_way_sight} there was no effect on the interbeat variance. So the methods did not influence the sighted user mental workload. The same conclusion was driven in the section \ref{subsubsec:results_ecg_1} in the SDNN part.
+
+Also, the sight user had a higher SDNN, which means lower Mental Workload, a unexpected result based on the expectation and on the previous notes. 
 
 \FloatBarrier

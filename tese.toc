@@ -82,35 +82,36 @@
 \contentsline {subsection}{\numberline {8.2.1}Subjective data}{104}{subsection.8.2.1}
 \contentsline {subsubsection}{\numberline {8.2.1.1}NASA-TLX}{104}{subsubsection.8.2.1.1}
 \contentsline {paragraph}{\numberline {8.2.1.1.1}Analysis of the mental demand scale}{104}{paragraph.8.2.1.1.1}
-\contentsline {paragraph}{\numberline {8.2.1.1.2}Analysis of the NASA-TLX score}{109}{paragraph.8.2.1.1.2}
+\contentsline {paragraph}{\numberline {8.2.1.1.2}Analysis of the NASA-TLX score}{108}{paragraph.8.2.1.1.2}
 \contentsline {subsubsection}{\numberline {8.2.1.2}Adapted SAGAT}{113}{subsubsection.8.2.1.2}
 \contentsline {subsection}{\numberline {8.2.2}Physiological data}{118}{subsection.8.2.2}
 \contentsline {subsubsection}{\numberline {8.2.2.1}Electrocardiogram (ECG) data}{118}{subsubsection.8.2.2.1}
 \contentsline {paragraph}{\numberline {8.2.2.1.1}Analysis of the heartbeat frequency (BPM)}{118}{paragraph.8.2.2.1.1}
-\contentsline {paragraph}{\numberline {8.2.2.1.2}Analysis of the heartbeat variance (SDNN)}{121}{paragraph.8.2.2.1.2}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Galvanic skin reaction and temperature data;}{123}{subsubsection.8.2.2.2}
-\contentsline {chapter}{\numberline {9}Conclusion}{127}{chapter.9}
-\contentsline {section}{\numberline {9.1}Future works and suggestions}{128}{section.9.1}
-\contentsline {chapter}{Bibliography}{130}{chapter.10}
+\contentsline {paragraph}{\numberline {8.2.2.1.2}Analysis of the heartbeat variance (SDNN)}{122}{paragraph.8.2.2.1.2}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Galvanic skin reaction and temperature data;}{126}{subsubsection.8.2.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Final Remarks}{130}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{132}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future works and suggestions}{133}{section.9.1}
+\contentsline {chapter}{Bibliography}{135}{chapter.10}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Questionnaires}{135}{appendix.A}
-\contentsline {section}{\numberline {A.1}BVI condition}{135}{section.A.1}
-\contentsline {section}{\numberline {A.2}NASA-TLX}{136}{section.A.2}
-\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{138}{section.A.3}
-\contentsline {section}{\numberline {A.4}Guidance method evaluation}{143}{section.A.4}
-\contentsline {chapter}{\numberline {B}Virtual Cane}{149}{appendix.B}
-\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{149}{section.B.1}
-\contentsline {chapter}{\numberline {C}Haptic Belt}{150}{appendix.C}
-\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{150}{section.C.1}
-\contentsline {section}{\numberline {C.2}Vibration unit}{151}{section.C.2}
-\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{152}{section.C.3}
-\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{153}{section.C.4}
-\contentsline {chapter}{\numberline {D}ECG processing algorithm}{154}{appendix.D}
-\contentsline {chapter}{\numberline {E}GSR processing algorithm}{155}{appendix.E}
-\contentsline {chapter}{\numberline {F}Figures and graphics}{156}{appendix.F}
+\contentsline {chapter}{\numberline {A}Questionnaires}{140}{appendix.A}
+\contentsline {section}{\numberline {A.1}BVI condition}{140}{section.A.1}
+\contentsline {section}{\numberline {A.2}NASA-TLX}{141}{section.A.2}
+\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{143}{section.A.3}
+\contentsline {section}{\numberline {A.4}Guidance method evaluation}{148}{section.A.4}
+\contentsline {chapter}{\numberline {B}Virtual Cane}{154}{appendix.B}
+\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{154}{section.B.1}
+\contentsline {chapter}{\numberline {C}Haptic Belt}{155}{appendix.C}
+\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{155}{section.C.1}
+\contentsline {section}{\numberline {C.2}Vibration unit}{156}{section.C.2}
+\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{157}{section.C.3}
+\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{158}{section.C.4}
+\contentsline {chapter}{\numberline {D}ECG processing algorithm}{159}{appendix.D}
+\contentsline {chapter}{\numberline {E}GSR processing algorithm}{160}{appendix.E}
+\contentsline {chapter}{\numberline {F}Figures and graphics}{161}{appendix.F}
 \SetAppendixTocName {Annex}
-\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{157}{annex.a}
-\contentsline {section}{\numberline {A.1}Especifications}{157}{section.a.1}
-\contentsline {section}{\numberline {A.2}Pinnout}{158}{section.a.2}
-\contentsline {chapter}{\numberline {B}Kubius}{159}{annex.b}
-\contentsline {section}{\numberline {B.1}Kubius software}{159}{section.b.1}
+\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{162}{annex.a}
+\contentsline {section}{\numberline {A.1}Especifications}{162}{section.a.1}
+\contentsline {section}{\numberline {A.2}Pinnout}{163}{section.a.2}
+\contentsline {chapter}{\numberline {B}Kubius}{164}{annex.b}
+\contentsline {section}{\numberline {B.1}Kubius software}{164}{section.b.1}

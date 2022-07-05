@@ -1,72 +1,90 @@
 \subsubsection{Galvanic skin reaction and temperature data;}
 \label{subsubsec:results_gsr_temp_2}
 
-The GSR analysis is made by analyzing its average and the accumulated value and comparing both features between the baseline and each round. The temperature was analyzed with the GSR to see if there is some influence and by a graphical analysis there was none. For the experiment, the GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants.
+The GSR analysis is also made by analyzing its average and comparing both features between both blind and sample groups. As mentioned before, there was no influence of the temperature and the GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants.
 
-The Table \ref{tab:gsr_table_blind} presents the standard deviation of the interbeat interval by each participant on each scenes. As it was with the Table \ref{tab:bpm_table_blind}, it is not posible to draw a pattern inside this Table. Different participant had increase, or decrease, with different methods.
+The Table \ref{tab:gsr_table_noBase} presents the average skin conductance by each participant on each scenes and they are plotted in the Figures \ref{fig:barplot_ecg_sdnn_4_scene_blind} to \ref{fig:barplot_ecg_sdnn_4_scene}.
 
+The Table \ref{tab:gsr_var_noBase} presents the average skin conductance by each participant on their baseline and on each scene and their respectivily variation is inside Table \ref{tab:gsr_var_blind}. In the majority of times the skin conductance has risen from the "First" to the "Return" round, which mean that the participant was more aroused or with a higher mental workload.
 
-The Table \ref{tab:gsr_table_blind} presents the average skin conductance by each blind participant on their baseline and on each scene and their respectivily variation is inside Table \ref{tab:gsr_var_blind}. In the majority of times the skin conductance has risen from the "First" to the "Return" round, which mean that the participant was more aroused or with a higher mental workload.
+\input{Resultados/GSR/Tabelas/gsr_table_noBase.tex}
 
-\input{Resultados/GSR/Tabelas/gsr_table_blind.tex}
+\input{Resultados/GSR/Tabelas/gsr_var_noBase.tex}
 
-\input{Resultados/GSR/Tabelas/gsr_var_blind.tex}
+The Figures \ref{fig:barplot_gsr_avg_4_scene_blind} show a pattern, that the presence of a haptic device increases the GSR variation, hence the stress or the mental workload, and \ref{fig:barplot_gsr_avg_4_scene_sight} do not show a pattern, all GSR variations are basic the same. One thing in common is that the "Haptic belt" caused a deacreased between the rounds, while the other methods caused an increase.
 
-The Figure \ref{fig:barplot_gsr_avg_5_scene_blind} presents the average GSR variation on each method and one can say that the presence of a haptic device causes an increase in the skin conductance, hence its mental workload. Also it is posible to realize that the average skin conductance of the blind participants had incresed between the "First" and "Return" round, with the exception of the "Base" method and the "Haptic Belt" method.
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_5_scene_blind.png}
-    \caption{Barplot of the average SDNN of the blind participants on each method.}
-    \label{fig:barplot_gsr_avg_5_scene_blind}
-\end{figure}
-
-The Table \ref{tab:gsr_average_group_blind} presents the average GSR variation presented in the table \ref{tab:gsr_var_blind}. It shows that the "Audio" method presented the lesser GSR, that could be a combination of the fact that during the "Audio" method the hands was not used and that the participants felt less strange to the method, since it is based a common daily activity.
-
-\input{Resultados/GSR/Tabelas/gsr_average_group_blind.tex}
-
-The Figures \ref{fig:boxplot_gsr_avg_blind_scene} presents the distribution of the skin conductance on each method. It noticeable that the "Base" method has the lowest variation of all methods and that the presence of a haptic device increases its variance. The Figure \ref{fig:boxplot_gsr_avg_blind_rounds} presents the GSR grouped by the rounds and their are virtually the same.
+The Figure \ref{fig:barplot_gsr_avg_4_scene} reinforces the fact that the presence of a haptic device increases the GSR for the blind user. With those devices, the blind user's GSR were higher than the sighted user. The opposite happened in the "Audio" method.
 
 \begin{figure}[!htb]
     \centering
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_blind_scene.png}
-        \caption{Boxplot of the GSR of the blind participants grouped by method.}
-        \label{fig:boxplot_gsr_avg_blind_scene}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_4_scene_blind.png}
+        \caption{Barplot of the average GSR of the blind participants on each method and round.}
+        \label{fig:barplot_gsr_avg_4_scene_blind}
     \end{minipage}
-    \begin{minipage}{0.45\textwidth}
+    \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_blind_rounds.png}
-        \caption{Boxplot of the GSR of the blind participants grouped by round.}
-        \label{fig:boxplot_gsr_avg_blind_rounds}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_4_scene_sight.png}
+        \caption{Barplot of the average GSR of the sight participants on each method and round.}
+        \label{fig:barplot_gsr_avg_4_scene_sight}
     \end{minipage}
 \end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/barplot_gsr_avg_4_scene.png}
+    \caption{Barplot of the average GSR of both participants on each method.}
+    \label{fig:barplot_gsr_avg_4_scene}
+\end{figure}
 
-The Figures \ref{fig:qqplot_gsr_two_way} and \ref{fig:residplot_gsr_two_way} shows the distribution and variance of the Table \ref{tab:gsr_var_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
-The Table \ref{tab:blocanova_gsr_two_way} shows the ANOVA test p-value of the heartbeat interval variance of the “blind” sample. The p-value indicates that there is no effect of any factor in the skin conductance.
-
-\input{Resultados/GSR/Tabelas/blocanova_gsr_two_way.tex}
+The Figure \ref{fig:boxplot_ecg_sdnn_4_scene} and \ref{fig:boxplot_ecg_sdnn_4_rounds} presents a box plot with the average skin conductance of both groups by method and rounds in that order. These figures show the reaction of the sight user was different from the blind users. In all methods the GSR for the sighted user appears to be more constant. The effect of the round appear to be the same for both of the groups, none.
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/qqplot_gsr_two_way.png}
-        \caption{QQ plot of the SDNN of the blind participants on each method.}
-        \label{fig:qqplot_gsr_two_way}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_4_scene.png}
+        \caption{Boxplot of the average GSR of the participants grouped by method.}
+        \label{fig:boxplot_gsr_avg_4_scene}
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/residplot_gsr_two_way.png}
-        \caption{Residual plot of the SDNN of the blind participants on each method.}
-        \label{fig:residplot_gsr_two_way}
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/boxplot_gsr_avg_4_rounds.png}
+        \caption{Boxplot of the average GSR of the participants grouped by round.}
+        \label{fig:boxplot_gsr_avg_4_rounds}
+    \end{minipage}
+\end{figure}
+ 
+The Table \ref{tab:gsr_average_group_noBase} shows the average skin conductance variation of both samples. It also shows that the presence of a haptic device increases the GSR, whilst the sight user had a basically constant GSR.
+
+\input{Resultados/GSR/Tabelas/gsr_average_group_noBase.tex}
+
+The Figures \ref{fig:qqplot_gsr_two_way_sight} and \ref{fig:residplot_gsr_two_way_sight} shows the distribution and variance of sighted participants of the Table \ref{tab:gsr_table_noBase}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
+The Table \ref{tab:blocanova_gsr_two_way_sight} shows the ANOVA test p-values of the average skin conductance variance of the "sight" sample between the guidance methods and they show that nor the methods nor the rounds had an effect on the sight users.
+
+\input{Resultados/GSR/Tabelas/blocanova_gsr_two_way_sight.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/qqplot_gsr_two_way_sight.png}
+        \caption{QQ plot of the average skin conductance of the sight participants on each method.}
+        \label{fig:qqplot_gsr_two_way_sight}
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/GSR/Figuras/png/residplot_gsr_two_way_sight.png}
+        \caption{Residual plot of the average skin conductance score the sight participants on each method.}
+        \label{fig:residplot_gsr_two_way_sight}
     \end{minipage}
 \end{figure}
 
-%\input{Resultados/GSR/Tabelas/lsd_gsr_two_way.tex}
 
-The Table \ref{tab:blocanova_gsr_two_way} does not prove that any method or round has some influence in the skin conductance variation, thus in the Mental Workload. Although, in the Figure \ref{fig:boxplot_gsr_avg_blind_scene} it is posible to notice that the "Base" and the "Audio" method have a different distribution. As it has already commented before, maybe the result of the anova test is a conseguence of a small sample size.
+%\input{Resultados/GSR/Tabelas/lsd_gsr_two_way_sight.tex}
+%
+%The Table \ref{tab:lsd_gsr_two_way_sight} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods and it shows that all methods had different effect on the heartrate, appart of the "Virtual Cane" and "Mixture", which presented similar SDNN.
+
+According to the ANOVA test at Table \ref{tab:blocanova_gsr_two_way_sight} the methods did not impact the sight user's arousal or their mental workload. This was the same result from the ANOVA test of the Section \ref{subsubsec:results_gsr_temp_1}. The Figure \ref{fig:boxplot_gsr_avg_4_scene} showed the same result, but the same was not said about the boxplot of the blind user.
 
 \FloatBarrier
-
