@@ -19,61 +19,53 @@
 \contentsline {section}{\numberline {3.5}Comparison of assistive devices}{46}{section.3.5}
 \contentsline {section}{\numberline {3.6}Virtual reality in the design process}{47}{section.3.6}
 \contentsline {section}{\numberline {3.7}Final Remarks}{48}{section.3.7}
-\contentsline {chapter}{\numberline {4}Proposal description}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1}Phase 1 – Context definition}{50}{section.4.1}
-\contentsline {section}{\numberline {4.2}Phase 2 - Specification}{51}{section.4.2}
-\contentsline {section}{\numberline {4.3}Phase 3 - Development}{53}{section.4.3}
-\contentsline {section}{\numberline {4.4}Phase 4 – Preliminary evaluation}{59}{section.4.4}
-\contentsline {section}{\numberline {4.5}Phase 5 – Systematic evaluation}{61}{section.4.5}
-\contentsline {section}{\numberline {4.6}Final Remarks}{62}{section.4.6}
-\contentsline {chapter}{\numberline {5}Results' analysis and discussion}{63}{chapter.5}
-\contentsline {section}{\numberline {5.1}Evaluation of assistive device from a human factors’ perspective in a virtual environment}{63}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Subjective data}{63}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}NASA-TLX}{64}{subsubsection.5.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1.1}Analysis of the mental demand scale}{64}{paragraph.5.1.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1.2}Analysis of the NASA-TLX score}{67}{paragraph.5.1.1.1.2}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Adapted SAGAT}{71}{subsubsection.5.1.1.2}
-\contentsline {subsubsection}{\numberline {5.1.1.3}Guidance method's questionnaire.}{75}{subsubsection.5.1.1.3}
-\contentsline {subsection}{\numberline {5.1.2}Physiological data}{77}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Electrocardiogram (ECG) data}{78}{subsubsection.5.1.2.1}
-\contentsline {paragraph}{\numberline {5.1.2.1.1}Analysis of the heartbeat frequency (BPM)}{79}{paragraph.5.1.2.1.1}
-\contentsline {paragraph}{\numberline {5.1.2.1.2}Analysis of the heartbeat variance (SDNN)}{81}{paragraph.5.1.2.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Galvanic skin reaction and temperature data;}{84}{subsubsection.5.1.2.2}
-\contentsline {subsection}{\numberline {5.1.3}Final Remarks}{87}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Comparison between BVI users and sighted users}{88}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Subjective data}{88}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}NASA-TLX}{88}{subsubsection.5.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.1.1}Analysis of the mental demand scale}{88}{paragraph.5.2.1.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.1.2}Analysis of the NASA-TLX score}{93}{paragraph.5.2.1.1.2}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Adapted SAGAT}{97}{subsubsection.5.2.1.2}
-\contentsline {subsection}{\numberline {5.2.2}Physiological data}{102}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Electrocardiogram (ECG) data}{102}{subsubsection.5.2.2.1}
-\contentsline {paragraph}{\numberline {5.2.2.1.1}Analysis of the heartbeat frequency (BPM)}{102}{paragraph.5.2.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.2.1.2}Analysis of the heartbeat variance (SDNN)}{106}{paragraph.5.2.2.1.2}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Galvanic skin reaction and temperature data;}{110}{subsubsection.5.2.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Final Remarks}{114}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{116}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future works and suggestions}{117}{section.6.1}
-\contentsline {chapter}{Bibliography}{119}{chapter.7}
+\contentsline {chapter}{\numberline {4}The proposed method}{50}{chapter.4}
+\contentsline {section}{\numberline {4.1}Phase 1 – Context definition}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}Phase 2 - Specification}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}Phase 3 - Development}{54}{section.4.3}
+\contentsline {section}{\numberline {4.4}Phase 4 – Preliminary evaluation}{61}{section.4.4}
+\contentsline {section}{\numberline {4.5}Phase 5 – Systematic evaluation}{62}{section.4.5}
+\contentsline {section}{\numberline {4.6}Final Remarks}{64}{section.4.6}
+\contentsline {chapter}{\numberline {5}Results' analysis and discussion}{65}{chapter.5}
+\contentsline {section}{\numberline {5.1}Evaluation of assistive device from a human factors’ perspective in a virtual environment}{66}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Subjective data}{66}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}NASA-TLX}{66}{subsubsection.5.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1.1}Analysis of the mental demand scale}{67}{paragraph.5.1.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1.2}Analysis of the NASA-TLX score}{70}{paragraph.5.1.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Adapted SAGAT}{74}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.3}Guidance method's questionnaire.}{77}{subsubsection.5.1.1.3}
+\contentsline {subsection}{\numberline {5.1.2}Physiological data}{80}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Electrocardiogram (ECG) data}{80}{subsubsection.5.1.2.1}
+\contentsline {paragraph}{\numberline {5.1.2.1.1}Analysis of the heartbeat frequency (BPM)}{81}{paragraph.5.1.2.1.1}
+\contentsline {paragraph}{\numberline {5.1.2.1.2}Analysis of the heartbeat variance (SDNN)}{84}{paragraph.5.1.2.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Galvanic skin reaction and temperature data;}{86}{subsubsection.5.1.2.2}
+\contentsline {subsection}{\numberline {5.1.3}Final Remarks}{89}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Comparison between BVI users and sighted users}{91}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Subjective data}{91}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}NASA-TLX}{91}{subsubsection.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.1.1}Analysis of the mental demand scale}{91}{paragraph.5.2.1.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.1.2}Analysis of the NASA-TLX score}{96}{paragraph.5.2.1.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Adapted SAGAT}{100}{subsubsection.5.2.1.2}
+\contentsline {subsection}{\numberline {5.2.2}Physiological data}{105}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Electrocardiogram (ECG) data}{105}{subsubsection.5.2.2.1}
+\contentsline {paragraph}{\numberline {5.2.2.1.1}Analysis of the heartbeat frequency (BPM)}{105}{paragraph.5.2.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.2.1.2}Analysis of the heartbeat variance (SDNN)}{109}{paragraph.5.2.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Galvanic skin reaction and temperature data;}{113}{subsubsection.5.2.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Final Remarks}{117}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{119}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future works and suggestions}{120}{section.6.1}
+\contentsline {chapter}{Bibliography}{122}{chapter.7}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Questionnaires}{123}{appendix.A}
-\contentsline {section}{\numberline {A.1}BVI condition}{123}{section.A.1}
-\contentsline {section}{\numberline {A.2}NASA-TLX}{124}{section.A.2}
-\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{126}{section.A.3}
-\contentsline {section}{\numberline {A.4}Guidance method evaluation}{131}{section.A.4}
-\contentsline {chapter}{\numberline {B}Virtual Cane}{137}{appendix.B}
-\contentsline {section}{\numberline {B.1}Virtual Cane algorithm}{137}{section.B.1}
-\contentsline {chapter}{\numberline {C}Haptic Belt}{138}{appendix.C}
-\contentsline {section}{\numberline {C.1}Printed circuit board used on the haptic belt}{138}{section.C.1}
-\contentsline {section}{\numberline {C.2}Vibration unit}{139}{section.C.2}
-\contentsline {section}{\numberline {C.3}Algorithm running in the ESP32}{140}{section.C.3}
-\contentsline {section}{\numberline {C.4}Algorithm running in the Unity}{141}{section.C.4}
-\contentsline {chapter}{\numberline {D}ECG processing algorithm}{142}{appendix.D}
-\contentsline {chapter}{\numberline {E}GSR processing algorithm}{143}{appendix.E}
-\contentsline {chapter}{\numberline {F}Figures and graphics}{144}{appendix.F}
+\contentsline {chapter}{\numberline {A}Questionnaires}{126}{appendix.A}
+\contentsline {section}{\numberline {A.1}BVI condition}{126}{section.A.1}
+\contentsline {section}{\numberline {A.2}NASA-TLX}{127}{section.A.2}
+\contentsline {section}{\numberline {A.3}SAGAT (adapted)}{128}{section.A.3}
+\contentsline {section}{\numberline {A.4}Guidance method evaluation}{132}{section.A.4}
+\contentsline {chapter}{\numberline {B}ECG processing algorithm}{138}{appendix.B}
+\contentsline {chapter}{\numberline {C}GSR processing algorithm}{139}{appendix.C}
 \SetAppendixTocName {Annex}
-\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{145}{annex.a}
-\contentsline {section}{\numberline {A.1}Especifications}{145}{section.a.1}
-\contentsline {section}{\numberline {A.2}Pinnout}{146}{section.a.2}
-\contentsline {chapter}{\numberline {B}Kubius}{147}{annex.b}
-\contentsline {section}{\numberline {B.1}Kubius software}{147}{section.b.1}
+\contentsline {chapter}{\numberline {A}DOIT Esp32 DevKit v1 datasheet}{140}{annex.a}
+\contentsline {section}{\numberline {A.1}Especifications}{140}{section.a.1}
+\contentsline {section}{\numberline {A.2}Pinnout}{141}{section.a.2}
+\contentsline {chapter}{\numberline {B}Kubius}{142}{annex.b}
+\contentsline {section}{\numberline {B.1}Kubius software}{142}{section.b.1}
