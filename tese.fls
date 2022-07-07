@@ -112,6 +112,17 @@ INPUT .\itaeng.babel
 INPUT itaeng.babel
 INPUT .\itaeng.babel
 INPUT itaeng.babel
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\babelbib.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
@@ -1378,6 +1389,11 @@ INPUT .\tese.aux
 INPUT tese.aux
 INPUT tese.aux
 OUTPUT tese.aux
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
@@ -1684,13 +1700,6 @@ INPUT .\Fundamentação\Fatores Humanos\hand.png
 INPUT .\Fundamentação\Fatores Humanos\hand.png
 INPUT .\Fundamentação\Fatores Humanos\hand.png
 INPUT .\Fundamentação\Fatores Humanos\hand.png
-INPUT .\Fundamentação\Carga Mental\mental_workload.tex
-INPUT .\Fundamentação\Carga Mental\mental_workload.tex
-INPUT .\Fundamentação\Carga Mental\mental_workload.tex
-INPUT Fundamentação\Carga Mental\mental_workload.tex
-INPUT .\Fundamentação\Carga Mental\mental_workload.tex
-INPUT .\Fundamentação\Carga Mental\mental_workload.tex
-INPUT Fundamentação\Carga Mental\mental_workload.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer17.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -1698,6 +1707,13 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+INPUT .\Fundamentação\Carga Mental\mental_workload.tex
+INPUT .\Fundamentação\Carga Mental\mental_workload.tex
+INPUT .\Fundamentação\Carga Mental\mental_workload.tex
+INPUT Fundamentação\Carga Mental\mental_workload.tex
+INPUT .\Fundamentação\Carga Mental\mental_workload.tex
+INPUT .\Fundamentação\Carga Mental\mental_workload.tex
+INPUT Fundamentação\Carga Mental\mental_workload.tex
 INPUT .\Fundamentação\Carga Mental\overview.tex
 INPUT .\Fundamentação\Carga Mental\overview.tex
 INPUT .\Fundamentação\Carga Mental\overview.tex
@@ -1777,9 +1793,6 @@ INPUT Fundamentação\Percepção situacional\situation_awareness.tex
 INPUT .\Fundamentação\Percepção situacional\situation_awareness.tex
 INPUT .\Fundamentação\Percepção situacional\situation_awareness.tex
 INPUT Fundamentação\Percepção situacional\situation_awareness.tex
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti10.vf
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\Fundamentação\Percepção situacional\overview.tex
 INPUT .\Fundamentação\Percepção situacional\overview.tex
 INPUT .\Fundamentação\Percepção situacional\overview.tex
@@ -1859,6 +1872,9 @@ INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti10.vf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
@@ -1952,20 +1968,6 @@ INPUT Revisao\VR Without Vision\vr_without_vision__siu_et_al.tex
 INPUT .\Revisao\VR Without Vision\vr_without_vision__siu_et_al.tex
 INPUT .\Revisao\VR Without Vision\vr_without_vision__siu_et_al.tex
 INPUT Revisao\VR Without Vision\vr_without_vision__siu_et_al.tex
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision map.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
-INPUT Revisao\VR Without Vision\VR without vision rooms.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
-INPUT .\Revisao\VR Without Vision\VR without vision rooms.png
 INPUT .\Revisao\Emotion Presence\emotion_presence_vr.tex
 INPUT .\Revisao\Emotion Presence\emotion_presence_vr.tex
 INPUT .\Revisao\Emotion Presence\emotion_presence_vr.tex
@@ -1973,34 +1975,6 @@ INPUT Revisao\Emotion Presence\emotion_presence_vr.tex
 INPUT .\Revisao\Emotion Presence\emotion_presence_vr.tex
 INPUT .\Revisao\Emotion Presence\emotion_presence_vr.tex
 INPUT Revisao\Emotion Presence\emotion_presence_vr.tex
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy No.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Happy Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear No.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
-INPUT .\Revisao\Emotion Presence\Scene Fear Yes.png
 INPUT .\Revisao\Bradley Dunlop\bradley_dunlop.tex
 INPUT .\Revisao\Bradley Dunlop\bradley_dunlop.tex
 INPUT .\Revisao\Bradley Dunlop\bradley_dunlop.tex
@@ -2015,50 +1989,15 @@ INPUT Revisao\Bradley Dunlop\Grafico_2002.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2002.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2002.tex
 INPUT Revisao\Bradley Dunlop\Grafico_2002.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2002_2.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_3.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_4.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_5.tex
+INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
+INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer17.tfm
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_6.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
-INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
@@ -2066,6 +2005,13 @@ INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
+INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
+INPUT Revisao\Auditory navigation for BVI\auditory_navigation.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
@@ -2078,13 +2024,6 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT .\Revisao\Auditory navigation for BVI\auditory_navigation.tex
-INPUT Revisao\Auditory navigation for BVI\auditory_navigation.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
@@ -2092,13 +2031,6 @@ INPUT Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
-INPUT .\Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT .\Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT .\Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT .\Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT .\Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
-INPUT Revisao\Evaluation Spatial Display\Evaluation_mean_time.tex
 INPUT .\Revisao\VR Cabin\vr_cabin.tex
 INPUT .\Revisao\VR Cabin\vr_cabin.tex
 INPUT .\Revisao\VR Cabin\vr_cabin.tex
@@ -2120,34 +2052,6 @@ INPUT Revisao\VR Cabin\Design_user_involvment.tex
 INPUT .\Revisao\VR Cabin\Design_user_involvment.tex
 INPUT .\Revisao\VR Cabin\Design_user_involvment.tex
 INPUT Revisao\VR Cabin\Design_user_involvment.tex
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\Sketch.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\3D Model.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR sketch.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
-INPUT Revisao\VR Cabin\VR 3D Model.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
-INPUT .\Revisao\VR Cabin\VR 3D Model.png
 INPUT .\Metodologia\metodologia.tex
 INPUT .\Metodologia\metodologia.tex
 INPUT .\Metodologia\metodologia.tex
@@ -2162,6 +2066,10 @@ INPUT Metodologia\diagram.tex
 INPUT .\Metodologia\diagram.tex
 INPUT .\Metodologia\diagram.tex
 INPUT Metodologia\diagram.tex
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aebxti10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aebxti10.vf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxsl10.tfm
 INPUT .\Metodologia\tasks.tex
 INPUT .\Metodologia\tasks.tex
 INPUT .\Metodologia\tasks.tex
@@ -2199,12 +2107,6 @@ INPUT .\Metodologia\visita.png
 INPUT .\Metodologia\visita.png
 INPUT Metodologia\visita.png
 INPUT .\Metodologia\visita.png
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer10.vf
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT .\Metodologia\VE.png
 INPUT .\Metodologia\VE.png
 INPUT Metodologia\VE.png
@@ -2219,48 +2121,46 @@ INPUT .\Metodologia\RE.jpg
 INPUT .\Metodologia\RE.jpg
 INPUT .\Metodologia\RE.jpg
 INPUT .\Metodologia\RE.jpg
-INPUT .\Cenario\cenario.tex
-INPUT .\Cenario\cenario.tex
-INPUT .\Cenario\cenario.tex
-INPUT Cenario\cenario.tex
-INPUT .\Cenario\cenario.tex
-INPUT .\Cenario\cenario.tex
-INPUT Cenario\cenario.tex
-INPUT .\Cenario\diagram.tex
-INPUT .\Cenario\diagram.tex
-INPUT .\Cenario\diagram.tex
-INPUT Cenario\diagram.tex
-INPUT .\Cenario\diagram.tex
-INPUT .\Cenario\diagram.tex
-INPUT Cenario\diagram.tex
-INPUT .\Cinto\cinto.tex
-INPUT .\Cinto\cinto.tex
-INPUT .\Cinto\cinto.tex
-INPUT Cinto\cinto.tex
-INPUT .\Cinto\cinto.tex
-INPUT .\Cinto\cinto.tex
-INPUT Cinto\cinto.tex
-INPUT .\Cinto\Case Cinto.png
-INPUT .\Cinto\Case Cinto.png
-INPUT Cinto\Case Cinto.png
-INPUT .\Cinto\Case Cinto.png
-INPUT .\Cinto\Case Cinto.png
-INPUT .\Cinto\Case Cinto.png
-INPUT .\Cinto\Case Cinto.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT Cinto\Cinto Haptico.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT .\Cinto\Cinto Haptico.png
-INPUT .\Doe\doe.tex
-INPUT .\Doe\doe.tex
-INPUT .\Doe\doe.tex
-INPUT Doe\doe.tex
-INPUT .\Doe\doe.tex
-INPUT .\Doe\doe.tex
-INPUT Doe\doe.tex
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer10.vf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+INPUT .\Metodologia\Case Cinto.png
+INPUT .\Metodologia\Case Cinto.png
+INPUT Metodologia\Case Cinto.png
+INPUT .\Metodologia\Case Cinto.png
+INPUT .\Metodologia\Case Cinto.png
+INPUT .\Metodologia\Case Cinto.png
+INPUT .\Metodologia\Case Cinto.png
+INPUT .\Metodologia\PCB Cinto.pdf
+INPUT .\Metodologia\PCB Cinto.pdf
+INPUT Metodologia\PCB Cinto.pdf
+INPUT .\Metodologia\PCB Cinto.pdf
+INPUT .\Metodologia\PCB Cinto.pdf
+INPUT .\Metodologia\PCB Cinto.pdf
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\Cinto Haptico.png
+INPUT .\Metodologia\envelope1.png
+INPUT .\Metodologia\envelope1.png
+INPUT Metodologia\envelope1.png
+INPUT .\Metodologia\envelope1.png
+INPUT .\Metodologia\envelope1.png
+INPUT .\Metodologia\envelope1.png
+INPUT .\Metodologia\envelope1.png
+INPUT .\Metodologia\envelope2.png
+INPUT .\Metodologia\envelope2.png
+INPUT Metodologia\envelope2.png
+INPUT .\Metodologia\envelope2.png
+INPUT .\Metodologia\envelope2.png
+INPUT .\Metodologia\envelope2.png
+INPUT .\Metodologia\envelope2.png
 INPUT .\Resultados\resultados.tex
 INPUT .\Resultados\resultados.tex
 INPUT .\Resultados\resultados.tex
@@ -2761,20 +2661,6 @@ INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_two_way_blind.png
 INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_two_way_blind.png
 INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_two_way_blind.png
 INPUT .\Resultados\GSR\Figuras\png\residplot_gsr_two_way_blind.png
-INPUT .\Resultados\envelope1.png
-INPUT .\Resultados\envelope1.png
-INPUT Resultados\envelope1.png
-INPUT .\Resultados\envelope1.png
-INPUT .\Resultados\envelope1.png
-INPUT .\Resultados\envelope1.png
-INPUT .\Resultados\envelope1.png
-INPUT .\Resultados\envelope2.png
-INPUT .\Resultados\envelope2.png
-INPUT Resultados\envelope2.png
-INPUT .\Resultados\envelope2.png
-INPUT .\Resultados\envelope2.png
-INPUT .\Resultados\envelope2.png
-INPUT .\Resultados\envelope2.png
 INPUT .\Resultados\SubjectiveData2.tex
 INPUT .\Resultados\SubjectiveData2.tex
 INPUT .\Resultados\SubjectiveData2.tex
@@ -3656,12 +3542,6 @@ INPUT Apend Cinto\apendD.tex
 INPUT .\Apend Cinto\apendD.tex
 INPUT .\Apend Cinto\apendD.tex
 INPUT Apend Cinto\apendD.tex
-INPUT .\Apend Cinto\PCB Cinto.pdf
-INPUT .\Apend Cinto\PCB Cinto.pdf
-INPUT Apend Cinto\PCB Cinto.pdf
-INPUT .\Apend Cinto\PCB Cinto.pdf
-INPUT .\Apend Cinto\PCB Cinto.pdf
-INPUT .\Apend Cinto\PCB Cinto.pdf
 INPUT .\Apend Cinto\Unidade Vibracao.pdf
 INPUT .\Apend Cinto\Unidade Vibracao.pdf
 INPUT Apend Cinto\Unidade Vibracao.pdf
@@ -3768,6 +3648,8 @@ INPUT .\tese.brf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

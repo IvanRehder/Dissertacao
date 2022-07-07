@@ -21,17 +21,6 @@ Since haptic is one of the types of information that a BVI user can rely on, it 
  
  The first step was to correct and adapt the algorithm used on the Arduino to be used on ESP32 also using the LEDs. After it was made sure that it would also work with an ESP32, the system was designed on the EasyEDA website \cite{easyeda} them a PCB was ordered with the schematic presented in the Appendix \ref{ap:haptic_apend}. While the PCB didn't arrive the coin vibrator and the cables were being soldered. When the PCB arrived, it was time to solder the board P2 jacks and design a case for it, represented in the Figure \ref{fig:case_cinto}. After everything was soldered, printed, and connected it was ready, as is represented in the Figure \ref{fig:cinto_haptico}.
  
- \begin{figure}[!htb]
-     \centering
-     \includegraphics[width = 0.8\linewidth]{Cinto/Case Cinto.png}
-     \caption{CAD model of the designed case}
-     \label{fig:case_cinto}
- \end{figure}
- \begin{figure}[!htb]
-     \centering
-     \includegraphics[width = 0.8\linewidth]{Cinto/Cinto Haptico.png}
-     \caption{Haptic belt}
-     \label{fig:cinto_haptico}
- \end{figure}
+
  
  Until this moment the belt was working cabled, but since the participant could walk great distances it was decided that the correct way to connect Unity3D with the ESP32 would be by wireless and it was decided to use a Bluetooth connection. The pseudo-code used in the development are in the Appendix \ref{ap:haptic_apend}.

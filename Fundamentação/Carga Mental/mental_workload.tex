@@ -1,88 +1,57 @@
-Mental workload (MWL) is one of the main concepts studied in Human Factors and is not a familiar concept to most people \cite{stanton2004handbook}. A good way to explain it is with an analogy with physical workload \cite{stanton2004handbook}. When an athlete must lift a dumbbell (one of those gym weights bars). The strength demand from the athlete will be proportional to the dumbbell's mass he/she is lifting. If the dumbbell is lighter than the athlete's capability, then it will be easy enough for him/her to lift it. So if the athlete is strong enough to carry the dumbbell, he/she will not feel a physical demand bigger than his/her capabilities. So the physical workload of this activity is properly fitted for this athlete.
+Mental workload is one of the main concepts studied in Human Factors \cite{stanton2004handbook}.
 
-If the dumbbell is heavier than the athlete can lift then two things can happen:
-\begin{itemize}
-    \item Or the athlete adapts to lift that dumbbell using tools (adjust the strategy)
-    \item Or the athlete will not be able to lift completely the dumbbell (performance degrades)
-\end{itemize}
+In order to explain it, \citeonline{stanton2004handbook} propose an analogy with the concept of physical workload. When an athlete must lift a dumbbell (one of those gym weights bars), the strength demand from the athlete is proportional to the dumbbell’s mass being lifted. If the dumbbell is lighter than the athlete’s capability, then it is easy enough for him to lift it. If the athlete is strong enough to carry the dumbbell, he does not feel a physical demand bigger than his capabilities. In this case, the physical workload of this activity is properly fitted for this athlete. If the dumbbell is heavier than what the athlete can lift, then two things can happen: either the athlete adapts to lift that dumbbell using tools (adjust the strategy), or the athlete is not able to lift completely the dumbbell (performance degrades). It corresponds to the case of a person executing a task that is not fitted for his capabilities.
 
-This is a scenario that represents a user, or operator, executing a task that is not fitted for their capabilities.
+The mental workload is similar to the physical workload, but refers to the mental capacity necessary to perform a task. Each human being has a finite mental capacity. When the mental demand is higher than the operator’s capacity, the person needs to adapt in order to finish the task or the overall performance of the task is compromised. Otherwise, if the mental workload is too low, the operator may get bored and easily distracted and so could also fail or not process the task’s information.
 
-It is the same with MWL. Each human being has a finite mental capacity and can only use it with a limited number of tasks at the same time. If the sum of these mental demands is higher than the user's capacity, the user will need to adapt to finish those tasks, otherwise, he/she will compromise the overall performance of those tasks.
+It’s important to say that mental workload is unique within each individual and is influenced by his/her perception of the task but is also impacted by other factors outside the task itself and more related to the operator (like its skill, age, education, training) or the environment (like noise, heat and toxicity)  \cite{cain2007review, fallahi2016effects, cardoso2012evaluation}.
 
-Although, if the workload is too low, the same operator may get bored and easily distracted and so could also fail or not process the task's information.  
-
-It's important to say that MWL is unique within each individual and is influenced by his/her perception of the task`s workspace but is also impacted by other factors outside the task itself and more related to the operator (like its skill, age, education, training) or the environment (like noise, heat and toxicity) \cite{cain2007review, fallahi2016effects, cardoso2012evaluation}.
-
-MWL is not a quantitative resource or something that one can directly measure, but it has methods to infer it. The Figure \ref{fig:mwl_overview} has an overview of MWL and its measurement methods.
+The mental workload is not a quantitative resource or something that one can directly measure, but a number of different methods have been proposed in the literature to infer it. Figure \ref{fig:mwl_overview} illustrates three different classes of methods to evaluate mental workload: methods based on task performance, methods based on physiological measures, and methods based on subjective questionnaires.
         
     \input{Fundamentação/Carga Mental/overview}    
     
-    \subsection{Task Performance}
-    \label{subsec:task_performance}
+    \subsubsection*{Methods based on task performance}
+    %\label{subsec:task_performance}
     
-        If the MWL influences the task performance, then it would be possible to infer it using the performance's variation of a task. Because there are cases where the user's mental capacity is too high for only one task, two tasks are designed. In these evaluations, the user is asked to maintain a good performance level and still try to execute both tasks. Both tasks are similar and use the same kind of skill. \cite{stanton2004handbook, sanders1998human}.
+        If the mental workload influences the task performance, then it would be possible to infer it using the performance’s variation of a task. Because there are cases where the user’s mental capacity is too high for only one task, a common approach is to add a secondary task. In this case, the user is asked to maintain a good performance level and still try to execute both tasks. Both tasks should use the same kind of skills \cite{stanton2004handbook, sanders1998human}.
         
-        For example, an experiment to assess MWL in a flight simulator which uses two tasks:
-        \begin{itemize}
-            \item Fly a fighter aircraft and maintain a good performance level;
-            \item Mentally sum two random numbers that appear on the screen. If the numbers' sum is odd, then the pilot should press left on the keyboard else he/she should press right.
-        \end{itemize} 
-    
-        If the pilot's performance at the second task is too low, it means that the demand from the first task was too high for him/her to be able to pay attention to it, then it means that the MWL at the flight was high \cite{mohanavelu2020cognitive}.
+        For example, an experiment to assess mental workload in a flight simulator may use two tasks, where the primary task is to fly the aircraft maintaining a given performance level, while the secondary task may be to mentally sum two random numbers that appear on the screen and, if the numbers’ sum is odd, then the pilot should press left on the keyboard else he/she should press right. If the pilot’s performance in the secondary task is too low, it means that the mental demand from the first task is too high for him/her to be able to pay attention to the secondary task \cite{mohanavelu2020cognitive}.
         
 %    \item Physiological measures;
-    \subsection{Physiological measures}
-    \label{subsec:physiological_measures}
+    \subsubsection*{Methods based on physiological measurements}
+    %\label{subsec:physiological_measures}
     
-        There are many physiological reflexes that one can use to assess MWL. These measures are a good, unbiased method to assess MWL \cite{fallahi2016effects}, but, still, it is recommended that they are evaluated alongside another method. It is possible to extract MWL information from the heart and brain activity \cite{chakladar2020eeg, orlandi2018measuring}, skin conductance, eye movement, pupillary contraction \cite{stanton2004handbook, rodriguez2015pupillometry} This master's thesis it is used heart activity and skin conductance.
+        There are many physiological measurements that can be used to assess mental workload. Among the most common ones are the heart and brain activity \cite{chakladar2020eeg, orlandi2018measuring}, skin conductance, eye movement, pupillary contraction \cite{stanton2004handbook, rodriguez2015pupillometry}. These measurements are considered a good, unbiased assessment method \cite{fallahi2016effects}, but, still, it is recommended that they are evaluated alongside another method, as they may be influenced by unknown variables and external factors.
+
+        This work uses the heart activity, obtained from an electrocardiogram (ECG) sensor, and the electrodermal activity, obtained from a galvanic skin response (GSR) sensor, as physiological measurements to assess mental workload.
+                
+        The electrocardiogram (ECG) is a recording of the heart’s electrical activity. From it, it is possible to determine the intervals between heartbeats and the corresponding frequency (heart rate, HR). Other common variable is the heart rate standard deviation (heart rate variability, HRV) \cite{cain2007review}. The heart activity is controlled by the sympathetic and parasympathetic nervous systems \cite{stanton2004handbook}. During a task, the heart activity changes with the mental demand of the task. The heart rate is expected to increase with the mental workload, while the heart rate variability is expected to decrease. These are consequences of two reactions in our system when in a mental demand situation \cite{stanton2004handbook}: a decrease in the parasympathetic nervous system activity and an increase in sympathetic nervous system activity. The ECG is a simple and non-invasive method used in many experiments to evaluate mental workload and other human factors’ \cite{mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}.
+         %(DEFINIR MELHOR)
+                
+         The skin electrodermal activity is affected by the person’s sweating and the level of moisture in the environment. It can be used to reveal changes in our sympathetic system \cite{nourbakhsh2012using, shi2007galvanic}. It has been used in the literature as an assessment method for stress and arousal \cite{nourbakhsh2012using, stanton2004handbook, shi2007galvanic}, the usability of human-computer systems \cite{shi2007galvanic} and also mental workload \cite{zhang2014detection, borghini2014measuring}.
+    
+    \subsubsection*{Methods based on subjective questionnaires}
+    %\label{subsec:subjective_measures}    
+
+        The use of subjective questionnaires to assess mental workload has been extensively discussed in the literature \cite{sanders1998human, stanton2004handbook}. They are sensitive to perceived difficulty, automation, concurrent activities and demand for multiple resources. The questionnaires can be unidimensional, which are simpler but has only a general workload score 
+
+        It is discussed if one should only use subjective measures to measure MWL \cite{sanders1998human, stanton2004handbook}. They are sensitive to perceived difficulty, automation, concurrent activities and demand for multiple resources. These test can be unidimensional, which are simpler but has only a general workload score \cite{stanton2004handbook},or multidimensional. Examples of multidimensional questionnaires are the Subjective Workload Assessment Technique (SWAT) and the NASA Task Load Index (NASA-TLX). SWAT decomposes the mental in three dimensions: time load; mental effort load; and psychological stress. NASA-TLX, a questionnaire created by \citeonline{hart1988development}, uses 6 different dimensions, as described in Table \ref{tab:nasa_dimensions}. These questionnaires were proposed evaluate only one task/activity. If the user has performed two tasks (a primary and secondary task), he/she should be oriented to answer about the primary task, not a combination of both of them \cite{sanders1998human}.
         
-        \subsubsection{Heart rate and heart variability with electrocardiogram (ECG)}
-        \label{subsubsec:ecg}
-        
-            The electrocardiogram is a recording of the heart's electrical activity. With this recording one can verify the heart's interval between heartbeats and frequency (heart rate, HR), and other statistical parameters such as the standard deviation and the mean error (heart rate variability, HRV) and these are a good way to assess MWL \cite{cain2007review}. This is a simple and non-invasive method used in many human factors' experiments \cite{mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}.
-        
-            The heart activity is controlled by the sympathetic and parasympathetic nervous systems. These systems are responsible to control many of the body's autonomous activities \cite{stanton2004handbook}. %(DEFINIR MELHOR)
-        
-            During a task that has a mental demand the user's heart activity changes with MWL. The higher the MWL, the higher the HR and lower the HRV. This happens because of the mechanism that controls our heart activity. These are consequences of two reactions in our system when in a mental demand situation \cite{stanton2004handbook}.:
+        \begin{table}[htb]
+            \centering
+            \caption{NASA-TLX dimensions and the description of each dimension. \cite{stanton2004handbook}.}
+            \label{tab:nasa_dimensions}
+                \begin{tabular}{|l|l|}
+
+                    \hline
+                    \textbf{Dimension}   & \textbf{Explanation}                                                                                                                                                   \\ \hline
+                    Mental demand (MD)   & \begin{tabular}[c]{@{}l@{}}The mental and perceptive activity\\ demanded by the task (chose, decide,\\ think, calculate, search, etc.).\end{tabular}                       \\ \hline
+                    Physical demand (PD) & \begin{tabular}[c]{@{}l@{}}The physical activity demanded by\\ the task (pull, lift, spin, drag, etc.).\end{tabular}                                                       \\ \hline
+                    Temporal demand (TD) & \begin{tabular}[c]{@{}l@{}}The time pressure felt by the user.\\ A rating the leverages the time \\ available and the time necessary to\\ completed the task.\end{tabular} \\ \hline
+                    Performance (PE)     & \begin{tabular}[c]{@{}l@{}}The user's satisfaction with its \\ performance or result the task.\end{tabular}                                                                \\ \hline
+                    Effort (EF)          & \begin{tabular}[c]{@{}l@{}}A rating of the effort necessary \\ to achieve that performance felt by\\ the user.\end{tabular}                                                 \\ \hline
+                    Frustration (FR)     & \begin{tabular}[c]{@{}l@{}}A rating of stress, annoy or irritation\\ felt by the user throughout the task.\end{tabular}                                                    \\ \hline
+                \end{tabular}
+        \end{table}
             
-            \begin{itemize}
-                \item A decreased parasympathetic nervous system activity and;
-                \item An increase in sympathetic nervous system activity.
-            \end{itemize}
-    
-        \subsubsection{Electrodermal response with galvanic skin reaction (GSR)}
-        \label{subsubsec:gsr}
-        
-        One of the electrodermal activities that can happen in our skin is controlled by the sweating and the moisture level and both can be used to reveal changes in our sympathetic system \cite{nourbakhsh2012using, shi2007galvanic}. So its origin lies solely in the sympathetic branch of the autonomic nervous system as is MWL \cite{stanton2004handbook}. EDA is being used to assess stress, emotion, arousal, mental strain and cognitive activity \cite{nourbakhsh2012using, stanton2004handbook, shi2007galvanic}m also used to evaluate the usability of HCI systems \cite{shi2007galvanic} and some are to assess the mental workload \cite{zhang2014detection, borghini2014measuring}.
-    
-    \subsection{Subjective measures}
-    \label{subsec:subjective_measures}    
-
-        It is discussed if one should only use subjective measures to measure MWL \cite{sanders1998human, stanton2004handbook}. They are sensitive to perceived difficulty, automation, concurrent activities and demand for multiple resources. These test can be unidimensional, which are simpler but has only a general workload score \cite{stanton2004handbook}, or multidimensional. Some example of the latter is the Subjective Workload Assessment Technique (SWAT) and the NASA Task Load Index (NASA-TLX), both multidimensional tests. SWAT treats MWL as a load defined by three dimensions: time load; mental effort load; and psychological stress. In this test the user scores each of these dimensions based on a 3-point scale while NASA-TLX uses 6 different dimensions.
-        
-        \subsubsection{NASA-TLX}
-        \label{subsec:nasa_tlx}
-        
-            NASA-TLX is a questionnaire created by \citeonline{hart1988development}. It is answered by a user who has just completed a task/activity that someone wishes to infer its MWL. This questionnaire will assess the task's MWL felt by that user with 6 rating scales and each of these is explained, ideally, at the experiment's briefing. The Table \ref{tab:nasa_dimensions} presents each scale with a description of it.
-        
-            \begin{table}[htb]
-                \centering
-                \caption{NASA-TLX dimensions and the description of each dimension. \cite{stanton2004handbook}.}
-                \label{tab:nasa_dimensions}
-                    \begin{tabular}{|l|l|}
-
-                        \hline
-                       \textbf{Dimension}   & \textbf{Explanation}                                                                                                                                                   \\ \hline
-                        Mental demand (MD)   & \begin{tabular}[c]{@{}l@{}}The mental and perceptive activity\\ demanded by the task (chose, decide,\\ think, calculate, search, etc.).\end{tabular}                       \\ \hline
-                        Physical demand (PD) & \begin{tabular}[c]{@{}l@{}}The physical activity demanded by\\ the task (pull, lift, spin, drag, etc.).\end{tabular}                                                       \\ \hline
-                        Temporal demand (TD) & \begin{tabular}[c]{@{}l@{}}The time pressure felt by the user.\\ A rating the leverages the time \\ available and the time necessary to\\ completed the task.\end{tabular} \\ \hline
-                        Performance (PE)     & \begin{tabular}[c]{@{}l@{}}The user's satisfaction with it's \\ perfomance or result the task.\end{tabular}                                                                \\ \hline
-                        Effort (EF)          & \begin{tabular}[c]{@{}l@{}}A rating of the effort necessary \\ to achieve that perfomance felt by\\ the user.\end{tabular}                                                 \\ \hline
-                        Frustration (FR)     & \begin{tabular}[c]{@{}l@{}}A rating of stress, annoy or irritation\\ felt by the user throughout the task.\end{tabular}                                                    \\ \hline
-                    \end{tabular}
-            \end{table}
-            
-            These questionnaires evaluate only one task/activity. So if the user executed two tasks (like a primary and secondary task), he/she should be oriented to answer about the primary task only, not a combination of both of them \cite{sanders1998human}.
-
-        To measure mental workload, it is recommended not to choose only one measuring method, but more. MWL is multidimensional and can reflect partially or differently in each of the methods \cite{sanders1998human}.
+        Finally, it is important to highlight that, in order to have a comprehensive evaluation of the mental workload, it is recommended not to choose only one method, but to combine methods from the three classes (task performance, physiological measurements and subjective questionnaires). Mental workload is multidimensional and can reflect partially or differently in each of the methods \cite{sanders1998human}.

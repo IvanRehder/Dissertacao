@@ -6,136 +6,378 @@
 %2. Caso você tenha dúvida do nível de detalhamento da descrição, coloque-se no lugar do leitor!
 %3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
 
+This chapter describes the method proposed in this work for evaluating assistive devices using virtual reality. The method is organized in 5 phases, which are further decomposed in 10 steps, as illustrated in Figure \ref{fig:diag_metodologia}.
 
-This chapter is about the proposed methodology of this master thesis experiments. The Figure \ref{fig:diag_metodologia} shows the phases and the tasks inside each phase. This chapter will explain each phase and task presented in the Figure \ref{fig:diag_metodologia}.
 
 \input{Metodologia/diagram}
 
-\section{Interviews' phase}
+
+The first phase is the context definition. It consists of defining the main features of the environment in which the assistive device will be used, based on interviews from specialists. Additionally, it also includes a step for understanding the limitations of the current assistive devices and defining the main features of assistive devices to be designed. This last step is based on interviews with BVI users.
+
+The second phase is devoted to specification and is composed of three steps. It includes the specification of a virtual environment that is representative of the real environment where the device will be used. In parallel, the relevant human factors for the device evaluation are defined. Finally, the assistive devices are also specified.
+
+The third phase is dedicated to the development of the virtual environment, the evaluation tools and methods, and a first proof of concept of the assistive devices, which should be integrated in the virtual environment for testing. 
+
+The fourth phase provides a first preliminary assessment of the devices through its unstructured experimentation by BVI consults. This preliminary assessment provides feedback for improving the device concept. The cycle of “try-out and improve device concept” can be repeat until the device concept is considered mature to be tested through a systematic set of controlled experiments.
+
+The fifth phase consists of executing a campaign of controlled experiments, following the best practices do DoE (Design of Experiments) discipline, and analysing the results. Once this phase is concluded, the results should provide information for the design team to decide between proceeding to the detailed design of the assistive devices or performing a new evaluation cycle. 
+
+In the last case, the experiment should provide feedback on how to improve the devices’ specification, refine the assessment methods, expand the virtual environment to include new tasks and/or situations, or even abandon a device concept. Each evaluation cycle that should contribute to increase the maturity of the assistive devices under development.
+
+Following, in order to illustrate it, the proposed method is applied to the evaluation of assistive devices concepts that should be able to guide BVI users in a hospital or a medical clinic during the covid-19 pandemic.
+
+\section{Phase 1 – Context definition}
 \label{sec:interviews_phase}
-    The first phase of this project was the Interviews' phase. In these phase, the researchers' main goal was to gather information, especially those related to the COVID-19 pandemic, about the main procedures that happen inside a hospital and about the daily life of BVI people.
+    As previously stated, the context in which the assistive devices are evaluated is the BVI navigation through a hospital or medical clinic in a covid-19 pandemic situation. 
 
-    \subsection{Interview with the hospital}
+    \subsection*{\textit{Step 1.1 Interview with environment specialists}}
     
-        To understand the procedures that hospital and medical clinics followed during their day to day activities and during the COVID-19 pandemic, two hospitals were interviewed. The interview was aimed to find out how a new patient does a check-in and the following steps until he/she get in the proper medic's office.
+        In order to gather information about this context, the first step of Phase 1 consists of interviewing specialists from hospitals to understand the usual hospital procedures and the common features of this environment.
         
-        At the project start, the scenario was supposed to be a reception inside a hospital, but, because of the physical space needed to simulate that virtual environment, the scenario changed along the project several times.
+        For this work, employees from two hospitals of São José dos Campos were interviewed (Vivalle Hospital and the Municipal Hospital). They were questioned about the layout of rooms and spaces, and the processes that a new patient follows through the hospital, from the check-in until he/she get in the doctor’s office. 
 
-    \subsection{Interview with the BVI consultants}
-    
-        One of the motivations of this master thesis is that the current BVI guidance products are not effective enough and one of the likely reasons is that the BVI users were not consulted during the products development process.
-    
-        With that though in mind, BVI users were consulted in order to design a virtual environment that would be familiar to their reality. Two users with different visual impairments were interviewed, one person that became blind with 13 years old, and other that with Usher's disease. These were critical to understand how they perceive a medical clinic as they walk in and how they interact with the environment and these notes were used in the next phase.
+        According to the interviews, the procedures adopted by patients in both hospitals are similar and are usually composed of the following steps:
 
-\section{Experiment idealization's phase}
+        \begin{enumerate}
+            \item Enter the hospital;
+            \item Use the sanitizer to clean their hands;
+            \item Take a queue number and wait for the call of the receptionist;
+            \item Go to the receptionist and check-in;
+            \item Sit on the waiting area and wait until the patient’s name is called;
+            \item Leave the waiting area toward the doctor's office.            
+        \end{enumerate}
+
+
+    \subsection*{\textit{Step 1.2 Interview with BVI consultants}}
+    
+        One of the motivations of this work is that BVI users are not completely satisfied with the current guidance products. Our hypothesis is that it happens because BVI users are not usually consulted from the early stages of the products’ development.
+
+        In order to avoid this problem, in this work, two BVI acted as consultants for the proposal of guiding methods and the design of a virtual environment that would be familiar to their reality. They had different visual impairments. One of them became blind at the age of 13 years old, while the other was diagnosed with Usher’s disease. 
+
+        The interviews with BVI consultants were critical to understand how they perceive a medical clinic as they walk in and how they interact with the environment. Among the inputs provided by BVI interviews’ are the importance of including in the virtual environment background noise typical of a reception, such as keyboard typing, telephone ringing, as well as a few physical objects that they are expected to interact with (chairs and desk).
+    
+
+\section{Phase 2 - Specification}
 \label{sec:idealization_phase}
-    At this phase, the proceedings and the interview notes are used to take key decisions about the virtual environment used in the experiment, about which human factors are going to be assessed and which guidance methods are going to be used
+    At Phase 2, the information collected through the interviews of Phase 1 is used to take key decisions about the virtual environment where the evaluation of the assistive devices will be carried out. It is also used to define which human factors should be assessed. Finally, it contributes to define the guidance methods that should be implemented in the assistive devices.
     
 
-    \subsection{Experiment's virtual world definition}
-        As said before, the original idea was to use a hospital reception as model to the virtual environment for the experiment, however the physical space needed to fit the hospital was to big. So instead of a whole hospital reception, it was decided to use it a medical clinic reception but still with the same proceedings.
+    \subsection*{\textit{Step 2.1 Virtual environment specification}}
+        Based on the data collected during the interviews, the scenario was defined as the hospital or medical clinic reception. The BVI patient should be able to navigate through the reception hall and reach a reception desk. After he/she is registered, the BVI patient should wait until he/she is called and then goes to his doctor’s office.
 
-    \subsection{Assessed human factors definition}
-        In order to reach the experiment's objective, a set of human factors had to be choose. The objectives \ref{itm:obj_second} and \ref{itm:obj_third} could be reach if the assessed human factor represented the user's workload and the developed mental map. Both these could be evaluated using:
+        At this step, a preliminary layout of the virtual environment was sketched, combining the elements that were common to the reception of the two hospitals, such as a waiting area with chairs (some of which should remain empty due to covid distancing), a reception desk, an alcohol totem, among others.
 
-        \begin{itemize}
-            \item Mental workload
-            \item Situation awareness
-        \end{itemize}
-        
-        The details about each method are explained in the sections \ref{sec:mental_workload} and \ref{sec:situation_awareness}.
+        One limitation that had to be taken in to account in the specification of the virtual environment is the corresponding physical area (real empty room) that should be available so that the BVI could walk through the real world while he/she navigates in the virtual world. Typical dimensions of a reception are around 15x20m. Due to the limited space available at the laboratory, the reception was scaled down to fit into the available physical space, with an area of 7x10m but maintaining the same elements (reception desk, waiting area, sanitizer, etc.)
+    
 
-    \subsection{Guidance methods definition}
-        The variety of BVI users is wide, as is the variety of assistive products. All of these products must communicate with the users and they use sound, vibration or both to transmit these information. With this though in mind, it was decided that that would be used at least two methods: one that rely only in audio and another that transmits only vibration. Of course, the interaction between those two methods would be also evaluated. This interaction became the third method.
-        
-        Another interesting property that could be evaluated in those products is the effect of a information being transmitted with and without the user's command. This evaluation split the vibration method in two: one that worked \textit{without} the user's command and another the worked \textit{with} the user's command.
-        
-        At the end, the following methods were chosen to be analysed:
-        
-        \begin{itemize}
-            \item A usual guidance method;
+    \subsection*{\textit{Step 2.2 Assessment specification}}
+        Based on the review of literature and the BVI interviews, the assessment method should include the following dimensions, which were commonly evaluated in previous works: 
+
+        \begin{enumerate} [label = \Alph*)]
+            \item Performance evaluation;
+            \item Mental workload evaluation.
+        \end{enumerate}
+            
+        Additionally, a third dimension was also included, based on lessons learned from the Aeronautics area:   
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{2}
+            \item Situation awareness evaluation.
+        \end{enumerate}
+            
+        This dimension was included in order to verify if, based on the inputs provided by the devices, the BVI user is able to build a mental map of the environment.
+
+        Finally, a fourth dimension is included for evaluating the user preferences when comparing the assistive devices.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{3}
+            \item Guidance method evaluation.
+        \end{enumerate}
+
+    \subsection*{\textit{Step 2.3 Guidance specification}}
+        Most of the current solutions for supporting BVI navigation use sound, vibration or both to communicate relevant information about the environment to the user. 
+
+        Based on the interviews with BVI consults, the three options were selected to be tested in this work (audio, vibration and audio/vibration combination). 
+
+        Moreover, an interesting property was also selected to be evaluated: the effect of an information being transmitted with or without the user’s command. This evaluation was applied to the vibration method and resulted in it being split in two variants: one that works without the user’s command and another that works with the user’s command.
+
+        Summarizing, four guidance methods were chosen to be evaluated:
+        \begin{enumerate} [label = \Alph*)]
             \item Audio guidance;
-            \item Vibration guidance without command;
             \item Vibration guidance with command;
-            \item Mixture of audio and vibration.
-        \end{itemize}
+            \item Vibration guidance without command;
+            \item Mixture of audio and vibration guidance.
+        \end{enumerate}
+
+        It was also pointed that the assessment should compare these four methods not only among them but also with the guidance method usually used by the BVI participants (e.g. white cane).
     
-\section{Development and creation's phase}
+    
+\section{Phase 3 - Development}
 \label{sec:creation_phase}
     
-    With the decision of the previous phase it is possible to start the development of the virtual environment, the guidance methods and the tools for the assessment of the human factors.
+    With the specifications from the previous phase, it is possible to start the development of the virtual environment, the guidance methods and the human factors assessment tools.
 
-    \subsection{Virtual world creation}
+    \subsection*{\textit{Step 3.1 Implementation of virtual environment}}
     \label{subsec:virtual_world_creation}
-        The virtual reality application was made using the software Unity3D, which is a famous tool for virtual reality applications and game development. It has some built-in tools but is also possible to customize functions for more specific use \cite{wang2010new}. The virtual environments, or scenes (as it is called inside the Unity3D), were made with the dimensions to fit in the CCM entry hall, that has a flat area of 8x4m. Inside the environment there was some typical furniture or devices found in hospital reception, a reception desk and a waiting area, composed of 2-3 chairs. The participant had \ref{itm:n_tasks} tasks at the scene and they are displayed at Figure \ref{fig:task_diagram}. More details ahead at Chapter \ref{ch:cenario}.
+
+        The virtual reality environment was developed using the Unity3D platform, which is a well-known tool for virtual reality applications and development of games. Unity 3D has some built-in tools but is also possible to customize functions for more specific use\cite{wang2010new}.
+    
+        The implementation of the virtual environment should be followed by the preparation of the corresponding physical space to perform the test campaign. During this step, additional simplifications were introduced. In the real world, the position of the person is tracked by two stations of the virtual reality system. According to the specification of the system, the maximum distance between the stations should be 5 m in order to guarantee the tracking quality. This limitation led to further simplify the virtual environment limiting it to a useful area of 4x4 m, which, in the real world corresponded to the CCM entry hall. 
+        
+        Following the recommendations from the BVI interviews, typical reception furniture was placed in the virtual environment: a reception desk and a waiting area, composed of 2-3 chairs (two normal seats and one marked with an ”X” due to maintain a minimum distance due covid-19), as illustrated in Figure \ref{fig:task_diagram}. A telephone and a laptop were also added to the scene and were programmed to emit sounds at random moments. The purpose was to increase the feeling of immersion and indicate to the BVI participant where the reception desk was located.
+        The participant navigation through the reception was composed of 4 tasks, also illustrated in Figure \ref{fig:task_diagram}.
         
         \begin{enumerate}
             \item Clean the hands at the sanitizer totem (COVID-19 procedures);
             \item Go to the reception desk to receive a queue number;
             \item Go to the waiting area and wait for the number calling;
-            \item Leave the room when called \label{itm:n_tasks}
+            \item Leave the room when called.
         \end{enumerate}
         
         \input{Metodologia/tasks}
         
-        The goal of these tasks is to engage the user to navigate through the room and see if it is able to draw a mental map of the scene as well as use the information of the obstacles in order to avoid them when needed. Beside theses mains components, there are also some minor distractions that is common to hear at a clinical, such as telephone ringing, keyboard typing, people taking and others. These were put to increase the immersion and to be a distraction as well, otherwise it wouldn't simulate the reality of these scenarios.
-    
-    \subsection{Tools and methods definition}
-        There were three types of human factors' assessment tools that were applied at the experiment:
-        \begin{itemize}
-            \item Task performance; \\  Measured using the time and the number contacts between the user and the furniture throughout the experiment.
-            \item Physiological measures; \\ Measured using and ECG sensor, a GSR sensor and a temperature sensor.
-            \item Subjective measures. \\ Measured using a NASA-TLX, a SAGAT Adapted questionnaire and a guidance method evaluation questionnaire.
-        \end{itemize}
-        The details about each method are explained in the sections \ref{subsec:task_performance}, \ref{subsec:physiological_measures} and \ref{subsec:subjective_measures}.
-        
-    \subsection{Guidance methods development}
-        As said in the last section, three different guidance methods were established to be used in the experiment besides the White Cane:, a haptic belt and a virtual cane.
-        \begin{itemize}
-            \item A audio guidance method; \\ The audio only guidance method will be straight simple. In the course of the experiment the participant could give two different voice commands:
-            \begin{itemize}
-                \item  "What is around me?"; \\ The answer of this command was a quickly description of the closest furniture around the user.
-                \item  "Where is (something)?". \\ The answer of this command was the direction and distance of something asked by the user.
-            \end{itemize}
-            Each command was answered by a member of the experiment team accordingly.
-            
-            \item The haptic belt; \\
-            That is a belt that had appended 8 vibration devices that vibrate accordingly to the direction and distance of the closest object around the user. More information on the Haptic Belt ahead at Chapter \ref{ch:cinto}.
-            
-            \item The virtual cane. \\ 
-            This was based on the white cane mechanics, that the user "points" the cane to check near obstacles in the direction of the cane. The virtual cane has a similar function, but instead of connecting the user to the object through the cane, it vibrates when it detects an obstacle in the direction pointed by the user. A VR hand-control was used as canes and the user point's it to where he/she wanted. The algorithm used on the Virtual Cane is in the Appendix \ref{ap:virtual_apend}
-        \end{itemize}
-    
+        These tasks should engage the user and make it navigate through the room. The purpose is to verify if he/she is able to draw a mental map of the scene as well as use the available information about obstacles to avoid them when needed. These sources of distraction were added in order to increase the immersion and to be a distraction as well. Otherwise, the virtual scene would not replicate the reality of a reception scenario.
 
-\section{Tryouts and tests' phase}
+        Figure \ref{fig:ve_re} shows the virtual environment created in Unity3D and the real environment corresponding real environment assembled at the CCM entrance hall. 
+    
+        \begin{figure}[!htb]
+            \centering
+            \begin{subfigure}[b]{0.49\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Metodologia/VE.png}
+                \caption{Virtual environment screenshot}
+                \label{fig:ve_photo}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.49\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Metodologia/RE.jpg}
+                \caption{Real environment photo}
+                \label{fig:re_photo}
+            \end{subfigure}
+               \caption{Environment comparisson}
+               \label{fig:ve_re}
+        \end{figure}
+
+    \subsection*{\textit{Step 3.2 Proposal of assessment methods and tools}}
+
+        As previously defined, the assessment should evaluate performance, workload and situation awareness. Following, we detail the selected methods and tools for each case.
+
+        \begin{enumerate} [label = \Alph*)]
+            \item Performance;
+        \end{enumerate}
+            
+        In the hospital reception scenario, the proposed measurement related to BVI performance is the number of times the BVI user hits the furniture in the virtual environment during the tasks’ execution.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{1}
+            \item Workload;
+        \end{enumerate}
+
+        Following the recommendations from the review of literature, the workload is estimated using two approaches:
+        \begin{itemize}
+            \item Physiological measures obtained from an ECG sensor and a GSR sensor;
+            \item NASA-TLX subjective questionnaire.           
+        \end{itemize}
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{2}
+            \item Situation awareness;
+        \end{enumerate}
+
+        In order to evaluate the BVI situation awareness, a modified version of the SAGAT questionnaire is proposed.
+
+        Falar mais sobre o SAGAT adaptado para esse context, colocando exemplos de questoes para os três níveis.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{3}
+            \item Guidance method evaluation;
+        \end{enumerate}
+
+        Finally, a questionnaire is proposed for evaluating the guidance methods….
+
+        Falar mais sobre o questionário proposto… como é a escala de avaliação e exemplos das perguntas.
+        
+    \subsection*{\textit{Step 3.3 Development of guidance devices}}
+
+        As previously stated, four guidance methods were proposed to be evaluated in this work.
+        
+        \begin{enumerate} [label = \Alph*)]
+            \item Audio guidance;
+            
+            The first method is audio guidance. Basically, in the course of the experiment the participant could give two different voice commands:
+
+            \begin{itemize} [label = --]
+                \item “What is around me?”;
+            \end{itemize}
+
+            The answer to this command was a quickly description of the closest furniture around the user.
+
+            \begin{itemize} [label = --]
+                \item “Where is (something)?”.
+            \end{itemize}
+
+            The answer to this command was the direction and distance of something asked by the user.
+
+        \end{enumerate}
+
+        Although an automatic audio guidance system that recognizes the two voice commands and answer it could be easily developed, for the proof of concept of the audio guidance system, this was done with the interference of a member of the design team.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{1}
+            \item Vibration guidance with command – virtual cane;
+        \end{enumerate}
+
+        The vibration guidance with command was implemented in a device named ‘virtual cane’, as it was inspired in the white cane. Basically, when using a white cane, the user points it to check nearby obstacles in a certain direction. The virtual cane has a similar way of functioning, but instead of connecting the user to the nearby object through the cane, it vibrates when it detects an obstacle in the direction the user pointed it. A virtual reality hand-control was used to implement it. 
+
+        The virtual cane algorithm runs in the virtual environment. When requested by the user, it identifies the nearest object in the direction pointed by the user and calculated its distance. If the nearest object is within a certain range, it then calculates the vibration intensity based on the distance between the object and the user, and sends the corresponding command to the hand-control device.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{2}
+            \item Vibration guidance without command – haptic belt
+        \end{enumerate}
+
+        A haptic belt was developed as a device that uses vibration guidance without command. The belt has appended 8 vibration devices that vibrate accordingly to the direction and distance of the closest object around the user. 
+
+        The main differences between the virtual cane and the haptic belt is that the haptic belt does not require a command to check the distance to the objects. When objects are within a certain limit, it always vibrates indicating to the user the direction of the closest object. 
+
+        The project of the haptic belt was inspired in that of a haptic compass \cite{kylecorry31_instructables_2020}, but instead of having the input being defined by a magnetometer, it made used of the information available in the Unity3D environment.
+
+        The haptic belt was developed using an Arduino Mega 2560 and the following materials: an ESP32 DevKit v1, a printed circuit board (PCB), a leather belt, 8 coin vibrators 1027, and a 3D printed case (Figure \ref{fig:case_cinto}). The PCB was designed in the EasyEDA web platform (Figure \ref{fig:pcb_wiring}). 
+
+        \begin{figure}[!htb]
+            \centering
+            \includegraphics[width = 0.8\linewidth]{Metodologia/Case Cinto.png}
+            \caption{CAD model of the designed case}
+            \label{fig:case_cinto}
+        \end{figure}
+
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=0.45\textwidth, angle = 90, origin = c]{Metodologia/PCB Cinto.pdf}
+            \caption{Printed circuit board wiring}
+            \label{fig:pcb_wiring}
+        \end{figure}
+
+        The haptic belt is illustrated in the Figure \ref{fig:cinto_haptico} and communicates with the Unity3D environment using a Bluetooth connection.
+
+        \begin{figure}[!htb]
+            \centering
+            \includegraphics[width = 0.5\linewidth]{Metodologia/Cinto Haptico.png}
+            \caption{The haptic belt}
+            \label{fig:cinto_haptico}
+        \end{figure}
+
+        The haptic belt algorithm is divided into two modules: one implemented in the virtual environment and one implemented in the ESP32 kit. In the virtual environment, it determines the direction of the nearest object to define the vibration motor(s) that must be activate or deactivate and the corresponding intensity. It then sends a message to the ESP32 kit with the corresponding command. The algorithm implemented in the ESP32 kit receives the command from the virtual environment and activate/deactivate the corresponding motors.
+
+        \begin{enumerate} [label = \Alph*)]
+            \setcounter{enumi}{3}
+            \item Mixture of audio and vibration guidance
+        \end{enumerate}
+
+        This option is implemented making all the three options available to the user: audio guidance, haptic belt and virtual cane. 
+
+
+\section{Phase 4 – Preliminary evaluation}
 \label{sec:tests_phase}
         
-        At this phase a few tests were performed to evaluate if the experiment was going as planned and to avoid any unfortunate events or errors during the real experiment. It was expected that changes could be needed to be made before the real experiment and there were a few. It was at this phase that the final dimension of the virtual environment and the physical space were defined.
+\subsection*{\textit{Step 4.1 Try-out}}
 
-\section{Experiment}
-\label{sec:experiment}
+        At the preliminary evaluation phase, the concepts of assistive devices were tested by two BVI users and feedback was provided to improve both the devices and the virtual environment. 
+
+        Regarding the devices, the main feedback provided by the BVI users was about the virtual cane. Originally, the virtual cane algorithm emitted a different sound when the virtual cane was pointed to the floor, walls or ceiling. This was found annoying by the BVI users and was removed from the algorithm.
+
+        Regarding the virtual environment, BVI users pointed out the need to add more sources of noise in order to improve the immersion. The suggestions were both for internal and external sounds.
         
-        As the proper section name says, this phase is were the proper experiment was made.
+        Regarding internal sounds, they point the lack of people chattering and the noise that came from a TV. Both were included in the virtual environment. In order to simulate people chattering, dialogues between two people, collected from video or series available in the internet, were added to the virtual environment. The TV noise was collected from famous Brazilian TV programs. Another missing artifact noticed by the team was the queue machine, calling different names with random intervals. 
 
-After all these phases were completed, the next step was to analyze all the data and elaborate their conclusions. Instead of going to the results and discussions, the next Chapters \ref{ch:cenario} and \ref{ch:cinto} will deepen in the virtual environment development and in the haptic belt development in these order. The Figure \ref{fig:ve_re} show a comparisson between the virtual environment created in Unity3D and the real environment assembled in the CCM's entry hall.
+        Regarding external sounds, the BVI observed that usually they use external sounds to locate the exit of a room. As a suggestion, the following sequence of sound was created and added to the virtual environment, to run at random moments:
 
-%\input{Metodologia/ve_re.tex}
+        \begin{enumerate}
+            \item Sound of a door opening;
+            \item Noise from an exterior space (like people walking, cars passing by, horns, etc.);
+            \item Sound of a door closing.
+        \end{enumerate}
+        
+        The sequence was associated to a sound-emitting point in the virtual environment, running at random moments. 
 
-\begin{figure}[!htb]
-    \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Metodologia/VE.png}
-        \caption{Virtual environment screenshot}
-        \label{fig:ve_photo}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Metodologia/RE.jpg}
-        \caption{Real environment photo}
-        \label{fig:re_photo}
-    \end{subfigure}
-       \caption{Environment comparisson}
-       \label{fig:ve_re}
-\end{figure}
+        Once the preliminary evaluation of the environment was concluded, different versions of the reception were created, modifying the position of the objects, in order to make possible the execution of multiple tests with the same person without the cumulative effect of learning. 
+
+        Another contribution that emerged from the try-out regards the collision detection. A routine was implemented in the virtual environment to detect and register the collisions, as a performance metric. The tests with BVI users showed that the routine for automatic collision detection in the virtual world does not work properly because it does monitor single parts of human body, such as legs, hands and arms. 
+
+        The only information provided as input is the position and orientation of the head (captured by the HTC VIVE HMD). Based on this information, the virtual platform approximates the volume occupied by the human body to a vertical capsule, as illustrated in Figure \ref{fig:user_straight}. If the user tilts his/her head down, as if they were facing the ground, the capsule rotates in relation to the HMD point making the virtual body of the user occupy a different space from the reality, as illustrated in Figure \ref{fig:user_looking_down}. This approximation leads to a number of errors, both related to detecting collision that did not happened and not detecting collisions that happened.
+
+        \begin{figure}[!htb]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width = 0.8\linewidth]{Metodologia/envelope1.png}
+                \subcaption{The user's capsule while the participant is straight and looking forward.}
+                \label{fig:user_straight}
+            \end{minipage}
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width = 0.8\linewidth]{Metodologia/envelope2.png}
+                \subcaption{The user's capsule while the participant is straight but looking down.}
+                \label{fig:user_looking_down}
+            \end{minipage}
+            \caption{Two different capsule positions based on the user's head position.}
+            \label{fig:user_envelope}
+        \end{figure}
+
+        The solution to the collision detection problem would be the acquisition of additional sensors to monitor the user hands, arms and legs. However, this solution was not feasible within the time frame available for this work. As a result, the performance was removed from the list of factors to be evaluated. The development of an automatic solution for detecting collision in the virtual world is recommended as future work.
+
+\section{Phase 5 – Systematic evaluation}
+\label{sec:experiment}
+
+%\subsection*{\textit{Step 4.1 Try-out}}
+        
+At the systematic evaluation phase, the evaluation experiment is designed and executed. It consists of inviting BVI volunteers to use the assistive devices to navigate in in the virtual environment and perform the proposed tasks. The assessment techniques are applied during and after the use of each device.
+
+In this case of this work, the proposed experiment consists of asking the participant to use five guidance methods: the four methods presented in Section \ref{sec:idealization_phase} (audio guidance, haptic belt, virtual cane, mixed) and, additionally, the guidance method used daily by the BVI (e.g., white cane). Moreover, each participant should use each guidance method twice (“first visit” and “return visit”), in order to provide some information about the how the guidance method performs in new and known environments.
+
+In order to avoid the learning effect from one device to the another, five versions of the reception scene are developed, changing the position of the objects - one version to be used with each guidance method. The scenes to be used with each guidance method are randomized for each participant, as well as the order of using the guidance methods.
+
+Moreover, particularly in the case of this work, an additional round of tests is added to the experiment in order to investigate the differences between the evaluation performed by BVI users and sighted (non-BVI) users. For this purpose, the same experiment is repeated with a set of non-BVI users. The purpose is to investigate whether or not performing the analysis with non-BVI users could lead to different conclusions.
+
+The experiment is organized in the following way:
+
+\begin{itemize}
+    \item Briefing:
+    \begin{itemize}
+        \item The purpose of the experiment is explained to the participant, followed by the signature or recording of the free and informed consent form.
+        \item An explanation about the purpose and functioning of the physiological sensor is provided and the participant is invited to wear it.
+        \item The assistive devices are introduced to the participant.
+        \item The participant is invited to wear the VIVE HMD and start the experiment. 
+    \end{itemize}
+    \item Execution of the experiment - the following sequence is repeat for each guidance method:
+    \begin{itemize}
+        \item The participant receives a brief introduction about the guidance method and is given some time to familiarize and train with it. During this step, no data is gathered. 
+        \item First visit: the participant performs the task and is asked the SAGAT questionnaire during the task.
+        \item The participant answers the NASA-TLX for the first visit.
+        \item Return visit: the participant performs the task for a second time in the same scene. However, a few things are changed such as the presence, or not, of a television or random people talking. The participant answers the SAGAT questionnaire again.
+        \item The participant answers the NASA-TLX for the return visit.
+        \item After both visits, the participant answers the questionnaire about the guidance method.
+    \end{itemize}
+    \item Conclusion
+    \begin{itemize}
+        \item The physiological sensors are removed form the participant and the experiment is concluded.
+    \end{itemize}
+\end{itemize}
+
+As a result of the experiment, the following data are collected:
+
+\begin{itemize}
+    \item Answers to the NASA-TLX questionnaire;
+    \item ECG and GSR signals;
+    \item Answers to the SAGAT questionnaire;
+    \item Answers to the guidance method questionnaire.
+\end{itemize}
+
+The data analysis is discussed in the next chapter.
+
+\section{Final Remarks}
+
+Adicionar os detalhes do questionario e Sagat nos lugares apropriados
+
+Resumir o capítulo e apresentar o próximo.

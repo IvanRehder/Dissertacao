@@ -1,5 +1,5 @@
-\tikzstyle{barraVI} = [fill = ccmRed]
-\tikzstyle{barraS} = [fill = ccmLBlue]
+\tikzstyle{barraVI} = [fill = cor1]
+\tikzstyle{barraS} = [fill = cor2]
 \tikzstyle{legenda} = [fill = white, line width = 0.25mm]
 \tikzstyle{--} = [line width = 0.25mm]
 
@@ -16,13 +16,13 @@
     \node (endXY) [above of = endX, yshift = \tamY] {};
     
     %Título
-    \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 1cm] {\textbf{\LARGE Comparing group scores for condition 2}};
-    \draw[--] (origin.west) node[anchor = east]{\Large 0} to (endX.center) node[anchor = north, xshift = -\tamX*0.5, yshift = -1.0cm]{\textbf{\LARGE Workload dimensions}};
+    \node (titulo) [xshift = \tamX*0.5, yshift = \tamY + 1cm] {\textbf{\LARGE Orientation from BVI people}};
+    \draw[--] (origin.west) node[anchor = east]{\Large 0} to (endX.center) node[anchor = north, xshift = -\tamX*0.5, yshift = -5.0cm]{\textbf{\LARGE Workload dimensions}};
     \draw[--] (origin.south) to (endY.center) 
     node(eixoY)[anchor = east, xshift = -2.5cm, yshift = 0.5cm, rotate = 90]{\textbf{\LARGE Average weighted score}};
     \draw[--] (endX.center) to (endXY.center);
     
-   \foreach \r/\n in {1/50,2/100,3/150,4/200,5/250,6/300}
+    \foreach \r/\n in {1/50,2/100,3/150,4/200,5/250,6/300}
     {
         \draw [--] (-0.15,1cm*\r) node[anchor = east]{\Large \n} to (\tamX,1cm*\r);
     }
@@ -32,37 +32,43 @@
     \renewcommand{\distX}{0.5}
     
     %Mental Demand
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE MD}} rectangle ++(\largX,5.6);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE MD}} rectangle ++(\largX,5.6);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-1.65cm, yshift = -2.25cm]{\rotatebox{50}{\textbf{\LARGE Mental Demand}}} rectangle ++(\largX,5.6);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,3.1);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
     \renewcommand{\distX}{2.5}
     %Physical Demand
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE PD}} rectangle ++(\largX,0.7);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE PD}} rectangle ++(\largX,0.7);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-1.75cm, yshift = -2.25cm]{\rotatebox{50}{\textbf{\LARGE Physical Demand}}} rectangle ++(\largX,0.7);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.5);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
     \renewcommand{\distX}{4.5}
     %Temporal demand
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE TD}} rectangle ++(\largX,0.9);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE TD}} rectangle ++(\largX,0.9);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-2cm, yshift = -2.5cm]{\rotatebox{50}{\textbf{\LARGE Temporal Demand}}} rectangle ++(\largX,0.9);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.7);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
     \renewcommand{\distX}{6.5}
     %Performance
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE OP}} rectangle ++(\largX,2.1);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE OP}} rectangle ++(\largX,2.1);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-1.25cm, yshift = -1.65cm]{\rotatebox{50}{\textbf{\LARGE Performance}}} rectangle ++(\largX,2.1);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,0.5);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
     \renewcommand{\distX}{8.5}
     %Effort
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE EF}} rectangle ++(\largX,3.8);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE EF}} rectangle ++(\largX,3.8);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-0.0cm, yshift = -0.850cm]{\rotatebox{50}{\textbf{\LARGE Effort}}} rectangle ++(\largX,3.8);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,2.5);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
     \renewcommand{\distX}{10.5}
     %Frustation
-    \draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE FR}} rectangle ++(\largX,1.5);
+    %\draw[barraVI] (\distX,0) node[xshift = \largX*1cm, yshift = -0.5cm]{\textbf{\LARGE FR}} rectangle ++(\largX,1.5);
+    \draw[barraVI] (\distX,0) node[xshift = \largX*-1.0cm, yshift = -1.35cm]{\rotatebox{50}{\textbf{\LARGE Frustation}}} rectangle ++(\largX,1.5);
     \draw[barraS] (\distX+\largX,0) rectangle ++(\largX,1.1);
     \draw[--] (\distX+3*\largX,0) to ++(0,-0.2);
     
@@ -70,7 +76,7 @@
     %Legenda
     \draw[legenda] (\tamX-3.0cm,\tamY-1.5cm) rectangle ++(6.5cm,2cm);
     \draw[barraVI] (\tamX-2.75cm,\tamY-0.25cm) rectangle ++(0.25cm,0.25cm) 
-    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\LARGE Visually impaired};
+    node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\LARGE BVI};
     \draw[barraS] (\tamX-2.75cm,\tamY-1.0cm) rectangle ++(0.25cm,0.25cm) 
     node[anchor = west, xshift = 0.15cm, yshift = -0.15cm]{\LARGE Sighted};
     

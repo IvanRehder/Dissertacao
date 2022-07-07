@@ -1,0 +1,349 @@
+%%% Exemplo de utilização da classe ITA
+%%%
+%%%   por        Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
+%%%              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
+%%%    	         Hudson Alberto Bode       -  bode [at] ita [dot]br
+%%%    	         P. I. Braga de Queiroz    -  pi [at] ita [dot] br
+%%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
+%%%    	         Juliano Monte-Mor         -  jamontemor [at] yahoo [dot] com [dot] br
+%%%    	         Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
+%%%    	         
+%%%   Versão para overleaf:
+%%%   por           Alejandro A. Rios Cruz - aarc.88@gmail.com 	         
+%%%                 Saulo Gómez            - sagomezs@unal.edu.co 
+%%%  IMPORTANTE: O texto contido neste exemplo nao significa absolutamente nada.  :-)
+%%%              O intuito aqui eh demonstrar os comandos criados na classe e suas
+%%%              respectivas utilizacoes.
+%%%
+%%%  Tese.tex  2016-08-25
+%%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
+%%%
+%%% ITALUS
+%%% Instituto Tecnológico de Aeronáutica --- ITA, Sao Jose dos Campos, Brasil
+%%%                   http://groups.yahoo.com/group/italus/
+%%% Discussion list: italus {at} yahoogroups.com
+%%%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Para alterar o TIPO DE DOCUMENTO, preencher a linha abaixo \documentclass[?]{?}
+%   \documentclass[tg]{ita}			= Trabalho de Graduacao
+%   \documentclass[tgfem]{ita}	= Para Engenheiras
+%   								msc     		= Dissertacao de Mestrado
+%   								mscfem   		= Para Mestras
+%   								dsc      		= Tese de Doutorado
+%   								dscfem   		= Para Doutoras
+%   								quali    		= Exame de Qualificacao
+%   								qualifem 		= Exame de Qualificacao para Doutoras
+% Para 'Draft Version'/'Versao Preliminar' com data no rodape, adicionar 'dv':
+%   \documentclass[dsc, dv]{ita} 
+% Para trabalhos em Inglês, adicionar 'eng':
+%   \documentclass[dsc, eng]{ita}
+%		\documentclass[dsc, eng, dv]{ita}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\documentclass[msc, dv, eng]{ita}    % ITA.cls based on standard book.cls 
+% Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
+
+\hfuzz=5.002pt 
+
+\usepackage{ae}
+\usepackage{graphicx}
+\usepackage{enumitem}
+%\usepackage{array}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+%\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{url}         % formats URL addresses properly
+\usepackage{appendix}    % allows appendix section to be included
+\usepackage{lscape}      % allows a page to be rendered in landscape mode
+\usepackage{multicol}    % allows text in multi columns
+\usepackage{cancel}      % needed to show canceled terms in equations
+\usepackage{lettrine}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{pdfpages}
+\usepackage{listings}   % Code formating
+\usepackage[dvipsnames]{xcolor}   % Code formating
+    \definecolor{ccmBlue}{RGB}{20, 80, 200}
+    \definecolor{ccmDBlue}{RGB}{25, 50, 120}
+    \definecolor{ccmLBlue}{RGB}{170, 200, 230}
+    \definecolor{ccmOrange}{RGB}{255, 100, 0}
+    \definecolor{ccmRed}{RGB}{190, 0, 0}
+    \definecolor{ccmLGray}{RGB}{210, 210, 210}
+    \definecolor{ccmDGray}{RGB}{85, 85, 85}
+    
+    % Ordem Paleta
+    \definecolor{cor1}{RGB}{190, 000, 000}  %ccmRed
+    \definecolor{cor2}{RGB}{025, 050, 120}  %ccmDBlue
+    \definecolor{cor3}{RGB}{210, 210, 210}  %ccmLGray
+    \definecolor{cor4}{RGB}{255, 100, 000}  %ccmOrange
+    \definecolor{cor5}{RGB}{170, 200, 230}  %ccmLBlue
+    \definecolor{cor6}{RGB}{085, 085, 085}  %ccmDGray
+    \definecolor{cor7}{RGB}{020, 080, 200}  %ccmBlue
+
+%\usepackage{pgfplots}
+%\DeclareUnicodeCharacter{2212}{−}
+%\usepgfplotslibrary{groupplots,dateplot}
+%\usetikzlibrary{patterns,shapes.arrows}
+%\pgfplotsset{compat=newest}
+
+
+\usepackage{boldline}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{pgf}
+\usepackage{tikz}
+    \usetikzlibrary{matrix,shapes.geometric,shapes.symbols,arrows.meta,positioning}
+    \tikzset{>={Latex[round]}}
+    
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Varíaveis para plotar gráficos em barr
+\newcommand{\tamX}{0}
+\newcommand{\tamY}{0}
+\newcommand{\distX}{0}
+\newcommand{\distY}{0}
+\newcommand{\largX}{0}
+\newcommand{\largY}{0}
+\newcommand{\altX}{0}
+\newcommand{\altY}{0}
+
+\lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+%HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+%\usepackage{subfigure}
+%\usepackage{subfigmat}
+%PACOTEFIGURAS_SE _ERRADO_ESXCLUIR_ACIMA
+\usepackage{booktabs}
+%PACOTETABELAS_SE _ERRADO_ESXCLUIR_ACIMA
+%HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Espaçamento padrão de todo o documento
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\onehalfspacing
+
+%singlespacing Para um espaçamento simples
+%onehalfspacing Para um espaçamento de 1,5
+%doublespacing Para um espaçamento duplo
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Identificacoes (se o trabalho for em inglês, insira os dados em inglês)
+% Para entradas abreviadas de Professora (Profa.) em português escreva: Prof$^\textnormal{a}$.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\course{Aeronautical and Mechanical Engineering}  % Programa de PG ou Curso de Graduação
+\area{Automation} % Área de concentração na PG (Não utilizado no caso de TG)
+
+% Autor do trabalho: Nome Sobrenome
+\authorgender{masc}                     %sexo: masc ou fem
+\author{Ivan de Souza}{Rehder}
+\itaauthoraddress{Av. Francisco José Longo, 633}{12.245-906}{São José dos Campos--SP}
+
+% Titulo da Tese/Dissertação
+% \title{Simulação em realidade virtual para identificar fatores humanos}
+\title{Virtual reality for the human-centred design of assistive devices}
+
+% Orientador
+\advisorgender{fem}                    % masc ou fem
+\advisor{Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$.}{Emilia Villani}{ITA}
+
+% Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
+\coadvisorgender{fem}									% masc ou fem
+\coadvisor{Prof.~Dr.}{Edmar Thomaz da Silva}{ITA}
+
+% Pró-reitor da Pós-graduação
+\bossgender{fem}                    % masc ou fem
+\boss{Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$.}{Emilia Villani}
+
+%Coordenador do curso no caso de TG
+%\bosscoursegender{masc}									% masc ou fem
+%\bosscourse{Prof.~Dr.}{John Walker}
+
+% Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
+\kwcip{Virtual Reality}
+\kwcip{Human Factors}
+\kwcip{Collaborative Design}
+
+% membros da banca examinadora
+
+%\examiner{Prof. Dr.}{Alan Turing}{Presidente}{ITA}
+\examiner{Prof. Dr.}{--}{--}{--}
+\examiner{Prof. Dr.}{--}{--}{--}
+\examiner{Prof. Dr.}{--}{--}{--}
+\examiner{Prof. Dr.}{--}{--}{--}
+\examiner{Prof. Dr.}{--}{--}{--}
+
+% Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
+\date{}{}{}
+
+% Número CDU - (somente para TG)
+\cdu{621.38}
+
+% Glossario
+\makeglossary
+\frontmatter
+
+%\DeclareUnicodeCharacter{2212}{-}
+
+\begin{document}
+% Folha de Rosto e Capa para o caso do TG
+%\maketitle
+
+% Dedicatoria: Nao esqueca essa secao  ... :-)
+\begin{itadedication}
+    “If we believe most people can't be trusted, that's how we'll treat each other, to everyone's detriment. Few ideas have as much power to shape the world as our view of other people.”\\
+    --- \textsc{Rutger Bregman}
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Chap0/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+"As a blind man has no idea of colors, so have we no idea of the manner by which they feel the world.”\\}
+--- \textsc{Isaac Newton (adapted).}
+\end{spacing}
+\end{flushright}
+
+% % Resumo
+% \begin{abstract}
+% \noindent
+% \input{Cap0/resumo}
+% \end{abstract}
+
+% Abstract
+\begin{englishabstract}
+\noindent
+\input{Chap0/abstract}
+\end{englishabstract}
+
+% Lista de figuras
+%\listoffigures %opcional
+
+% Lista de tabelas
+%\listoftables %opcional
+
+% Lista de abreviaturas
+%\listofabbreviations
+%\input{Chap0/listaabreviaturas} %opcional
+
+% Lista de simbolos
+% \listofsymbol
+% \input{Chap0/listasimbolos} %opcional
+
+% Sumario
+%\tableofcontents
+
+\mainmatter
+% Os capitulos comecam aqui
+
+\chapter{Introduction}
+\label{ch:introducao}
+\input{Introducao/introducao}
+
+\chapter{Theoretical Foundation}
+\label{ch:fundamentacao}
+\input{Fundamentação/fundamentacao}
+
+\chapter{Literature review}
+\label{ch:revisao}
+\input{Revisao/review}
+
+\chapter{Proposal description}
+\label{ch:metodologia}
+\input{Metodologia/metodologia}
+
+\chapter{Virtual environment development}
+\label{ch:cenario}
+\input{Cenario/cenario}
+
+\chapter{Haptic belt development}
+\label{ch:cinto}
+\input{Cinto/cinto}
+
+%\chapter{Results' analysis and discussion}
+%\label{ch:resultados}
+%\input{Resultados/resultados}
+%
+%\chapter{Conclusion}
+%\label{ch:conclusao}
+%\input{Conclusao/conclusao}
+
+% REFERENCIAS BIBLIOGRAFICAS
+\renewcommand\bibname{\itareferencesnamebabel} %renomear título do capítulo referências
+%\bibliographystyle{abnt-num}
+\bibliography{Bibliography/bibliography}
+
+% Apendices
+%\appendix
+%\chapter{Questionnaires}
+%\label{ap:questionnaires}
+%\input{ApendC_(Questionarios)/apendeC}
+%
+%\chapter{Virtual Cane}
+%\label{ap:virtual_apend}
+%\input{Apend Bengala/apendE}
+%
+%\chapter{Haptic Belt}
+%\label{ap:haptic_apend}
+%\input{Apend Cinto/apendD}
+%
+%\chapter{ECG processing algorithm}
+%\label{ap:ecg_processing_apend}
+%\input{Apend ECG/apendA}
+%
+%\chapter{GSR processing algorithm}
+%\label{ap:gsr_processing_apend}
+%\input{Apend GSR/apendB}
+
+
+% Anexos
+%\annex
+%
+%\chapter{DOIT Esp32 DevKit v1 datasheet}
+%\label{an:esp32_annex}
+%\input{AnexC/anexC}
+%
+%\chapter{Kubius}
+%\label{an:kubius_annex}
+%\input{AnexA/anexA}
+
+% Glossario
+%\itaglossary
+%\printglossary
+%\input{Glossary/gloss}
+
+%% Folha de Registro do Documento
+%% Valores dos campos do formulario
+%\FRDitadata{}
+%\FRDitadocnro{DCTA/ITA/DM-018/2015} %(o número de registro você solicita a biblioteca)
+%\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA}
+%%Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
+%\FRDitapalavrasautor{Realidade Virtual; Fatores Humanos; Simulação}
+%\FRDitapalavrasresult{Cupim; Dilema; Construção}
+%%Exemplo no caso de graduação (TG):
+%%\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
+%%Exemplo no caso de pós-graduação (msc, dsc):
+%\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Coorientadora: Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$. Doralice Serra. Defesa em 05/03/2015. Publicada em 25/03/2015.}
+%\FRDitaresumo{\input{Chap0/resumo}}
+%%  Primeiro Parametro: Nacional ou Internacional -- N/I
+%%  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+%\FRDitaOpcoes{N}{O}
+%% Cria o formulario
+%\itaFRD
+
+\end{document}
+% Fim do Documento. O massacre acabou!!! :-)

@@ -140,6 +140,7 @@
  \fi
 
 %\RequirePackage[latin1]{inputenc} latin -> utf . Modification to use idiomatic ascents directly: âáìõ
+\RequirePackage[fixlanguage]{babelbib}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{setspace}
 \RequirePackage{fancyhdr}

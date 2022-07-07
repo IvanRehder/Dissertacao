@@ -3,51 +3,55 @@
     \tikzstyle{every node}=[font=\large]
     
     \tikzstyle{task} = [rectangle, rounded corners, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=3.5cm, font=\large]
-    \tikzstyle{phase} = [rectangle, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=3.5cm, font=\Large]
+    \tikzstyle{phase} = [rectangle, minimum width=4cm, minimum height=1.5cm,text centered, draw=black, fill=white!30, text width=5.0cm, font=\Large]
     \tikzstyle{--gray} = [ccmLGray, dashed, dash pattern=on 1cm off 1cm , rounded corners, line width = 2mm]
     \tikzstyle{--red} = [ccmRed, rounded corners, line width = 2mm]
+    \tikzstyle{--blue} = [ccmDBlue, rounded corners, line width = 2mm]
+    
     \tikzstyle{arrow_blue} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+    \tikzstyle{d--blue} = [ccmDBlue, dashed, dash pattern=on 1.0cm off 0.65cm, rounded corners, line width = 2mm]
+    \tikzstyle{arrow_--_blue} = [ccmDBlue, dashed, dash pattern=on 1.0cm off 0.65cm, rounded corners, line width = 2mm, ->]
     \tikzstyle{arrow_red} = [ccmRed, rounded corners, line width = 2mm, ->]
     
     
     \resizebox{\linewidth}{!}{
     \begin{tikzpicture}[node distance=1cm]
         
-        \node (interview) [phase] {Interview's phase};
-        \node (interview_hospital) [task, below of = interview, yshift = -2cm] {Interview with hospitals};
-        \node (interview_bvi) [task, below of = interview_hospital, yshift = -3.5cm] {Interview with BVI consultants};
+        \node (interview) [phase] {Phase 1 – Context definition:};
+        \node (interview_hospital) [task, below of = interview, yshift = -2cm] {1.1 Interview with environment specialists;};
+        \node (interview_bvi) [task, below of = interview_hospital, yshift = -3.5cm] {1.2 Interview with BVI consultants.};
         
         \node (a1) [right of = interview, above of = interview, xshift = 2.0cm] {};
         \node (a2) [below of = a1, yshift = -11cm] {};
         \draw [--gray] (a1) to (a2);
         
-        \node (scope) [phase] [phase, right of = interview, xshift = 5cm] {Scope's phase};
-        \node (virtual_environment) [task, below of = scope, yshift = -2cm] {Virtual environment definition};
-        \node (human_factors) [task, below of = virtual_environment, yshift = -2cm] {Assessed human factors definition};
-        \node (guidance_methods) [task, below of = human_factors, yshift = -2cm] {Guidance methods definition};
+        \node (scope) [phase] [phase, right of = interview, xshift = 5cm] {Phase 2 – Specification:};
+        \node (virtual_environment) [task, below of = scope, yshift = -2cm] {2.1 Virtual environment specification;};
+        \node (human_factors) [task, below of = virtual_environment, yshift = -2cm] {2.2 Assessment specification;};
+        \node (guidance_methods) [task, below of = human_factors, yshift = -2cm] {2.3 Guidance specification.};
         
         \node (b1) [right of = scope, above of = scope, xshift = 2.0cm] {};
         \node (b2) [below of = b1, yshift = -11cm] {};
         \draw [--gray] (b1) to (b2);
         
-        \node (development) [phase] [phase, right of = scope, xshift = 5cm] {Development's phase};
-        \node (ve_creation) [task, below of = development, yshift = -2cm] {Virtual scenes creation};
-        \node (tools_definition) [task, below of = ve_creation, yshift = -2cm] {Tools and methods definition};
-        \node (guidance_development) [task, below of = tools_definition, yshift = -2cm] {Guidance methods development};
+        \node (development) [phase] [phase, right of = scope, xshift = 5cm] {Phase 3 – Development:};
+        \node (ve_creation) [task, below of = development, yshift = -2cm] {3.1 Implementation of virtual environment;};
+        \node (tools_definition) [task, below of = ve_creation, yshift = -2cm] {3.2 Proposal of assessment methods and tools;};
+        \node (guidance_development) [task, below of = tools_definition, yshift = -2cm] {3.3 Development of guidance devices.};
         
         \node (c1) [right of = development, above of = development, xshift = 2.0cm] {};
         \node (c2) [below of = c1, yshift = -11cm] {};
         \draw [--gray] (c1) to (c2);
         
-        \node (tryouts) [phase] [phase, right of = development, xshift = 5cm] {Tryout's phase};
-        \node (tryouts_task) [task, below of = tryouts, yshift = -5.0cm] {Tryouts};
+        \node (tryouts) [phase] [phase, right of = development, xshift = 5cm] {Phase 4 – Preliminary evaluation:};
+        \node (tryouts_task) [task, below of = tryouts, yshift = -5.0cm] {4.1 Try-outs.};
         
         \node (d1) [right of = tryouts, above of = tryouts, xshift = 2.0cm] {};
         \node (d2) [below of = d1, yshift = -11cm] {};
         \draw [--gray] (d1) to (d2);
         
-        \node (experiment) [phase] [phase, right of = tryouts, xshift = 5cm] {Experiment's phase};
-        \node (experiment_task) [task, below of = experiment, yshift = -5.0cm] {Experiments};
+        \node (experiment) [phase] [phase, right of = tryouts, xshift = 5cm] {Phase 5 – Systematic evaluation:};
+        \node (experiment_task) [task, below of = experiment, yshift = -5.0cm] {5.1 Controlled experiments.};
     
         \draw[arrow_blue] (interview_hospital.east) to (virtual_environment.west);
         \draw[arrow_blue] (interview_bvi.east) to ++(1.0,0) to ++(0,4.5) to (virtual_environment.west);
@@ -66,6 +70,10 @@
         \draw[--red] (tryouts_task.north) to (tryouts.south);
         \draw[--red] [opacity=0.2] (tryouts.south) to (tryouts.center) to (tryouts.west);
         \draw[arrow_red] (tryouts.west) to (development.east);
+
+        \draw[d--blue] (experiment_task.north) to (experiment.south);
+        \draw[d--blue] [opacity=0.2] (experiment.south) to (experiment.center) to (experiment.north);
+        \draw[arrow_--_blue] (experiment.north) to ++(0,1.0) to ++(-18.0,0.0) to (scope.north);
         
     \end{tikzpicture}
     }

@@ -1,48 +1,13 @@
-\citeauthor{siu2020virtual}, also motivated by the popularization of the VR technology, developed a White Cane to be used by BVI users in virtual environments and to make virtual reality applications useful for these users as well. The traditional white cane transmits three sources of information to the user: Detection of obstacles, surface topography and foot-placement preview. These information are transmitted through sounds or haptics \cite{siu2020virtual} and the developed cane would simulate that in the virtual environment.
+Motivated by the popularization of virtual reality technology, \citeonline{siu2020virtual} developed a white cane to be used by BVI users in a virtual environment. Their purpose was to make virtual reality applications available for BVI users. 
 
-For obstacle detection, the new cane ws built with a three-degree-of-freedom brake mechanism that would stop the movement when the cane hit an obstacle. It was installed a voice coil actuator which was used to detect surface properties or other information that had a higher frequency than the capacity of the brake mechanism. Lastly, a wave-based acoustic simulation was used to render geometry-aware sound effects in other to enable the user a sense the surroundings using the sounds (Echolocalisation).
+The traditional white cane transmits three sources of information to the user: detection of obstacles, surface topography and foot placement preview. In their work, these sources of information were transmitted through sounds or haptics \cite{siu2020virtual}, which would be defined based on the cane position in the virtual environment. For obstacle detection, the cane was built with a three-degree-of-freedom brake mechanism that would stop the movement when the cane hit an obstacle. A coil actuator was used to simulate surface properties. Lastly, a wave-based acoustic simulation was used to render geometry-aware sound effects in other to give the user a sense of the surroundings (echo localisation).
 
-The experiment's participants were meant to play a "Scavenger Hunt" using an HTC Vive. During the experiment each participant had two tasks:
+In other to evaluate their proposal, the authors performed an experiment where the participants had to play a “scavenger hunt” using an HTC Vive system. During the experiment each participant had two tasks: collect targets along the way (main task) and avoid virtual obstacles and walls (secondary task). The targets appeared, one at a time, once the previous target was collected, and they emitted a sound that acted like an audio beacon for the participant. The obstacles didn’t emit any sound as a beacon, but the participant could detect it by the shape and the noise it emitted when in contact with the cane. The experiment was performed with 8 blind users (4 female, 4 male) from 25 to 70 years old. All of them did a training section where the virtual environment was presented to them. 
 
-\begin{itemize}
-    \item Collect targets along the way;
-    
-    The main task. Five targets appeared, one at a time, once the previous target was collected, and they emitted a sound that acted like an audio beacon for the participant. The experiment was concluded when the participant collected all of them.
-    
-    \item Avoid virtual obstacles and walls.
-    
-    The secondary task. These obstacles didn't emit any sound as a beacon, but the participant could detect it by the shape and by the noise it emits when in contact with the cane. All the obstacles had the same geometry and material, a cube-shaped metal. When tapped by the cane, this object emitted a metal clinking sound.
-\end{itemize}
+Among the relevant findings of \citeonline{siu2020virtual} is that not all the participants reacted in the same to a certain stimulus. The vibration of the cane was considered confusing by some participants, while others were familiar with it. This difference affected the performance of the participants. The ones that had already used vibrating devices performed better. It shows that user previous experiences can impact their performance in the virtual environment.
 
-Besides the audio beacon and the metal sound, there was also a sound when a target was collected, when colliding with a wall and with an obstacle. Figure \ref{fig:siu_vr_targets} shows the targets obstacles and the starting point location.
+Another interesting observation was that, similar to what happens in the real world, it was easier for the participants to navigate in larger areas than in tight spaces. Moreover, the authors observed that the participants focused their attention on the main task, without exploring freely the environment, which might have impacted on the low time to achieve the goal and the low number of obstacle hits. 
 
-The experiment was performed with 8 blind users (4 female, 4 male) from 25 to 70 years old. All of them did a training section where it was presented to them the mechanics of the virtual environment and how to detect walls, doors and obstacles. Figure \ref{fig:siu_vr_rooms} shows both the training and the game rooms.
+Among the limitations pointed by the authors are lack of feedback possibilities for situations such as when the obstacle contacts a point along with the cane, not the tip of it, and the fact that the brake system did not stop the participant when he/she walked forwards toward a wall.
 
-\begin{figure}[h]
-\centering
-\begin{minipage}{.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Revisao/VR Without Vision/VR without vision map.png}
-    \captionof{figure}{Siu et al. key locations. Distances are in meters \cite{siu2020virtual}.}
-    \label{fig:siu_vr_targets}
-\end{minipage}
-\hfil
-\begin{minipage}{.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Revisao/VR Without Vision/VR without vision rooms.png}
-    \captionof{figure}{Siu et al. training and game rooms layout \cite{siu2020virtual}.}
-    \label{fig:siu_vr_rooms}
-\end{minipage}
-\end{figure}
-
-The researcher found out that the simulated vibration of the cane confused part of the participants, while others were familiar with that vibration of the cane. This has been reflected in the performance of these participants. The ones that were already used with this vibration performed better. This shows that user preferences can impact their performance and experience in the VE. 
-
-Another point taken by the researcher was about navigating in tight spaces. It was easier for the participants to navigate in larger areas, similar as it is said in the real world. 
-
-The conclusion was about the exploration of the environment. The participants were focused on finding all of the targets and did not explore the environment. This might have caused a bias in the low time and low obstacle hits. So it is not sure that the tool could help a BVI user to freely explore a VE.
-
-The authors noted some limitations. The cane, even though it had a good brake system, it didn't stop the participant when he/she walked forwards toward a wall. The lack of variation in the cane material and in the feedback possibilities (i.e when the obstacle contacts a point along with the cane, not the tip of it).
-
-The present experiment has similar motivations, to study or improve BVI users' navigation, but in different environments. While the work from \citeauthor{siu2020virtual} was focused on the navigation of BVI users inside a VE, this experiment uses VE to assess BVI navigation in a simulated real environment. \citeauthor{siu2020virtual} commented on the importance of the sound in the guidance of the BVI and used spatialized audio to increase the realism and received positive feedback from the participants as this experiment also did.
-
-One big difference between the two works is the cane. \citeauthor{siu2020virtual} used a cane controller that represented a virtual cane inside the VE, as was made in this work with the \textit{Virtual Cane}, but the feedback from the \textit{Virtual Cane} interaction on the VE was only a vibration, whilst the cane controller, besides using a high-frequency response that could be said to be similar to vibration,  used a brake system to simulate the contact with the wall or obstacle. This experiment couldn't apply this resource for financial and time reasons.
+Comparing the work of \citeonline{siu2020virtual} to this work, \citeonline{siu2020virtual} were focused on providing mechanisms for a BVI user to navigate in virtual environments. In this work, the purpose is to use the virtual environment to collect data about how the BVI user would navigate in a real environment. Another difference is on the functioning of the virtual cane, which in this work is limited to vibration, with no brake system, as the BVI user does not need to touch the environment with it. One common observation of both works is on the importance of the sound for the BVI guidance and the need of using high quality spatialized audio to increase the realism of the virtual environment.

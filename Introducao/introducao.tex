@@ -6,33 +6,42 @@ According to the World Health Organisation (WHO), there are at least 2.2 billion
 
 Although a range of products have already been proposed, incorporating different features, they do not completely fulfil their aim. Among the problems of the solutions available in the market are the lack of practicality and portability, being invasive and requiring too much effort to learn \cite{lozano2009electrotactile}.
 
-The difficulty to use, or learn how to use, a device could be avoided if concepts from human factors, or ergonomics, were analysed during the product’s development, using appropriate methods. The early application of these methods and tests could be a game-changer for the success of the product's user experience \cite{wolf2019towards}.
+The difficulty to use or learn how to use, a device could be avoided if concepts from human factors, or ergonomics, were analysed during the product’s development, using appropriate methods. The early application of these methods and tests could be a gamechanger for the success of the product's user experience \cite{wolf2019towards}.
 
-Motivated by the dissatisfaction of blind people with the current available products, this dissertation starts from the hypothesis that a human-factors centred design of assistive devices for blind and visually impaired people (BVIs) requires the involvement of VIPs in the design process, in order to evaluate the product under design. The user has to experience the product under development in order to provide feedback to the design team on which to improve the product.
+Motivated by the dissatisfaction of blind people with the current available products, this dissertation starts from the hypothesis that a human-factors centred design of assistive devices for blind and visually impaired people (BVIs) requires the involvement of BVIs in the design process, in order to evaluate the product under design. The user has to experience the product under development in order to provide feedback to the design team on which to improve the product.
 
-In order to approach this problem, this work proposes the use of Virtual Reality (VR) as a tool for creating virtual environments where proof of concepts or prototypes of assistive devices could be easily tested by BVIs. VR can be used to create specific, immersive and interactive situations that could help the user to learn and train \cite{farrell2018learning}, as well as the developers to create more user-friendly products. 
+In order to approach this problem, this work proposes the use of Virtual Reality (VR) as a tool for creating virtual environments where proof of concepts or prototypes of assistive devices could be easily tested by BVIs. VR can be used to create specific, immersive and interactive situations that could help the user to learn and train \cite{farrell2018learning}, as well as the developers to create more user-friendly products.
 
 In a virtual environment, as long as the BVI is wearing a locating system, he/she can navigate through the environment. Any information about the scenario where the person is, such as the position of devices and their distances to the person, is known and could be extracted from the virtual platform. As a consequence, before actually implementing a prototype of the assistive device, the designer can test different ways of translating this information into inputs, providing a flexible, safe and easy way to having it evaluated by different users.
 
-At the beginning of February 2022, about 400 million people had been diagnosed with COVID-19 around the world \cite{ourworldindata_cases}. Purposing to try to slow the rate at which the virus spread, WHO recommended strategies like wearing face masks, washing hands regularly, social distancing, avoiding touching surfaces and staying at home .
+%At the beginning of February 2022, about 400 million people had been diagnosed with COVID-19 around the world \cite{ourworldindata_cases}. Purposing to try to slow the rate at which the virus spread, WHO recommended strategies like wearing face masks, washing hands regularly, social distancing, avoiding touching surfaces and staying at home .
 
 As a second motivation, this dissertation considers the COVID-19 pandemic scenario that dominated the world scene during the last two years. In order to try to slow the rate at which the virus spread, WHO recommended strategies such as wearing face masks, washing hands regularly, social distancing, and avoiding touching surfaces that have not been disinfected \cite{who_2020}. Particularly for BVI people, these recommendations bring additional difficulties as the touch is one of the senses they rely on to compensate for the visual impairment. %Social distance is also a challenge as they are not able to determine when another person is approaching the separation limits recommend by health agencies (ref??). 
-The BVI depends on others to do their daily activities \cite{jondani2021strategies}.
+The BVI depends on others to do their daily activities \cite{jondani2021strategies}. The development of solutions that are able to guide a BVI in an environment respecting social distance and other recommendations is also considered in this work.
 
 \section{Objectives}
 \label{sec:objetivos}
 
  % Objetivo geral: é a proposta, contribuição ou a entrega que endereça a solução da pergunta da pesquisa
 
- This dissertation proposes the use of virtual reality as a tool for evaluating proofs of concept of assistive devices for blind and visual impaired people from a human-factors perspective. The purpose is to provide a flexible and easily configured way of testing different concepts of assistive devices in order to support an agile and user-centred development. 
+ This dissertation proposes the use of virtual reality as a tool for evaluating proofs of concept of assistive devices for blind and visual impaired people from a human-factors perspective. The purpose is to provide a flexible and easily configured way of testing different concepts of assistive devices in order to support an agile and user-centred development.
 
- % Objetivos específicos: para a consecução do objetivo geral, foram identificados os seguintes objetivos específicos
- 
- In order to achieve the aforementioned goal, the following research questions are investigated in this work:
+ This goal is related to the following research questions, which are investigated in this work:
 
  \begin{itemize}
-     \item Is it possible to evaluate and compare concepts of assistive device from a human factors’ perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment? \label{itm:obj_first}
-     \item Do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users? \label{itm:obj_second}
+    \item Is it possible to evaluate and compare concepts of assistive device from a human factors’ perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment? \label{itm:obj_first}
+    \item Do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users? \label{itm:obj_second}
+\end{itemize}
+ 
+ % Objetivos específicos: para a consecução do objetivo geral, foram identificados os seguintes objetivos específicos
+ 
+ In order to investigate these research questions and achieve the proposed goal, the following specific objectives are defined:
+ 
+ \begin{itemize}
+     \item Select a scenario for testing assistive devices and develop it in a virtual environment; \label{itm:subobj_first}
+     \item Develop three concepts of assistive devices that use different senses to provide input to the BVI; \label{itm:subobj_second}
+     \item Propose a set of methods for BVI to evaluate assistive devices from human factors perspective; \label{itm:subobj_third}
+     \item Design and execute an experiment to evaluate the concepts of assistive devices in the virtual environment using the proposed methods. \label{itm:subobj_forth}
  \end{itemize}
  
  %\section{Reason}
@@ -63,40 +72,20 @@ The work is organized in the following steps, illustrated in Figure \ref{fig:ste
     
     \item Development of proofs of concept of the specified assistive devices
     
-    The three examples of devices are developed using the following equipment:
-    \begin{enumerate}[label = \alph*)]
-        \item HTC VIVE VR controller;
-        \item ESP32 microcontroller;
-        \item 8 vibrating motors 1027;
-        \item 3D printer Sethi3D S3.
-    \end{enumerate}
+    The three examples of devices are developed using the low cost and available equipment at the laboratory. The audio guide is developed using the audio system of HTV VIVE HMD, while the virtual cane is developed using the HTC VIVE VR hand controller. Finally, the haptic belt is develop using an ESP32 microcontroller, 8 vibrating motors 1027 and 3D printed pieces.
     
     \item Design and execution of the experiment
     
     The proposed experiment is based on the best practices and principles of Design of Experiment (DoE) discipline.
     The following techniques and tools are used for evaluating human factors:
     \begin{enumerate}[label = \alph*)]
-        \item User's nedded time to complete each scene;
         \item Questionnaires adapted from the literature, such as NASA-TLX and SAGAT, or proposed specifically for this work;
         \item Physiological sensors, such as GSR and ECG, to capture the body response.
     \end{enumerate}
     
     \item Analysis of results
     
-    Eight different features were analysed:
-
-    \begin{enumerate}[label = \alph*)]
-        \item Time;
-        \item Mental Demand;
-        \item Mental Workload;
-        \item Sagat score;
-        \item Guidance method evaluation questionnaire score;
-        \item Heartbeat frequency;
-        \item Heart interbeat standard deviation;
-        \item Skin conductance.
-    \end{enumerate}
-    
-    All these features were graphically and statistically analyzed. In the statistical analysis, the features were verified for normality distribution, then pairwise compared using a Student's T-Test, then their variance inside the group was verified using an ANOVA and finally, when needed, a Fisher's Least Squared Difference Test was done to pairwisely verify similarities
+    The results of the experiment are analysed graphically and statistically in order to estimate the user workload and situation awareness. In the statistical analysis, the outputs are verified for normality distribution, then pairwise compared using the Student’s T-Test, and their variance inside the group is verified using an ANOVA. Finally, when needed, a Fisher’s Least Squared Difference Test is done to verify similarities between pairs.
 
 \end{enumerate}
 
@@ -158,8 +147,8 @@ Chapter \ref{ch:fundamentacao} introduce the concepts and techniques that are us
 
 Chapter \ref{ch:revisao} is dedicated to the state of art. It brings a review of literature and discusses published research works that are related to this dissertation. It covers the proposal and evaluation of BVI devices with emphasis on the analysis of human factors or virtual reality.
 
-Chapter \ref{ch:metodologia} details the proposal of this dissertation describing how virtual reality could be used to integrate BVI users into the design process of assistive design. 
+Chapter \ref{ch:metodologia} details the proposal of this dissertation describing how virtual reality could be used to integrate BVI users into the design process of assistive design. It illustrates the proposed method by applying it to evaluate three different assistive devices (audio guide, virtual cane and haptic belt), as well as their mixed use, in the environment of a hospital reception. 
 
-In order to illustrate the application of the proposed approach, the development of a virtual environment is described in Chapter \ref{ch:cenario}. It uses as an example the case of the reception of a health clinic. Following, Chapter \ref{ch:cinto} presents the development of three different solutions as examples of assistive devices: audio guide, virtual cane and haptic belt.
+Chapter \ref{ch:resultados} describes the experiment designed to evaluate the dissertation’s proposal and analyses the results in order to investigate the research questions of Section \ref{sec:objetivos}
 
-Chapter \ref{ch:doe} describes the experiment designed to evaluate the dissertation’s proposal and investigate the research questions of Section \ref{sec:objetivos}. Chapter \ref{ch:resultados} analysis the results of the experiment. Finally, Chapter \ref{ch:conclusao} summarizes the main conclusions of this work and discusses future work.
+Finally, Chapter \ref{ch:conclusao} summarizes the main conclusions of this work and discusses future work.

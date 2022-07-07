@@ -1,152 +1,122 @@
 \backcite {sanders1998human}{{ix}{(document)}{Doc-Start}}
 \backcite {milgram1994taxonomy}{{ix}{(document)}{Doc-Start}}
-\backcite {siu2020virtual}{{ix}{(document)}{Doc-Start}}
-\backcite {siu2020virtual}{{ix}{(document)}{Doc-Start}}
-\backcite {jicol2021effects}{{ix}{(document)}{Doc-Start}}
-\backcite {jicol2021effects}{{ix}{(document)}{Doc-Start}}
-\backcite {bradley2002investigating}{{ix}{(document)}{Doc-Start}}
 \backcite {bradley2002investigating}{{ix}{(document)}{Doc-Start}}
 \backcite {bradley2005experimental}{{ix}{(document)}{Doc-Start}}
-\backcite {bradley2005experimental}{{ix}{(document)}{Doc-Start}}
-\backcite {bradley2005experimental}{{ix}{(document)}{Doc-Start}}
-\backcite {bradley2005experimental}{{ix}{(document)}{Doc-Start}}
-\backcite {marston2006evaluation}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{x}{(document)}{Doc-Start}}
-\backcite {espressif}{{xv}{(document)}{Doc-Start}}
-\backcite {stanton2004handbook}{{xvi}{(document)}{Doc-Start}}
-\backcite {bradley2005experimental}{{xvi}{(document)}{Doc-Start}}
-\backcite {moerland2021application}{{xvi}{(document)}{Doc-Start}}
-\backcite {world2019world}{{26}{1}{chapter.1}}
-\backcite {bourne2021trends}{{26}{1}{chapter.1}}
-\backcite {lozano2009electrotactile}{{26}{1}{chapter.1}}
-\backcite {wolf2019towards}{{26}{1}{chapter.1}}
-\backcite {farrell2018learning}{{26}{1}{chapter.1}}
-\backcite {ourworldindata_cases}{{27}{1}{chapter.1}}
-\backcite {who_2020}{{27}{1}{chapter.1}}
-\backcite {jondani2021strategies}{{27}{1}{chapter.1}}
-\backcite {sandom2004human}{{32}{2.1}{section.2.1}}
-\backcite {karwowski2012discipline}{{32}{2.1}{section.2.1}}
-\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{32}{2.1}{section.2.1}}
-\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{32}{2.1}{section.2.1}}
-\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{32}{2.1}{section.2.1}}
-\backcite {sanders1998human}{{33}{2.1}{section.2.1}}
-\backcite {sanders1998human}{{33}{2.1}{section.2.1}}
-\backcite {sandom2004human}{{33}{2.1}{section.2.1}}
-\backcite {sandom2004human}{{33}{2.1}{section.2.1}}
-\backcite {dul2003ergonomics}{{33}{2.1}{section.2.1}}
-\backcite {sanders1998human}{{34}{2.1}{figure.caption.8}}
-\backcite {stanton2004handbook}{{34}{2.2}{section.2.2}}
-\backcite {stanton2004handbook}{{34}{2.2}{section.2.2}}
-\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{35}{2.2}{section.2.2}}
-\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{35}{2.2}{section.2.2}}
-\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{35}{2.2}{section.2.2}}
-\backcite {stanton2004handbook, sanders1998human}{{35}{2.2.1}{subsection.2.2.1}}
-\backcite {stanton2004handbook, sanders1998human}{{35}{2.2.1}{subsection.2.2.1}}
-\backcite {mohanavelu2020cognitive}{{35}{2.2.1}{subsection.2.2.1}}
-\backcite {fallahi2016effects}{{36}{2.2.2}{subsection.2.2.2}}
-\backcite {chakladar2020eeg, orlandi2018measuring}{{36}{2.2.2}{subsection.2.2.2}}
-\backcite {chakladar2020eeg, orlandi2018measuring}{{36}{2.2.2}{subsection.2.2.2}}
-\backcite {stanton2004handbook, rodriguez2015pupillometry}{{36}{2.2.2}{subsection.2.2.2}}
-\backcite {stanton2004handbook, rodriguez2015pupillometry}{{36}{2.2.2}{subsection.2.2.2}}
-\backcite {cain2007review}{{36}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{36}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{36}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{36}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {stanton2004handbook}{{37}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {stanton2004handbook}{{37}{2.2.2.1}{subsubsection.2.2.2.1}}
-\backcite {nourbakhsh2012using, shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {nourbakhsh2012using, shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {stanton2004handbook}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {shi2007galvanic}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {zhang2014detection, borghini2014measuring}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {zhang2014detection, borghini2014measuring}{{37}{2.2.2.2}{subsubsection.2.2.2.2}}
-\backcite {sanders1998human, stanton2004handbook}{{37}{2.2.3}{subsection.2.2.3}}
-\backcite {sanders1998human, stanton2004handbook}{{37}{2.2.3}{subsection.2.2.3}}
-\backcite {stanton2004handbook}{{37}{2.2.3}{subsection.2.2.3}}
-\backcite {hart1988development}{{37}{2.2.3.1}{subsubsection.2.2.3.1}}
-\backcite {stanton2004handbook}{{38}{2.1}{table.caption.10}}
-\backcite {sanders1998human}{{38}{2.2.3.1}{table.caption.10}}
-\backcite {sanders1998human}{{38}{2.2.3.1}{table.caption.10}}
-\backcite {endsley1995measurement}{{38}{2.3}{section.2.3}}
-\backcite {endsley1988design, endsley2018automation}{{38}{2.3}{section.2.3}}
-\backcite {endsley1988design, endsley2018automation}{{38}{2.3}{section.2.3}}
-\backcite {sanders1998human}{{39}{2.3}{section.2.3}}
-\backcite {stanton2004handbook}{{39}{2.3}{section.2.3}}
-\backcite {endsley1988situation}{{39}{2.3.1}{subsection.2.3.1}}
-\backcite {endsley1988situation}{{39}{2.3.1}{subsection.2.3.1}}
-\backcite {stanton2004handbook}{{39}{2.3.1}{subsection.2.3.1}}
-\backcite {endsley1995measurement}{{39}{2.3.1}{subsection.2.3.1}}
-\backcite {milgram1994taxonomy}{{40}{2.4}{section.2.4}}
-\backcite {milgram1994taxonomy}{{40}{2.4}{figure.caption.12}}
-\backcite {nijholt2005virtuality, doolani2020review}{{40}{2.4}{figure.caption.12}}
-\backcite {nijholt2005virtuality, doolani2020review}{{40}{2.4}{figure.caption.12}}
-\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{40}{2.4.1}{subsection.2.4.1}}
-\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{40}{2.4.1}{subsection.2.4.1}}
-\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{40}{2.4.1}{subsection.2.4.1}}
-\backcite {farshid2018go}{{41}{2.4.2}{subsection.2.4.2}}
-\backcite {doolani2020review}{{41}{2.4.3}{subsection.2.4.3}}
-\backcite {ma2007virtuality}{{41}{2.4.4}{subsection.2.4.4}}
-\backcite {farrell2018learning}{{41}{2.4.4}{subsection.2.4.4}}
-\backcite {mujber2004virtual}{{41}{2.4.4}{subsection.2.4.4}}
-\backcite {salah2019virtual}{{41}{2.4.4}{subsection.2.4.4}}
-\backcite {chiu2002organizational}{{42}{2.5}{section.2.5}}
-\backcite {kahn1996interdepartmental}{{42}{2.5}{section.2.5}}
-\backcite {smith1996top}{{42}{2.5}{section.2.5}}
-\backcite {kleinsmann2006understanding}{{42}{2.5}{section.2.5}}
-\backcite {kleinsmann2006understanding}{{43}{2.5}{section.2.5}}
-\backcite {kleinsmann2006understanding}{{43}{2.5}{section.2.5}}
-\backcite {kleinsmann2006understanding}{{43}{2.5}{section.2.5}}
-\backcite {kleinsmann2006understanding}{{43}{2.5}{section.2.5}}
-\backcite {siu2020virtual}{{44}{3.1}{section.3.1}}
-\backcite {siu2020virtual}{{44}{3.1}{section.3.1}}
-\backcite {siu2020virtual}{{45}{3.1}{figure.caption.14}}
-\backcite {siu2020virtual}{{45}{3.2}{figure.caption.14}}
-\backcite {siu2020virtual}{{46}{3.1}{figure.caption.14}}
-\backcite {siu2020virtual}{{46}{3.1}{figure.caption.14}}
-\backcite {siu2020virtual}{{46}{3.1}{figure.caption.14}}
-\backcite {cummings2016immersive}{{46}{3.2}{section.3.2}}
-\backcite {jicol2021effects}{{46}{3.2}{section.3.2}}
-\backcite {farrer2002experiencing}{{47}{3.2}{section.3.2}}
-\backcite {jicol2021effects}{{47}{3.3}{figure.caption.15}}
-\backcite {jicol2021effects}{{47}{3.4}{figure.caption.16}}
-\backcite {bradley2002investigating}{{48}{3.3}{section.3.3}}
-\backcite {bradley2005experimental}{{48}{3.3}{section.3.3}}
-\backcite {bradley2002investigating}{{49}{3.5}{figure.caption.17}}
-\backcite {bradley2002investigating}{{49}{3.3.1}{figure.caption.18}}
-\backcite {bradley2002investigating}{{50}{3.6}{figure.caption.18}}
-\backcite {bradley2005experimental}{{50}{3.1}{table.caption.19}}
-\backcite {bradley2005experimental}{{51}{3.7}{figure.caption.20}}
-\backcite {bradley2005experimental}{{51}{3.8}{figure.caption.20}}
-\backcite {bradley2005experimental}{{51}{3.9}{figure.caption.21}}
-\backcite {bradley2005experimental}{{52}{3.10}{figure.caption.22}}
-\backcite {yang2014design}{{52}{3.4}{section.3.4}}
-\backcite {yang2014design}{{52}{3.4}{section.3.4}}
-\backcite {yang2014design}{{52}{3.4}{section.3.4}}
-\backcite {yang2014design}{{53}{3.4}{section.3.4}}
-\backcite {marston2006evaluation}{{53}{3.5}{section.3.5}}
-\backcite {marston2006evaluation}{{54}{3.11}{figure.caption.23}}
-\backcite {moerland2021application}{{55}{3.6}{section.3.6}}
-\backcite {moerland2021application}{{55}{3.6}{section.3.6}}
-\backcite {moerland2021application}{{55}{3.6}{section.3.6}}
-\backcite {moerland2021application}{{55}{3.12}{figure.caption.25}}
-\backcite {moerland2021application}{{55}{3.6}{figure.caption.26}}
-\backcite {moerland2021application}{{56}{3.13}{figure.caption.26}}
-\backcite {moerland2021application}{{56}{3.14}{figure.caption.27}}
-\backcite {moerland2021application}{{56}{3.15}{figure.caption.27}}
-\backcite {moerland2021application}{{56}{3.6}{figure.caption.28}}
-\backcite {moerland2021application}{{57}{3.16}{figure.caption.28}}
-\backcite {moerland2021application}{{57}{3.17}{figure.caption.28}}
-\backcite {moerland2021application}{{57}{3.3}{table.caption.29}}
-\backcite {wang2010new}{{61}{4.3.1}{subsection.4.3.1}}
-\backcite {kylecorry31_instructables_2020}{{70}{6}{chapter.6}}
-\backcite {easyeda}{{71}{6}{chapter.6}}
-\backcite {kubios}{{93}{8.1.2.1}{subsubsection.8.1.2.1}}
-\backcite {espressif}{{163}{A.1}{figure.caption.199}}
+\backcite {moerland2021application}{{ix}{(document)}{Doc-Start}}
+\backcite {moerland2021application}{{ix}{(document)}{Doc-Start}}
+\backcite {espressif}{{xiv}{(document)}{Doc-Start}}
+\backcite {stanton2004handbook}{{xv}{(document)}{Doc-Start}}
+\backcite {world2019world}{{24}{1}{chapter.1}}
+\backcite {bourne2021trends}{{24}{1}{chapter.1}}
+\backcite {lozano2009electrotactile}{{24}{1}{chapter.1}}
+\backcite {wolf2019towards}{{24}{1}{chapter.1}}
+\backcite {farrell2018learning}{{24}{1}{chapter.1}}
+\backcite {who_2020}{{25}{1}{chapter.1}}
+\backcite {jondani2021strategies}{{25}{1}{chapter.1}}
+\backcite {sandom2004human}{{30}{2.1}{section.2.1}}
+\backcite {karwowski2012discipline}{{30}{2.1}{section.2.1}}
+\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{31}{2.1}{section.2.1}}
+\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{31}{2.1}{section.2.1}}
+\backcite {sandom2004human, sanders1998human, dul2003ergonomics}{{31}{2.1}{section.2.1}}
+\backcite {dul2003ergonomics}{{31}{2.1}{section.2.1}}
+\backcite {sanders1998human}{{31}{2.1}{figure.caption.8}}
+\backcite {sanders1998human}{{32}{2.1}{figure.caption.8}}
+\backcite {sanders1998human}{{32}{2.1}{figure.caption.8}}
+\backcite {stanton2004handbook}{{32}{2.1.1}{subsection.2.1.1}}
+\backcite {stanton2004handbook}{{32}{2.1.1}{subsection.2.1.1}}
+\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{33}{2.1.1}{subsection.2.1.1}}
+\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{33}{2.1.1}{subsection.2.1.1}}
+\backcite {cain2007review, fallahi2016effects, cardoso2012evaluation}{{33}{2.1.1}{subsection.2.1.1}}
+\backcite {stanton2004handbook, sanders1998human}{{34}{2.1.1}{section*.10}}
+\backcite {stanton2004handbook, sanders1998human}{{34}{2.1.1}{section*.10}}
+\backcite {mohanavelu2020cognitive}{{34}{2.1.1}{section*.10}}
+\backcite {chakladar2020eeg, orlandi2018measuring}{{34}{2.1.1}{section*.11}}
+\backcite {chakladar2020eeg, orlandi2018measuring}{{34}{2.1.1}{section*.11}}
+\backcite {stanton2004handbook, rodriguez2015pupillometry}{{34}{2.1.1}{section*.11}}
+\backcite {stanton2004handbook, rodriguez2015pupillometry}{{34}{2.1.1}{section*.11}}
+\backcite {fallahi2016effects}{{34}{2.1.1}{section*.11}}
+\backcite {cain2007review}{{34}{2.1.1}{section*.11}}
+\backcite {stanton2004handbook}{{34}{2.1.1}{section*.11}}
+\backcite {stanton2004handbook}{{34}{2.1.1}{section*.11}}
+\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{35}{2.1.1}{section*.11}}
+\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{35}{2.1.1}{section*.11}}
+\backcite {mohanavelu2020cognitive, mansikka2016fighter, zhang2014detection}{{35}{2.1.1}{section*.11}}
+\backcite {nourbakhsh2012using, shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {nourbakhsh2012using, shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {nourbakhsh2012using, stanton2004handbook, shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {shi2007galvanic}{{35}{2.1.1}{section*.11}}
+\backcite {zhang2014detection, borghini2014measuring}{{35}{2.1.1}{section*.11}}
+\backcite {zhang2014detection, borghini2014measuring}{{35}{2.1.1}{section*.11}}
+\backcite {sanders1998human, stanton2004handbook}{{35}{2.1.1}{section*.12}}
+\backcite {sanders1998human, stanton2004handbook}{{35}{2.1.1}{section*.12}}
+\backcite {sanders1998human, stanton2004handbook}{{35}{2.1.1}{section*.12}}
+\backcite {sanders1998human, stanton2004handbook}{{35}{2.1.1}{section*.12}}
+\backcite {stanton2004handbook}{{35}{2.1.1}{section*.12}}
+\backcite {hart1988development}{{35}{2.1.1}{section*.12}}
+\backcite {sanders1998human}{{35}{2.1.1}{section*.12}}
+\backcite {sanders1998human}{{35}{2.1.1}{table.caption.13}}
+\backcite {stanton2004handbook}{{36}{2.1}{table.caption.13}}
+\backcite {sanders1998human}{{36}{2.1.2}{subsection.2.1.2}}
+\backcite {endsley1995measurement}{{36}{2.1.2}{subsection.2.1.2}}
+\backcite {endsley1988design, endsley2018automation}{{36}{2.1.2}{subsection.2.1.2}}
+\backcite {endsley1988design, endsley2018automation}{{36}{2.1.2}{subsection.2.1.2}}
+\backcite {endsley1988design}{{36}{2.1.2}{figure.caption.14}}
+\backcite {stanton2004handbook}{{36}{2.1.2}{figure.caption.14}}
+\backcite {endsley1988design}{{37}{2.1.2}{figure.caption.14}}
+\backcite {milgram1994taxonomy}{{37}{2.2}{section.2.2}}
+\backcite {nijholt2005virtuality, doolani2020review}{{37}{2.2}{section.2.2}}
+\backcite {nijholt2005virtuality, doolani2020review}{{37}{2.2}{section.2.2}}
+\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{37}{2.2}{figure.caption.15}}
+\backcite {milgram1994taxonomy}{{38}{2.4}{figure.caption.15}}
+\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{38}{2.2}{figure.caption.15}}
+\backcite {doolani2020review, farrell2018learning, ma2007virtuality}{{38}{2.2}{figure.caption.15}}
+\backcite {farshid2018go}{{38}{2.2}{figure.caption.15}}
+\backcite {doolani2020review}{{38}{2.2}{figure.caption.15}}
+\backcite {ma2007virtuality}{{38}{2.2}{figure.caption.15}}
+\backcite {farrell2018learning}{{38}{2.2}{figure.caption.15}}
+\backcite {mujber2004virtual}{{38}{2.2}{figure.caption.15}}
+\backcite {salah2019virtual}{{38}{2.2}{figure.caption.15}}
+\backcite {chiu2002organizational}{{39}{2.3}{section.2.3}}
+\backcite {kleinsmann2006understanding}{{39}{2.3}{section.2.3}}
+\backcite {kleinsmann2006understanding}{{39}{2.3}{section.2.3}}
+\backcite {kleinsmann2006understanding}{{40}{2.3}{section.2.3}}
+\backcite {kleinsmann2006understanding}{{40}{2.3}{section.2.3}}
+\backcite {siu2020virtual}{{41}{3.1}{section.3.1}}
+\backcite {siu2020virtual}{{41}{3.1}{section.3.1}}
+\backcite {siu2020virtual}{{42}{3.1}{section.3.1}}
+\backcite {siu2020virtual}{{42}{3.1}{section.3.1}}
+\backcite {siu2020virtual}{{42}{3.1}{section.3.1}}
+\backcite {cummings2016immersive}{{42}{3.2}{section.3.2}}
+\backcite {cummings2016immersive}{{42}{3.2}{section.3.2}}
+\backcite {jicol2021effects}{{42}{3.2}{section.3.2}}
+\backcite {farrer2002experiencing}{{42}{3.2}{section.3.2}}
+\backcite {jicol2021effects}{{43}{3.2}{section.3.2}}
+\backcite {bradley2002investigating,bradley2005experimental}{{43}{3.3}{section.3.3}}
+\backcite {bradley2002investigating,bradley2005experimental}{{43}{3.3}{section.3.3}}
+\backcite {bradley2002experimental}{{43}{3.3}{section.3.3}}
+\backcite {bradley2002investigating}{{43}{3.3}{section.3.3}}
+\backcite {bradley2002investigating}{{44}{3.1}{figure.caption.17}}
+\backcite {bradley2005experimental}{{44}{3.3}{figure.caption.17}}
+\backcite {bradley2005experimental}{{45}{3.2}{figure.caption.18}}
+\backcite {bradley2002investigating}{{45}{3.3}{figure.caption.18}}
+\backcite {yang2014design}{{45}{3.4}{section.3.4}}
+\backcite {yang2014design}{{46}{3.4}{section.3.4}}
+\backcite {yang2014design}{{46}{3.4}{section.3.4}}
+\backcite {bradley2002investigating,bradley2005experimental}{{46}{3.4}{section.3.4}}
+\backcite {bradley2002investigating,bradley2005experimental}{{46}{3.4}{section.3.4}}
+\backcite {yang2014design}{{46}{3.4}{section.3.4}}
+\backcite {marston2006evaluation}{{46}{3.5}{section.3.5}}
+\backcite {marston2006evaluation}{{46}{3.5}{section.3.5}}
+\backcite {marston2006evaluation}{{46}{3.5}{section.3.5}}
+\backcite {moerland2021application}{{47}{3.6}{section.3.6}}
+\backcite {moerland2021application}{{47}{3.3}{figure.caption.19}}
+\backcite {moerland2021application}{{47}{3.6}{figure.caption.19}}
+\backcite {moerland2021application}{{48}{3.4}{figure.caption.20}}
+\backcite {moerland2021application}{{48}{3.6}{figure.caption.20}}
+\backcite {moerland2021application}{{48}{3.6}{figure.caption.20}}
+\backcite {wang2010new}{{53}{4.3}{section*.27}}
+\backcite {kylecorry31_instructables_2020}{{57}{4.3}{Item.33}}
+\backcite {kubios}{{78}{5.1.2.1}{subsubsection.5.1.2.1}}
+\backcite {espressif}{{146}{A.1}{figure.caption.198}}
