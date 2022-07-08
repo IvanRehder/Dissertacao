@@ -515,8 +515,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{2.046220in}{2.287747in}}%
-\pgfpathlineto{\pgfqpoint{2.046220in}{3.075328in}}%
+\pgfpathmoveto{\pgfqpoint{2.046220in}{2.329390in}}%
+\pgfpathlineto{\pgfqpoint{2.046220in}{3.060481in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -528,8 +528,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{4.836220in}{2.741312in}}%
-\pgfpathlineto{\pgfqpoint{4.836220in}{3.233742in}}%
+\pgfpathmoveto{\pgfqpoint{4.836220in}{2.754453in}}%
+\pgfpathlineto{\pgfqpoint{4.836220in}{3.220749in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -541,8 +541,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{7.626220in}{2.664975in}}%
-\pgfpathlineto{\pgfqpoint{7.626220in}{3.367940in}}%
+\pgfpathmoveto{\pgfqpoint{7.626220in}{2.657295in}}%
+\pgfpathlineto{\pgfqpoint{7.626220in}{3.341297in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -554,8 +554,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{10.416220in}{2.641482in}}%
-\pgfpathlineto{\pgfqpoint{10.416220in}{3.499235in}}%
+\pgfpathmoveto{\pgfqpoint{10.416220in}{2.669108in}}%
+\pgfpathlineto{\pgfqpoint{10.416220in}{3.489886in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -567,8 +567,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{13.206220in}{2.546803in}}%
-\pgfpathlineto{\pgfqpoint{13.206220in}{3.312906in}}%
+\pgfpathmoveto{\pgfqpoint{13.206220in}{2.533107in}}%
+\pgfpathlineto{\pgfqpoint{13.206220in}{3.321745in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -580,8 +580,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{3.162220in}{1.629203in}}%
-\pgfpathlineto{\pgfqpoint{3.162220in}{1.900622in}}%
+\pgfpathmoveto{\pgfqpoint{3.162220in}{1.612359in}}%
+\pgfpathlineto{\pgfqpoint{3.162220in}{1.918940in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -594,7 +594,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.952220in}{1.915109in}}%
-\pgfpathlineto{\pgfqpoint{5.952220in}{2.671349in}}%
+\pgfpathlineto{\pgfqpoint{5.952220in}{2.685610in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -606,8 +606,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{8.742220in}{2.064521in}}%
-\pgfpathlineto{\pgfqpoint{8.742220in}{4.666167in}}%
+\pgfpathmoveto{\pgfqpoint{8.742220in}{2.043368in}}%
+\pgfpathlineto{\pgfqpoint{8.742220in}{4.765887in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -619,8 +619,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{11.532220in}{1.960550in}}%
-\pgfpathlineto{\pgfqpoint{11.532220in}{5.756810in}}%
+\pgfpathmoveto{\pgfqpoint{11.532220in}{2.065613in}}%
+\pgfpathlineto{\pgfqpoint{11.532220in}{5.703996in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -632,7 +632,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{14.322220in}{2.084825in}}%
+\pgfpathmoveto{\pgfqpoint{14.322220in}{2.086793in}}%
 \pgfpathlineto{\pgfqpoint{14.322220in}{6.224895in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
