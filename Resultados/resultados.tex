@@ -4,52 +4,50 @@
 %2. Caso vc tenha aplicado a sua contribuição (modelo, produto, processo etc.) em um caso (empresa, laboratório, simulação etc.), apresente a descrição e análise dos resultados. Na seção de discussão cabem as análises de cenários What-If ou de sensibilidade. Exemplo: se o parâmetro X aumentar de N para N+1, o resultado poderia mudar de Y para Z?
 %3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
 
-The purpose of the experiment discussed in this chapter is to investigate the two research questions of this work:
+The purpose of the experiment discussed in this chapter is to investigate the two research questions proposed for this work:
 
-\begin{enumerate}[leftmargin = 3.5em, label = $H_\arabic*$:]
+\begin{itemize}%[leftmargin = 3.5em, label = $H_\arabic*$:]
     \item Is it possible to evaluate and compare concepts of assistive device from a human factors’ perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment?
     \item Do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users?
-\end{enumerate}
-
-For this purpose, the experiment describe in Section \ref{ch:metodologia} was performed with the following groups
-
-\begin{itemize}
-    \item Blind participants;
-
-        This groups was composed of 4 blind participants with age from 26 to 56, with an average of 44 years, all male and all of them had superior education, with one exception that was at the time completing his course.
-
-    \item Sighted participants.
-    
-        This groups was composed of 4 sighted participants with age from 22 to 31, with an average of 28 years, three males and one women, all of them had superior education and were used to participate in research experiments.
 \end{itemize}
 
-\section*{Data Processing}
+For this purpose, the experiment described in Section \ref{ch:metodologia} was performed with the following groups:
 
-The data collected during the experiment is analysed in the following ways. 
+\begin{itemize}
+    \item Blind group: composed of 4 participants with age varying from 26 to 56, all male, three of them graduated and one with graduation in course. 
 
-\begin{enumerate}
-    \item Graphical analysis of the influence of the guidance method in a box plot
-    \item Graphical analysis of the round influence in a box plot
-    \item Statistical analysis of the guidance method and round influence using Two Way ANOVA;
-    \item Statistical analysis pairwise comparison using LSD Fisher test.
-\end{enumerate}
+    \item Sighted group: composed of 4 participants with age varying from 22 to 31, three males and one woman, all of them graduated.
+\end{itemize}
+
+In order to answer the two research questions, this chapter is organized in the following way. Section \ref{sec:results_obj_1} is dedicated to the first question and brings an analysis performed only with data from blind participants. Then, Section \ref{sec:results_obj_2} repeats the same analysis now with data from sighted participants and compare the results with those obtained from blind participants, in order to answer the second research question.
+
+In both sections, the data analysis follows the following sequence:
+
+\begin{itemize}
+    \item Analysis of subjective questionnaires:
+    \begin{itemize}
+        \item NASA-TLX: it aims at assessing the workload perceived by the user in six dimensions, including ‘mental demand’. It is expected that the mental workload would decrease from the ‘first’ to the ‘return’ round. It is also expected that some guidance methods would differ regarding the required mental workload.
+        \item Adapted SAGAT: it aims at assessing the situation awareness and the mental map of the user. It is expected that the SAGAT score would increase from the ‘first’ to the ‘return’ round. It is also expected that some guidance methods would differ regarding the required situation awareness provided to the user.
+        \item Guidance method’s questionnaire: it aims at assessing the user experience with each method. It is also expected that some guidance methods would differ regarding the score received in this questionnaire.
+    \end{itemize}
+    \item Analysis of physiological sensors:
+    \begin{itemize}
+        \item ECG: it aims at assessing the user workload. Two features are extracted from the ECG signal, heartrate (BPM) and heartrate variance (SDNN). It is expected that the heartrate slight decreases from the ‘first’ to the ‘return’ round, while the heartrate variance is expected to slight increase.
+        \item GSR: it aims at assessing the user workload and stress. It is expected that the GSR average would increase at every ‘first’ round and then a slight decrease in the ‘return’ round.
+    \end{itemize}
+\end{itemize}
 
 Particularly in the case of this work, an additional round of tests is added to the experiment in order to investigate the differences between the evaluation performed by BVI users and sighted (non-BVI) users. For this purpose, the experiment is repeated with a set of non-BVI users and the same data is collected. The purpose is to investigate whether or not performing the analysis with non-BVI users could lead to different conclusions.
 
 
-%Throughout the experiment, three data sources were gathered from the participants, and this chapter will show their values, explain the process to analyze the data and discuss their results. This chapter is divided into two sections, each one related to one of the objectives:
-%
-%\begin{itemize}
-%    \item Evaluation of assistive device from a human factors’ perspective in a virtual environment;
-%    \item Comparison between BVI users and sighted users.
-%\end{itemize}
-%
-%From this point, the data from the blind participants will be called the “Blind” sample and the data from the sighted participants will be called the “Sight” sample.
-
 \section{Evaluation of assistive device from a human factors’ perspective in a virtual environment}
+\label{sec:results_obj_1}
 
-%\input{Resultados/SimulationData}
-\input{Resultados/SubjectiveData1}
+\subsection{Subjective data}
+\input{Resultados/Nasa/nasa1}
+\input{Resultados/Sagat/sagat1}
+\input{Resultados/Questionario/questionarios1}
+
 \input{Resultados/PhysiologicalData1} 
 
 \subsection{Final Remarks}
@@ -124,6 +122,7 @@ But all the participants showed a great enthusiasm before, during and after the 
 \end{itemize}
 
 \section{Comparison between BVI users and sighted users}
+\label{sec:results_obj_2}
 
 In this section, the second goal of this experiment, “do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users?”, will be linked with the gathered data and then compared with the results of the first goal's section. It is expected that both results would be different. As was the last section, this section will also be divided in the same subsections.
 

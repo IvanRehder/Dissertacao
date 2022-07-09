@@ -1,13 +1,15 @@
 \subsubsection{NASA-TLX}
 \label{subsubsec:results_nasa_tlx_1}
 
-It is possible to analyze the mental workload using NASA-TLX in two different ways. The first is by analyzing only the mental demand scale and the second is by analyzing the NASA-TLX score, which is an average of the scales’ rating.
+The NASA-TLX provides two information that are relevant to the workload analysis. The first one is the score attributed to the ‘mental demand’ dimension. The second one is the average obtained from the scores of the six dimensions of NASA-TLX. The two analyses are presented in the next subsections.
 
 \paragraph{Analysis of the mental demand scale}\mbox{}\\
 
-The Table \ref{tab:md_table_blind} presents the mental demand averages by each blinded participant on each scene and they are plotted in the Figures \ref{fig:barplot_md_avg_5_scene_blind}. The Figure \ref{fig:barplot_md_avg_5_scene_blind} shows a systematic reduction on the perceived mental demand in all methods between the rounds. This shows that the participants started to get used with the device after the first use.
+Table \ref{tab:md_table_blind} presents the ‘mental demand’ score attributed by each blind participant to each guidance method. The ‘base’ method refers to the guidance method that the person uses in his/her daily life (e.g., white cane). 
 
 \input{Resultados/Nasa/Tabelas/md_table_blind}
+
+The mean value obtained for each guidance method is illustrated in Figure \ref{fig:barplot_md_avg_5_scene_blind}. It shows a systematic reduction on the perceived mental workload between the rounds for all methods, confirming that the participants get familiar with the devices after the first use. It also shows that although the haptic belt obtained the largest mean, it also had the largest variation, showing that the effort required from the user may vary significantly.
 
 \begin{figure}[!htb]
     \centering
@@ -16,7 +18,7 @@ The Table \ref{tab:md_table_blind} presents the mental demand averages by each b
     \label{fig:barplot_md_avg_5_scene_blind}
 \end{figure}
 
-The Figure \ref{fig:boxplot_md_blind_scene} presents a box plot with the mental demand grouped by method. This Figure shows that there may be two different groups, one with lower demand formed by the "Base" and the "Audio" method, and another with the higher demand. The Figure \ref{fig:boxplot_md_blind_rounds} presents a box plot with the mental demand grouped by the rounds. This figure shows that both rounds have similar variations.
+Figure \ref{fig:boxplot_md_blind_scene}  presents a box plot of the mental demand score grouped by method. This Figure shows that there may be two different groups: one associated with lower demand, composed of ‘base’ and ‘audio’, and another with higher demand, composed of ‘haptic belt’, ‘virtual cane’ and ‘mixture’. It indicates that maybe a guidance method that uses vibration as input is not intuitive. Following, Figure \ref{fig:boxplot_md_blind_rounds} presents a box plot of the mental demand grouped by the rounds, confirming the general tendency to reduce the required ‘mental demand’. 
 
 \begin{figure}[!htb]
     \centering
@@ -34,14 +36,9 @@ The Figure \ref{fig:boxplot_md_blind_scene} presents a box plot with the mental 
     \end{minipage}
 \end{figure}
 
-The Table \ref{tab:md_average_group_blind} shows the average mental demand in the “blind” sample and is possible to notice how the average perceived mental demand by the “blind” sample was lower during the “Audio” and the “Base” methods.
+In order to support the statistical analysis, Figures \ref{fig:qqplot_md_avg_two_way_blind} and \ref{fig:residplot_md_avg_two_way_blind} presents the QQ-plot and the residual plot of the ‘mental demand’ data, confirming that the data follow a normal distribution and the residues are homogenous.
 
-\input{Resultados/Nasa/Tabelas/md_average_group_blind}
-
-The Figures \ref{fig:qqplot_md_avg_two_way_blind} and \ref{fig:residplot_md_avg_two_way_blind} shows the distribution and variance of the Table \ref{tab:md_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
-The Table \ref{tab:blocanova_md_avg_two_way_blind} shows the Anova test p-values of the mental demand of the "blind" sample between the guidance methods. The method's and the round's p-values indicates that there is no influence from them in the mental demand. The interaction between the methods and the round also does not influences the mental demand.
-
-\input{Resultados/Nasa/Tabelas/blocanova_md_avg_two_way_blind.tex}
+Following, Figures \ref{fig:qqplot_md_avg_two_way_blind} and \ref{fig:residplot_md_avg_two_way_blind} shows the distribution and variance of the Table \ref{tab:md_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance. The Table \ref{tab:blocanova_md_avg_two_way_blind} shows the Anova test p-values of the mental demand of the ‘blind” sample between the guidance methods. The method’s and the round’s p-values indicates that there is no influence from them in the mental demand. The interaction between the methods and the round also does not influences the mental demand.
 
 \begin{figure}[!htb]
     \centering
@@ -58,6 +55,26 @@ The Table \ref{tab:blocanova_md_avg_two_way_blind} shows the Anova test p-values
         \label{fig:residplot_md_avg_two_way_blind}
     \end{minipage}
 \end{figure}
+
+Following, the statistical model of Equation 5.1 is used for the analysis of variance (ANOVA): 
+
+\begin{equation}
+    \label{eq:statistical_model}
+    y_{ijk} = \mu + \tau_i + \beta_j +\omega_k + (\tau\beta_{ij}) + e
+\end{equation}
+
+where:
+
+\begin{itemize}
+    \item $y_{ij}$ - output variable for method $i$, round $j$ and participant $k$;
+    \item $\mu$ - mean of all the observations;
+    \item $\tau_i$ - variance from method $i$;
+    \item $\beta_j$ - variance from round $j$;
+    \item $\omega_k$ - variance from participant k, which treated as a block;
+    \item $e_{ij}$ - Is observation's residue.
+\end{itemize}
+
+\input{Resultados/Nasa/Tabelas/blocanova_md_avg_two_way_blind.tex}
 
 %The Table \ref{tab:lsdtwoway_md_avg_two_way} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that only the "Audio" has a similar mental demand as the "Base" method.
 

@@ -1,4 +1,11 @@
 *.csv
+*.aux
+*.brf
+*.fdb_latexmk
+*.lof
+*.lot
+*.synctex.gz
+*.toc
 /Resultados/Participantes/*
 !/Resultados/ECG/Intervalos/*.csv
 !/Resultados/GSR/*.csv
