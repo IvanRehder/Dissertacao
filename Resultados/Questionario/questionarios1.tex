@@ -1,7 +1,9 @@
 \subsubsection{Guidance method's questionnaire.}
 \label{subsubsec:results_questionnaires}
 
-Finally, the Questionnaire is analyzed to give an idea about the impressions of the users with each device. This is an important evaluation to seek their impressions of each method. The higher the score, the more the user was satisfaction with that method. The Table \ref{tab:questionnaire_average_blind} shows the score of each method and they are plotted in the Figure \ref{fig:barplot_questionnaire_scene_blind}. The Figure show a disatisfaction with the haptic devices alone.
+Finally, the data from the questionnaire for evaluating the user experience with each guidance method is also analysed. The higher the score, the more satisfied the user is with the method. It is important to observe that this analysis does not include the ‘base’ method as the questions are specific about each method and the ‘base’ may vary among the participants. Also, there is no distinction between first and return rounds. Each questionnaire is answered only once for each method
+
+Table \ref{tab:questionnaire_average_blind} presents the score attributed to each method by each participant. The mean values are plotted in the Figure \ref{fig:barplot_questionnaire_scene_blind} and show a dissatisfaction with the methods that only use vibration for communicating with the participant, i.e., the haptic belt and the virtual cane. 
 
 \input{Resultados/Questionario/Tabelas/questionnaire_average_blind.tex}
 
@@ -12,6 +14,8 @@ Finally, the Questionnaire is analyzed to give an idea about the impressions of 
     \label{fig:barplot_questionnaire_scene_blind}
 \end{figure}
 
+Figure \ref{fig:boxplot_quest_blind_scene} brings the questionnaire boxplot, which clearly shows the difference between two groups: haptic belt and virtual cane, and audio and mixture. 
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width = 0.6\linewidth]{Resultados/Questionario/Figuras/png/boxplot_questionnaire_scene_blind.png}
@@ -19,14 +23,11 @@ Finally, the Questionnaire is analyzed to give an idea about the impressions of 
     \label{fig:boxplot_quest_blind_scene}
 \end{figure}
 
-The Table \ref{tab:questionnaire_average_group_blind} show the the average questionnaire score on each method. It also shows a disatisfaction with the haptic devices alone.
+%The Table \ref{tab:questionnaire_average_group_blind} show the the average questionnaire score on each method. It also shows a disatisfaction with the haptic devices alone.
+%
+%\input{Resultados/Questionario/Tabelas/questionnaire_average_group_blind}
 
-\input{Resultados/Questionario/Tabelas/questionnaire_average_group_blind}
-
-The Figures \ref{fig:qqplot_questionnaires} and \ref{fig:residplot_questionnaires} shows the distribution and variance of the Table \ref{tab:questionnaire_average_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
-The Table \ref{tab:blocanova_questionnaire} shows the Anova test p-value of the questionnaire score of the "blind" sample. The p-values indicates that the method have influence on the score. Meaning that the participants had differents level os satisfaction about each method.
-
-\input{Resultados/Questionario/Tabelas/blocanova_questionnaire.tex}
+Following, Figures \ref{fig:qqplot_questionnaires} and \ref{fig:residplot_questionnaires} shows that the data follows a normal distribution. However, the residual variance is not exactly homogenous among the participants. 
 
 \begin{figure}[!htb]
     \centering
@@ -44,11 +45,14 @@ The Table \ref{tab:blocanova_questionnaire} shows the Anova test p-value of the 
     \end{minipage}
 \end{figure}
 
+The results of ANOVA are presented in Table  \ref{tab:blocanova_questionnaire} and shows that the method, with a p-value of 0.001, is indeed a significant variable that affects the user satisfaction.
 
-The Table \ref{tab:lsd_questionnaire} presents the conclusion of a pairwise Fisher LSD test of the blind NASA-TLX score between all the guidance methods. The results show that only the "Audio" and "Mixture" have the same statistically result and that there is a difference between the both "Haptic Belt" and "Virtual Cane".
+\input{Resultados/Questionario/Tabelas/blocanova_questionnaire.tex}
+
+In order to complement the ANOVA analysis, the pairwise comparison of the methods, obtained from the Fisher LSD test, is presented in Table \ref{tab:lsd_questionnaire}. The results show that ‘audio’ and ‘mixture’ are equivalent from the perspective of user satisfaction. All the other comparisons indicate there is a difference between the methods.
 
 \input{Resultados/Questionario/Tabelas/lsd_questionnaire.tex}
 
-The LSD Table \ref{tab:lsd_questionnaire} confirms the information of the Figure \ref{fig:boxplot_quest_blind_scene} that the “Audio” and the ”Mixture” methods were the most favorite by the blind participants, whilst the “Haptic Belt” and “Virtual Cane” were the most unfavorite devices. The participants did comment about those two last devices, saying that they were not precise enough, confusing and very different from what they are used to use.
+Additional to the scores, the participants also expressed their dissatisfaction in the answers to the open questions of the questionnaire, where they commented that the haptic belt and the virtual cane are confusing, are not enough precise, and are very different from what they are used to.
 
 \FloatBarrier

@@ -6,6 +6,12 @@
 %% Make sure the required packages are loaded in your preamble
 %%   \usepackage{pgf}
 %%
+%% and, on pdftex
+%%   \usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+%%
+%% or, on luatex and xetex
+%%   \usepackage{unicode-math}
+%%
 %% Figures using additional raster images can only be included by \input if
 %% they are in the same directory as the main LaTeX file. For loading figures
 %% from other directories you can use the `import` package
@@ -956,8 +962,8 @@
 \definecolor{currentstroke}{rgb}{0.168627,0.168627,0.168627}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{4.201495in}{4.012870in}}%
-\pgfpathlineto{\pgfqpoint{5.036945in}{4.012870in}}%
+\pgfpathmoveto{\pgfqpoint{4.201495in}{4.086461in}}%
+\pgfpathlineto{\pgfqpoint{5.036945in}{4.086461in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -969,8 +975,8 @@
 \definecolor{currentstroke}{rgb}{0.168627,0.168627,0.168627}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{5.906495in}{4.296311in}}%
-\pgfpathlineto{\pgfqpoint{6.741945in}{4.296311in}}%
+\pgfpathmoveto{\pgfqpoint{5.906495in}{4.181324in}}%
+\pgfpathlineto{\pgfqpoint{6.741945in}{4.181324in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%

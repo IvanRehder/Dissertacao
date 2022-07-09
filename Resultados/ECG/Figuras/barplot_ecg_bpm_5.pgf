@@ -6,6 +6,12 @@
 %% Make sure the required packages are loaded in your preamble
 %%   \usepackage{pgf}
 %%
+%% and, on pdftex
+%%   \usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+%%
+%% or, on luatex and xetex
+%%   \usepackage{unicode-math}
+%%
 %% Figures using additional raster images can only be included by \input if
 %% they are in the same directory as the main LaTeX file. For loading figures
 %% from other directories you can use the `import` package
@@ -68,8 +74,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{1.438242in}{1.198954in}}%
 \pgfpathlineto{\pgfqpoint{4.538242in}{1.198954in}}%
-\pgfpathlineto{\pgfqpoint{4.538242in}{8.253270in}}%
-\pgfpathlineto{\pgfqpoint{1.438242in}{8.253270in}}%
+\pgfpathlineto{\pgfqpoint{4.538242in}{8.260306in}}%
+\pgfpathlineto{\pgfqpoint{1.438242in}{8.260306in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -87,8 +93,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.313242in}{1.198954in}}%
 \pgfpathlineto{\pgfqpoint{8.413242in}{1.198954in}}%
-\pgfpathlineto{\pgfqpoint{8.413242in}{7.863342in}}%
-\pgfpathlineto{\pgfqpoint{5.313242in}{7.863342in}}%
+\pgfpathlineto{\pgfqpoint{8.413242in}{7.869989in}}%
+\pgfpathlineto{\pgfqpoint{5.313242in}{7.869989in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -188,7 +194,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{1.050742in}{3.254979in}%
+\pgfsys@transformshift{1.050742in}{3.257029in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -196,7 +202,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.636563in, y=3.071762in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {20}\)}%
+\pgftext[x=0.636563in, y=3.073813in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {20}\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -213,7 +219,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{1.050742in}{5.311003in}%
+\pgfsys@transformshift{1.050742in}{5.315105in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -221,7 +227,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.636563in, y=5.127787in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {40}\)}%
+\pgftext[x=0.636563in, y=5.131889in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {40}\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -238,7 +244,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{1.050742in}{7.367028in}%
+\pgfsys@transformshift{1.050742in}{7.373180in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -246,7 +252,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.636563in, y=7.183812in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {60}\)}%
+\pgftext[x=0.636563in, y=7.189964in, left, base]{\color{textcolor}\rmfamily\fontsize{38.016000}{45.619200}\selectfont \(\displaystyle {60}\)}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
@@ -263,7 +269,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{2.988242in}{8.133550in}}%
+\pgfpathmoveto{\pgfqpoint{2.988242in}{8.129369in}}%
 \pgfpathlineto{\pgfqpoint{2.988242in}{8.389430in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
@@ -276,8 +282,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{6.863242in}{7.547788in}}%
-\pgfpathlineto{\pgfqpoint{6.863242in}{8.153726in}}%
+\pgfpathmoveto{\pgfqpoint{6.863242in}{7.548214in}}%
+\pgfpathlineto{\pgfqpoint{6.863242in}{8.152890in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%

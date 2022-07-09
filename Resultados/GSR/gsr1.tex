@@ -1,19 +1,15 @@
 \subsubsection{Galvanic skin reaction and temperature data;}
 \label{subsubsec:results_gsr_temp_1}
 
-The GSR analysis is made by analyzing its average and the accumulated value and comparing both features between the baseline and each round. The temperature was analyzed with the GSR to see if there is some influence and by a graphical analysis there was none. For the experiment, the GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants.
+The GSR analysis is based in the average level of the signal during each run of the experiment and its comparison to the participant baseline, collected before each round. For the experiment, the GSR sensor was worn on the left hand for right-handed participant and on the right hand for left-handed participants. One of the blind participants had the GSR sensor removed during the experiment because it was not appropriately fixed.
 
-Two participants, one blind and one sighted user, had to have their GSR data removed because the sensor was not fixed accordingly.
-
-The Table \ref{tab:gsr_table_blind} presents the standard deviation of the interbeat interval by each participant on each scenes. As it was with the Table \ref{tab:bpm_table_blind}, it is not posible to draw a pattern inside this Table. Different participant had increase, or decrease, with different methods.
-
-The Table \ref{tab:gsr_table_blind} presents the average skin conductance by each blind participant on their baseline and on each scene and their respectivily variation is inside Table \ref{tab:gsr_var_blind}. In the majority of times the skin conductance has risen from the "First" to the "Return" round, which mean that the participant was more aroused or with a higher mental workload.
+Table \ref{tab:gsr_table_blind} presents the GSR mean values for each of the three remaining participants. For all the participants, the baseline was smaller than the values obtained during the experiment, as expected. Moreover, in most of the cases, the skin conductance has risen from the ‘first’ to the ‘return’, indicating an increase in the mental workload.
 
 \input{Resultados/GSR/Tabelas/gsr_table_blind.tex}
 
-\input{Resultados/GSR/Tabelas/gsr_var_blind.tex}
+Table \ref{tab:gsr_var_blind} brings the percentual increase in the GSR mean when compared to the baseline value. Figure \ref{fig:barplot_gsr_avg_5_scene_blind} shows the corresponding barplot. Apparently, the presence of a haptic device causes an increase in the skin conductance, hence its mental workload. Also, it is possible to observe the increase in GSR mean between the two rounds, excepted for the haptic belt.
 
-The Figure \ref{fig:barplot_gsr_avg_5_scene_blind} presents the average GSR variation on each method and one can say that the presence of a haptic device causes an increase in the skin conductance, hence its mental workload. Also it is posible to realize that the average skin conductance of the blind participants had incresed between the "First" and "Return" round, with the exception of the "Base" method and the "Haptic Belt" method.
+\input{Resultados/GSR/Tabelas/gsr_var_blind.tex}
 
 \begin{figure}[!htb]
     \centering
@@ -22,11 +18,7 @@ The Figure \ref{fig:barplot_gsr_avg_5_scene_blind} presents the average GSR vari
     \label{fig:barplot_gsr_avg_5_scene_blind}
 \end{figure}
 
-The Table \ref{tab:gsr_average_group_blind} presents the average GSR variation presented in the table \ref{tab:gsr_var_blind}. It shows that the "Audio" method presented the lesser GSR, that could be a combination of the fact that during the "Audio" method the hands was not used and that the participants felt less strange to the method, since it is based a common daily activity.
-
-\input{Resultados/GSR/Tabelas/gsr_average_group_blind.tex}
-
-The Figures \ref{fig:boxplot_gsr_avg_blind_scene} presents the distribution of the skin conductance on each method. It noticeable that the "Base" method has the lowest variation of all methods and that the presence of a haptic device increases its variance. The Figure \ref{fig:boxplot_gsr_avg_blind_rounds} presents the GSR grouped by the rounds and their are virtually the same.
+Figure \ref{fig:boxplot_gsr_avg_blind_scene} presents the boxplot of the percentual variation in the skin conductance for each method. The ‘base’ method has the lowest variation among all methods. Also, the introduction of vibration increases the method variance. Figure \ref{fig:boxplot_gsr_avg_blind_rounds} presents the GSR grouped by the rounds. In this case there is no apparent different between the rounds.
 
 \begin{figure}[!htb]
     \centering
@@ -44,10 +36,9 @@ The Figures \ref{fig:boxplot_gsr_avg_blind_scene} presents the distribution of t
     \end{minipage}
 \end{figure}
 
-The Figures \ref{fig:qqplot_gsr_two_way_blind} and \ref{fig:residplot_gsr_two_way_blind} shows the distribution and variance of the Table \ref{tab:gsr_var_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
-The Table \ref{tab:blocanova_gsr_two_way_blind} shows the ANOVA test p-value of the heartbeat interval variance of the “blind” sample. The p-value indicates that there is no effect of any factor in the skin conductance.
+Figures \ref{fig:qqplot_gsr_two_way_blind} and \ref{fig:residplot_gsr_two_way_blind} shows the QQ plot and the residual distribution. The Table \ref{tab:blocanova_gsr_two_way_blind} shows the ANOVA test p-value for the GSR percentual variance. Although the p-value for the method is not below the threshold of 0.05, it close to it, indicating that probably the GSR is affected by it. 
 
-\input{Resultados/GSR/Tabelas/blocanova_gsr_two_way_blind.tex}
+The Figures  shows the distribution and variance of the Table \ref{tab:gsr_var_blind}. These Figures shows that the data are normally distributed but the participants had different  that the methods have a similar variance.
 
 \begin{figure}[!htb]
     \centering
@@ -65,9 +56,11 @@ The Table \ref{tab:blocanova_gsr_two_way_blind} shows the ANOVA test p-value of 
     \end{minipage}
 \end{figure}
 
-%\input{Resultados/GSR/Tabelas/lsd_gsr_two_way.tex}
-
-The Table \ref{tab:blocanova_gsr_two_way_blind} does not prove that any method or round has some influence in the skin conductance variation, thus in the Mental Workload. Although, in the Figure \ref{fig:boxplot_gsr_avg_blind_scene} it is posible to notice that the "Base" and the "Audio" method have a different distribution. As it has already commented before, maybe the result of the anova test is a conseguence of a small sample size.
-
+\input{Resultados/GSR/Tabelas/blocanova_gsr_two_way_blind.tex}
+%
+%%\input{Resultados/GSR/Tabelas/lsd_gsr_two_way.tex}
+%
+%The Table \ref{tab:blocanova_gsr_two_way_blind} does not prove that any method or round has some influence in the skin conductance variation, thus in the Mental Workload. Although, in the Figure \ref{fig:boxplot_gsr_avg_blind_scene} it is posible to notice that the "Base" and the "Audio" method have a different distribution. As it has already commented before, maybe the result of the anova test is a conseguence of a small sample size.
+%
 \FloatBarrier
 

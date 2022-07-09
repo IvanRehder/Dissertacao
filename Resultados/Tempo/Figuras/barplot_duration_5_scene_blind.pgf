@@ -6,6 +6,12 @@
 %% Make sure the required packages are loaded in your preamble
 %%   \usepackage{pgf}
 %%
+%% and, on pdftex
+%%   \usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+%%
+%% or, on luatex and xetex
+%%   \usepackage{unicode-math}
+%%
 %% Figures using additional raster images can only be included by \input if
 %% they are in the same directory as the main LaTeX file. For loading figures
 %% from other directories you can use the `import` package
@@ -182,8 +188,8 @@
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.382604in}{1.191562in}}%
 \pgfpathlineto{\pgfqpoint{6.498604in}{1.191562in}}%
-\pgfpathlineto{\pgfqpoint{6.498604in}{3.990800in}}%
-\pgfpathlineto{\pgfqpoint{5.382604in}{3.990800in}}%
+\pgfpathlineto{\pgfqpoint{6.498604in}{3.948688in}}%
+\pgfpathlineto{\pgfqpoint{5.382604in}{3.948688in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -491,7 +497,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{2.034604in}{2.046120in}}%
-\pgfpathlineto{\pgfqpoint{2.034604in}{2.239696in}}%
+\pgfpathlineto{\pgfqpoint{2.034604in}{2.239309in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -504,7 +510,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{4.824604in}{3.661642in}}%
-\pgfpathlineto{\pgfqpoint{4.824604in}{5.218102in}}%
+\pgfpathlineto{\pgfqpoint{4.824604in}{5.246843in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -542,7 +548,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{13.194604in}{2.818007in}}%
+\pgfpathmoveto{\pgfqpoint{13.194604in}{2.818559in}}%
 \pgfpathlineto{\pgfqpoint{13.194604in}{3.948319in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
@@ -595,7 +601,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{11.520604in}{2.822981in}}%
-\pgfpathlineto{\pgfqpoint{11.520604in}{4.244577in}}%
+\pgfpathlineto{\pgfqpoint{11.520604in}{4.338079in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -607,7 +613,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{14.310604in}{3.015328in}}%
+\pgfpathmoveto{\pgfqpoint{14.310604in}{3.013762in}}%
 \pgfpathlineto{\pgfqpoint{14.310604in}{3.733864in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%

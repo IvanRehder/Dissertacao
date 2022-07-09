@@ -1,60 +1,72 @@
 \subsubsection{Adapted SAGAT}
 \label{subsubsec:results_adapted_sagat_2}
 
-The Table \ref{tab:sagat_table_noBase} presents the SAGAT score of all participants on each scene and their average are plotted in the Figures from \ref{fig:barplot_sagat_avg_4_scene_blind} to \ref{fig:barplot_sagat_avg_4_scene}. 
+Table\ref{tab:sagat_table_noBase} presents the SAGAT score of all participants. The corresponding barplot is presented in Figure \ref{fig:barplot_sagat_avg_4_scene_blind_sight}.
 
 \input{Resultados/sagat/Tabelas/sagat_table_noBase}
 
-The Figures \ref{fig:barplot_sagat_avg_4_scene_blind} and \ref{fig:barplot_sagat_avg_4_scene_sight} also show a increase of the score on in all methods between the rounds for both groups, with only the exception of the "Mixture" method with the sighted users, and the Figure \ref{fig:barplot_sagat_avg_4_scene} shows that the average the blind users were higher than the sighted users.
+Figure \ref{fig:barplot_sagat_avg_4_scene_blind_sight}. shows that the SAGAT score for sighted participants is on average lower than that of blind participants, which is expected as they are not used to navigate without vision. Also, the increase in situation awareness from the first to the return round is lower. In the case of the mixture method, the SAGAT score did not improve at all. For both groups, the ‘virtual cane’ was the method with lowest score in the first round.
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{\textwidth}
         \centering
         \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_4_scene_blind.png}
-        \caption{Barplot of the SAGAT score of the blind participants on each method and round.}
+        \subcaption{Blind participants.}
         \label{fig:barplot_sagat_avg_4_scene_blind}
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
         \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_4_scene_sight.png}
-        \caption{Barplot of the SAGAT score of the sight participants on each method and round.}
+        \subcaption{Sight participants.}
         \label{fig:barplot_sagat_avg_4_scene_sight}
     \end{minipage}
+    \caption{Barplot of the SAGAT score on each method and round.}
+    \label{fig:barplot_sagat_avg_4_scene_blind_sight}
 \end{figure}
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_4_scene.png}
-    \caption{Barplot of the SAGAT score of both participants on each method.}
-    \label{fig:barplot_sagat_avg_4_scene}
-\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/barplot_sagat_avg_4_scene.png}
+%    \caption{Barplot of the SAGAT score of both participants on each method.}
+%    \label{fig:barplot_sagat_avg_4_scene}
+%\end{figure}
 
-The Figure \ref{fig:boxplot_sagat_4_scene} and \ref{fig:boxplot_sagat_4_rounds} presents a box plot with the SAGAT score of both groups by method and rounds in that order. These figures show that the reaction of each group is also different between the methods and rounds, with the "blind".
+Figures \ref{fig:boxplot_sagat_4_scene} and \ref{fig:boxplot_sagat_4_rounds} bring the boxplots. According to Figure \ref{fig:boxplot_sagat_4_scene}, both groups presented a higher situation awareness with ‘mixture’ and ‘haptic’. On the other hand, Figure \ref{fig:boxplot_sagat_4_rounds} confirms that the difference between the rounds is greater for blind participants. 
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/boxplot_sagat_4_scene.png}
-        \caption{Boxplot of the NASA-TLX score of the participants grouped by method.}
+        \caption{Boxplot of the Sagat score of the participants grouped by method.}
         \label{fig:boxplot_sagat_4_scene}
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/boxplot_sagat_4_rounds.png}
-        \caption{Boxplot of the NASA-TLX score of the participants grouped by round.}
+        \caption{Boxplot of the Sagat score of the participants grouped by round.}
         \label{fig:boxplot_sagat_4_rounds}
     \end{minipage}
 \end{figure}
 
-The Table \ref{tab:sagat_average_group_noBase} shows the average SAGAT score of both samples and is possible to notice how the average score by the blind users was higher in every method.
+%The Table \ref{tab:sagat_average_group_noBase} shows the average SAGAT score of both samples and is possible to notice how the average score by the blind users was higher in every method.
+%
+%\input{Resultados/Sagat/Tabelas/sagat_average_group_noBase.tex}
 
-\input{Resultados/Sagat/Tabelas/sagat_average_group_noBase.tex}
+Figures \ref{fig:qqplot_sagat_avg_two_way_sight} and \ref{fig:residplot_sagat_avg_two_way_sight} brings the QQ plot and residual distribution. It is clear that the residuals variance is not equal among the participants. Table \ref{tab:blocanova_sagat_avg_two_way_blind_sight} brings the p-value from ANOVA. While for blind participants the round is a significant factor and the method is not, for sighted participants the result is the opposite, showing a significant influence of the method and not of the round.
 
-The Figures \ref{fig:qqplot_sagat_avg_two_way_sight} and \ref{fig:residplot_sagat_avg_two_way_sight} shows the distribution and variance of sighted participants in the Table \ref{tab:sagat_table_noBase}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
-The Table \ref{tab:blocanova_sagat_avg_two_way_sight} shows the ANOVA test p-values of the SAGAT score of the "sight" sample between the guidance methods and they show that the methods had an effect on the score.
-
-\input{Resultados/Sagat/Tabelas/blocanova_sagat_avg_two_way_sight.tex}
+\begin{table}
+    \caption{Anova p-value for the mental demand average on each method'}
+    \label{tab:blocanova_sagat_avg_two_way_blind_sight}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Blind participants}
+    \input{Resultados/Sagat/Tabelas/blocanova_sagat_avg_two_way_blindSemBegin.tex}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Sight participants}
+    \input{Resultados/Sagat/Tabelas/blocanova_sagat_avg_two_way_sightSemBegin.tex}    
+\end{minipage}
+\end{table}
 
 \begin{figure}[!htb]
     \centering
@@ -72,41 +84,42 @@ The Table \ref{tab:blocanova_sagat_avg_two_way_sight} shows the ANOVA test p-val
     \end{minipage}
 \end{figure}
 
-The Table \ref{tab:lsd_sagat_avg_two_way_sight} presents the conclusion of a pairwise Fisher LSD test of the previous ANOVA test. The results show that only the "Audio" and the "Haptic Belt" had a similar SAGAT score. This is different than the result from the ANOVA of the blind users, which indicated for them that the rounds had an effect.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{Resultados/Sagat/Tabelas/lsd_sagat_avg_two_way_sight.tex}
+%The Table \ref{tab:lsd_sagat_avg_two_way_sight} presents the conclusion of a pairwise Fisher LSD test of the previous ANOVA test. The results show that only the "Audio" and the "Haptic Belt" had a similar SAGAT score. This is different than the result from the ANOVA of the blind users, which indicated for them that the rounds had an effect.
 
-The Table \ref{tab:sagat_var_group_noBase} shows the average of the SAGAT score variation between the rounds. This table and the Figure \ref{fig:boxplot_sagat_4_rounds} show that, besides the higher average score, the blind users also had a higher variation between the rounds.
+%\input{Resultados/Sagat/Tabelas/lsd_sagat_avg_two_way_sight.tex}
 
-\input{Resultados/Sagat/Tabelas/sagat_var_group_noBase.tex}
+%The Table \ref{tab:sagat_var_group_noBase} shows the average of the SAGAT score variation between the rounds. This table and the Figure \ref{fig:boxplot_sagat_4_rounds} show that, besides the higher average score, the blind users also had a higher variation between the rounds.
 
-The Figures \ref{fig:qqplot_sagat_var_sight} and \ref{fig:residplot_sagat_var_sight} shows the distribution and variance of the mental demand variation of the Table \ref{tab:sagat_table_blind}. These Figures shows that the data are normally distributed and that the methods have a similar variance.
-The Table \ref{tab:blocanova_sagat_var_sight} shows the Anova test p-value of the SAGAT score of the "sight" sample between the guidance methods and it proves that there is no influence of the methods in the variation of mental demand between the rounds. 
+%\input{Resultados/Sagat/Tabelas/sagat_var_group_noBase.tex}
 
-\input{Resultados/Sagat/Tabelas/blocanova_sagat_var_sight.tex}
 
-\begin{figure}[!htb]
-    \centering
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/qqplot_sagat_var_sight.png}
-        \caption{Residual plot of the variation SAGAT score of the blind participants on each method.}
-        \label{fig:qqplot_sagat_var_sight}
-    \end{minipage}
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/residplot_sagat_var_sight.png}
-        \caption{Residual plot of the variation SAGAT score of the sighted participants on each method.}
-        \label{fig:residplot_sagat_var_sight}
-    \end{minipage}
-\end{figure}
+
+%\begin{figure}[!htb]
+%    \centering
+%    \begin{minipage}{0.45\textwidth}
+%        \centering
+%        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/qqplot_sagat_var_sight.png}
+%        \caption{Residual plot of the variation SAGAT score of the blind participants on each method.}
+%        \label{fig:qqplot_sagat_var_sight}
+%    \end{minipage}
+%    \begin{minipage}{0.45\textwidth}
+%        \centering
+%        \includegraphics[width = 0.8\linewidth]{Resultados/Sagat/Figuras/png/residplot_sagat_var_sight.png}
+%        \caption{Residual plot of the variation SAGAT score of the sighted participants on each method.}
+%        \label{fig:residplot_sagat_var_sight}
+%    \end{minipage}
+%\end{figure}
 
 %The Table \ref{tab:lsdbloc_mental_demand_var} presents the conclusion of a pairwise Fisher LSD test of the blind mental demand between all the guidance methods. The results show that all methods have similar variations.
 
 %\input{Resultados/Nasa/Tabelas/lsdbloc_mental_demand_var.tex}
 
-To close up, according to the Tables \ref{tab:sagat_average_group_noBase} and \ref{tab:sagat_var_group_noBase} with the Figures \ref{fig:boxplot_sagat_4_scene} and \ref{fig:boxplot_sagat_4_rounds} the blind user scored a higher SAGAT score than the sight user with the same conditions and devices. Besides that, the ANOVA and the LSD Fisher Test at Tables \ref{tab:blocanova_sagat_avg_two_way_sight} and \ref{tab:lsd_sagat_avg_two_way_sight} show that for the sight user the methods impact more their score, whilst the blind user were affected more with the rounds.
-
-There is no influence in the tested methods in the participants mental demand variation, as shown in the Table \ref{tab:blocanova_sagat_var_sight}.
+%Figures \ref{tab:sagat_average_group_noBase} and \ref{tab:sagat_var_group_noBase} brings the QQ plot and residual distribution. It is clear that the residuals variance is not equal among the participants. Table \ref{tab:blocanova_sagat_avg_two_way} brings the p-value from ANOVA. While for blind participants the round is a significant factor and the method is not, for sighted participants the result is the opposite, showing a significant influence of the method and not of the round.
+%
+%To close up, according to the Tables  with the Figures \ref{fig:boxplot_sagat_4_scene} and \ref{fig:boxplot_sagat_4_rounds} the blind user scored a higher SAGAT score than the sight user with the same conditions and devices. Besides that, the ANOVA and the LSD Fisher Test at Tables \ref{tab:blocanova_sagat_avg_two_way_sight} and \ref{tab:lsd_sagat_avg_two_way_sight} show that for the sight user the methods impact more their score, whilst the blind user were affected more with the rounds.
+%
+%There is no influence in the tested methods in the participants mental demand variation, as shown in the Table \ref{tab:blocanova_sagat_var_sight}.
 
 \FloatBarrier

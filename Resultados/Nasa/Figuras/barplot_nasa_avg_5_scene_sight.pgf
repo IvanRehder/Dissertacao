@@ -6,6 +6,12 @@
 %% Make sure the required packages are loaded in your preamble
 %%   \usepackage{pgf}
 %%
+%% and, on pdftex
+%%   \usepackage[utf8]{inputenc}\DeclareUnicodeCharacter{2212}{-}
+%%
+%% or, on luatex and xetex
+%%   \usepackage{unicode-math}
+%%
 %% Figures using additional raster images can only be included by \input if
 %% they are in the same directory as the main LaTeX file. For loading figures
 %% from other directories you can use the `import` package
@@ -479,7 +485,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{4.666126in}{4.146232in}}%
-\pgfpathlineto{\pgfqpoint{4.666126in}{6.031876in}}%
+\pgfpathlineto{\pgfqpoint{4.666126in}{6.061571in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -505,7 +511,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{10.246126in}{3.864128in}}%
-\pgfpathlineto{\pgfqpoint{10.246126in}{4.977697in}}%
+\pgfpathlineto{\pgfqpoint{10.246126in}{5.111326in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -517,7 +523,7 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{13.036126in}{3.789890in}}%
+\pgfpathmoveto{\pgfqpoint{13.036126in}{3.953214in}}%
 \pgfpathlineto{\pgfqpoint{13.036126in}{6.224895in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
@@ -544,7 +550,7 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{5.782126in}{3.745347in}}%
-\pgfpathlineto{\pgfqpoint{5.782126in}{5.334040in}}%
+\pgfpathlineto{\pgfqpoint{5.782126in}{5.259802in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -569,8 +575,8 @@
 \definecolor{currentstroke}{rgb}{0.260000,0.260000,0.260000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{11.362126in}{3.656262in}}%
-\pgfpathlineto{\pgfqpoint{11.362126in}{4.769831in}}%
+\pgfpathmoveto{\pgfqpoint{11.362126in}{3.537481in}}%
+\pgfpathlineto{\pgfqpoint{11.362126in}{4.784679in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
