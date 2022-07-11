@@ -14,15 +14,15 @@ This chapter describes the method proposed in this work for evaluating assistive
 
 The first phase is the context definition. It consists of defining the main features of the environment in which the assistive device will be used, based on interviews from specialists. Additionally, it also includes a step for understanding the limitations of the current assistive devices and defining the main features of assistive devices to be designed. This last step is based on interviews with BVI users.
 
-The second phase is devoted to specification and is composed of three steps. It includes the specification of a virtual environment that is representative of the real environment where the device will be used. In parallel, the relevant human factors for the device evaluation are defined. Finally, the assistive devices are also specified.
+The second phase is devoted to specification and is composed of three steps. It includes the specification of a virtual environment that represents the real environment where the device will be used. In parallel, the relevant human factors for the device evaluation are defined. Finally, the assistive devices are also specified.
 
 The third phase is dedicated to the development of the virtual environment, the evaluation tools and methods, and a first proof of concept of the assistive devices, which should be integrated in the virtual environment for testing. 
 
-The fourth phase provides a first preliminary assessment of the devices through its unstructured experimentation by BVI consults. This preliminary assessment provides feedback for improving the device concept. The cycle of “try-out and improve device concept” can be repeat until the device concept is considered mature to be tested through a systematic set of controlled experiments.
+The fourth phase provides a first preliminary assessment of the devices through its unstructured experimentation by BVI consults. This preliminary assessment provides feedback for improving the device concept. The cycle of “try-out and improve device concept” can be repeated until the device concept is considered mature to be tested through a systematic set of controlled experiments.
 
 The fifth phase consists of executing a campaign of controlled experiments, following the best practices do DoE (Design of Experiments) discipline, and analysing the results. Once this phase is concluded, the results should provide information for the design team to decide between proceeding to the detailed design of the assistive devices or performing a new evaluation cycle. 
 
-In the last case, the experiment should provide feedback on how to improve the devices’ specification, refine the assessment methods, expand the virtual environment to include new tasks and/or situations, or even abandon a device concept. Each evaluation cycle that should contribute to increase the maturity of the assistive devices under development.
+In the last case, the experiment should provide feedback on how to improve the devices’ specification, refine the assessment methods, expand the virtual environment to include new tasks and/or situations, or even abandon a device concept. Each evaluation cycle should contribute to increase the maturity of the assistive devices under development.
 
 Following, in order to illustrate it, the proposed method is applied to the evaluation of assistive devices concepts that should be able to guide BVI users in a hospital or a medical clinic during the covid-19 pandemic.
 
@@ -34,7 +34,7 @@ Following, in order to illustrate it, the proposed method is applied to the eval
     
         In order to gather information about this context, the first step of Phase 1 consists of interviewing specialists from hospitals to understand the usual hospital procedures and the common features of this environment.
         
-        For this work, employees from two hospitals of São José dos Campos were interviewed (Vivalle Hospital and the Municipal Hospital). They were questioned about the layout of rooms and spaces, and the processes that a new patient follows through the hospital, from the check-in until he/she get in the doctor’s office. 
+        For this work, employees from two hospitals of São José dos Campos were interviewed (Vivalle Hospital and the Municipal Hospital). They were questioned about the layout of rooms and spaces, and the processes that a new patient follows through the hospital, from the check-in until he/she gets in the doctor’s office. 
 
         According to the interviews, the procedures adopted by patients in both hospitals are similar and are usually composed of the following steps:
 
@@ -63,7 +63,7 @@ Following, in order to illustrate it, the proposed method is applied to the eval
     
 
     \subsection*{\textit{Step 2.1 Virtual environment specification}}
-        Based on the data collected during the interviews, the scenario was defined as the hospital or medical clinic reception. The BVI patient should be able to navigate through the reception hall and reach a reception desk. After he/she is registered, the BVI patient should wait until he/she is called and then goes to his doctor’s office.
+        Based on the data collected during the interviews, the scenario was defined as the hospital or medical clinic reception. The BVI patient should be able to navigate through the reception hall and reach a reception desk. After he/she is registered, the BVI patient should wait until he/she is called and then goes to his/her doctor’s office.
 
         At this step, a preliminary layout of the virtual environment was sketched, combining the elements that were common to the reception of the two hospitals, such as a waiting area with chairs (some of which should remain empty due to covid distancing), a reception desk, an alcohol totem, among others.
 
@@ -120,7 +120,7 @@ Following, in order to illustrate it, the proposed method is applied to the eval
     \subsection*{\textit{Step 3.1 Implementation of virtual environment}}
     \label{subsec:virtual_world_creation}
 
-        The virtual reality environment was developed using the Unity3D platform, which is a well-known tool for virtual reality applications and development of games. Unity 3D has some built-in tools but is also possible to customize functions for more specific use\cite{wang2010new}.
+        The virtual reality environment was developed using the Unity3D platform, which is a well-known tool for virtual reality applications and development of games. Unity 3D has some built-in tools but it is also possible to customize functions for more specific use\cite{wang2010new}.
     
         The implementation of the virtual environment should be followed by the preparation of the corresponding physical space to perform the test campaign. During this step, additional simplifications were introduced. In the real world, the position of the person is tracked by two stations of the virtual reality system. According to the specification of the system, the maximum distance between the stations should be 5 m in order to guarantee the tracking quality. This limitation led to further simplify the virtual environment limiting it to a useful area of 4x4 m, which, in the real world corresponded to the CCM entry hall. 
         
@@ -245,18 +245,18 @@ Following, in order to illustrate it, the proposed method is applied to the eval
 
         The vibration guidance with command was implemented in a device named ‘virtual cane’, as it was inspired in the white cane. Basically, when using a white cane, the user points it to check nearby obstacles in a certain direction. The virtual cane has a similar way of functioning, but instead of connecting the user to the nearby object through the cane, it vibrates when it detects an obstacle in the direction the user pointed it. A virtual reality hand-control was used to implement it. 
 
-        The virtual cane algorithm runs in the virtual environment. When requested by the user, it identifies the nearest object in the direction pointed by the user and calculated its distance. If the nearest object is within a certain range, it then calculates the vibration intensity based on the distance between the object and the user, and sends the corresponding command to the hand-control device.
+        The virtual cane algorithm runs in the virtual environment. When requested by the user, it identifies the nearest object in the direction pointed by the user and calculates its distance. If the nearest object is within a certain range, it then calculates the vibration intensity based on the distance between the object and the user, and sends the corresponding command to the hand-control device.
 
         \begin{enumerate} [label = \Alph*)]
             \setcounter{enumi}{2}
             \item Vibration guidance without command – haptic belt
         \end{enumerate}
 
-        A haptic belt was developed as a device that uses vibration guidance without command. The belt has appended 8 vibration devices that vibrate accordingly to the direction and distance of the closest object around the user. 
+        A haptic belt was developed as a device that uses vibration guidance without command. The belt has appended 8 vibration units that vibrate accordingly to the direction and distance of the closest object around the user. 
 
         The main differences between the virtual cane and the haptic belt is that the haptic belt does not require a command to check the distance to the objects. When objects are within a certain limit, it always vibrates indicating to the user the direction of the closest object. 
 
-        The project of the haptic belt was inspired in that of a haptic compass \cite{kylecorry31_instructables_2020}, but instead of having the input being defined by a magnetometer, it made used of the information available in the Unity3D environment.
+        The project of the haptic belt was inspired in that of a haptic compass \cite{kylecorry31_instructables_2020}, but instead of having the input being defined by a magnetometer, it uses the information available in the Unity3D environment.
 
         The haptic belt was developed using an Arduino Mega 2560 and the following materials: an ESP32 DevKit v1, a printed circuit board (PCB), a leather belt, 8 coin vibrators 1027, and a 3D printed case (Figure \ref{fig:case_cinto}). The PCB was designed in the EasyEDA web platform (Figure \ref{fig:pcb_wiring}). 
 
@@ -330,6 +330,9 @@ Following, in order to illustrate it, the proposed method is applied to the eval
                 \subcaption{The user's capsule while the participant is straight and looking forward.}
                 \label{fig:user_straight}
             \end{minipage}
+            \begin{minipage}{0.075\textwidth}
+                \hfill
+            \end{minipage}
             \begin{minipage}{0.45\textwidth}
                 \centering
                 \includegraphics[width = 0.8\linewidth]{Metodologia/envelope2.png}
@@ -347,11 +350,11 @@ Following, in order to illustrate it, the proposed method is applied to the eval
 
 %\subsection*{\textit{Step 4.1 Try-out}}
         
-At the systematic evaluation phase, the evaluation experiment is designed and executed. It consists of inviting BVI volunteers to use the assistive devices to navigate in in the virtual environment and perform the proposed tasks. The assessment techniques are applied during and after the use of each device.
+At the systematic evaluation phase, the evaluation experiment is designed and executed. It consists of inviting BVI volunteers to use the assistive devices to navigate in the virtual environment and perform the proposed tasks. The assessment techniques are applied during and after the use of each device.
 
-In this case of this work, the proposed experiment consists of asking the participant to use five guidance methods: the four methods presented in Section \ref{sec:idealization_phase} (audio guidance, haptic belt, virtual cane, mixed) and, additionally, the guidance method used daily by the BVI (e.g., white cane). Moreover, each participant should use each guidance method twice (“first visit” and “return visit”), in order to provide some information about the how the guidance method performs in new and known environments.
+In the case of this work, the proposed experiment consists of asking the participant to use five guidance methods: the four methods presented in Section \ref{sec:idealization_phase} (audio guidance, haptic belt, virtual cane, mixed) and, additionally, the guidance method used daily by the BVI (e.g., white cane). Moreover, each participant should use each guidance method twice (“first visit” and “return visit”), in order to provide some information about the how the guidance method performs in new and known environments.
 
-In order to avoid the learning effect from one device to the another, five versions of the reception scene are developed, changing the position of the objects - one version to be used with each guidance method. The scenes to be used with each guidance method are randomized for each participant, as well as the order of using the guidance methods.
+In order to avoid the learning effect from one device to the another, five versions of the reception scene are developed, changing the position of the objects - one version to be used with each guidance method. The scene order are randomized for each participant.
 
 Moreover, particularly in the case of this work, an additional round of tests is added to the experiment in order to investigate the differences between the evaluation performed by BVI users and sighted (non-BVI) users. For this purpose, the same experiment is repeated with a set of non-BVI users. The purpose is to investigate whether or not performing the analysis with non-BVI users could lead to different conclusions.
 
@@ -393,6 +396,6 @@ The data analysis is discussed in the next chapter.
 
 \section{Final Remarks}
 
-This chapter describes the method proposed in this work to evaluate early concepts of assistive device using virtual reality. It also discusses and proposes a set of assessment techniques. 
+This chapter describes the method proposed in this work to evaluate early concepts of assistive devices using virtual reality. It also discusses and proposes a set of assessment techniques. 
 
 Next chapter shows the results obtained from the execution of an experimental campaign.

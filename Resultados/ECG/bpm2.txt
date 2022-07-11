@@ -1,0 +1,93 @@
+Table \ref{tab:bpm_table_noBase} presents the average heart rate for both sighted and blind groups. The barplots are presented in Figure \ref{fig:barplot_ecg_bpm_4_scene_blind_sight}. Comparing the two groups, the audio method is associated with a slightly lower heartrate for blind people, but the opposite happens for sighted participants. Moreover, data from blind participants have large variance. This large variance can also be observed in the boxplot of Figures \ref{fig:boxplot_ecg_bpm_4_scene} and \ref{fig:boxplot_ecg_bpm_4_rounds}. 
+
+\input{Resultados/ECG/Tabelas/bpm_table_noBase.tex}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_bpm_4_scene_blind.png}
+        \subcaption{Blind participants.}
+        \label{fig:barplot_ecg_bpm_4_scene_blind}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_bpm_4_scene_sight.png}
+        \subcaption{Sight participants.}
+        \label{fig:barplot_ecg_bpm_4_scene_sight}
+    \end{minipage}
+    \caption{Barplot of the average BPM of the on each ethod and round.}
+    \label{fig:barplot_ecg_bpm_4_scene_blind_sight}
+\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/barplot_ecg_bpm_4_scene.png}
+%    \caption{Barplot of the average BPM of both participants on each method.}
+%    \label{fig:barplot_ecg_bpm_4_scene}
+%\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_4_scene.png}
+        \caption{Boxplot of the average BPM of the participants grouped by method.}
+        \label{fig:boxplot_ecg_bpm_4_scene}
+    \end{minipage}
+    \begin{minipage}{0.075\textwidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/boxplot_ecg_bpm_4_rounds.png}
+        \caption{Boxplot of the average BPM of the participants grouped by round.}
+        \label{fig:boxplot_ecg_bpm_4_rounds}
+    \end{minipage}
+\end{figure}
+ 
+%The Table \ref{tab:bpm_average_group_noBase} shows the average heartrate of both samples and is possible to notice how the average score by the blind users was higher in every method, apart of the "Haptic Belt".
+%
+%\input{Resultados/ECG/Tabelas/bpm_average_group_noBase.tex}
+
+The Figures \ref{fig:qqplot_bpm_two_way_sight} and \ref{fig:residplot_bpm_two_way_sight} shows the QQ plot and residual distributions for the sighted participants of the Table \ref{tab:bpm_table_noBase}. These figures shows that the data are normally distributed and that the methods have a similar variance. Table \ref{tab:blocanova_bpm_two_way_blind_sight} brings the results from ANOVA, which are similar for both sighted and blind participants.
+
+
+\begin{table}
+    \caption{Anova p-value for the BPM on each method.}
+    \label{tab:blocanova_bpm_two_way_blind_sight}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Blind participants}
+    \input{Resultados/ECG/Tabelas/blocanova_bpm_two_way_blindsemBegin.tex}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \subcaption{Sight participants}
+    \input{Resultados/ECG/Tabelas/blocanova_bpm_two_way_sightsemBegin.tex}
+\end{minipage}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/qqplot_bpm_two_way_sight.png}
+        \caption{QQ plot of the BPM of the sight participants on each method.}
+        \label{fig:qqplot_bpm_two_way_sight}
+    \end{minipage}
+    \begin{minipage}{0.075\textwidth}
+        \hfill
+    \end{minipage}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/png/residplot_bpm_two_way_sight.png}
+        \caption{Residual plot of the BPM score the sight participants on each method.}
+        \label{fig:residplot_bpm_two_way_sight}
+    \end{minipage}
+\end{figure}
+
+%\input{Resultados/ECG/Tabelas/lsd_bpm_two_way_sight.tex}
+
+%The Table \ref{tab:lsd_bpm_two_way_sight} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods and it shows that all methods had different effect on the heartrate.
+
+%According to the ANOVA test at Table \ref{tab:blocanova_bpm_two_way_sight} there was no effect of the methods neither the rounds or their interaction, despite the fact that the Figure \ref{fig:boxplot_ecg_bpm_4_scene} showed a big difference between the methods. So the methods did not influence the sighted user mental workload. The same conclusion was driven in the section \ref{subsubsec:results_ecg_1} in the BPM part.
+
+\FloatBarrier
