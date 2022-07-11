@@ -53,7 +53,6 @@ Particularly in the case of this work, an additional round of tests is added to 
 During the experiment, data from two physiological sensors were captured: ECG and GSR. As commonly found in the literature, these data are used to assess mental workload. The corresponding analysis is presented in this section.
 
 \input{Resultados/ECG/ecg1.tex}
-
 \input{Resultados/GSR/gsr1.tex}
 
 \subsection{Final Remarks}
@@ -88,89 +87,19 @@ In order to do so, the analysis performed in the previous section is now repeate
 \input{Resultados/Sagat/sagat2}
 \input{Resultados/Questionario/questionarios2}
 
-\input{Resultados/PhysiologicalData2} 
+\subsection{Physiological data}
+
+\input{Resultados/ECG/ecg2.tex}
+\input{Resultados/GSR/gsr2.tex}
 
 \subsection{Final Remarks}
 
-% Mental demand
-% • ANOVA - Audio e Mix     VS   não deu resultado
-% • Grafico - Não tem uma relação específica VS  Presença de haptico aumenta a demanda mental
+The comparison between the results from blind participants and sighted participants showed that there are significant differences in the evaluation performed by each group.
 
-% NASA TLX
-% • ANOVA - Round  VS  - Efeito do método e do round.
-% •• Difere do ANOVA MD     Metodo - 3 grupos
-% •••                       Base e Audio menores Carga mental
-% ••• Sem padrão no tipo de dispositivo  Haptic alta Carga mental
-% 
-% SAGAT
-% ANOVA - Método tem efeito     VS   Round tem efeito no SAGAT
-% Nota menor nas mesmas condições
-%
+Sighted users evaluated the mental demand and other dimensions of NASA-TLX higher than blind ones. Also, blind participants were more familiar with audio methods and therefore gave a lower score to its mental demand. In the case of sighted participants, the method that received the lowest score was the virtual cane. 
 
-% BPM
-% ANOVA - não deu resultado VS IDEM
-% Gráfico mostra uma diferença entre os métodos
-% Maior BPM que os cegos
+The adapted SAGAT questionnaire showed a more significant influence of the round factor for blind participants, which improved significantly their situation awareness on the return round. In the case of sighted users, the difference between the rounds was not so striking. Also, the score achieved by sighted participants was lower than that of blind users, which was expected.
 
-% SDNN
-% ANOVA - não deu resultado VS IDEM
-% Gráfico - "Base" tem uma variância menor
-% Valor de SDNN maior que o dos cegos
+Another difference is that, for blind participants, it was possible to observe a difference between the methods that use vibration and those that do not use. This difference was not so clear for sighted participants. 
 
-% GSR
-% ANOVA - não deu resultado VS IDEM
-% Grafico - métodos muito parecidos VS metodos com impactos diferentes
-
-Differently than the blind users, the results from the mental demand discipline of the NASA-TLX proved that the sight users felt a higher mental demand than the blind users. 
-
-The overall NASA-TLX score also proved a different conclusion than the one in the Section \ref{subsubsec:results_nasa_tlx_1}. For the sighted users, the round impacted more the overall score than the methods, whilst for the blind user were the opposite. This may be because the overall score is composed of 6 dimensions. Probably for the sighted user the mental demand score was higher and for the blind user it was not. But even so, the average score of the sight user was higher than the score of the blind user.
-
-The Adapted SAGAT questionnaire for the sight users proved that the method impacts their situation awareness. The conclusion was different than the one proved by the blind users in the Section \ref{subsubsec:results_adapted_sagat_1}, who felt a bigger impact between the rounds than between the methods. The sight performance was also poorer than the blind user.
-
-The guidance questionnaire of both groups had a similar distribution, both groups enjoy the same methods, "Audio" and "Mixture". The difference was in the last two. The sighted users rather use the "Virtual Cane" and the blind users rather use the "Haptic Belt".
-
-These conclusion show that the sighted users were more sensible to the methods than the blind users, although the effects were different. The blind users were more impacted by the methods than by the rounds, and when impacted by the methods, it was not possible to detect a pattern about the presence or not of a haptic device, as happened with the blind users.
-
-The ECG sensors shown a difference in the heartrate between the methods, but the ANOVA test was not able to prove that difference, the same conclusion of the blind users in the Section \ref{subsubsec:results_ecg_1}. Another observation is that the heartrate frequency of the sighte user was higher than the blind users, meaning that their mental workload was probably higher.
-
-According to the ANOVA test, The heartbeat variance also was not impact by the method or by the rounds, the same conclusion for the blind users in the Section \ref{subsubsec:results_ecg_1}. Graphically there was a small difference in the methods. Despite the results of the heartrate, the variance of the sight user was higher than the results from the blind user, meaning that the mental workload of the "sight" sample was higher than the one of "blind" sample.
-
-The GSR ANOVA test also did not detect any impact from the methods or from the rounds, as it happened with the blind users in the Section \ref{subsubsec:results_gsr_temp_1}. Graphically the sight user variations were very similar in all methods. This is a different effect than the one observed in the blind users, which graphically showed different GSR distributions on different methods. The sight GSR also show a small variation between the rounds and methods, which means that the sight user were not stressed or had a low mental workload during the experiment.
-
-Despite the proved and not proved tests, there is a consideration to be made. The sight sample group profiling. As already explained before, the profile of the “blind” sample group was very wide and that can impact negatively in their performance. But the opposite effect may had happened with the “sight” sample group. This group was composed basically by researchers and engineer students, people that are typically involved with computers and technological devices, aging from 22 to 31 with an average of 27.5 years. This may biased the results with better performance when using the HMD and being able to feel present inside a virtual environment.
-
-Besides these results, the “sighted” sample also commented the experiment. They all felt a lot more insecurity when walking, exploring and even when hand guided by the researcher before the start of the round. The “blind” sample group was already used to bumping their body when exploring new closed quarters. The “sighted” group did not want that to happen and approached the furniture with a lot more caution. They also noticed the lack of precision of the haptic devices, but they did rely more on then to navigate.
-
-%The processing of each data collected is rather similar and follows these steps:
-%\begin{enumerate}
-%    \item Separate the Blind sample and the Sight sample;
-%    \item Check if the samples are normally distributed; \label{itm:results_shapiro} \\
-%        If the data is normally distributed then it is possible to use other statistical analyses and verify the results statistically.
-%    \item Check if the "blind" sample is statistically different then the "sight" sample; \label{itm:results_t_test} \\ 
-%        This is one of the goals. To verify that the workload and the situation awareness of the blind participants are different from the sighted participants.
-%    \item For the physiological data:
-%    \begin{enumerate}
-%        \item Calculate the variation between the scene and the baseline  in each method;
-%        \item Calculate the variation between the scenes in each method;
-%        \item Calculate the average variation in the group in each method.
-%    \end{enumerate}
-%    \item For the other data:
-%    \begin{enumerate}
-%        \item Calculate the variation between the scenes in each method; \label{itm:results_average_method_particpant}
-%        \item Calculate the average variation in the group in each method.
-%        \label{itm:results_average_method}
-%    \end{enumerate}
-%        The variation mentioned above is calculated as Equation \ref{eq:variation}:
-%    \begin{equation}
-%        \label{eq:variation}
-%        Var_{ij} = \frac{Obs_j - Obs_i}{Obs_i}*100 [\%]
-%    \end{equation}
-%        Where:\\
-%        $Var_{ij}$ = Variation between the two sequential observations \\
-%        $Obs_i$ = First observation \\
-%        $Obs_j$ = Second observation 
-%    
-%    \item Check if there are methods that are statistically different from the rest. \\
-%        This is done by doing an analyses of variance (ANOVA) in the data. For this analyses is required that the observerd residues are normally distributed and the variance is constant. The residues are all plotted in the figures of the Appendix \ref{ap:figures}. The variance constancy can be verified by the box plot presented in the next sections.
-%
-%\end{enumerate}
+Besides these results, the sighted participants also gave feedback about the experiment. They felt considerably insecurity when walking, even when hand-guided by another person. On the other hand, blind participants were already used to bumping their body when exploring new spaces. The sighted participants did not want that to happen and approached the furniture with caution. Similar to the blind participants, they also noticed the lack of precision of the haptic devices, but they did rely on them to navigate.

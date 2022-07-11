@@ -19,7 +19,17 @@
 %   • Esta seção não é uma lista com marcadores!
 %   • Descreva 3 propostas baseadas nas limitações de seu trabalho e as detalhe a um ponto que um outro pesquisador possa retomar e desenvolver essa proposta.
 
-In this final chapter, the goals will be revised along with the results collected. It will be divided into four sections, one for each goal and a final one for future works and suggestions, and each section will have four more subsections, one for each data source gathered and one for a conclusion and commentaries for that goal.
+This work proposes the use of virtual reality to create an environment where concepts of assistive devices could be evaluated at early stages of development by blind and visual impaired (BVI) people.
+
+In order to systematize this proposal, this work presents a method composed of five phases that guide the development of the virtual environment in parallel with the design of the assistive devices and the proposal of assessment methods.
+
+In order to illustrate the proposed method and investigate two research questions related to this work, it describes an application of the method for the evaluation of four different solutions of assistive device in the environment of a hospital reception. For this example, it proposes as assessment method the use subjective questionnaires and physiological sensor. 
+
+In order to evaluate situation awareness, this work proposes an adapted version of the SAGAT questionnaire, which was initially introduced for evaluating the situation awareness of air traffic controllers. 
+
+Based on the results from the hospital reception example, the two research questions are discussed.
+
+
 
 %    \item Do BVI users feel present in the VE as if they were in the real world? \label{itm:obj_first}
 %    \item BVI users rely on audio cues and haptic feedback to guide. But does it rely more on your type of information than the other? \label{itm:obj_second}
@@ -30,44 +40,34 @@ In this final chapter, the goals will be revised along with the results collecte
 \subsection*{Is it possible to evaluate and compare concepts of assistive device from a human factors’ perspective in a virtual environment? What are the main limitations of the use of a virtual reality environment?
 }
 
-As for the experiment used for to study this goal, the blind users were more affected by the rounds them by the methods, in both mental workload and situation awareness. And when impacted by the methods, the presence of a haptic device provoked negative conseguences on their perception or mental workload.
+The example presented in this work showed that it is possible to evaluate both situation awareness and workload using experiments performed in a virtual environment. The tests performed in the virtual environment made possible the comparison of the assistive devices both qualitative and quantitative.
 
-For the sighted users it were affected by both method and round in some cases, meaning that they were more sensible to the experiment than the blind users. There was no pattern in which method they performed better or not but in overall their performance was inferior than the perfomance from blind users.
-    
-Based on the gathered data, there was a variation in the mental workload and in the situation awareness during the experiment. This variation show that the users were impacted by the experiment in the virtual reality, but since no experiment outside the virtual reality was made, it is not possible to compare this data and verify that they are similar to one provided by a real scenario.
+However, a number of limitations were identified during the development of this work, regarding both the virtual environment and the assessment techniques.
 
-Some problems of the method was that the users walked approximately half of the experiment duration, and problably added some noise to the sensor data, leaving to unrelatable results. The heartbeat and the interbeat interval standard deviation did not show the same results as the NASA-TLX indicated. 
+One of the most recurrent observations was the unsatisfactory quality of the sound system. According to blind participants, the headphone of the VIVE HMD does not provide sounds with a quality good enough for them to locate the source of a sound. A common comment was “I feel like the sound origin is inside my head”. This limitation may be solved by placing a real sound source in the real environment and use the HMD only for geolocalizing the participant in the virtual environment.
 
-This could also be caused because the experiment was made using a virtual reality, a technology still unvisited by most of the participants. That could have made the participant anxious and risen their heartbeat at the beginning of the experiment.
+Another limitation is the actual position of the furniture. More than once, after a ‘first round’, the furniture was not precisely aligned with its virtual model. A future solution for this problem would be to use a locator on each piece of furniture.
 
-As for the limitations, the participants complained about the sound. The integrate headphone of the VIVE HMD did not provide sounds with a quality good enought for them to locate. A common commentarie was "I feel like the sound origin is inside my head", which was not true. But this may be solved by placing a real sound source in the real environment and use the HMD only for geolocalizing the participant inside de virtual environment.
+Among the main limitations identified during this work, it worth also mentioning the failure in detecting collisions in the virtual environment, which could be solved by integrating sensors that monitor the position of each arm and leg of the user.
 
-Another limitation is the real time position of the furniture. More than once, after a "First round" a furniture was not well aligned with the its virtual model. That caused some frustation on the participant as well in the researchers that had to stop the experiment to fix their position. A solution for this it would be to install real time locator on each piece of furniture.
+Regarding the assessment methods for evaluating human factors, the physiological sensors did not show any systematic difference among the methods under analysis. This result may be due to the presence of noise in the sensors data, compromising its quality. Another problem is that the low number of participants may compromise the statistical analysis, due to the large variability among users.
 
 \subsection*{Do non-BVI users, when deprived from their vision, evaluate assistive devices in a similar way as BVI users?}
 
-Comparing the results from the analyzes of the "blind" sample and the "sight" sample one realizes that the groups felt different reaction. Most of the blind users felt a bigger impact between the rounds than by the methods, whilst the sight users felt a bigger impact by the method. The preference other has some minor differences too. The firsto two preferable methods are the same, and in both cases are statiscally the same, but the last two were different between the two groups.
+Comparing the results of experiments performed with blind and sighted participants, a number of differences were observed. Among the most important ones, is the relative evaluation of audio and haptic devices. Due to their enhanced sensitive to sounds, BVI users tend to evaluate audio solutions better than non-BVI. Also, the effect of repeating a task in the same environment, i.e., performing different rounds of the same experiment, may differ between sighted and blind users.
 
-This may be biased, since most of the conception of the devices was made by a sighted researcher, even thought there was recommendations from BVI researchers. But this may only reinterate that sighted users have a difficulty imagine how a blind users perceives the world and how to develop ways to assist them.
-
+Generally, the results reinforce the importance of having BVI users involved in the design of assistive devices from the early stages of specification of requirements.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Future works and suggestions}
 
-For future works related to this one it could be suggested:
+The following topics are of interest for future research:
 
 \begin{itemize}
-    \item Repeat the experiment in a real situation and compare it with this one to verify the first goal;
-    
-    This experiment was made exclusivily using virtual reality, hence it is not posibly to verify the efficiency or the quality of a experiment made using Virtual Reality.
-
-    \item Repeat the experiment not using the sound from the HMD;
-     
-    The BVI users complained about the VIVE HMD sound system. They got confused sometimes and could figure it out if a sound source was coming from forwards or backwards. One alternative for this problem is to add a physical sound source at each point in the real environment where it was supose to be in the virtual environment. It still related to the virtual reality but it is more realistic. 
-
-    \item Repeat the experiment with bigger sample size and a more diverse sample to verify if the results of the hypothesis test do remain the same;
-    
-    As commented before, most ANOVA tests showed one result and the figures showed a different conclusion. This happend because of the small sample size. If the sample size was bigger, maybe both conclusions would be the same.
-
+    \item Perform a comparison between an evaluation campaign executed in a real environment and the same campaign executed in a virtual environment, with the purpose of assessing the main differences brough by the use of virtual reality;
+    \item Further improve the virtual reality environment by providing better sound solutions, using different sources of sound in the real environment instead of using the sound from the HMD;
+    \item Develop a solution for automatic collision detection in the virtual system in order to introduce performance metrics in the assessment.
+    \item Repeat the experimental campaign with large sample of both BVI and non-BVI users, in order to improve the statistical analysis.
+    \item Investigate the sources of noise of the physiological sensors and improve their data acquisition.
 \end{itemize}
