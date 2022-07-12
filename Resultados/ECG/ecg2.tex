@@ -7,17 +7,17 @@ Table \ref{tab:bpm_table_noBase} presents the average heart rate for both sighte
 
 \input{Resultados/ECG/Tabelas/bpm_table_noBase.tex}
 
-\begin{figure}[!htpb]
+\begin{figure}[!thb]
     \centering
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_bpm_4_scene_blind.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_bpm_4_scene_blind.pdf}
         \subcaption{Blind participants.}
         \label{fig:barplot_ecg_bpm_4_scene_blind}
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_bpm_4_scene_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_bpm_4_scene_sight.pdf}
         \subcaption{Sight participants.}
         \label{fig:barplot_ecg_bpm_4_scene_sight}
     \end{minipage}
@@ -31,11 +31,11 @@ Table \ref{tab:bpm_table_noBase} presents the average heart rate for both sighte
 %    \label{fig:barplot_ecg_bpm_4_scene}
 %\end{figure}
 
-\begin{figure}[!htpb]
+\begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_4_scene.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_4_scene.pdf}
         \caption{Boxplot of the average BPM of the participants grouped by method.}
         \label{fig:boxplot_ecg_bpm_4_scene}
     \end{minipage}
@@ -44,7 +44,7 @@ Table \ref{tab:bpm_table_noBase} presents the average heart rate for both sighte
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_4_rounds.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_4_rounds.pdf}
         \caption{Boxplot of the average BPM of the participants grouped by round.}
         \label{fig:boxplot_ecg_bpm_4_rounds}
     \end{minipage}
@@ -57,7 +57,7 @@ Table \ref{tab:bpm_table_noBase} presents the average heart rate for both sighte
 The Figures \ref{fig:qqplot_bpm_two_way_sight} and \ref{fig:residplot_bpm_two_way_sight} shows the QQ plot and residual distributions for the sighted participants of the Table \ref{tab:bpm_table_noBase}. These figures shows that the data are normally distributed and that the methods have a similar variance. Table \ref{tab:blocanova_bpm_two_way_blind_sight} brings the results from ANOVA, which are similar for both sighted and blind participants.
 
 
-\begin{table}[!htpb]
+\begin{table}[!htb]
     \caption{Anova p-value for the BPM on each method.}
     \label{tab:blocanova_bpm_two_way_blind_sight}
 \begin{minipage}{0.45\textwidth}
@@ -70,12 +70,12 @@ The Figures \ref{fig:qqplot_bpm_two_way_sight} and \ref{fig:residplot_bpm_two_wa
 \end{minipage}
 \end{table}
 
-\begin{figure}[!htpb]
+\begin{figure}[!htb]
     \centering
     %\vspace{-15.0cm}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/qqplot_bpm_two_way_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/qqplot_bpm_two_way_sight.pdf}
         \caption{QQ plot of the BPM of the sight participants on each method.}
         \label{fig:qqplot_bpm_two_way_sight}
     \end{minipage}
@@ -84,7 +84,7 @@ The Figures \ref{fig:qqplot_bpm_two_way_sight} and \ref{fig:residplot_bpm_two_wa
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/residplot_bpm_two_way_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/residplot_bpm_two_way_sight.pdf}
         \caption{Residual plot of the BPM score the sight participants on each method.}
         \label{fig:residplot_bpm_two_way_sight}
     \end{minipage}
@@ -115,13 +115,13 @@ Table \ref{tab:sdnn_table_noBase} presents the SDNN for both sighted and blind p
     \centering
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_sdnn_4_scene_blind.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_sdnn_4_scene_blind.pdf}
         \subcaption{Blind participants.}
         \label{fig:barplot_ecg_sdnn_4_scene_blind}
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_sdnn_4_scene_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/barplot_ecg_sdnn_4_scene_sight.pdf}
         \subcaption{Sight participants.}
         \label{fig:barplot_ecg_sdnn_4_scene_sight}
     \end{minipage}
@@ -139,11 +139,11 @@ No clear pattern is evident from this figure. For some methods, the return round
 
 Figures \ref{fig:boxplot_ecg_sdnn_4_scene} and \ref{fig:boxplot_ecg_sdnn_4_rounds} shows the boxplots for both groups. Both pictures show that the SDNN of the sighted users were higher than that of the blind users, indicating that sighted users had a lower mental workload than the blind users.
 
-\begin{figure}[!htpb]
+\begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_4_scene.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_4_scene.pdf}
         \caption{Boxplot of the average SDNN of the participants grouped by method.}
         \label{fig:boxplot_ecg_sdnn_4_scene}
     \end{minipage}
@@ -152,7 +152,7 @@ Figures \ref{fig:boxplot_ecg_sdnn_4_scene} and \ref{fig:boxplot_ecg_sdnn_4_round
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_4_rounds.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_4_rounds.pdf}
         \caption{Boxplot of the average SDNN of the participants grouped by round.}
         \label{fig:boxplot_ecg_sdnn_4_rounds}
     \end{minipage}
@@ -164,7 +164,7 @@ Figures \ref{fig:boxplot_ecg_sdnn_4_scene} and \ref{fig:boxplot_ecg_sdnn_4_round
 
 Figures \ref{fig:qqplot_sdnn_two_way_sight} and \ref{fig:residplot_sdnn_two_way_sight} bring the QQ Plot and residual distribution. Figure \ref{fig:qqplot_sdnn_two_way_sight} hints that the data from sighted users contain two outliers. Table \ref{tab:blocanova_sdnn_two_way_blind_sight} shows the ANOVA test p-values. For both groups, none of the factors have a significant influence on the SDNN value.
 
-\begin{table}[!htpb]
+\begin{table}[!htb]
     \caption{Anova p-value for the average SDNN on each method.'}
     \label{tab:blocanova_sdnn_two_way_blind_sight}
 \begin{minipage}{0.45\textwidth}
@@ -177,12 +177,12 @@ Figures \ref{fig:qqplot_sdnn_two_way_sight} and \ref{fig:residplot_sdnn_two_way_
 \end{minipage}
 \end{table}
 
-\begin{figure}[!htpb]
+\begin{figure}[!htb]
     \centering
     %\vspace{-15.0cm}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/qqplot_sdnn_two_way_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/qqplot_sdnn_two_way_sight.pdf}
         \caption{QQ plot of the average SDNN of the sight participants on each method.}
         \label{fig:qqplot_sdnn_two_way_sight}
     \end{minipage}
@@ -191,7 +191,7 @@ Figures \ref{fig:qqplot_sdnn_two_way_sight} and \ref{fig:residplot_sdnn_two_way_
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/ECG/Figuras/pdf/residplot_sdnn_two_way_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/residplot_sdnn_two_way_sight.pdf}
         \caption{Residual plot of the average SDNN score the sight participants on each method.}
         \label{fig:residplot_sdnn_two_way_sight}
     \end{minipage}

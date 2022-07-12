@@ -43,7 +43,7 @@
 \documentclass[msc, eng]{ita}    % ITA.cls based on standard book.cls 
 % Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
 
-\hfuzz=15.002pt 
+%\hfuzz=15.002pt 
 
 \usepackage{ulem}
 \usepackage{boldline}
@@ -65,7 +65,8 @@
 \usepackage{cancel}      % needed to show canceled terms in equations
 \usepackage{lettrine}
 \usepackage{float}
-\usepackage[section, above, below]{placeins}
+%\usepackage[section, above, below]{placeins}
+\usepackage{placeins}
 \usepackage{pdfpages}
 \usepackage{listings}   % Code formating
 \usepackage[dvipsnames]{xcolor}   % Code formating
@@ -92,7 +93,6 @@
 %\usetikzlibrary{patterns,shapes.arrows}
 %\pgfplotsset{compat=newest}
 
-\usepackage{float}
 \usepackage{boldline}
 \usepackage{blindtext}
 \usepackage{lipsum}
@@ -122,7 +122,6 @@
 \makeatletter
 \setlength{\@fptop}{0pt}
 \makeatother
-\setlength{\textfloatsep}{0pt plus 1.0pt minus 2.0pt}
 
 
 %HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
@@ -187,7 +186,7 @@
 
 
 % Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
-\date{}{}{}
+\date{AUGUST}{04}{2022}
 
 % Número CDU - (somente para TG)
 \cdu{621.38}
@@ -347,19 +346,19 @@
 % Folha de Registro do Documento
 % Valores dos campos do formulario
 \FRDitadata{}
-\FRDitadocnro{DCTA/ITA/DM-018/2015} %(o número de registro você solicita a biblioteca)
+\FRDitadocnro{DCTA/ITA//} %(o número de registro você solicita a biblioteca)
 \FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA}
 %Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
 \FRDitapalavrasautor{Realidade Virtual; Fatores Humanos; Simulação}
-\FRDitapalavrasresult{Cupim; Dilema; Construção}
+\FRDitapalavrasresult{; ; }
 %Exemplo no caso de graduação (TG):
 %\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
 %Exemplo no caso de pós-graduação (msc, dsc):
-\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Coorientadora: Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$. Doralice Serra. Defesa em 05/03/2015. Publicada em 25/03/2015.}
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Materiais, Manufatura e Automação. Orientadora: Prof$^\textnormal{a}$.~Dr. Emilia Villani. Coorientador: .~Dr. Edmar Thomaz da Silva. Defesa em 04/08/2022. Publicada em .}
 \FRDitaresumo{\input{Chap0/resumo}}
 %  Primeiro Parametro: Nacional ou Internacional -- N/I
 %  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
-\FRDitaOpcoes{N}{O}
+\FRDitaOpcoes{I}{O}
 % Cria o formulario
 \itaFRD
 

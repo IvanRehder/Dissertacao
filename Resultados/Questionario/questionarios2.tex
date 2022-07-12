@@ -9,13 +9,13 @@ As was for the blind users, the sighted user also answered the Guidance question
     \centering
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Questionario/Figuras/png/barplot_questionnaire_scene_blind.png}
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/barplot_questionnaire_scene_blind.pdf}
         \subcaption{Blind participants.}
         \label{fig:barplot_questionnaire_scene_blind_2}
     \end{minipage}
     \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Questionario/Figuras/png/barplot_questionnaire_scene_sight.png}
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/barplot_questionnaire_scene_sight.pdf}
         \subcaption{Sighted participants.}
         \label{fig:barplot_questionnaire_scene_sight}
     \end{minipage}
@@ -24,7 +24,7 @@ As was for the blind users, the sighted user also answered the Guidance question
 \end{figure}
 %\begin{figure}[!htb]
 %    \centering
-%    \includegraphics[width = 0.8\linewidth]{Resultados/Questionario/Figuras/png/barplot_questionnaire_scene.png}
+%    \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/png/barplot_questionnaire_scene.png}
 %    \caption{Barplot of the  average questionaire score of both participants on each method.}
 %    \label{fig:barplot_questionnaire_scene}
 %\end{figure}
@@ -33,7 +33,7 @@ The Figure \ref{fig:boxplot_questionnaire_scene} presents the box plot with the 
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width = 0.6\linewidth]{Resultados/Questionario/Figuras/png/boxplot_questionnaire_scene.png}
+    \includegraphics[width = 0.45\textwidth]{Resultados/Questionario/Figuras/pdf/boxplot_questionnaire_scene.pdf}
     \caption{Boxplot of the questionaire score of the the participants grouped by method.}
     \label{fig:boxplot_questionnaire_scene}
 \end{figure}
@@ -46,7 +46,7 @@ The Figure \ref{fig:boxplot_questionnaire_scene} presents the box plot with the 
 
 Figures \ref{fig:qqplot_questionnaire_sight} and \ref{fig:residplot_questionnaire_sight} brings the QQ plot and residual distribution, which apparently confirm that ANOVA can be applied. The result of ANOVA is presented in Table \ref{tab:blocanova_questionnaire_blind_sight} and indicates that the method is a significant variable form sighted participants, as it is for blind ones.
 
-\begin{table}
+\begin{table}[!htb]
     \caption{Anova p-value for the questionnaire score on each method}
     \label{tab:blocanova_questionnaire_blind_sight}
 \begin{minipage}{0.45\textwidth}
@@ -64,7 +64,7 @@ Figures \ref{fig:qqplot_questionnaire_sight} and \ref{fig:residplot_questionnair
     %\vspace{-15.0cm}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Questionario/Figuras/pdf/qqplot_questionnaire_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/qqplot_questionnaire_sight.pdf}
         \caption{QQ plot of the questionnaire score of the sighted participants on each method.}
         \label{fig:qqplot_questionnaire_sight}
     \end{minipage}
@@ -73,7 +73,7 @@ Figures \ref{fig:qqplot_questionnaire_sight} and \ref{fig:residplot_questionnair
     \end{minipage}
     \begin{minipage}{0.45\textwidth}
         \centering
-        \includegraphics[width = 0.8\linewidth]{Resultados/Questionario/Figuras/pdf/residplot_questionnaire_sight.pdf}
+        \includegraphics[width = \textwidth]{Resultados/Questionario/Figuras/pdf/residplot_questionnaire_sight.pdf}
         \caption{Residual plot of the questionnaire score the sighted participants on each method.}
         \label{fig:residplot_questionnaire_sight}
     \end{minipage}
@@ -81,21 +81,23 @@ Figures \ref{fig:qqplot_questionnaire_sight} and \ref{fig:residplot_questionnair
 
 The Table \ref{tab:lsd_questionnaire_blind_sight} presents the conclusion of a pairwise Fisher LSD test between all the guidance methods for both groups, showing that the results are coincident.
 
-\begin{table}
+\FloatBarrier
+
+\begin{table}[!thb]
     \caption{Anova p-value for the mental demand average on each method'}
     \label{tab:lsd_questionnaire_blind_sight}
-\begin{minipage}{1\textwidth}
-    \subcaption{Blind participants.}
-    \input{Resultados/Questionario/Tabelas/lsd_questionnaire_blindSemBegin.tex}
-\end{minipage}
-\begin{minipage}{1\textwidth}
-    \subcaption{Sight participants.}
-    \input{Resultados/Questionario/Tabelas/lsd_questionnaire_sightSemBegin.tex}
-\end{minipage}
+    \begin{minipage}{1\textwidth}
+        \subcaption{Blind participants.}
+        \input{Resultados/Questionario/Tabelas/lsd_questionnaire_blindSemBegin.tex}
+    \end{minipage}
+    \begin{minipage}{1\textwidth}
+        \subcaption{Sight participants.}
+        \input{Resultados/Questionario/Tabelas/lsd_questionnaire_sightSemBegin.tex}
+    \end{minipage}
 \end{table}
 
 %\input{Resultados/Questionario/Tabelas/lsd_questionnaire.tex}
 
 %The LSD Table \ref{tab:lsd_questionnaire_sight} repeat the same conclusion of the blind participants, that only the "Audio" and "Mixture" are statistically the same. But that does not mean that both groups had the same opinion from the rest of the methods. As shown in the Figure \ref{fig:boxplot_questionnaire_scene}, the average sighted user rather use the "Virtual Cane" then the "Haptic Belt", despite that distribution being wider, hence more varied, meaning that this is hardly a consense between the users.
 
-\FloatBarrier
+%\FloatBarrier
