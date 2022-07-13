@@ -1,28 +1,27 @@
 \subsubsection{Electrocardiogram (ECG) data}
 \label{subsubsec:results_ecg_1}
 
-
 As previously stated, the ECG analysis is based on two variables: the heartrate (BPM – beats per minute) and heartrate variance (SDNN – standard deviation of NN intervals). 
 
 After the experiment, the ECG signal processing is organized in the following steps: 
 
 \begin{itemize}
-    \item Filtering and removal of outliers, since the participants moved during the whole experience, the sensors captured also a significant amount of noise. 
+    \item Filtering and removing outliers. Since the participants moved during the whole experience, the sensors also captured some noise data.
     \item Normalization between -1 and 1;
-    \item Peak detection and evaluation – if the results were not of good quality, peak detection method’s parameters were adjusted to improve it; 
+    \item Peak detection and evaluation – if the results were not of good quality, the peak detection method's parameters were adjusted to improve it; 
     \item Calculation of BPM using Kubius HRV Standard;
     \item Calculation of SDNN using Kubius HRV Standard.
 \end{itemize}
 
-At the beginning of each experiment, a baseline was collected to establish a comparison between the relaxed state of the participant and the scenes’ induced state. However, the results were not consistent. It was expected that the heartrate would increase during the experiment, comparing to the baseline, because the participants were at rest. But for most of the participants, it actually decreased, indicating a systematic problem may have occurred. Due to this fact, the analysis is based only on absolute values.
+At the beginning of each experiment, a baseline was collected to establish a comparison between the relaxed state of the participant and the scenes' induced state. However, the results were not consistent.  During the experiment, it was expected that the heartrate would increase compared to the baseline because the participants were at rest. However, for most of the participants, it decreased, indicating a systematic problem may have occurred. Due to this fact, the analysis is based only on absolute values.
 
 \paragraph{Analysis of the heartbeat frequency (BPM)}\mbox{}\\
 
-Table \ref{tab:bpm_table_blind}  presents the heart rate of each blind participant for each guidance method. It is possible to observe that there is no systematic difference among the methods. Also, there are significant differences among the participants, which some of them presenting values significantly lower than others.
+Table \ref{tab:bpm_table_blind} presents the heart rate of each blind participant for each guidance method. It is possible to observe that there is no systematic difference between the methods. Also, there are significant differences among the participants, with some presenting values significantly lower than others.
 
 \input{Resultados/ECG/Tabelas/bpm_table_blind.tex}
 
-Figure \ref{fig:barplot_ecg_bpm_5_scene_blind} presents the mean heart rate. It shows a slight increase in the heartrate between the rounds, with the exception of the ‘base’ method, indicating that the participants felt the ‘return’ round more demandful.
+Figure \ref{fig:barplot_ecg_bpm_5_scene_blind} presents the mean heart rate. It shows a slight increase in the heartrate between the rounds, except for the "base" method, indicating that the participants felt the "return" round harder.
 
 \begin{figure}[!htb]
     \centering
@@ -42,7 +41,7 @@ Figures \ref{fig:boxplot_ecg_bpm_blind_scene} and \ref{fig:boxplot_ecg_bpm_blind
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_blind_scene.pdf}
-        \caption{Boxplot of the BPM of the blind participants grouped by method.}
+        \caption{Boxplot of the BPM of the blind participants grouped by the methods.}
         \label{fig:boxplot_ecg_bpm_blind_scene}
     \end{minipage}
     \begin{minipage}{0.075\textwidth}
@@ -51,12 +50,12 @@ Figures \ref{fig:boxplot_ecg_bpm_blind_scene} and \ref{fig:boxplot_ecg_bpm_blind
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_bpm_blind_rounds.pdf}
-        \caption{Boxplot of the BPM of the blind participants grouped by round.}
+        \caption{Boxplot of the BPM of the blind participants grouped by the rounds.}
         \label{fig:boxplot_ecg_bpm_blind_rounds}
     \end{minipage}
 \end{figure}
 
-Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_blind} bring the QQ Plot and residual distribution. Particularly, the last one shows that the participant does not have similar variance, which may jeopardize the results of ANOVA. Considering this limitation, Table \ref{tab:bpm_table_blind} brings the p-value obtained by ANOVA, which confirmed the previous analysis, as it does not indicate a significant influence of either the guidance method or the round in the participants heartrate. 
+Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_blind} bring the QQ Plot and residual distribution. The last one shows that the participants do not have a similar variance, which may jeopardize the results of ANOVA. Considering this limitation, Table \ref{tab:bpm_table_blind} brings the p-value obtained by ANOVA, which confirmed the previous analysis, as it does not indicate a significant influence of either the guidance methods or the rounds in the participants' heartrate. 
 
 \begin{figure}[!htb]
     \centering
@@ -93,11 +92,11 @@ Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_bl
 %
 \paragraph{Analysis of the heartbeat variance (SDNN)}\mbox{}\\
 %
-Table \ref{tab:sdnn_table_blind} brings the value of the second variable extracted from the ECG: SDNN, the standard deviation of the interbeat interval. Similar to what is observed for the BPM, it is not possible do draw a pattern from this data. Different participant had increase or decrease their heartrate, with different methods.
+Table \ref{tab:sdnn_table_blind} brings the value of the second variable extracted from the ECG: SDNN, the standard deviation of the interbeat interval. Similar to what is observed for the BPM, it is not possible to draw a pattern from this data. The participants had increased or decreased their heartrate with different methods.
 
 \input{Resultados/ECG/Tabelas/sdnn_table_blind.tex}
 
-The barplot of Figure \ref{fig:barplot_ecg_sdnn_5_scene_blind}  shows the average SDNN for each method. It is possible to notice that some methods are associate with an increase in the SDNN between the rounds, while other are present a small decrease.
+The barplot of Figure \ref{fig:barplot_ecg_sdnn_5_scene_blind} shows the average SDNN for each method. It is possible to notice that some methods are associated with an increase in the SDNN between the rounds, while others present a slight decrease.
 
 \begin{figure}[!htb]
     \centering
@@ -110,14 +109,14 @@ The barplot of Figure \ref{fig:barplot_ecg_sdnn_5_scene_blind}  shows the averag
 %
 %\input{Resultados/ECG/Tabelas/sdnn_average_group_blind.tex}
 
-Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} and Figure \ref{fig:boxplot_ecg_sdnn_blind_rounds} bring the SDNN barplot grouped by method and round. Apparently, there is a small tendency among the participants to increase the heartbeat in the ‘return’ round.
+Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} and Figure \ref{fig:boxplot_ecg_sdnn_blind_rounds} bring the SDNN barplot grouped by the methods and the rounds. There is a slight tendency among the participants to increase the heartbeat in the "return" round.
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_blind_scene.pdf}
-        \caption{Boxplot of the SDNN of the blind participants grouped by method.}
+        \caption{Boxplot of the SDNN of the blind participants grouped by the methods.}
         \label{fig:boxplot_ecg_sdnn_blind_scene}
     \end{minipage}
     \begin{minipage}{0.075\textwidth}
@@ -126,13 +125,13 @@ Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} and Figure \ref{fig:boxplot_ecg_sd
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width = \textwidth]{Resultados/ECG/Figuras/pdf/boxplot_ecg_sdnn_blind_rounds.pdf}
-        \caption{Boxplot of the SDNN of the blind participants grouped by round.}
+        \caption{Boxplot of the SDNN of the blind participants grouped by the rounds.}
         \label{fig:boxplot_ecg_sdnn_blind_rounds}
     \end{minipage}
 \end{figure}
 
 
-Figures \ref{fig:qqplot_sdnn_two_way_blind} and \ref{fig:residplot_sdnn_two_way_blind} bring the QQ Plot and residual distribution. In this case, the residual distribution is more uniform than in Figure \ref{fig:residplot_bpm_two_way_blind}. The ANOVA results are presented in Table \ref{tab:blocdanova_sdnn_two_way_blind} and does not confirm any influence of the method or the round in the ECG heart rate variance.
+Figures \ref{fig:qqplot_sdnn_two_way_blind} and \ref{fig:residplot_sdnn_two_way_blind} bring the QQ Plot and residual distribution. In this case, the residual distribution is more uniform than in Figure \ref{fig:residplot_bpm_two_way_blind}. The ANOVA results are presented in Table \ref{tab:blocdanova_sdnn_two_way_blind} and do not confirm any influence of the methods nor the rounds on the ECG heartrate variance.
 
 \begin{figure}[!htb]
     \centering
