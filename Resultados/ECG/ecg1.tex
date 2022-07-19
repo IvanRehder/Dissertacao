@@ -3,7 +3,7 @@
 
 As previously stated, the ECG analysis is based on two variables: the heartrate (BPM – beats per minute) and heartrate variance (SDNN – standard deviation of NN intervals). 
 
-After the experiment, the ECG signal processing is organized in the following steps: 
+After the experiment, the ECG signal processing is organized in the following steps (Figure \ref{fig:ecg_algorithim}): 
 
 \begin{itemize}
     \item Filtering and removing outliers. Since the participants moved during the whole experience, the sensors also captured some noise data.
@@ -12,6 +12,13 @@ After the experiment, the ECG signal processing is organized in the following st
     \item Calculation of BPM using Kubius HRV Standard;
     \item Calculation of SDNN using Kubius HRV Standard.
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \input{Apend ECG/diagram}
+    \caption{ECG's data treatment algorithim.}
+    \label{fig:ecg_algorithim}
+\end{figure}
 
 At the beginning of each experiment, a baseline was collected to establish a comparison between the relaxed state of the participant and the scenes' induced state. However, the results were not consistent.  During the experiment, it was expected that the heartrate would increase compared to the baseline because the participants were at rest. However, for most of the participants, it decreased, indicating a systematic problem may have occurred. Due to this fact, the analysis is based only on absolute values.
 
@@ -82,7 +89,7 @@ Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_bl
 
 %The Table \ref{tab:lsd_bpm_two_way} presents the conclusion of a pairwise Fisher LSD test of the blind heart rate frequency variation between all the guidance methods. The results show that the only the Base and haptic belt have simila reaction.
 
-\FloatBarrier
+%\FloatBarrier
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

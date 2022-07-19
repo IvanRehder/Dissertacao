@@ -2400,6 +2400,13 @@ INPUT .\Resultados\ECG\ecg1.tex
 INPUT Resultados\ECG\ecg1.tex
 INPUT .\Resultados\ECG\ecg1.tex
 INPUT Resultados\ECG\ecg1.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT .\Apend ECG\diagram.tex
+INPUT Apend ECG\diagram.tex
 INPUT .\Resultados\ECG\Tabelas\bpm_table_blind.tex
 INPUT Resultados\ECG\Tabelas\bpm_table_blind.tex
 INPUT .\Resultados\ECG\Tabelas\bpm_table_blind.tex
@@ -3399,55 +3406,6 @@ INPUT .\ApendC_(Questionarios)\escalas_guidance\confusao.tex
 INPUT ApendC_(Questionarios)\escalas_guidance\confusao.tex
 INPUT .\ApendC_(Questionarios)\escalas_guidance\confusao.tex
 INPUT ApendC_(Questionarios)\escalas_guidance\confusao.tex
-INPUT .\Apend ECG\apendA.tex
-INPUT .\Apend ECG\apendA.tex
-INPUT .\Apend ECG\apendA.tex
-INPUT Apend ECG\apendA.tex
-INPUT .\Apend ECG\apendA.tex
-INPUT .\Apend ECG\apendA.tex
-INPUT Apend ECG\apendA.tex
-INPUT .\Apend ECG\diagram.tex
-INPUT .\Apend ECG\diagram.tex
-INPUT .\Apend ECG\diagram.tex
-INPUT Apend ECG\diagram.tex
-INPUT .\Apend ECG\diagram.tex
-INPUT .\Apend ECG\diagram.tex
-INPUT Apend ECG\diagram.tex
-INPUT .\Apend GSR\apendB.tex
-INPUT .\Apend GSR\apendB.tex
-INPUT .\Apend GSR\apendB.tex
-INPUT Apend GSR\apendB.tex
-INPUT .\Apend GSR\apendB.tex
-INPUT .\Apend GSR\apendB.tex
-INPUT Apend GSR\apendB.tex
-INPUT .\Apend GSR\diagram.tex
-INPUT .\Apend GSR\diagram.tex
-INPUT .\Apend GSR\diagram.tex
-INPUT Apend GSR\diagram.tex
-INPUT .\Apend GSR\diagram.tex
-INPUT .\Apend GSR\diagram.tex
-INPUT Apend GSR\diagram.tex
-INPUT .\AnexC\anexC.tex
-INPUT .\AnexC\anexC.tex
-INPUT .\AnexC\anexC.tex
-INPUT AnexC\anexC.tex
-INPUT .\AnexC\anexC.tex
-INPUT .\AnexC\anexC.tex
-INPUT AnexC\anexC.tex
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexC\esp32-devkitC-v4-pinout.png
-INPUT .\AnexA\anexA.tex
-INPUT .\AnexA\anexA.tex
-INPUT .\AnexA\anexA.tex
-INPUT AnexA\anexA.tex
-INPUT .\AnexA\anexA.tex
-INPUT .\AnexA\anexA.tex
-INPUT AnexA\anexA.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0800.tfm
 INPUT .\Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
