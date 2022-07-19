@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: tese.aux
+The top-level auxiliary file: Virtual reality for the human-centred design of assistive devices.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
@@ -27,7 +27,7 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 53 entries,
             6714 wiz_defined-function locations,
-            1484 strings with 19589 characters,
+            1484 strings with 19711 characters,
 and the built_in function-call counts, 49613 in all, are:
 = -- 3824
 > -- 1835

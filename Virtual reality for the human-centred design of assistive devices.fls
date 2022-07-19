@@ -1,7 +1,7 @@
 PWD c:\Users\ivan\Documents\Mestrado\Dissertação
 INPUT C:\Users\ivan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ivan\Documents\Mestrado\Dissertação\tese.tex
-OUTPUT tese.log
+INPUT c:\Users\ivan\Documents\Mestrado\Dissertação\Virtual reality for the human-centred design of assistive devices.tex
+OUTPUT Virtual reality for the human-centred design of assistive devices.log
 INPUT .\ita.cls
 INPUT .\ita.cls
 INPUT ita.cls
@@ -1393,16 +1393,16 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.st
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-OUTPUT tese.glo
+OUTPUT Virtual reality for the human-centred design of assistive devices.glo
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer12.tfm
-INPUT .\tese.aux
-INPUT tese.aux
-INPUT tese.aux
-OUTPUT tese.aux
+INPUT .\Virtual reality for the human-centred design of assistive devices.aux
+INPUT Virtual reality for the human-centred design of assistive devices.aux
+INPUT Virtual reality for the human-centred design of assistive devices.aux
+OUTPUT Virtual reality for the human-centred design of assistive devices.aux
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\babelbib\english.bdf
@@ -1439,18 +1439,18 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sy
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\tese.out
-INPUT tese.out
-INPUT .\tese.out
-INPUT tese.out
-INPUT .\tese.out
-INPUT tese.out
-INPUT .\tese.out
-INPUT tese.out
-OUTPUT tese.pdf
-INPUT .\tese.out
-INPUT .\tese.out
-OUTPUT tese.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT Virtual reality for the human-centred design of assistive devices.out
+OUTPUT Virtual reality for the human-centred design of assistive devices.pdf
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+OUTPUT Virtual reality for the human-centred design of assistive devices.out
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
@@ -1579,22 +1579,22 @@ INPUT Chap0\abstract.tex
 INPUT .\Chap0\abstract.tex
 INPUT .\Chap0\abstract.tex
 INPUT Chap0\abstract.tex
-INPUT .\tese.lof
-INPUT tese.lof
-INPUT tese.lof
+INPUT .\Virtual reality for the human-centred design of assistive devices.lof
+INPUT Virtual reality for the human-centred design of assistive devices.lof
+INPUT Virtual reality for the human-centred design of assistive devices.lof
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeti12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti12.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
-OUTPUT tese.lof
-INPUT .\tese.lot
-INPUT tese.lot
-INPUT tese.lot
-OUTPUT tese.lot
-INPUT .\tese.lof
-INPUT tese.lof
-INPUT tese.lof
-OUTPUT tese.lof
+OUTPUT Virtual reality for the human-centred design of assistive devices.lof
+INPUT .\Virtual reality for the human-centred design of assistive devices.lot
+INPUT Virtual reality for the human-centred design of assistive devices.lot
+INPUT Virtual reality for the human-centred design of assistive devices.lot
+OUTPUT Virtual reality for the human-centred design of assistive devices.lot
+INPUT .\Virtual reality for the human-centred design of assistive devices.lof
+INPUT Virtual reality for the human-centred design of assistive devices.lof
+INPUT Virtual reality for the human-centred design of assistive devices.lof
+OUTPUT Virtual reality for the human-centred design of assistive devices.lof
 INPUT .\Chap0\listaabreviaturas.tex
 INPUT .\Chap0\listaabreviaturas.tex
 INPUT .\Chap0\listaabreviaturas.tex
@@ -1602,16 +1602,16 @@ INPUT Chap0\listaabreviaturas.tex
 INPUT .\Chap0\listaabreviaturas.tex
 INPUT .\Chap0\listaabreviaturas.tex
 INPUT Chap0\listaabreviaturas.tex
-INPUT .\tese.toc
-INPUT tese.toc
-INPUT tese.toc
+INPUT .\Virtual reality for the human-centred design of assistive devices.toc
+INPUT Virtual reality for the human-centred design of assistive devices.toc
+INPUT Virtual reality for the human-centred design of assistive devices.toc
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aecsc10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aecsc10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aecsc10.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-OUTPUT tese.toc
+OUTPUT Virtual reality for the human-centred design of assistive devices.toc
 INPUT .\Introducao\introducao.tex
 INPUT .\Introducao\introducao.tex
 INPUT .\Introducao\introducao.tex
@@ -2914,16 +2914,16 @@ INPUT Conclusao\conclusao.tex
 INPUT .\Conclusao\conclusao.tex
 INPUT .\Conclusao\conclusao.tex
 INPUT Conclusao\conclusao.tex
-INPUT .\tese.bbl
-INPUT tese.bbl
-INPUT .\tese.bbl
-INPUT tese.bbl
-INPUT .\tese.brf
-INPUT tese.brf
-INPUT tese.brf
-INPUT .\tese.brf
-INPUT .\tese.brf
-OUTPUT tese.brf
+INPUT .\Virtual reality for the human-centred design of assistive devices.bbl
+INPUT Virtual reality for the human-centred design of assistive devices.bbl
+INPUT .\Virtual reality for the human-centred design of assistive devices.bbl
+INPUT Virtual reality for the human-centred design of assistive devices.bbl
+INPUT .\Virtual reality for the human-centred design of assistive devices.brf
+INPUT Virtual reality for the human-centred design of assistive devices.brf
+INPUT Virtual reality for the human-centred design of assistive devices.brf
+INPUT .\Virtual reality for the human-centred design of assistive devices.brf
+INPUT .\Virtual reality for the human-centred design of assistive devices.brf
+OUTPUT Virtual reality for the human-centred design of assistive devices.brf
 INPUT .\ApendC_(Questionarios)\apendeC.tex
 INPUT .\ApendC_(Questionarios)\apendeC.tex
 INPUT .\ApendC_(Questionarios)\apendeC.tex
@@ -3428,11 +3428,11 @@ INPUT Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
 INPUT Chap0\resumo.tex
-INPUT tese.aux
-INPUT .\tese.out
-INPUT .\tese.out
-INPUT .\tese.brf
-INPUT .\tese.brf
+INPUT Virtual reality for the human-centred design of assistive devices.aux
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.out
+INPUT .\Virtual reality for the human-centred design of assistive devices.brf
+INPUT .\Virtual reality for the human-centred design of assistive devices.brf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
