@@ -1,0 +1,78 @@
+\begin{figure}[!htb]
+    \centering
+    %\tikzstyle{every node}=[font=\large]
+
+    \tikzstyle{task} = [rectangle, rounded corners, minimum width=6cm, minimum height=1.5cm,text centered, draw=black, text width=6cm]
+    \tikzstyle{probl} = [rectangle, rounded corners, minimum width=4cm, minimum height=4cm,text centered, draw=black, text width=5.2cm]
+    \tikzstyle{hypot} = [rectangle, rounded corners, minimum width=4cm, minimum height=4cm,text centered, draw=black, text width=6cm]
+    \tikzstyle{prop} = [rectangle, rounded corners, minimum width=8cm, minimum height=4cm,text centered, draw=black, text width=8cm]
+    \tikzstyle{phase} = [rectangle, minimum width=4cm, minimum height=1.5cm,text centered, text width=5.0cm]
+    \tikzstyle{--gray} = [ccmLGray, dashed, dash pattern=on 1cm off 1cm , rounded corners, line width = 2mm]
+
+    \tikzstyle{--red} = [ccmRed, rounded corners, line width = 2mm]
+    \tikzstyle{--blue} = [ccmDBlue, rounded corners, line width = 2mm]
+    \tikzstyle{--black} = [black, rounded corners, line width = 2mm]
+    
+    \tikzstyle{arrow_blue} = [ccmDBlue, rounded corners, line width = 2mm, ->]
+    \tikzstyle{arrow_black} = [black, rounded corners, line width = 2mm, ->]
+    \tikzstyle{d--blue} = [ccmDBlue, dashed, dash pattern=on 1.0cm off 0.65cm, rounded corners, line width = 2mm]
+    \tikzstyle{arrow_--_blue} = [ccmDBlue, dashed, dash pattern=on 1.0cm off 0.65cm, rounded corners, line width = 2mm, ->]
+    \tikzstyle{arrow_red} = [ccmRed, rounded corners, line width = 2mm, ->]
+    
+    \resizebox{\linewidth}{!}{
+    \begin{tikzpicture}[node distance = 3cm]
+        \centering
+        \node (Problem) [phase] {Problem:};
+        \node (problem) [probl, below of = Problem, yshift = -2cm] {Devices do not please the blind and visually impaired community};
+        
+        \node (a1) [right of = Problem, above of = Problem, xshift = 3cm] {};
+        \node (a2) [below of = a1, yshift = -15cm] {};
+        \draw [--gray] (a1) to (a2);
+        
+        \node (Hypothesis) [phase] [phase, right of = Problem, xshift = 9cm] {Hypothesis:};
+        \node (hypothesis) [hypot, right of = problem, xshift = 7cm] {There is no blind and visually impaired user inside the design team of assitive devices};
+        \node (hypothesis_1) [task, below of = hypothesis, yshift = -3cm, xshift = 4cm] {Make the BVI user part of the design team};
+        \node (hypothesis_2) [task, below of = hypothesis_1, yshift = -2.5cm] {non-BVI users do not evaluate assistive devices as BVI users};
+        
+        \node (Proposal) [phase] [phase, right of = Hypothesis, xshift = 11cm] {Proposal:};
+        \node (proposal) [prop, below of = Proposal, xshift = -1cm, yshift = -2cm] {Create a method that allows users to test products in the early stages of the design process};
+        \node (proposal_1) [task, below of = proposal, xshift = 4cm, yshift = -4cm] {Consult BVI users about their opinions of assitive devices and invite them to test the devices};
+        \node (proposal_2) [task, below of = proposal_1, xshift = 0cm, yshift = -3cm] {Invite them to test the devices and compare with the BVI users};
+        
+        \node (b1) [left of = Proposal, xshift = -5cm, yshift = 1cm ] {};
+        \node (b2) [below of = b1, yshift = -15cm] {};
+        \draw [--gray] (b1) to (b2);
+        
+        \node (Specific) [phase] [phase, right of = Proposal, xshift = 11cm] {Specific Objectives:};
+        \node (specific) [task, right of = proposal, xshift = 11cm] {Use virtual reality to create a virtual testing ground of assistive device};
+        \node (develop_ve) [task, below of = specific, yshift = -2cm, xshift = 4cm] {Develop the VE};
+        \node (develop_devices) [task, below of = develop_ve, yshift = -1cm] {Develop the devices};
+        \node (develop_evaluation) [task, below of = develop_devices, yshift = -1cm] {Develop the evaluation methods};
+        \node (develop_experiment) [task, below of = develop_evaluation, yshift = -1cm] {Develop the experiment};
+        
+        \node (c1) [left of = Specific, xshift = -4cm, yshift = 1cm ] {};
+        \node (c2) [below of = c1, yshift = -15cm] {};
+        \draw [--gray] (c1) to (c2);
+
+        \draw[arrow_blue] (problem.east) to (hypothesis.west);
+        
+        \draw[arrow_blue] (hypothesis.east) to (proposal.west);
+        \draw[arrow_black] (hypothesis.south) to ++(0,-2cm) to (hypothesis_1.west);
+        \draw[arrow_black] (hypothesis.south) to ++(0,-5.5cm) to (hypothesis_2.west);
+        
+        \draw[arrow_blue] (proposal.east) to (specific.west);
+        \draw[arrow_black] (proposal.south) to ++(0,-3cm) to (proposal_1.west);
+        \draw[arrow_black] (proposal.south) to ++(0,-7cm) to (proposal_2.west);
+        
+        \draw[arrow_black] (specific.south) to ++(0,-1.5cm) to (develop_ve.west);
+        \draw[arrow_black] (specific.south) to ++(0,-3.5cm) to (develop_devices.west);
+        \draw[arrow_black] (specific.south) to ++(0,-5.5cm) to (develop_evaluation.west);
+        \draw[arrow_black] (specific.south) to ++(0,-7.5cm) to (develop_experiment.west);
+
+    \end{tikzpicture}
+    }
+    
+    \centering
+    \caption{Problematic scheme}
+    \label{fig:intro_diagram}
+\end{figure}

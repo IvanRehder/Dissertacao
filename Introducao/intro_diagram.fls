@@ -1,0 +1,4 @@
+PWD c:\Users\ivan\Documents\Mestrado\Dissertação\Introducao
+INPUT C:\Users\ivan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\ivan\Documents\Mestrado\Dissertação\Introducao\intro_diagram.tex
+OUTPUT intro_diagram.log
