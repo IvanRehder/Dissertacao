@@ -33,11 +33,19 @@ As a second motivation, this dissertation considers the COVID-19 pandemic scenar
  \begin{itemize}
      \item Select a scenario for testing assistive devices and develop it in a virtual environment; \label{itm:subobj_first}
      
-     To lear how to build the scenario, some hospital workers were interviewed. To build the scenario Unity3D was used.
+     This will be done during the Steps 2 and 3 of the proposed approach using Unity3D.
 
      \item Develop three concepts of assistive devices that use different senses to provide input to the BVI; \label{itm:subobj_second}
-     \item Propose a set of methods for BVI to evaluate assistive devices from human factors perspective; \label{itm:subobj_third}
-     \item Design and execute an experiment to evaluate the concepts of assistive devices in the virtual environment using the proposed methods. \label{itm:subobj_forth}
+     
+     The step 2 and 5 will define and develop those assistive devices
+
+     \item Propose a set of techniques for BVI to evaluate assistive devices from human factors perspective; \label{itm:subobj_third}
+     
+    They be specified in Step 2 and the techniques and tools used to their assessment will be defined in step 4
+
+     \item Design and execute an experiment to evaluate the concepts of assistive devices in the virtual environment using the proposed  methods. \label{itm:subobj_forth}
+    
+    Both design and execution are concluded during step 6
  \end{itemize}
  
 % \input{Introducao/intro_diagram.tex}
@@ -52,27 +60,31 @@ The work is organized in the following steps, illustrated in Figure \ref{fig:ste
     
     It is composed of two parts. The first is to review the fundamental concepts related to the topics covered in this work: human factors and virtual reality. The second part aims at contextualizing the dissertation’s proposal. It reviews recently published works on the development and evaluation of assistive devices for BVI people.
     
-    \item Specification of examples of the virtual environment and assistive devices
+    \item Specification of examples of the virtual environment, the evaluated human factors and assistive devices.
 
-    This step consists of specifying one example of a virtual environment and a few examples of assistive devices to test the proposed approach of using virtual reality for evaluating purposes. Considering the above-mentioned motivation related to the covid-19 pandemic, the chosen virtual environment is the reception of a health clinic. The assistive devices used as examples are: an audio system, a haptic belt and a virtual cane, which could be used as stand-alone devices or combined.
+    This step consists of specifying one example of a virtual environment, the proposed evaluated human factors and a few examples of assistive devices to test the proposed approach of using virtual reality for evaluating purposes. Considering the above-mentioned motivation related to the covid-19 pandemic, the chosen virtual environment is the reception of a health clinic. The analysed human factors were Mental Workload and Situatiation Awareness and the the satisfaction of the user with the used devices was also evaluated. The assistive devices used as examples are: an audio system, a haptic belt and a virtual cane, which could be used as stand-alone devices or combined.
     
-    \item Development of the specified virtual environment
+    \item Development of the specified virtual environment.
     
     The virtual environment of a health clinic reception is developed in the Unit3D environment. The HTC VIVE VR Head Mounted Device (HMD) is used as a localizing system to define the user's position inside the virtual environment.
+
+    \item Development of the assessment techniques and tools.
+    
+    The techniques used to assess the Mental Workload were the number of collisions, as a performance evaluation, the heartrate frequency, heartrate variance and skin conductance, as a physiological measurement, and the NASA-TLX (National Aeronautics and Space Administration Task Load Index) questionnaire, as a subjective measurement. For Situation awareness, the SAGAT (Situation Awareness Global Assessment Technique) was assessed. For the satisfaction of the users, a questionnaire for each device was created with the help of the BVI consultants.
     
     \item Development of proofs of concept of the specified assistive devices
     
     The three examples of devices are developed using low-cost and available laboratory equipment. The audio guide is developed using the audio system of HTV VIVE HMD, while the virtual cane is developed using the HTC VIVE VR hand controller. Finally, the haptic belt is developed using an ESP32 microcontroller, eight vibrating motors 1027 and 3D printed pieces.
     
-    \item Design and execution of the experiment
+    \item Design and execution of the experiment.
     
     The proposed experiment is based on the best practices and principles of the Design of Experiment (DoE) discipline.
-    The following techniques and tools are used for evaluating human factors:
+    %The following techniques and tools are used for evaluating human factors:
 
-    \begin{enumerate}[label = \alph*)]
-        \item Questionnaires adapted from the literature, such as NASA-TLX and SAGAT, or explicitly proposed for this work;
-        \item Physiological sensors, such as GSR and ECG, to capture the body's response.
-    \end{enumerate}
+    %\begin{enumerate}[label = \alph*)]
+    %    \item Questionnaires adapted from the literature, such as NASA-TLX and SAGAT (Situation Awareness Global Assessment Technique), or explicitly proposed for this work;
+    %    \item Physiological sensors, such as GSR (Galvanic Skin Response) and ECG, to capture the body's response.
+    %\end{enumerate}
     
     \item Analysis of results
     
