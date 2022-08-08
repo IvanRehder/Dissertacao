@@ -1795,6 +1795,9 @@ INPUT .\Fundamentação\Carga Mental\subjective.png
 INPUT .\Fundamentação\Carga Mental\subjective.png
 INPUT .\Fundamentação\Carga Mental\subjective.png
 INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeti10.tfm
+INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti10.vf
+INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\Fundamentação\Percepção situacional\situation_awareness.tex
 INPUT .\Fundamentação\Percepção situacional\situation_awareness.tex
 INPUT .\Fundamentação\Percepção situacional\situation_awareness.tex
@@ -1881,9 +1884,6 @@ INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
 INPUT .\Fundamentação\Percepção situacional\decision.png
-INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti10.vf
-INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\Ivan_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
 INPUT .\Fundamentação\Realidade Extendida\extended_reality.tex
