@@ -1,7 +1,7 @@
 \subsubsection{Electrocardiogram (ECG) data}
 \label{subsubsec:results_ecg_1}
 
-As previously stated, the ECG analysis is based on two variables: the heartrate (BPM – beats per minute) and heartrate variance (SDNN – standard deviation of NN intervals). 
+As previously stated, the ECG analysis is based on two variables: the heart rate (BPM – beats per minute) and heart rate variance (SDNN – standard deviation of NN intervals). 
 
 After the experiment, the ECG signal processing is organized in the following steps (Figure \ref{fig:ecg_algorithim}): 
 
@@ -20,7 +20,7 @@ After the experiment, the ECG signal processing is organized in the following st
     \label{fig:ecg_algorithim}
 \end{figure}
 
-At the beginning of each experiment, a baseline was collected to establish a comparison between the relaxed state of the participant and the scenes' induced state. However, the results were not consistent.  During the experiment, it was expected that the heartrate would increase compared to the baseline because the participants were at rest. However, for most of the participants, it decreased, indicating a systematic problem may have occurred. Due to this fact, the analysis is based only on absolute values.
+At the beginning of each experiment, a baseline was collected to establish a comparison between the relaxed state of the participant and the scenes' induced state. However, the results were not consistent.  During the experiment, it was expected that the heart rate would increase compared to the baseline because the participants were at rest. However, for most of the participants, it decreased, indicating a systematic problem may have occurred. Due to this fact, the analysis is based only on absolute values.
 
 \paragraph{Analysis of the heartbeat frequency (BPM)}\mbox{}\\
 
@@ -28,7 +28,7 @@ Table \ref{tab:bpm_table_blind} presents the heart rate of each blind participan
 
 \input{Resultados/ECG/Tabelas/bpm_table_blind.tex}
 
-Figure \ref{fig:barplot_ecg_bpm_5_scene_blind} presents the mean heart rate. It shows a slight increase in the heartrate between the rounds, except for the base method, indicating that the participants had a higher Mental Workload on the return round.
+Figure \ref{fig:barplot_ecg_bpm_5_scene_blind} presents the mean heart rate. It shows a slight increase in the heart rate between the rounds, except for the base method, indicating that the participants had a higher Mental Workload on the return round.
 
 \begin{figure}[!htb]
     \centering
@@ -62,7 +62,7 @@ Figures \ref{fig:boxplot_ecg_bpm_blind_scene} and \ref{fig:boxplot_ecg_bpm_blind
     \end{minipage}
 \end{figure}
 
-Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_blind} bring the QQ Plot and residual distribution. The last one shows that the participants do not have a similar variance, which may jeopardize the results of ANOVA. Considering this limitation, Table \ref{tab:bpm_table_blind} brings the p-value obtained by ANOVA, which confirmed the previous analysis, as it does not indicate a significant influence of either the guidance methods or the rounds in the participants' heartrate. 
+Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_blind} bring the QQ Plot and residual distribution. The last one shows that the participants do not have a similar variance, which may jeopardize the results of ANOVA. Considering this limitation, Table \ref{tab:bpm_table_blind} brings the p-value obtained by ANOVA, which confirmed the previous analysis, as it does not indicate a significant influence of either the guidance methods or the rounds in the participants' heart rate. 
 
 \begin{figure}[!htb]
     \centering
@@ -99,7 +99,7 @@ Figures \ref{fig:qqplot_bpm_two_way_blind} and \ref{fig:residplot_bpm_two_way_bl
 %
 \paragraph{Analysis of the heartbeat variance (SDNN)}\mbox{}\\
 %
-Table \ref{tab:sdnn_table_blind} brings the value of the second variable extracted from the ECG: SDNN, the standard deviation of the interbeat interval. Different to the heartrate frequency, if the variation between the First and the Return round is negative, it means that the user had an increase on his/her mental workload and vice-versa. Similar to what is observed for the BPM, it is not possible to draw a pattern from this data. The participants had increased or decreased their heartrate with different methods.
+Table \ref{tab:sdnn_table_blind} brings the value of the second variable extracted from the ECG: SDNN, the standard deviation of the interbeat interval. Different to the heart rate frequency, if the variation between the First and the Return round is negative, it means that the user had an increase on his/her mental workload and vice-versa. Similar to what is observed for the BPM, it is not possible to draw a pattern from this data. The participants had increased or decreased their heart rate with different methods.
 
 \input{Resultados/ECG/Tabelas/sdnn_table_blind.tex}
 
@@ -138,7 +138,7 @@ Figure \ref{fig:boxplot_ecg_sdnn_blind_scene} and Figure \ref{fig:boxplot_ecg_sd
 \end{figure}
 
 
-Figures \ref{fig:qqplot_sdnn_two_way_blind} and \ref{fig:residplot_sdnn_two_way_blind} bring the QQ Plot and residual distribution. In this case, the residual distribution is more uniform than in Figure \ref{fig:residplot_bpm_two_way_blind}. The ANOVA results are presented in Table \ref{tab:blocdanova_sdnn_two_way_blind} and do not confirm any influence of the methods nor the rounds on the ECG heartrate variance.
+Figures \ref{fig:qqplot_sdnn_two_way_blind} and \ref{fig:residplot_sdnn_two_way_blind} bring the QQ Plot and residual distribution. In this case, the residual distribution is more uniform than in Figure \ref{fig:residplot_bpm_two_way_blind}. The ANOVA results are presented in Table \ref{tab:blocdanova_sdnn_two_way_blind} and do not confirm any influence of the methods nor the rounds on the ECG heart rate variance.
 
 \begin{figure}[!htb]
     \centering
