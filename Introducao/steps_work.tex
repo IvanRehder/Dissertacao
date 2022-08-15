@@ -4,7 +4,7 @@
 
     \tikzstyle{start} = [rectangle, rounded corners, minimum width=3cm, minimum height=1.0cm,text centered, draw=black, fill=white!30, text width=3cm]
     \tikzstyle{steps} = [rectangle, minimum width=3cm, minimum height=1.5cm, text centered, draw=black, fill=white!30, text width=6.50cm]
-    \tikzstyle{paral_steps} = [rectangle, minimum width=3cm, minimum height=1.5cm, text centered, draw=black, fill=white!30, text width=3.25cm]
+    \tikzstyle{paral_steps} = [rectangle, minimum width=5cm, minimum height=2cm, text centered, draw=black, fill=white!30, text width=5cm]
     
     \tikzstyle{arrow} = [ccmDBlue, rounded corners, line width = 1mm, ->]
     
@@ -18,19 +18,19 @@
         \node (examples) [steps, below of=review, yshift = 0.5cm] {Step 2 - Specification of examples};
         \draw [arrow] (review) to node[midway,right]{} (examples);
         
-        \node (ve) [paral_steps, below of=examples, left of = examples, xshift = -1cm] {Step 3 - Development of the VE};
-        \draw [arrow] (examples) to ++(0,-1.5cm) to ++(-4.0cm,0) to node[midway,right]{} (ve.north);
+        \node (ve) [paral_steps, below of=examples, left of = examples, xshift = -2.5cm] {Step 3 - Development of the virtual environment};
+        \draw [arrow] (examples) to ++(0,-1.5cm) to ++(-5.5cm,0) to node[midway,right]{} (ve.north);
         
         \node (assess) [paral_steps, below of=examples] {Step 4 - Development of the assessment techniques and tools};
         \draw [arrow] (examples) to node[midway,right]{} (assess.north);
 
-        \node (devices) [paral_steps, below of=examples, right of = examples, xshift = 1cm] {Step 5 - Development of the assistive devices};
-        \draw [arrow] (examples) to ++(0,-1.5cm) to ++(4.0cm,0) to node[midway,right]{} (devices.north);
+        \node (devices) [paral_steps, below of=examples, right of = examples, xshift = 2.5cm] {Step 5 - Development of the assistive devices};
+        \draw [arrow] (examples) to ++(0,-1.5cm) to ++(5.5cm,0) to node[midway,right]{} (devices.north);
 
-        \node (experiment) [steps, below of=devices, left of = devices, xshift = -1cm] {Step 6 - Design and execution of the experiment};
-        \draw [arrow] (ve) to ++(0,-1.5cm) to ++(4.0cm,0) to node[midway,right]{} (experiment.north);
+        \node (experiment) [steps, below of=assess, yshift = 0cm] {Step 6 - Design and execution of the experiment};
+        \draw [arrow] (ve) to ++(0,-1.5cm) to ++(5.5cm,0) to node[midway,right]{} (experiment.north);
         \draw [arrow] (assess) to node[midway,right]{} (experiment.north);
-        \draw [arrow] (devices) to ++(0,-1.5cm) to ++(-4.0cm,0) to node[midway,right]{} (experiment.north);
+        \draw [arrow] (devices) to ++(0,-1.5cm) to ++(-5.5cm,0) to node[midway,right]{} (experiment.north);
 
         \node (analysis) [steps, below of=experiment, yshift = 0.5cm] {Step 7 – Analysis of results};
         \draw [arrow] (experiment) to node[midway,right]{} (analysis);
