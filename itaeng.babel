@@ -110,7 +110,7 @@
 \gdef\itabossnamebabel{Dean for Graduate Education and Research's Name}   
                                                                    %{Nome do Pro-Reitor de Pos-Graduacao}
 \gdef\itabosstitle{Prof.~Dr.}                                      %{Prof.~Dr.}
-\gdef\itabosswordbabel{Dean of Graduate Studies}   
+\gdef\itabosswordbabel{Pro-Rector of Graduate Courses}   
                                                                    %{Pro-Reitor de Pos-Graduacao}
 
 \gdef\itabosscoursenamebabel{Name of the Course Coordinator of \itaworkcourse} %{Nome do coordenador do respectivo curso de gradua��o}

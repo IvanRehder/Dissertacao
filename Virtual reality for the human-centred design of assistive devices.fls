@@ -1493,8 +1493,6 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer17.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer8.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer6.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer12.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -1515,9 +1513,6 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer12.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer8.vf
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -1528,8 +1523,6 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer7.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer5.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
@@ -1538,9 +1531,6 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer10.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer7.vf
-INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
@@ -2034,6 +2024,7 @@ INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
 INPUT Revisao\Bradley Dunlop\Grafico_2005_Nasa_7.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer17.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer8.tfm
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
 INPUT .\Revisao\Bradley Dunlop\Grafico_2005_Nasa_8.tex
@@ -2059,6 +2050,9 @@ INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer8.vf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
 INPUT .\Revisao\Evaluation Spatial Display\evaluation_spatial_display.tex
@@ -2234,6 +2228,7 @@ INPUT Resultados\Nasa\Figuras\pdf\residplot_md_avg_two_way_blind.pdf
 INPUT .\Resultados\Nasa\Figuras\pdf\residplot_md_avg_two_way_blind.pdf
 INPUT .\Resultados\Nasa\Figuras\pdf\residplot_md_avg_two_way_blind.pdf
 INPUT .\Resultados\Nasa\Figuras\pdf\residplot_md_avg_two_way_blind.pdf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer6.tfm
 INPUT .\Resultados\Nasa\Tabelas\blocanova_md_avg_two_way_blind.tex
 INPUT .\Resultados\Nasa\Tabelas\blocanova_md_avg_two_way_blind.tex
 INPUT .\Resultados\Nasa\Tabelas\blocanova_md_avg_two_way_blind.tex
@@ -3797,6 +3792,8 @@ INPUT ApendC_(Questionarios)\escalas_guidance\confusao_english.tex
 INPUT .\ApendC_(Questionarios)\escalas_guidance\confusao_english.tex
 INPUT ApendC_(Questionarios)\escalas_guidance\confusao_english.tex
 INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0800.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer7.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer5.tfm
 INPUT .\Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
@@ -3818,6 +3815,9 @@ INPUT Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
 INPUT .\Chap0\resumo.tex
 INPUT Chap0\resumo.tex
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer7.vf
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\ivan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT Virtual reality for the human-centred design of assistive devices.aux
 INPUT .\Virtual reality for the human-centred design of assistive devices.out
 INPUT .\Virtual reality for the human-centred design of assistive devices.out
