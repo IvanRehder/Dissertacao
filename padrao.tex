@@ -1,0 +1,160 @@
+% ------------------------------------------------------------------
+% Pacotes
+% ------------------------------------------------------------------
+
+% ABNT
+\usepackage[onehalfspacing]{setspace}
+\usepackage[brazil]{babel}
+% Essencial
+\usepackage{comment,enumerate}
+% Matemática
+\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools}
+\usepackage{cancel}      % needed to show canceled terms in equations
+% ABNT
+\usepackage{blindtext}
+
+% ---
+% Cores
+% ---
+\usepackage[dvipsnames]{xcolor}   % Code formating
+    \definecolor{ccmBlue}{RGB}{20, 80, 200}
+    \definecolor{ccmDBlue}{RGB}{25, 50, 120}
+    \definecolor{ccmLBlue}{RGB}{170, 200, 230}
+    \definecolor{ccmOrange}{RGB}{255, 100, 0}
+    \definecolor{ccmRed}{RGB}{190, 0, 0}
+    \definecolor{ccmLGray}{RGB}{210, 210, 210}
+    \definecolor{ccmDGray}{RGB}{85, 85, 85}
+    \definecolor{ccmWhite}{RGB}{250, 250, 250}
+    
+    % Ordem Paleta
+    \definecolor{cor1}{RGB}{190, 000, 000}  %ccmRed
+    \definecolor{cor2}{RGB}{025, 050, 120}  %ccmDBlue
+    \definecolor{cor3}{RGB}{210, 210, 210}  %ccmLGray
+    \definecolor{cor4}{RGB}{255, 100, 000}  %ccmOrange
+    \definecolor{cor5}{RGB}{170, 200, 230}  %ccmLBlue
+    \definecolor{cor6}{RGB}{085, 085, 085}  %ccmDGray
+    \definecolor{cor7}{RGB}{020, 080, 200}  %ccmBlue
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage[utf8]{inputenc}                                                     % Codificacao do documento (conversão automática dos acentos)
+\usepackage[T1]{fontenc}                                                        % Selecao de codigos de fonte.
+\usepackage{enumitem}
+\usepackage{lmodern}                                                            % Usa a fonte Latin Modern
+\usepackage{indentfirst}		                                                % Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			                                                % Lista de símbolos
+\usepackage{color}				                                                % Controle das cores
+\usepackage{graphicx}                                                           % Inclusão de gráficos
+\usepackage{tabularx}                                                           % Inclusão de tábelas
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{microtype} 			                                                % para melhorias de justificação
+\usepackage{appendix}    % allows appendix section to be included
+\usepackage{lscape}      % allows a page to be rendered in landscape mode
+\usepackage{pdfpages}
+\usepackage{listings}   % Code formating
+
+% ---
+% Criar hiperlinks
+% ---
+\usepackage[hidelinks,colorlinks=false]{hyperref}
+\usepackage{url}         % formats URL addresses properly
+
+% ---
+% Tabelas
+% ---
+\usepackage{boldline}
+\usepackage{multicol}    % allows text in multi columns
+\usepackage{multirow}    % allows text in multi columns
+
+% ---
+% Tikz
+% ---
+\usepackage{pgf}
+\usepackage{tikz}
+    \usetikzlibrary{matrix,shapes.geometric,shapes.symbols,arrows.meta,positioning}
+    \tikzset{>={Latex[round]}}
+
+    % Varíaveis para plotar gráficos em barr
+    %\newcommand{\tamX}{0}
+    %\newcommand{\tamY}{0}
+    %\newcommand{\distX}{0}
+    %\newcommand{\distY}{0}
+    %\newcommand{\largX}{0}
+    %\newcommand{\largY}{0}
+    %\newcommand{\altX}{0}
+    %\newcommand{\altY}{0}
+    %\newcommand{\msout}[1]{\text{\sout{\ensuremath{#1}}}}
+
+% ---
+% Criação de um indice
+% ---
+\usepackage{imakeidx}
+
+% ---
+% Outros
+% ---
+\usepackage{ae}
+\usepackage{lipsum}                                                             % Lorem Ipsum
+\usepackage{caption}                                                            % Customizar legendas
+\usepackage{placeins}                                                           % FloatBarrier
+\usepackage{lettrine}                                                           % Primeira letra do parágrafo grande
+\usepackage{ulem}                                                               % Sublinhado
+
+% ---
+% Formatação dos capitulos e seções
+% ---
+\usepackage{titlesec}
+    %\titleformat
+    %    {\chapter} % command
+    %    [display] % shape
+    %    {\bfseries\Large\itshape} % format
+    %    {} % label
+    %    {0.5ex} % sep
+    %    {
+    %        \rule{\textwidth}{0.3pt}
+    %        \centering
+    %    } % before-code
+    %    [
+    %        \rule{\textwidth}{0.3pt}
+    %    ] % after-code
+    
+    %\titleformat
+    %    {\section} %command
+    %    [] %shape
+    %    {} %format
+    %    {\thesection.} %label
+    %    {} %sep
+    %    {
+    %        \vspace{1ex}
+    %        \centering
+    %    } %before code
+    %    [
+    %    \rule{\textwidth}{1pt}
+    %    ] % after code
+    
+    %\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+
+% ------------------------------------------------------------------
+% Comandos
+% ------------------------------------------------------------------
+    
+% Keywords command
+%\providecommand{\keywords}[1]
+%{
+%  \small	
+%  \textbf{\textit{Palavras-chave:}} #1
+%}
+
+
+
+
+
+
+
+
+
+
+
